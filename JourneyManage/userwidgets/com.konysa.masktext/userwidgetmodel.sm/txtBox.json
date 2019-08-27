@@ -1,0 +1,78 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "2dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        1,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "",
+    "_right_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "_skin_": "s92d703229724320b9a4b0a42049c3e1",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "8dp"
+    },
+    "android": {
+        "ide_onEndEditing": "AS_TextField_c4a5dbf889364ddc959436164aeeb122"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "desktopweb": {
+        "ide_onEndEditing": "AS_TextField_c09581571f9c4fc794cc46a3ab7c329c"
+    },
+    "focusskin": "s92d703229724320b9a4b0a42049c3e1",
+    "id": "txtBox",
+    "ide_onDone": "AS_TextField_d5771b34afd94040800969837e6bb6f6",
+    "info": null,
+    "iphone": {
+        "ide_onEndEditing": "AS_TextField_ed4f71b8760c4941a474606acd111dff"
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "df0c15a6be8d428c8890628ce6dd0602",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "parent": "masktext",
+    "pf": "userwidgetmodel",
+    "placeholderskin": "s24f0589ad714294b3e3eea05869c98e",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "securetextentry": true,
+    "spamobile": {
+        "ide_onEndEditing": "AS_TextField_gdcc31a259b14393b236b24ca9e16e4b"
+    },
+    "textinputmode": "A",
+    "tooltip": "",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}

@@ -1,0 +1,24 @@
+{
+    "AS_Button_fc247e3a560e423cbe7a9e8818eca5b4": {
+        "id": "AS_Button_fc247e3a560e423cbe7a9e8818eca5b4",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmUpdateJourney",
+            "type": "forms",
+            "platform": null,
+            "KUID": "db46bba994fd4068be922e743c3042d9"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f8a6bc014c36400d8e0b608382391b93",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.updateJourney();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

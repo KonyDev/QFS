@@ -1,0 +1,29 @@
+{
+    "AS_UWI_f681feeca62a472ca417e97e302c76f4": {
+        "id": "AS_UWI_f681feeca62a472ca417e97e302c76f4",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "checkInSequenceNumber",
+            "datatype": "collection"
+        }, {
+            "name": "checkInSuccessCallBack",
+            "datatype": "collection"
+        }, {
+            "name": "checkInFailureCallback",
+            "datatype": "collection"
+        }],
+        "contextObj": {
+            "name": "uwhf2342d8f8ce47da836a53c0f65084e8",
+            "type": "userwidgets",
+            "KUID": "hf2342d8f8ce47da836a53c0f65084e8"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f478fef553a0492994ac79c7785ee1f2",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.chekInNow(checkInSequenceNumber, checkInSuccessCallBack, checkInFailureCallback);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

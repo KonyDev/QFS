@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s7fa20cb37614ad79350891d3a9ff814",
+    "_text_": "Set Time",
+    "_top_": {
+        "type": "number",
+        "value": 0
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s976af2ecf4c48caaa869090feb2cf15",
+    "id": "btnSetTime",
+    "ide_onClick": "AS_Button_c1582e9db88b43a6b5818a1c74f6d2c1",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ucab945fef98415f82a681cae25a56c8",
+    "name": "kony.ui.Button",
+    "parent": "flxButton",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

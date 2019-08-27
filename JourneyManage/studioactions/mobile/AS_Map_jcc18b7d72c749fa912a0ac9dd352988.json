@@ -1,0 +1,27 @@
+{
+    "AS_Map_jcc18b7d72c749fa912a0ac9dd352988": {
+        "id": "AS_Map_jcc18b7d72c749fa912a0ac9dd352988",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "location"
+        }],
+        "contextObj": {
+            "name": "frmNewJourneyRoute",
+            "type": "forms",
+            "platform": "",
+            "KUID": "jba05021cee846d6a62d81619b6232bf"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__i8b87db4c0df4a129bb22f477b26557d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onMapClick(eventobject,location);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

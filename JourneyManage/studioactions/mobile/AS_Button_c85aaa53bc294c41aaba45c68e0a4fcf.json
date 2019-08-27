@@ -1,0 +1,24 @@
+{
+    "AS_Button_c85aaa53bc294c41aaba45c68e0a4fcf": {
+        "id": "AS_Button_c85aaa53bc294c41aaba45c68e0a4fcf",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "KUID": "a231e153e1bf4b29ad96c3b5057b7125",
+            "name": "frmEmergencyRequest",
+            "platform": "",
+            "type": "forms"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a929776dc6f749f3a7c66f007159b415",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.sendEmergencyRequest();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

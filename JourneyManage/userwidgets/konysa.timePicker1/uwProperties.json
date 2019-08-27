@@ -1,0 +1,105 @@
+{
+    "classname": "timePicker1",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "abee4eb82f31486cb1519725daec6274",
+                    "paramList": [
+                        {
+                            "name": "timeString"
+                        }
+                    ],
+                    "propertyKey": "setTime",
+                    "pw": {
+                        "displayName": "setTime",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "g86ac44f5dfd40b2a68c91f5eb6d6c47",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "a0f5318e2ebc438693d29c166abe5bb0",
+                    "paramList": [
+                        {
+                            "name": "selectedTime"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "onTimeSelected",
+                    "pw": {
+                        "displayName": "onTimeSelected",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "g86ac44f5dfd40b2a68c91f5eb6d6c47",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": 0,
+                    "group": "General",
+                    "kuid": "b74d53d7b203499b827ec14841dd8e18",
+                    "originalPropertyKey": "timeInterval",
+                    "propertyIndex": 5,
+                    "propertyKey": "timeInterval",
+                    "pw": {
+                        "displayName": "intervalInMins",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "^(\\+|-)?\\d+$"
+                    },
+                    "srcWgtKUID": "g86ac44f5dfd40b2a68c91f5eb6d6c47",
+                    "type": "integer",
+                    "value": ""
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "cf2b64495b56412cb1a6b28dffcd4b25",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 4,
+                    "propertyKey": "text",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Button Text",
+                        "srcWidget": "btnSetTime",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "h26a1ec308d4413398abf8f1db71921d"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "konysa",
+    "version": "1.0.0"
+}

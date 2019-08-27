@@ -1,0 +1,24 @@
+{
+    "AS_Form_de557657db64439584a67de7963cfdef": {
+        "id": "AS_Form_de557657db64439584a67de7963cfdef",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmJourneySubmissionAwaited",
+            "type": "forms",
+            "platform": "",
+            "KUID": "h32e1393c00b499ca4e4338e2d06a7e4"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e73f53a4290649bdb55b4b2584f053c5",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "\nthis.view.flxMain.isVisible = true;\nthis.view.flxSideBar.isVisible = false;\nreturn;\n//Setting the data in the Approval Awaited Screen for the Journey.\nthis.view.lblFromDeparture.text = ApplicationData1.SavingData.DeparturePoint;\nthis.view.lblToArrival.text = ApplicationData1.SavingData.ArrivalPoint;\n\n\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

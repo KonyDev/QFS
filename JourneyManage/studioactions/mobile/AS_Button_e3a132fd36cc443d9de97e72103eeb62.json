@@ -1,0 +1,31 @@
+{
+    "AS_Button_e3a132fd36cc443d9de97e72103eeb62": {
+        "id": "AS_Button_e3a132fd36cc443d9de97e72103eeb62",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_dbe5cf82c66d4d7da07c46a1b1ef20ab",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmNewJourneyRoute",
+            "formKUID": "jba05021cee846d6a62d81619b6232bf",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "disabled": true,
+            "package": "",
+            "navigationObj": "{\n\"_meta_\" : {\n\t\"eventName\" : \"onClick\",\n\t\"widgetId\" : \"btnSubmitArrivalDateTime\"\n}\n}",
+            "isCustomInput": false
+        }, {
+            "id": "ADD_SNIPPET_ide_onClick_fe6e22c79d814e10a3eefb1b93a6093d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.hideSelectorFlex(\"flxArrivalDateTime\");",
+            "callbackType": null
+        }]
+    }
+}

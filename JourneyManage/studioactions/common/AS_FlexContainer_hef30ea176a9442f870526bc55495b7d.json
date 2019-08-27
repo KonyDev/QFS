@@ -1,0 +1,33 @@
+{
+    "AS_FlexContainer_hef30ea176a9442f870526bc55495b7d": {
+        "id": "AS_FlexContainer_hef30ea176a9442f870526bc55495b7d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwuee55219b35a4b48a86b70e95631f16c",
+            "type": "userwidgets",
+            "KUID": "uee55219b35a4b48a86b70e95631f16c"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___b036036bf03d402bba3a78529d370af1",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "setDefaultSelection",
+            "display": "setDefaultSelection",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }, {
+            "id": "ADD_SNIPPET__eefb711825024c80893f8b3e7a1d1216",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.invokePostShowForSettingtheValue();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "AS_Segment_c50e271109f24e57984b0530cd098020": {
+        "id": "AS_Segment_c50e271109f24e57984b0530cd098020",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onRowClick_i5ccfa99170b4b5db397056bf6e7a454",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onSegPsngrRowClick();",
+            "callbackType": null
+        }]
+    }
+}

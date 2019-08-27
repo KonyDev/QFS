@@ -1,0 +1,57 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s843446e57474a50b38369744e869ee1",
+    "_text_": "Edit Details",
+    "_top_": {
+        "type": "string",
+        "value": "24dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "95%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s43e1877920a488ba7a987c9ada7bb03",
+    "id": "btnEditDetail",
+    "ide_onClick": "AS_Button_j939b0086bb64f9f837ecae7c5d5b461",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "fcad27750dd3408c9f681c062dae3d69",
+    "name": "kony.ui.Button",
+    "parent": "flxJourneyDetail",
+    "pf": "frmNewJourneyRoute",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

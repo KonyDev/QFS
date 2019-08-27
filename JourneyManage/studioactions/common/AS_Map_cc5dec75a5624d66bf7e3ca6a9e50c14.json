@@ -1,0 +1,23 @@
+{
+    "AS_Map_cc5dec75a5624d66bf7e3ca6a9e50c14": {
+        "id": "AS_Map_cc5dec75a5624d66bf7e3ca6a9e50c14",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwhf2342d8f8ce47da836a53c0f65084e8",
+            "type": "userwidgets",
+            "KUID": "hf2342d8f8ce47da836a53c0f65084e8"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ca3a22ac01fc44a0bc41936b5de03606",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this._onMapLoad();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

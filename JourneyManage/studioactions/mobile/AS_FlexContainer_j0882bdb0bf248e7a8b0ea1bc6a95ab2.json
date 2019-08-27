@@ -1,0 +1,27 @@
+{
+    "AS_FlexContainer_j0882bdb0bf248e7a8b0ea1bc6a95ab2": {
+        "id": "AS_FlexContainer_j0882bdb0bf248e7a8b0ea1bc6a95ab2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "MyAccount",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d4f38b7ff22040a0a2ddd13594ed027a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_cef70cf098fe4be0b0a2176aff288a88",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onBtnOkClick",
+            "display": "onBtnOkClick",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

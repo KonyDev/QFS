@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_b8f98deda89d4df9b0d93671df237651": {
+        "id": "AS_FlexContainer_b8f98deda89d4df9b0d93671df237651",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmUpdateJourney",
+            "type": "forms",
+            "platform": null,
+            "KUID": "db46bba994fd4068be922e743c3042d9"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_d6324617bf274fe7919babe7a2f15722",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//this.VehicleDetailsOnClickEvent();\nthis.showSelectorFlex(\"flxSelectVehicle\");",
+            "callbackType": null
+        }]
+    }
+}

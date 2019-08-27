@@ -1,0 +1,28 @@
+{
+    "AS_Button_a11af82f9a3749049892a52ffa7b98b9": {
+        "id": "AS_Button_a11af82f9a3749049892a52ffa7b98b9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmNewJourneyRoute",
+            "type": "forms",
+            "platform": "",
+            "KUID": "jba05021cee846d6a62d81619b6232bf"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___h7ee8f355c594415bdb78ca7bf73346d",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onClickChoosenPointConfirm",
+            "display": "onClickChoosenPointConfirm",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

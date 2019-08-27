@@ -1,0 +1,142 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "imgPdfLogo": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "pdfmanual.png"
+            },
+            "lblPDFFilename": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "The Pilbara Road Safety Guide"
+            },
+            "lblPDFurl": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "The Pilbara Road Safety Guide"
+            }
+        },
+        {
+            "imgPdfLogo": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "pdfmanual.png"
+            },
+            "lblPDFFilename": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "The Pilbara Road Safety Guide"
+            },
+            "lblPDFurl": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "The Pilbara Road Safety Guide"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "92%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "counter": "01",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segGuideAndMannual",
+    "ide_onRowClick": "AS_Segment_dc6aa5400b5f45ecb5bc7479747f7784",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "abe6c08b774e4df9a8f716585c10ef53",
+    "masterdata": {},
+    "maxheight": {
+        "type": "string",
+        "value": "240dp"
+    },
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxGuidesAndManualsContainer",
+    "pf": "BeginJourney",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "d9769e4e47e14e59b130379fa657a424",
+    "rowcounter": 1,
+    "rowfocusskin": "sbf9d91b89ba457ba62945f3c2a92526",
+    "rowskin": "s0059b0ebf18496d948d7dac7d0544de",
+    "rowtemplate": "flxGuide",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s6d26d70982642d1a5dc555e1c57b10a",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa64",
+    "separatorrequired": true,
+    "separatorthickness": 0,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "CopyflxTab0dc3f44173dec4f": "CopyflxTab0dc3f44173dec4f",
+        "CopyflxTab0dea5ff829dfb44": "CopyflxTab0dea5ff829dfb44",
+        "flxGuide": "flxGuide",
+        "imgPdfLogo": "imgPdfLogo",
+        "lblPDFFilename": "lblPDFFilename",
+        "lblPDFurl": "lblPDFurl"
+    },
+    "zindex": 1
+}

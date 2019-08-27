@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_j25cf47c8f0c4620a5ecd254218d515e": {
+        "id": "AS_FlexContainer_j25cf47c8f0c4620a5ecd254218d515e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a6ab29e2b1a2487a9f72b077d68dd981"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d5a2824d10b2471d8431a1a39a10d949",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "\nif(kony.os.deviceInfo().category == \"android\")\n  {\n    new kony.ui.Toast({\"text\":\"Password Visibility ON.\",\"duration\":constants.TOAST_LENGTH_SHORT }).show();\n  }\nalert(\"PAsdfasdf\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

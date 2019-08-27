@@ -1,0 +1,24 @@
+{
+    "AS_Form_ec12446027f04bc38084a0e8909364ed": {
+        "id": "AS_Form_ec12446027f04bc38084a0e8909364ed",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmUpdateJourney",
+            "type": "forms",
+            "platform": "",
+            "KUID": "db46bba994fd4068be922e743c3042d9"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a1a1f558e23e4c259c64b4d550869a2b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onFormPostShow();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

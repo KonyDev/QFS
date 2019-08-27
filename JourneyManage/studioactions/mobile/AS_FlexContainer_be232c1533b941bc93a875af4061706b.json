@@ -1,0 +1,29 @@
+{
+    "AS_FlexContainer_be232c1533b941bc93a875af4061706b": {
+        "id": "AS_FlexContainer_be232c1533b941bc93a875af4061706b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmLiveJourney",
+            "type": "forms",
+            "platform": null,
+            "KUID": "gfa05929e4854240b0a6d0be650bc20e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onTouchMove_f4a3886b792a442ab76988d49c632a18",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.dismissSuccessAlert();",
+            "callbackType": null
+        }]
+    }
+}

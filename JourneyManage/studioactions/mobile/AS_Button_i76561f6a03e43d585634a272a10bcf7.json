@@ -1,0 +1,38 @@
+{
+    "AS_Button_i76561f6a03e43d585634a272a10bcf7": {
+        "id": "AS_Button_i76561f6a03e43d585634a272a10bcf7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmNewJourneyTracking",
+            "type": "forms",
+            "platform": "",
+            "KUID": "g35b7c089619473a9a61a515efad7156"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___j2c3e755a9b4451d81ce7786ef480994",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmNewJourneyVehicle",
+            "formKUID": "c1aa10f1386444139d304d9a2168d412",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "disabled": true,
+            "package": "",
+            "navigationObj": "{\n\"_meta_\" : {\n\t\"eventName\" : \"onClick\",\n\t\"widgetId\" : \"CopybtnSignIn0d5627f2b523048\"\n}\n}",
+            "isCustomInput": false
+        }, {
+            "id": "ADD_SNIPPET__f5add466c0b34677a2d13c802c20cc9b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onProceed();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

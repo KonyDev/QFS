@@ -1,0 +1,20 @@
+{
+    "AS_TextField_j15345ae91b448bcbae6c1ae115a9b18": {
+        "id": "AS_TextField_j15345ae91b448bcbae6c1ae115a9b18",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onTextChange_g4e3695204bd4c798d56cefeffaacac7",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onArraivalPointPlaceSearch();",
+            "callbackType": null
+        }]
+    }
+}

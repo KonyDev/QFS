@@ -1,0 +1,24 @@
+{
+    "AS_Form_df4e4448b6ba48fc8ed5689b095b05c5": {
+        "id": "AS_Form_df4e4448b6ba48fc8ed5689b095b05c5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCopyAndCopyAsReturn",
+            "type": "forms",
+            "platform": null,
+            "KUID": "fb0f9ab3a2104c43b163215b6ce2ed9e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__cc02bd921f644b96b68f221ec6b7c51c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onPostShowEvent();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

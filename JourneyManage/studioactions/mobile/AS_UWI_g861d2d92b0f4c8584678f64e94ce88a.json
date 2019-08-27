@@ -1,0 +1,24 @@
+{
+    "AS_UWI_g861d2d92b0f4c8584678f64e94ce88a": {
+        "id": "AS_UWI_g861d2d92b0f4c8584678f64e94ce88a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "selectedTime",
+            "datatype": "collection"
+        }],
+        "contextObj": {
+            "name": "frmCopyAndCopyAsReturn",
+            "type": "forms",
+            "platform": "",
+            "KUID": "fb0f9ab3a2104c43b163215b6ce2ed9e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c4a53f7b77404fd9a9dd362cb768ed40",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.SelectedTimeDeparture(selectedTime);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

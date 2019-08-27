@@ -1,0 +1,30 @@
+{
+    "AS_Segment_j2e77dea7cb4474e96821878ba616678": {
+        "id": "AS_Segment_j2e77dea7cb4474e96821878ba616678",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmNewJourneyVehicle",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c1aa10f1386444139d304d9a2168d412"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__bab48021a4774622bf628f98da01a1c4",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onPersonalVehicleSelection();\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

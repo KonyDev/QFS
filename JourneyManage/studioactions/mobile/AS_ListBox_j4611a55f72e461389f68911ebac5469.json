@@ -1,0 +1,17 @@
+{
+    "AS_ListBox_j4611a55f72e461389f68911ebac5469": {
+        "id": "AS_ListBox_j4611a55f72e461389f68911ebac5469",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onSelection_h1f5d41253204d85ab79267e158373b8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onCheckInTypeSelected();\nreturn;\ntry\n  {\n    debugger;\n        this.selectedCheckinTypeUpdate = parseInt(this.view.lstTimeCheckins.selectedKey);\n//         alert(this.view.lstTimeCheckins.selectedKey);\n  }\ncatch(err)\n  {\n    alert(err);\n  }",
+            "callbackType": null
+        }]
+    }
+}

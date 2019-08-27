@@ -1,0 +1,25 @@
+{
+    "AS_ListBox_bd333090d6774d90a1327277c58dc4ef": {
+        "id": "AS_ListBox_bd333090d6774d90a1327277c58dc4ef",
+        "type": "ACTION_SEQUENCE",
+        "name": "AS_ListBox_f599d4cbb9144492b89f55dec67ea7c7",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmNewJourneyRoute",
+            "type": "forms",
+            "platform": "",
+            "KUID": "jba05021cee846d6a62d81619b6232bf"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e4a3e20a500849648eec55f6f18a511b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "try\n  {\n    debugger;\n        this.selectedCheckinRowIdUpdate = parseInt(this.view.lstTimeFrameForCheckins.selectedKey);\n  }\ncatch(err)\n  \n  {\n    alert(err.message);\n  }",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

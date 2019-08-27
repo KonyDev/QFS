@@ -1,0 +1,59 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sac11d926830441bbf7a302adc758ebc",
+    "_text_": "Add Passenger",
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "95%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {
+        "focusSkin": "s43e1877920a488ba7a987c9ada7bb03"
+    },
+    "displaytext": true,
+    "id": "btnAddPassenger",
+    "ide_onClick": "AS_Button_d6a7db5214db4ed39c0e31af84df9e6e",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "gbcd60c1a53d4807aca4273dd23c3c0d",
+    "name": "kony.ui.Button",
+    "parent": "flxAddPassenger",
+    "pf": "frmUpdateJourney",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

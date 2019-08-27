@@ -1,0 +1,18 @@
+{
+    "AS_Button_a2abdbd393d64dc3b64a9774f65faa76": {
+        "id": "AS_Button_a2abdbd393d64dc3b64a9774f65faa76",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmUpdateJourney2",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b8cb1fe040f44950a1ed1e74bb676e00"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

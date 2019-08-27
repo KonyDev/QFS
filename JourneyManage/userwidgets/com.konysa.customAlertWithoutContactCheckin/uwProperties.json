@@ -1,0 +1,85 @@
+{
+    "classname": "customAlertWithoutContactCheckin",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "ac036cbe7c05458b8cb21a495d4fffa0",
+                    "paramList": [
+                        {
+                            "name": "checkinSequenceNumber"
+                        }
+                    ],
+                    "propertyKey": "SetCheckinSequenceNumber",
+                    "pw": {
+                        "displayName": "SetCheckinSequenceNumber",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "f2cca61a66e84eac914062512db1c877",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "jc295a249ed9480d952cdca58325fa62",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "dismissAlert",
+                    "pw": {
+                        "displayName": "dismissAlert",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "f2cca61a66e84eac914062512db1c877",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "ccdad5e4afd24687ab5982b6d53257e0",
+                    "paramList": [
+                        {
+                            "name": "checkInSequenceNumber"
+                        },
+                        {
+                            "name": "checkInSuccessCallBack"
+                        },
+                        {
+                            "name": "checkInFailureCallback"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "OnCheckIn",
+                    "pw": {
+                        "displayName": "OnCheckIn",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "f2cca61a66e84eac914062512db1c877",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konysa",
+    "version": "1.0.0"
+}

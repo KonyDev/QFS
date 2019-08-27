@@ -1,0 +1,64 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s89c67cdb43c48859f04d0e76775d139",
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "children": [
+        "flxHeader",
+        "flexShadow",
+        "flxBody",
+        "btnCheckIn"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "alertFlex",
+    "ide_onClick": "AS_FlexContainer_eff437639fca46b99e34157f798b1043",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "g26764d4f81d4a3ea8596b6ba7baaa2c",
+    "layouttype": 4,
+    "name": "kony.ui.FlexContainer",
+    "parent": "ETAReporting",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

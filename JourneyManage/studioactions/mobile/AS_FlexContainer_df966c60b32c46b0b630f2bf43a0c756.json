@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_df966c60b32c46b0b630f2bf43a0c756": {
+        "id": "AS_FlexContainer_df966c60b32c46b0b630f2bf43a0c756",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___f6c9fbb0eb95405284dde52d88e72ebc",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmMyJourneys",
+            "formKUID": "a563a4067fe54be19101a70cb3b2754d",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n\"_meta_\" : {\n\t\"eventName\" : \"onClick\",\n\t\"widgetId\" : \"flxBackButton\"\n}\n}",
+            "isCustomInput": false
+        }]
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "AS_Segment_d8097a01db3144478c55f11327fe130a": {
+        "id": "AS_Segment_d8097a01db3144478c55f11327fe130a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmNewJourneyRoute",
+            "type": "forms",
+            "platform": "",
+            "KUID": "jba05021cee846d6a62d81619b6232bf"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onRowClick_fa7842c500d74ec18819bb27c84bb640",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onArraivalAddressSelection",
+            "display": "onArraivalAddressSelection",
+            "inputparams": [{
+                "name": "eventobject"
+            }, {
+                "name": "rowIndex"
+            }, {
+                "name": "sectionIndex"
+            }],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

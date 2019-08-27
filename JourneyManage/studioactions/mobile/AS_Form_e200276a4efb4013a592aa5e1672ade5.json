@@ -1,0 +1,27 @@
+{
+    "AS_Form_e200276a4efb4013a592aa5e1672ade5": {
+        "id": "AS_Form_e200276a4efb4013a592aa5e1672ade5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCopyCopyAsJourney",
+            "type": "forms",
+            "platform": null,
+            "KUID": "f10dc10a2c3242f39411fd380024a3ef"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_postShow_i5cf8ceb78f84aa78cb9eb665467ae2c",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onFormPostShow",
+            "display": "onFormPostShow",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

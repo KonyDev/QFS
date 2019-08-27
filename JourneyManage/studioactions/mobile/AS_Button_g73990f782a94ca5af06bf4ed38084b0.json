@@ -1,0 +1,24 @@
+{
+    "AS_Button_g73990f782a94ca5af06bf4ed38084b0": {
+        "id": "AS_Button_g73990f782a94ca5af06bf4ed38084b0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "KUID": "a563a4067fe54be19101a70cb3b2754d",
+            "name": "frmMyJourneys",
+            "platform": "",
+            "type": "forms"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a94bdf6d48424e3b8c998f6c422373c9",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.tab3.skin=\"tabNonSelected\";\nthis.view.tab1.skin=\"tabSelected\";\nthis.view.tab2.skin=\"tabNonSelected\";\nthis.setData();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

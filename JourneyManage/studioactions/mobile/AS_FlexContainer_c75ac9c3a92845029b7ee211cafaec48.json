@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_c75ac9c3a92845029b7ee211cafaec48": {
+        "id": "AS_FlexContainer_c75ac9c3a92845029b7ee211cafaec48",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCopyCopyAsJourney",
+            "type": "forms",
+            "platform": null,
+            "KUID": "f10dc10a2c3242f39411fd380024a3ef"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_h20783f4e762497f8bda672774efef73",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxSideBar.isVisible = false;",
+            "callbackType": null
+        }]
+    }
+}

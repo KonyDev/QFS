@@ -1,0 +1,121 @@
+{
+    "classname": "HeaderEntry1",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "e43abdd7be634085896c77ed6589533d",
+                    "paramList": [
+                        {
+                            "name": "data"
+                        },
+                        {
+                            "name": "isEnabled"
+                        }
+                    ],
+                    "propertyKey": "setText",
+                    "pw": {
+                        "displayName": "setText",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "f74f29b7450d454cb5c6b6b57b4bb3e8",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "j64b26173c4541d6ac500d155bd6a5f7",
+                    "paramList": [],
+                    "propertyKey": "getText",
+                    "pw": {
+                        "displayName": "getText",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "f74f29b7450d454cb5c6b6b57b4bb3e8",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ic5df97fe98a44b1aa289a6d49059354",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "text",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Header Text",
+                        "srcWidget": "Label0c042960debc142",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "ea037691569741b89a94772977c854e9"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "jd379aeb946d4486a44c0cee659c7f19",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "textboxText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Entry Box Text",
+                        "srcWidget": "txtUserName",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "ce46dc8f2055413e99e43b4f07db4077"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "efec95a1488d44fdafa5a9ccb5c8bae0",
+                    "originalPropertyKey": "maxTextLength",
+                    "propertyIndex": 3,
+                    "propertyKey": "textMaxLength",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Text Max Length",
+                        "srcWidget": "txtUserName",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "ce46dc8f2055413e99e43b4f07db4077"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konymp",
+    "version": "1.0.0"
+}

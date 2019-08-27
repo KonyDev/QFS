@@ -1,0 +1,204 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "_bounces_": false,
+    "_data_": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "counter": "02",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segmentQuestions",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "bounces": false,
+            "indicator": "none",
+            "showProgressIndicator": false
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "be7715e8a2ba40ab877de6fbfbd631c6",
+    "masterdata": {},
+    "mobile": {
+        "_data_": [
+            {
+                "lblTextQuestion": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Supervisor approval provided ?"
+                },
+                "lblTextQuestionSubInstruction": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Intended Route/ Special Instructions"
+                },
+                "lblYesNoQuestion": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Supervisor approval provided ?"
+                },
+                "textAreaAnswer": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                }
+            },
+            {
+                "lblTextQuestion": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Supervisor approval provided ?"
+                },
+                "lblTextQuestionSubInstruction": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Intended Route/ Special Instructions"
+                },
+                "lblYesNoQuestion": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Supervisor approval provided ?"
+                },
+                "textAreaAnswer": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                }
+            },
+            {
+                "lblTextQuestion": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Supervisor approval provided ?"
+                },
+                "lblTextQuestionSubInstruction": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Intended Route/ Special Instructions"
+                },
+                "lblYesNoQuestion": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Supervisor approval provided ?"
+                },
+                "textAreaAnswer": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                }
+            }
+        ],
+        "rowTemplateId": "hb18f24e9f264c1d8179a9fb60a1c0e2",
+        "rowtemplate": "flxQuestionRoot",
+        "widgetdatamap": {
+            "flexCheckBoxSelected": "flexCheckBoxSelected",
+            "flexCheckboxUnselected": "flexCheckboxUnselected",
+            "flexSegmentEachQuestion": "flexSegmentEachQuestion",
+            "flexTextAnswer": "flexTextAnswer",
+            "flexTextQuestions": "flexTextQuestions",
+            "flexYesNoQuestions": "flexYesNoQuestions",
+            "flxQuestionRoot": "flxQuestionRoot",
+            "lblTextQuestion": "lblTextQuestion",
+            "lblTextQuestionSubInstruction": "lblTextQuestionSubInstruction",
+            "lblYesNoQuestion": "lblYesNoQuestion",
+            "textAreaAnswer": "textAreaAnswer"
+        }
+    },
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "questionaire",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowcounter": 2,
+    "rowfocusskin": "sbf9d91b89ba457ba62945f3c2a92526",
+    "rowskin": "s0059b0ebf18496d948d7dac7d0544de",
+    "rowtemplate": null,
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s6d26d70982642d1a5dc555e1c57b10a",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa64",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showprogressindicator": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flexCheckBoxSelected": "flexCheckBoxSelected",
+        "flexCheckboxUnselected": "flexCheckboxUnselected",
+        "flexSegmentEachQuestion": "flexSegmentEachQuestion",
+        "flexTextAnswer": "flexTextAnswer",
+        "flexTextQuestions": "flexTextQuestions",
+        "flexYesNoQuestions": "flexYesNoQuestions",
+        "flxQuestionRoot": "flxQuestionRoot",
+        "lblTextQuestion": "lblTextQuestion",
+        "lblTextQuestionSubInstruction": "lblTextQuestionSubInstruction",
+        "lblYesNoQuestion": "lblYesNoQuestion",
+        "textAreaAnswer": "textAreaAnswer"
+    },
+    "zindex": 1
+}

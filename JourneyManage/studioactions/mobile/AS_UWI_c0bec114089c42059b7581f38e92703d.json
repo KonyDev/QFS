@@ -1,0 +1,24 @@
+{
+    "AS_UWI_c0bec114089c42059b7581f38e92703d": {
+        "id": "AS_UWI_c0bec114089c42059b7581f38e92703d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "selectedDate",
+            "datatype": "collection"
+        }],
+        "contextObj": {
+            "name": "frmUpdateJourney",
+            "type": "forms",
+            "platform": "",
+            "KUID": "db46bba994fd4068be922e743c3042d9"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ecbcaaf2049a422b935362da7019f3ed",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onArrivalDateSelection.call(this, selectedDate);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "AS_Button_d6a7db5214db4ed39c0e31af84df9e6e": {
+        "id": "AS_Button_d6a7db5214db4ed39c0e31af84df9e6e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_gb7c23d762744ae7b9bb6d48bf9c48f1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.addPassenger(\" \",\" \");",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "AS_Button_f56e9a66c28f480c9089ea1be824077d": {
+        "id": "AS_Button_f56e9a66c28f480c9089ea1be824077d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "segTodayDataTemplates",
+            "type": "templates",
+            "platform": "",
+            "KUID": "c70952400a134bef939480dbd39ef360"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_fb39ee4d82fc4c418d6a977ab48aa117",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.executeOnParent(\"NavigateToBeginJourney\",{});",
+            "callbackType": null,
+            "disabled": true
+        }]
+    }
+}

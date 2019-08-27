@@ -1,0 +1,66 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "92%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s4e4e57ce14c4b1db46c627e4679ac33",
+    "_top_": {
+        "type": "string",
+        "value": "8%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "data": {
+        "ide_OnSOSTrigger": "AS_UWI_d32a04978ec1483caf045548217d6156",
+        "ide_checkInCallback": "AS_UWI_b73dff45ff544f1295c90f9ee315fb09",
+        "ide_noNetworkCheckIn": "AS_UWI_fd1c0767c1ab4ce195054b0860dea254",
+        "ide_onMapLoad": "AS_UWI_e1af02ec3b624a0993ad3eea1fb8bbeb",
+        "ide_onSubmit": "AS_UWI_a8f357a1abdf4175b654450b9eeb84e1"
+    },
+    "enablescrolling": true,
+    "id": "journeyTracker",
+    "info": null,
+    "iscustomlayout": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "caab5dadaa1848249e83c60460289a52",
+    "layouttype": 2,
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "mainFlex",
+    "pf": "frmLiveJourney",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "i28391fa141f491a90d00010f849145c",
+    "wType": "UserWidgetInstance"
+}

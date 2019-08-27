@@ -1,0 +1,30 @@
+{
+    "AS_Image_f31ed9795c2e4922a555050e1f6be8fb": {
+        "id": "AS_Image_f31ed9795c2e4922a555050e1f6be8fb",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmCopyAndCopyAsReturn",
+            "type": "forms",
+            "platform": "",
+            "KUID": "fb0f9ab3a2104c43b163215b6ce2ed9e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d8a4ee01695f4293aad2d922f5711567",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxArrivalDetails.isVisible = false;\nthis.view.flxDepartureDetails.isVisible = true;\nthis.view.lblCenterText.text = \"Departure Datetime Details\";\nthis.view.imgBack.isVisible = false;",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

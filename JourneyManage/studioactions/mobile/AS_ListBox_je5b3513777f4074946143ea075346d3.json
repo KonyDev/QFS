@@ -1,0 +1,17 @@
+{
+    "AS_ListBox_je5b3513777f4074946143ea075346d3": {
+        "id": "AS_ListBox_je5b3513777f4074946143ea075346d3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onSelection_aa5d867e96f54d5299e1af7225cfa1e4",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onVehicleSelectedFromListBox(eventobject);",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,280 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "btnMessageType": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Group"
+            },
+            "lblDummy": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblDummy2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblDummy3": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblEmpName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "WA"
+            },
+            "lblMessageDetails": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt massa id… est congue cursus. Maecenas congue laoreet augue sed tincidunt. Nullam et porttitor elit. Ut feugiat ullamcorper viverra. Vivamus semper nec tellus sit amet vulputate. Ut eget molestie lectus. Interdum et malesuada fames ac ante ipsum primis in faucibus."
+            },
+            "lblMessageFrom": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Name Surname"
+            },
+            "lblMessageTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "19.02.2019   9:00"
+            }
+        },
+        {
+            "btnMessageType": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Group"
+            },
+            "lblDummy": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblDummy2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblDummy3": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblEmpName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "WA"
+            },
+            "lblMessageDetails": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt massa id… est congue cursus. Maecenas congue laoreet augue sed tincidunt. Nullam et porttitor elit. Ut feugiat ullamcorper viverra. Vivamus semper nec tellus sit amet vulputate. Ut eget molestie lectus. Interdum et malesuada fames ac ante ipsum primis in faucibus."
+            },
+            "lblMessageFrom": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Name Surname"
+            },
+            "lblMessageTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "19.02.2019   9:00"
+            }
+        },
+        {
+            "btnMessageType": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Group"
+            },
+            "lblDummy": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblDummy2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblDummy3": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblEmpName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "AD"
+            },
+            "lblMessageDetails": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt massa id… est congue cursus. Maecenas congue laoreet augue sed tincidunt. Nullam et porttitor elit. Ut feugiat ullamcorper viverra. Vivamus semper nec tellus sit amet vulputate. Ut eget molestie lectus. Interdum et malesuada fames ac ante ipsum primis in faucibus."
+            },
+            "lblMessageFrom": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ADMIN"
+            },
+            "lblMessageTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "19.02.2019   9:00"
+            }
+        },
+        {
+            "btnMessageType": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Group"
+            },
+            "lblDummy": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblDummy2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblDummy3": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblEmpName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "AD"
+            },
+            "lblMessageDetails": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt massa id… est congue cursus. Maecenas congue laoreet augue sed tincidunt. Nullam et porttitor elit. Ut feugiat ullamcorper viverra. Vivamus semper nec tellus sit amet vulputate. Ut eget molestie lectus. Interdum et malesuada fames ac ante ipsum primis in faucibus."
+            },
+            "lblMessageFrom": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ADMIN"
+            },
+            "lblMessageTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "19.02.2019   9:00"
+            }
+        },
+        {
+            "btnMessageType": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Group"
+            },
+            "lblDummy": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblDummy2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblDummy3": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblEmpName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "AD"
+            },
+            "lblMessageDetails": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt massa id… est congue cursus. Maecenas congue laoreet augue sed tincidunt. Nullam et porttitor elit. Ut feugiat ullamcorper viverra. Vivamus semper nec tellus sit amet vulputate. Ut eget molestie lectus. Interdum et malesuada fames ac ante ipsum primis in faucibus."
+            },
+            "lblMessageFrom": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ADMIN"
+            },
+            "lblMessageTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "19.02.2019   9:00"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "88dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "04",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segReadMessages",
+    "ide_onRowClick": "AS_Segment_a10d095026d9496a9bda6fd85f53c821",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "aa1f21866ec840f4948234d620291529",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxScrollReadMessages",
+    "pf": "frmLiveJourney",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "i3cf5d6f59cd432bbfd2f5713f34a2bc",
+    "rowcounter": 4,
+    "rowfocusskin": "sbf9d91b89ba457ba62945f3c2a92526",
+    "rowskin": "s0059b0ebf18496d948d7dac7d0544de",
+    "rowtemplate": "flxSegReadMesaages",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s6d26d70982642d1a5dc555e1c57b10a",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "btnMessageType": "btnMessageType",
+        "flxDummy": "flxDummy",
+        "flxImg": "flxImg",
+        "flxMain": "flxMain",
+        "flxSegReadMesaages": "flxSegReadMesaages",
+        "lblDummy": "lblDummy",
+        "lblDummy2": "lblDummy2",
+        "lblDummy3": "lblDummy3",
+        "lblEmpName": "lblEmpName",
+        "lblMessageDetails": "lblMessageDetails",
+        "lblMessageFrom": "lblMessageFrom",
+        "lblMessageTime": "lblMessageTime"
+    },
+    "zindex": 1
+}

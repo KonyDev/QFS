@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_icc7ec77d8664f1d88e810a49921a0a8": {
+        "id": "AS_FlexContainer_icc7ec77d8664f1d88e810a49921a0a8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmUpdateJourney",
+            "type": "forms",
+            "platform": null,
+            "KUID": "db46bba994fd4068be922e743c3042d9"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_a68925553bfb429f8677a50e5c91d359",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//this.TrackingDetailsOnClickEvent();\nthis.showTrackingPointSelector();",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "39dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s9589cbec2f04d3f8cfa893ff222075d",
+    "_text_": "GETime",
+    "_top_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50.00%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s7f6cdd4b32645238316d22088753df1",
+    "id": "CopyGetSelectedDateForPreviousDateCompnent0e5d432e03cf741",
+    "ide_onClick": "AS_Button_fff6b87d1dc34c2aab0a1d399e2b3952",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "b9125c85ac704764b8a38204d5d0322c",
+    "name": "kony.ui.Button",
+    "parent": "FlexScrollGroup0jacaa041b1a24b",
+    "pf": "frmDateTimeCompTesting",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

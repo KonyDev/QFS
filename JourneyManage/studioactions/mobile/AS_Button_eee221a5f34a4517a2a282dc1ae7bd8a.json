@@ -1,0 +1,25 @@
+{
+    "AS_Button_eee221a5f34a4517a2a282dc1ae7bd8a": {
+        "id": "AS_Button_eee221a5f34a4517a2a282dc1ae7bd8a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___e4cb141099e74c8688e63a8e310486ed",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onClickUpdateDetails",
+            "display": "onClickUpdateDetails",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

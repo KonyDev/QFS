@@ -1,0 +1,61 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizMap",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "36dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_mode_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "calloutwidth": 80,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "defaultpinimage": "pinb.png",
+    "id": "mapJourney",
+    "ide_onClick": "AS_Map_j0e7bfd769df4fcfadb1c4fb596e1b19",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "j7eecd9a2682408c8694387da0d108a5",
+    "locationdata": [],
+    "mapsource": "non-native",
+    "mapsrc": "non-native",
+    "name": "kony.ui.Map",
+    "parent": "flxScRouteSelection",
+    "pf": "frmUpdateJourney",
+    "provider": "google",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "screenlevelwidget": false,
+    "wType": "Map",
+    "zindex": 1,
+    "zoomlevel": 4
+}

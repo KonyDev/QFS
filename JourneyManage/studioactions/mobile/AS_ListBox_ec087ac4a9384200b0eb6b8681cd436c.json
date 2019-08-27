@@ -1,0 +1,17 @@
+{
+    "AS_ListBox_ec087ac4a9384200b0eb6b8681cd436c": {
+        "id": "AS_ListBox_ec087ac4a9384200b0eb6b8681cd436c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onSelection_c4206e658554428a86a740a50ffa94c4",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onCheckInTimeFrameSelection();\nreturn;",
+            "callbackType": null
+        }]
+    }
+}

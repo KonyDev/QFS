@@ -1,0 +1,27 @@
+{
+    "AS_Button_b533e3077b014fe9a49c595375fca779": {
+        "id": "AS_Button_b533e3077b014fe9a49c595375fca779",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwu0c7ec743bc7435fb236206f49f5c9e3",
+            "type": "userwidgets",
+            "KUID": "u0c7ec743bc7435fb236206f49f5c9e3"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___ga5893df2de347b5bdcc2dade2798e81",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onTimeSelectButtonClick",
+            "display": "onTimeSelectButtonClick",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

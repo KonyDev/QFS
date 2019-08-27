@@ -1,0 +1,20 @@
+{
+    "AS_Button_c1cb2ace9c7e4562a6dd0b5e59017059": {
+        "id": "AS_Button_c1cb2ace9c7e4562a6dd0b5e59017059",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_fc61b57b3c6c4061b5863dd05d7e7ba9",
+            "type": "INVOKE_FUNCTION",
+            "display": "onTimeSelectButtonClick",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

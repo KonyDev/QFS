@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_g4551483d5174c7e940e8751a34aee77": {
+        "id": "AS_FlexContainer_g4551483d5174c7e940e8751a34aee77",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmUpdateJourney2",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b8cb1fe040f44950a1ed1e74bb676e00"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__jfd01c3476c1435a978c15799ac041d3",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.VehicleDetailsOnClickEvent();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "AS_UWI_d53ecc693e084b30aea13d8e5c2a1586": {
+        "id": "AS_UWI_d53ecc693e084b30aea13d8e5c2a1586",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "selectedDate",
+            "datatype": "collection"
+        }],
+        "contextObj": {
+            "name": "frmNewJourneyRoute",
+            "type": "forms",
+            "platform": "",
+            "KUID": "jba05021cee846d6a62d81619b6232bf"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c0eb2989b49b4116ab82a4f0ab11d65a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onDepartureDateSelection(dateString);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

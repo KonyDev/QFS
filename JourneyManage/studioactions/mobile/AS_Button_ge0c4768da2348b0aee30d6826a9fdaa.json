@@ -1,0 +1,24 @@
+{
+    "AS_Button_ge0c4768da2348b0aee30d6826a9fdaa": {
+        "id": "AS_Button_ge0c4768da2348b0aee30d6826a9fdaa",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTemp",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ia421d0413d24f7db8dfad791656d747"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__g6915401e9ec4b78b70ad5bfae9f5ca8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.showHamburgerMenu();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

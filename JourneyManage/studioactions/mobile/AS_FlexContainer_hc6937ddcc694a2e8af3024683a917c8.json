@@ -1,0 +1,38 @@
+{
+    "AS_FlexContainer_hc6937ddcc694a2e8af3024683a917c8": {
+        "id": "AS_FlexContainer_hc6937ddcc694a2e8af3024683a917c8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "KUID": "a563a4067fe54be19101a70cb3b2754d",
+            "name": "frmMyJourneys",
+            "platform": "",
+            "type": "forms"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___dba3babcdcf949ddb763b7213d4b1891",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmNewJourneyTraveller",
+            "formKUID": "iaea82882d3548db892dbeb566e6f143",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "disabled": true,
+            "package": "",
+            "navigationObj": "{\n\"_meta_\" : {\n\t\"eventName\" : \"onClick\",\n\t\"widgetId\" : \"flxNewJourney\"\n}\n}",
+            "isCustomInput": false
+        }, {
+            "id": "ADD_SNIPPET__df5848809b2443298f34486823d8818f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.navigateTofrmNewJourneyTraveller();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "AS_Button_b23e40fe6eef4260b110713cbb7bbbbf": {
+        "id": "AS_Button_b23e40fe6eef4260b110713cbb7bbbbf",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmJourneySubmissionAwaited",
+            "type": "forms",
+            "platform": "",
+            "KUID": "h32e1393c00b499ca4e4338e2d06a7e4"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___cb05c45e9ce74a7fa8cb7bc45d450589",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmMyJourneys",
+            "formKUID": "a563a4067fe54be19101a70cb3b2754d",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n\"_meta_\" : {\n\t\"eventName\" : \"onClick\",\n\t\"widgetId\" : \"btnSubmit\"\n}\n}",
+            "isCustomInput": false
+        }]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "AS_UWI_d218cdfe6004433683594e87caab62d9": {
+        "id": "AS_UWI_d218cdfe6004433683594e87caab62d9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "selectedTime",
+            "datatype": "collection"
+        }],
+        "contextObj": {
+            "name": "frmReturnJourney",
+            "type": "forms",
+            "platform": "",
+            "KUID": "g9cb4147c8b049efb9208df00ba61ef2"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e5f205e19a2b4f44bc7ea86d23c03f8f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onArrivalTimeSelected(selectedTime);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

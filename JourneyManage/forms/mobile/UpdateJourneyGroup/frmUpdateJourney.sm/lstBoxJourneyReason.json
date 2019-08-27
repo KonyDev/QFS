@@ -1,0 +1,86 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Please Select",
+    "_skin_": "sc82dd2f4ea04d719fa96729de119fe7",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "95%"
+    },
+    "android": {
+        "psp": {
+            "popupTitle": "Please Select"
+        }
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "dropdownimage": "",
+    "focusskin": "sc82dd2f4ea04d719fa96729de119fe7",
+    "groupcells": false,
+    "id": "lstBoxJourneyReason",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "eae1517b04cc482f9357f693ff68246d",
+    "masterdata": [
+        [
+            "lb3",
+            "Christmas Creek"
+        ],
+        [
+            "lb4",
+            "Cloudbreak"
+        ],
+        [
+            "lb5",
+            "Solomon"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "parent": "flxSubContainer",
+    "pf": "frmUpdateJourney",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkeys": null,
+    "selectedkeyvalue": null,
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox",
+    "zindex": 1
+}

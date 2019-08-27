@@ -1,0 +1,18 @@
+{
+    "AS_Button_i55eeb04ba1a4527922b589901e72265": {
+        "id": "AS_Button_i55eeb04ba1a4527922b589901e72265",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d2779a7fbc6b468d8b789dbb254c1f71",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxNewJourneyReady.isVisible = false;\nthis.view.flxNewJourneyRoute.isVisible = true;\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

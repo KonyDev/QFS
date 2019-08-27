@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_b41a7aac897048f1adbcbb9702d8a02c": {
+        "id": "AS_FlexContainer_b41a7aac897048f1adbcbb9702d8a02c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmUpdateJourney",
+            "type": "forms",
+            "platform": "",
+            "KUID": "db46bba994fd4068be922e743c3042d9"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f3491874eb6d4c6d931ce86836ef651c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.showSelectorFlex(\"flxArrivalDateTime\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

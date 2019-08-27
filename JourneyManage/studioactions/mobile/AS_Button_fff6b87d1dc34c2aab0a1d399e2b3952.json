@@ -1,0 +1,23 @@
+{
+    "AS_Button_fff6b87d1dc34c2aab0a1d399e2b3952": {
+        "id": "AS_Button_fff6b87d1dc34c2aab0a1d399e2b3952",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDateTimeCompTesting",
+            "type": "forms",
+            "platform": null,
+            "KUID": "c5313fc81129460ca1b3dcd7c3f894d4"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_cd14be49e7c1466f8396838140374685",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "// var selectedDate=this.view.datepicker.onDateSelected();\n// alert(\"SelectedDate: \"+selectedDate);\n\n\n// this.view.timePicker.setTime(\"8:40\");\n\n",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "AS_Segment_fb64ec2f37444fdc999b9e7beed579d7": {
+        "id": "AS_Segment_fb64ec2f37444fdc999b9e7beed579d7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onRowClick_e6f1482c26604bc3a978b0222b16bbd7",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onArraivalAddressSelection",
+            "display": "onArraivalAddressSelection",
+            "inputparams": [{
+                "name": "eventobject",
+                "value": " eventobject"
+            }, {
+                "name": "rowIndex",
+                "value": " rowNumber"
+            }, {
+                "name": "sectionIndex",
+                "value": " sectionNumber"
+            }],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

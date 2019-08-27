@@ -1,0 +1,73 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s4e4e57ce14c4b1db46c627e4679ac33",
+    "_top_": {
+        "type": "string",
+        "value": "8%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "data": {
+        "sknFirstLine": "s34fef06802647d0957db53cd640026c",
+        "sknRoute": "sc4c02674fe44f50a61a44f1a13336e5",
+        "sknSecondLine": "s18c68a2980547ab8a2c780603a45599",
+        "sknThirdLine": "s18c68a2980547ab8a2c780603a45599",
+        "sknTracking": "sd705b7358f849ae9975ad90daadc481",
+        "sknTraveller": "s060ab47cd004ad1904f44a5cb99680a",
+        "sknVehicle": "sd705b7358f849ae9975ad90daadc481",
+        "srcRoute": "route_purple.png",
+        "srcTracking": "whitetarget.png",
+        "srcTravelling": "user.png",
+        "srcVehicle": "whitecar.png"
+    },
+    "enablescrolling": true,
+    "id": "JourneyTracking",
+    "info": null,
+    "iscustomlayout": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "c3f1c915bd1f445cb20c74ac2ad4a949",
+    "layouttype": 2,
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "frmNewJourneyRoute",
+    "pf": "frmNewJourneyRoute",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "e0e87f4b499f4368a0ce5448f53cd0ac",
+    "wType": "UserWidgetInstance"
+}

@@ -1,0 +1,21 @@
+{
+    "AS_Button_fe53c4e30a444306b37cddb3c761e656": {
+        "id": "AS_Button_fe53c4e30a444306b37cddb3c761e656",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "segTodayDataTemplates",
+            "type": "templates",
+            "platform": "",
+            "KUID": "c70952400a134bef939480dbd39ef360"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "AS_UWI_c27c4bd1e432414a9de8d00075e4e055": {
+        "id": "AS_UWI_c27c4bd1e432414a9de8d00075e4e055",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmNewJourneyRoute",
+            "type": "forms",
+            "platform": "",
+            "KUID": "jba05021cee846d6a62d81619b6232bf"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__hd20f0ccdbf44550a7eb9bad128b0dc1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "alert(ApplicationData1.SavingData.DeparturePoint);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "AS_FlexContainer_gcfa8caeed5f4ad9b225abd3e8f55dab": {
+        "id": "AS_FlexContainer_gcfa8caeed5f4ad9b225abd3e8f55dab",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLiveJourney",
+            "type": "forms",
+            "platform": null,
+            "KUID": "gfa05929e4854240b0a6d0be650bc20e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_ffaa0289680e447c821815510de5e9f1",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "MyAccount",
+            "formKUID": "d4f38b7ff22040a0a2ddd13594ed027a",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n\"_meta_\" : {\n\t\"eventName\" : \"onClick\",\n\t\"widgetId\" : \"flxMyAccountSidebar\"\n}\n}",
+            "isCustomInput": false
+        }, {
+            "id": "ADD_SNIPPET_ide_onClick_e1271d56195f4cb0b4afc839bd546510",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxSideBar.isVisible = false;",
+            "callbackType": null
+        }]
+    }
+}

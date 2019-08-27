@@ -1,0 +1,83 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Please Select",
+    "_skin_": "sc82dd2f4ea04d719fa96729de119fe7",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "95%"
+    },
+    "android": {
+        "psp": {
+            "popupTitle": "Please Select"
+        }
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "dropdownimage": "listboxarw.png",
+    "focusskin": "sc82dd2f4ea04d719fa96729de119fe7",
+    "groupcells": false,
+    "id": "lstCompanyCar",
+    "ide_onSelection": "AS_ListBox_ec8e2201a92940e38b3ca46d0911ac84",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "d113300abfe34cbd9904507c961dd700",
+    "masterdata": [
+        [
+            "lb1",
+            "Company Ford Focus | 127 822D"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "parent": "CopyflxSubContainer0da4b7e831e8844",
+    "pf": "frmNewJourneyVehicle",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkey": "lb1",
+    "selectedkeys": null,
+    "selectedkeyvalue": [
+        "lb1",
+        "Company Ford Focus | 127 822D"
+    ],
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox",
+    "zindex": 1
+}

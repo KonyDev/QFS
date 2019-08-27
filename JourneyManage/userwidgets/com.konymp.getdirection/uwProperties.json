@@ -1,0 +1,449 @@
+{
+    "classname": "getdirection",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [
+                "iOS",
+                "Action Sheet",
+                "Google Maps",
+                "Apple Maps"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Read",
+                    "defaultValue": "driving",
+                    "group": "Google Maps",
+                    "kuid": "ca2b43dfecb64ba8a5f2e42eabb53569",
+                    "originalPropertyKey": "travelModesForGoogleMaps",
+                    "propertyIndex": 1,
+                    "propertyKey": "travelModesForGoogleMaps",
+                    "pw": {
+                        "displayName": "Travel Modes",
+                        "uiRepresentation": "Label-Combobox"
+                    },
+                    "srcWgtKUID": "j5ebcecc15cf4987a54e59798b331839",
+                    "type": "list selector",
+                    "value": [
+                        "none",
+                        "driving",
+                        "walking",
+                        "bicycling",
+                        "transit"
+                    ]
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "driving",
+                    "group": "Apple Maps",
+                    "kuid": "dfff726b7d4c489ca7473d754c650a6b",
+                    "originalPropertyKey": "travelModesForAppleMaps",
+                    "propertyIndex": 1,
+                    "propertyKey": "travelModesForAppleMaps",
+                    "pw": {
+                        "displayName": "Travel Modes",
+                        "uiRepresentation": "Label-Combobox"
+                    },
+                    "srcWgtKUID": "j5ebcecc15cf4987a54e59798b331839",
+                    "type": "list selector",
+                    "value": [
+                        "none",
+                        "driving",
+                        "walking",
+                        "transit"
+                    ]
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Google Maps",
+                    "group": "iOS",
+                    "kuid": "f185e9643735489d91713b031f4ae2e6",
+                    "originalPropertyKey": "iOSMapOptions",
+                    "propertyIndex": 1,
+                    "propertyKey": "iOSMapOptions",
+                    "pw": {
+                        "displayName": "Map Options",
+                        "uiRepresentation": "Label-Combobox"
+                    },
+                    "srcWgtKUID": "j5ebcecc15cf4987a54e59798b331839",
+                    "type": "list selector",
+                    "value": [
+                        "Apple Maps",
+                        "Google Maps",
+                        "Both Maps"
+                    ]
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Google Maps",
+                    "kuid": "bb07007757cb4aa5814f21bc2f0ad73b",
+                    "originalPropertyKey": "destinationPlaceId",
+                    "propertyIndex": 2,
+                    "propertyKey": "destinationPlaceId",
+                    "pw": {
+                        "displayName": "Destination Place ID",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "j5ebcecc15cf4987a54e59798b331839",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "d431a1a273ff4030bb490eab26a2721c",
+                    "originalPropertyKey": "originPlace",
+                    "propertyIndex": 3,
+                    "propertyKey": "originPlace",
+                    "pw": {
+                        "displayName": "Origin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "j5ebcecc15cf4987a54e59798b331839",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Google Maps",
+                    "kuid": "j038a606ef8c49cca6277569d723a098",
+                    "originalPropertyKey": "originPlaceId",
+                    "propertyIndex": 3,
+                    "propertyKey": "originPlaceId",
+                    "pw": {
+                        "displayName": "Origin Place ID",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "j5ebcecc15cf4987a54e59798b331839",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "b606885f1b244dfcb7e7bda2b5367ea7",
+                    "originalPropertyKey": "destinationPlace",
+                    "propertyIndex": 4,
+                    "propertyKey": "destinationPlace",
+                    "pw": {
+                        "displayName": "Destination",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "j5ebcecc15cf4987a54e59798b331839",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Google Maps",
+                    "kuid": "jb59338012e5494bbae02a93e1475e6a",
+                    "originalPropertyKey": "wayPoints",
+                    "propertyIndex": 4,
+                    "propertyKey": "wayPoints",
+                    "pw": {
+                        "displayName": "Waypoints",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "j5ebcecc15cf4987a54e59798b331839",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Google Maps",
+                    "kuid": "c4558d75779b4e899d989c5fe001f3a5",
+                    "originalPropertyKey": "waypointPlaceIds",
+                    "propertyIndex": 5,
+                    "propertyKey": "waypointPlaceIds",
+                    "pw": {
+                        "displayName": "Waypoint Place IDs",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "j5ebcecc15cf4987a54e59798b331839",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": false,
+                    "group": "Google Maps",
+                    "kuid": "d5516992b2154f42998dd8a7c788870a",
+                    "originalPropertyKey": "turnByTurnNavigation",
+                    "propertyIndex": 6,
+                    "propertyKey": "turnByTurnNavigation",
+                    "pw": {
+                        "displayName": "Turn By Turn Navigation",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "j5ebcecc15cf4987a54e59798b331839",
+                    "type": "boolean",
+                    "value": "true/false"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "b044de197eb24f5a8dcc62ddfb7560ed",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 1,
+                    "propertyKey": "getDirectionIconSrc",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Icon",
+                        "srcWidget": "imgGetDirections",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "a3b83f5ca71347348b01b6d98f50a1b2"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Action Sheet",
+                    "kuid": "adf8db7393e24e61a4b19021ffe7b7d6",
+                    "originalPropertyKey": "footerBackgroundSkin",
+                    "propertyIndex": 1,
+                    "propertyKey": "footerBackgroundSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Footer Background Skin",
+                        "srcWidget": "actionsheet",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "a9fd1ca6b02c477ca4e27d31ca1b6075"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Action Sheet",
+                    "kuid": "i83cd3f174fe405db6b55b2eff86145d",
+                    "originalPropertyKey": "footerButtonFocusSkin",
+                    "propertyIndex": 2,
+                    "propertyKey": "footerButtonFocusSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Footer Button Focus Skin",
+                        "srcWidget": "actionsheet",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "a9fd1ca6b02c477ca4e27d31ca1b6075"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "b6ec31aa12b7489db5a89f9c472a3165",
+                    "originalPropertyKey": "imageScaleMode",
+                    "propertyIndex": 2,
+                    "propertyKey": "iconScaleMode",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Icon Scale Mode",
+                        "srcWidget": "imgGetDirections",
+                        "type": "enum",
+                        "uiRepresentation": "Label-Combobox",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "a3b83f5ca71347348b01b6d98f50a1b2"
+                },
+                {
+                    "access": "Enable",
+                    "group": "iOS",
+                    "kuid": "fcf68816d88045a48f8fec57f12ce913",
+                    "originalPropertyKey": "headerMainText",
+                    "propertyIndex": 2,
+                    "propertyKey": "headerMainText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Action Sheet Main Text",
+                        "srcWidget": "actionsheet",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "a9fd1ca6b02c477ca4e27d31ca1b6075"
+                },
+                {
+                    "access": "Enable",
+                    "group": "iOS",
+                    "kuid": "f806fa06def84d32bd84776af27aff43",
+                    "originalPropertyKey": "headerSubText",
+                    "propertyIndex": 3,
+                    "propertyKey": "headerSubText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Action Sheet Sub Text",
+                        "srcWidget": "actionsheet",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "a9fd1ca6b02c477ca4e27d31ca1b6075"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Action Sheet",
+                    "kuid": "e45bd8e15f684a2baeb55d6f6ea0ca6e",
+                    "originalPropertyKey": "footerButtonSkin",
+                    "propertyIndex": 3,
+                    "propertyKey": "footerButtonSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Footer Button Skin",
+                        "srcWidget": "actionsheet",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "a9fd1ca6b02c477ca4e27d31ca1b6075"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Action Sheet",
+                    "kuid": "i1374380b8f446c1a8e66e952b357dc6",
+                    "originalPropertyKey": "headerMainTextSkin",
+                    "propertyIndex": 4,
+                    "propertyKey": "headerMainTextSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Header Main Text Skin",
+                        "srcWidget": "actionsheet",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "a9fd1ca6b02c477ca4e27d31ca1b6075"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Action Sheet",
+                    "kuid": "iefe67041e2f491fab8d827b3b009879",
+                    "originalPropertyKey": "headerSubTextSkin",
+                    "propertyIndex": 5,
+                    "propertyKey": "headerSubTextSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Header Sub Text Skin",
+                        "srcWidget": "actionsheet",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "a9fd1ca6b02c477ca4e27d31ca1b6075"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Action Sheet",
+                    "kuid": "id130fa512454498a4e63965cd813b91",
+                    "originalPropertyKey": "optionsFocusSkin",
+                    "propertyIndex": 6,
+                    "propertyKey": "optionsFocusSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Options Focus Skin",
+                        "srcWidget": "actionsheet",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "a9fd1ca6b02c477ca4e27d31ca1b6075"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Action Sheet",
+                    "kuid": "a20ba700dd46429cad7173bcc88ea350",
+                    "originalPropertyKey": "optionsSkin",
+                    "propertyIndex": 7,
+                    "propertyKey": "optionsSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Options Skin",
+                        "srcWidget": "actionsheet",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "a9fd1ca6b02c477ca4e27d31ca1b6075"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Action Sheet",
+                    "kuid": "aba36c52687c453a9be7704cdb892f4f",
+                    "originalPropertyKey": "separatorSkin",
+                    "propertyIndex": 8,
+                    "propertyKey": "separatorSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Separator Skin",
+                        "srcWidget": "actionsheet",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "a9fd1ca6b02c477ca4e27d31ca1b6075"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Action Sheet",
+                    "kuid": "e12b5322ce794432b215f6b8b1282ec2",
+                    "originalPropertyKey": "sheetBackgroundSkin",
+                    "propertyIndex": 9,
+                    "propertyKey": "sheetBackgroundSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Sheet Background Skin",
+                        "srcWidget": "actionsheet",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "a9fd1ca6b02c477ca4e27d31ca1b6075"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konymp",
+    "version": "1.0.0"
+}

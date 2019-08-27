@@ -1,0 +1,20 @@
+{
+    "AS_UWI_e243e89d596a416ca3594fb9b15c8a22": {
+        "id": "AS_UWI_e243e89d596a416ca3594fb9b15c8a22",
+        "type": "ACTION_SEQUENCE",
+        "params": [],
+        "contextObj": {
+            "KUID": "u13b7c71dbed4689968df297a54af8d7",
+            "name": "uwu13b7c71dbed4689968df297a54af8d7",
+            "type": "userwidgets"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__bb8c5a4370d3401c8781b3d6c1c4cc5e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.actionsheet.isVisible=false;\nthis.view.height=this._defaultHeight;\nthis.view.width=this._defaultWidth;\nthis.view.centerY=this._defaultCenterY;\nthis.view.centerX=this._defaultCenterX;\nthis.view.btnGetDirection.centerX = \"50%\";\nthis.view.btnGetDirection.centerY = \"50%\";\nthis._flag=0;",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

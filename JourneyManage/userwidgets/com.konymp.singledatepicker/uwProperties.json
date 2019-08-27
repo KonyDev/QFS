@@ -1,0 +1,199 @@
+{
+    "classname": "singledatepicker",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "ga9408bb2faa48b0ba2d38b7d0ee597b",
+                    "paramList": [],
+                    "propertyKey": "getSelectedDate",
+                    "pw": {
+                        "displayName": "getSelectedDate",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "cdc08d31835645f48959e7866d054cff",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "i19ef2a6ddb2431391d5298132dfc38a",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "onDateSelectionDone",
+                    "pw": {
+                        "displayName": "onDateSelectionDone",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "cdc08d31835645f48959e7866d054cff",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": 1980,
+                    "group": "General",
+                    "kuid": "d68347cc51534a20a88affca9c81df2a",
+                    "originalPropertyKey": "startYear",
+                    "propertyIndex": 1,
+                    "propertyKey": "startYear",
+                    "pw": {
+                        "displayName": "Start Year",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "^(\\+|-)?\\d+$"
+                    },
+                    "srcWgtKUID": "cdc08d31835645f48959e7866d054cff",
+                    "type": "integer",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": 2030,
+                    "group": "General",
+                    "kuid": "h3f9b113f8ba47ecae0e76f851de9386",
+                    "originalPropertyKey": "endYear",
+                    "propertyIndex": 2,
+                    "propertyKey": "endYear",
+                    "pw": {
+                        "displayName": "End Year",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "^(\\+|-)?\\d+$"
+                    },
+                    "srcWgtKUID": "cdc08d31835645f48959e7866d054cff",
+                    "type": "integer",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Year and Month",
+                    "group": "General",
+                    "kuid": "c1f36314ccbc4c33880a79b0f26a0142",
+                    "originalPropertyKey": "displayType",
+                    "propertyIndex": 8,
+                    "propertyKey": "displayType",
+                    "pw": {
+                        "displayName": "Display Type",
+                        "uiRepresentation": "Label-Combobox"
+                    },
+                    "srcWgtKUID": "cdc08d31835645f48959e7866d054cff",
+                    "type": "list selector",
+                    "value": [
+                        "Standard",
+                        "Year Only",
+                        "Year and Month"
+                    ]
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "j9c750ec58504744b98618d6f11dc94c",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 3,
+                    "propertyKey": "text",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Select Date Text",
+                        "srcWidget": "lblSelectDate",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "f9e38c89c3064d06bd8b293fa01fdb15"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a1ff5b95362d46f0ad7e7e6b08854dfd",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 4,
+                    "propertyKey": "src",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Calendar Icon",
+                        "srcWidget": "imgCalendarIcon",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "acac7861b39f4b37bc0fc23af325618a"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "bb085f66bed843ddb40b78cbe081c708",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 5,
+                    "propertyKey": "doneButtonSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Done Button Skin",
+                        "srcWidget": "btnDone",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "g6c431ab99534722911f27c5e7f18db8"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c90b115d1dbd4c3b8bf50e187b781fcc",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 6,
+                    "propertyKey": "doneButtonText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Done Button Text",
+                        "srcWidget": "btnDone",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "g6c431ab99534722911f27c5e7f18db8"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konymp",
+    "version": "1.0.0"
+}

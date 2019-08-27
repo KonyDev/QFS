@@ -1,0 +1,124 @@
+{
+    "classname": "HeaderEntry2",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "b2b1ffc47b704da1a6e73b5f41c0a41b",
+                    "paramList": [
+                        {
+                            "name": "title"
+                        },
+                        {
+                            "name": "description"
+                        },
+                        {
+                            "name": "isEditable"
+                        },
+                        {
+                            "name": "imageIcon"
+                        }
+                    ],
+                    "propertyKey": "setData",
+                    "pw": {
+                        "displayName": "setData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "i924927217314016a765ce28d133228d",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e2188f3c6f6e471f8008006aaf905645",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "text",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Header Text",
+                        "srcWidget": "Label0c042960debc142",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "hd7802445ad34205b45778ff70f7c2aa"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "i7d16451458943fbbd75bc85083d179d",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 2,
+                    "propertyKey": "src",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "src",
+                        "srcWidget": "Image0ba6fce7d159b40",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "c0baa4ebad114b85a838d00b917183c4"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "fc4d83caea0d4bada5e28e4ef47a4d6a",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 3,
+                    "propertyKey": "textboxText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "TextBox Text",
+                        "srcWidget": "txtUserName",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "bd7b434d5111408eb3d167d870ea6fde"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konymp",
+    "version": "1.0.0"
+}

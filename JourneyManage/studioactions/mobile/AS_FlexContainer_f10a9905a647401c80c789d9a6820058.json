@@ -1,0 +1,31 @@
+{
+    "AS_FlexContainer_f10a9905a647401c80c789d9a6820058": {
+        "id": "AS_FlexContainer_f10a9905a647401c80c789d9a6820058",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCopyCopyAsJourney",
+            "type": "forms",
+            "platform": null,
+            "KUID": "f10dc10a2c3242f39411fd380024a3ef"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_fb4010bf7031448f8533a97f795a162c",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "MyAccount",
+            "formKUID": "d4f38b7ff22040a0a2ddd13594ed027a",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n\"_meta_\" : {\n\t\"eventName\" : \"onClick\",\n\t\"widgetId\" : \"flxGuidesManuals\"\n}\n}",
+            "isCustomInput": false
+        }]
+    }
+}

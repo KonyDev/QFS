@@ -1,0 +1,28 @@
+{
+    "AS_UWI_e815437c460d4cb1be1819883288405e": {
+        "id": "AS_UWI_e815437c460d4cb1be1819883288405e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "MyAccount",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d4f38b7ff22040a0a2ddd13594ed027a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___h318ed75f85a482090a641be21e68fe6",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onSelection",
+            "display": "onSelection",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

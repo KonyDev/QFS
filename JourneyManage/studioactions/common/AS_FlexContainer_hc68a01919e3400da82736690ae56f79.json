@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_hc68a01919e3400da82736690ae56f79": {
+        "id": "AS_FlexContainer_hc68a01919e3400da82736690ae56f79",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwu4adc5cc3f234fe39b0ca2a0c8608aa2",
+            "type": "userwidgets",
+            "KUID": "u4adc5cc3f234fe39b0ca2a0c8608aa2"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__j56f8ee473904c208e1f61ff420ecdd6",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.enableTextBox(\"flxPasswordEnabler\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

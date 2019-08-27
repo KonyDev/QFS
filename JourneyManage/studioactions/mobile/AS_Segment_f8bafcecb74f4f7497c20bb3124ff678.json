@@ -1,0 +1,30 @@
+{
+    "AS_Segment_f8bafcecb74f4f7497c20bb3124ff678": {
+        "id": "AS_Segment_f8bafcecb74f4f7497c20bb3124ff678",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmNewJourneyRoute",
+            "type": "forms",
+            "platform": "",
+            "KUID": "jba05021cee846d6a62d81619b6232bf"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__j4a158947b7b490fb653ae45e4c69278",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxNewJourneyRoute.isVisible = false;\nthis.view.flxNewJourneyRoute2.isVisible = false;\nthis.view.flxNewJourneyReady.isVisible = true;\n\n\nApplicationData1.SavingData.ArrivalPoint = (this.view.segArrivalPoints.selectedRowItems[0].lblDeparturePoints);\n\nthis.view.lblFromArrival.text = ApplicationData1.SavingData.ArrivalPoint;\nthis.view.lblFromDeparture.text = ApplicationData1.SavingData.DeparturePoint;\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

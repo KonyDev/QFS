@@ -1,0 +1,23 @@
+{
+    "AS_Form_c968e1cf91e14fafaf398f1c1ce85e24": {
+        "id": "AS_Form_c968e1cf91e14fafaf398f1c1ce85e24",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCopyCopyAsJourney",
+            "type": "forms",
+            "platform": null,
+            "KUID": "f10dc10a2c3242f39411fd380024a3ef"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_preShow_e965e23216f6467995a2a22eda4d8b33",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "\nthis.view.flxMain.isVisible = true;\nthis.view.flxSideBar.isVisible = false;\nreturn;\n//Setting the data in the Approval Awaited Screen for the Journey.\nthis.view.lblFromDeparture.text = ApplicationData1.SavingData.DeparturePoint;\nthis.view.lblToArrival.text = ApplicationData1.SavingData.ArrivalPoint;\n\n\n",
+            "callbackType": null
+        }]
+    }
+}

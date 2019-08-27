@@ -1,0 +1,25 @@
+{
+    "AS_Form_cd83e748d4024020ad78cd4dcbf2970f": {
+        "id": "AS_Form_cd83e748d4024020ad78cd4dcbf2970f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmNewJourneyVehicle",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c1aa10f1386444139d304d9a2168d412"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f5d2c4b9067e4df8b9159a34844b6e92",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onFormPreshow();",
+            "parentId": null,
+            "callbackType": null,
+            "disabled": true
+        }]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "AS_Button_d705aa0bf7c74ceab3236b2cc3e5a5a2": {
+        "id": "AS_Button_d705aa0bf7c74ceab3236b2cc3e5a5a2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCopyCopyAsJourney",
+            "type": "forms",
+            "platform": null,
+            "KUID": "f10dc10a2c3242f39411fd380024a3ef"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_bcc44d9376de4049acde6eeea86ace1a",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmMyJourneys",
+            "formKUID": "a563a4067fe54be19101a70cb3b2754d",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n\"_meta_\" : {\n\t\"eventName\" : \"onClick\",\n\t\"widgetId\" : \"btnSubmit\"\n}\n}",
+            "isCustomInput": false
+        }]
+    }
+}

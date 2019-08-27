@@ -1,0 +1,25 @@
+{
+    "AS_AppEvents_d1124efaba454d3b900ff7fbd774cf99": {
+        "id": "AS_AppEvents_d1124efaba454d3b900ff7fbd774cf99",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___f72f06a3807845fcb59f6dd7731dbacc",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "launchParam",
+            "display": "launchParam",
+            "inputparams": [{
+                "name": "params",
+                "value": " eventobject"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

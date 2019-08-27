@@ -1,0 +1,27 @@
+{
+    "AS_FlexContainer_if54b721fb814047b32f77b084e96fa1": {
+        "id": "AS_FlexContainer_if54b721fb814047b32f77b084e96fa1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLiveJourney",
+            "type": "forms",
+            "platform": null,
+            "KUID": "gfa05929e4854240b0a6d0be650bc20e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_ed9ed63044f84e589aeeab1d58d4a117",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "dialTrackingPoint",
+            "display": "dialTrackingPoint",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

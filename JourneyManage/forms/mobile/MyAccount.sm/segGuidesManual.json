@@ -1,0 +1,245 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "imgPdfLogo": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "pdfmanual.png"
+            },
+            "lblPDFFilename": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "The Pilbara Road Safety Guide"
+            },
+            "lblPDFurl": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "The Pilbara Road Safety Guide"
+            }
+        },
+        {
+            "imgPdfLogo": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "pdfmanual.png"
+            },
+            "lblPDFFilename": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "The Pilbara Road Safety Guide"
+            },
+            "lblPDFurl": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "The Pilbara Road Safety Guide"
+            }
+        },
+        {
+            "imgPdfLogo": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "pdfmanual.png"
+            },
+            "lblPDFFilename": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "The Pilbara Road Safety Guide"
+            },
+            "lblPDFurl": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "The Pilbara Road Safety Guide"
+            }
+        },
+        {
+            "imgPdfLogo": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "pdfmanual.png"
+            },
+            "lblPDFFilename": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "The Pilbara Road Safety Guide"
+            },
+            "lblPDFurl": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "The Pilbara Road Safety Guide"
+            }
+        },
+        {
+            "imgPdfLogo": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "pdfmanual.png"
+            },
+            "lblPDFFilename": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "The Pilbara Road Safety Guide"
+            },
+            "lblPDFurl": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "The Pilbara Road Safety Guide"
+            }
+        },
+        {
+            "imgPdfLogo": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "pdfmanual.png"
+            },
+            "lblPDFFilename": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "The Pilbara Road Safety Guide"
+            },
+            "lblPDFurl": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "The Pilbara Road Safety Guide"
+            }
+        },
+        {
+            "imgPdfLogo": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "pdfmanual.png"
+            },
+            "lblPDFFilename": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "The Pilbara Road Safety Guide"
+            },
+            "lblPDFurl": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "The Pilbara Road Safety Guide"
+            }
+        },
+        {
+            "imgPdfLogo": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "pdfmanual.png"
+            },
+            "lblPDFFilename": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "The Pilbara Road Safety Guide"
+            },
+            "lblPDFurl": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "The Pilbara Road Safety Guide"
+            }
+        },
+        {
+            "imgPdfLogo": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "pdfmanual.png"
+            },
+            "lblPDFFilename": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "The Pilbara Road Safety Guide"
+            },
+            "lblPDFurl": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "The Pilbara Road Safety Guide"
+            }
+        },
+        {
+            "imgPdfLogo": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "pdfmanual.png"
+            },
+            "lblPDFFilename": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "The Pilbara Road Safety Guide"
+            },
+            "lblPDFurl": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "The Pilbara Road Safety Guide"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "09",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segGuidesManual",
+    "ide_onRowClick": "AS_Segment_ie48a7a2bd474971b6f07a04a2a69ad3",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "fe65f0312393457a814ed402397af367",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxSegGuidesManualContainer",
+    "pf": "MyAccount",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "d9769e4e47e14e59b130379fa657a424",
+    "rowcounter": 9,
+    "rowfocusskin": "sbf9d91b89ba457ba62945f3c2a92526",
+    "rowskin": "s0059b0ebf18496d948d7dac7d0544de",
+    "rowtemplate": "flxGuide",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s6d26d70982642d1a5dc555e1c57b10a",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "separatorthickness": 0,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "CopyflxTab0dc3f44173dec4f": "CopyflxTab0dc3f44173dec4f",
+        "CopyflxTab0dea5ff829dfb44": "CopyflxTab0dea5ff829dfb44",
+        "flxGuide": "flxGuide",
+        "imgPdfLogo": "imgPdfLogo",
+        "lblPDFFilename": "lblPDFFilename",
+        "lblPDFurl": "lblPDFurl"
+    },
+    "zindex": 1
+}

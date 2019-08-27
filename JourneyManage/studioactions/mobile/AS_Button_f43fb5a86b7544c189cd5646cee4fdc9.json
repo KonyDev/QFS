@@ -1,0 +1,24 @@
+{
+    "AS_Button_f43fb5a86b7544c189cd5646cee4fdc9": {
+        "id": "AS_Button_f43fb5a86b7544c189cd5646cee4fdc9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a6ab29e2b1a2487a9f72b077d68dd981"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__j52a295ec37244df9493008dc5712ac4",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onClickPasswordChangeSubmit();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

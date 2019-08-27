@@ -1,0 +1,24 @@
+{
+    "AS_UWI_j0c6052f42e4450e9b30cb9cde99365a": {
+        "id": "AS_UWI_j0c6052f42e4450e9b30cb9cde99365a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "selectedTime",
+            "datatype": "collection"
+        }],
+        "contextObj": {
+            "name": "frmUpdateJourney",
+            "type": "forms",
+            "platform": "",
+            "KUID": "db46bba994fd4068be922e743c3042d9"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__dfbfe8180ae842739232d53b5ba2c0be",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onDepartureTimeSelection.call(this, selectedTime);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

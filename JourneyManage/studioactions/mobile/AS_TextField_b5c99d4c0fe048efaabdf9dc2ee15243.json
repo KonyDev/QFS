@@ -1,0 +1,27 @@
+{
+    "AS_TextField_b5c99d4c0fe048efaabdf9dc2ee15243": {
+        "id": "AS_TextField_b5c99d4c0fe048efaabdf9dc2ee15243",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "frmNewJourneyRoute",
+            "type": "forms",
+            "platform": "",
+            "KUID": "jba05021cee846d6a62d81619b6232bf"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__i524766a947d4c7ba66c3d4026d295a7",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onArraivalPointPlaceSearch();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

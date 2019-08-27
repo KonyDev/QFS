@@ -1,0 +1,99 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Please Select",
+    "_skin_": "s93412042bb74abf812f4043f0d0ca51",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "95%"
+    },
+    "android": {
+        "psp": {
+            "popupTitle": "Please Select"
+        }
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "dropdownimage": "",
+    "focusskin": "s93412042bb74abf812f4043f0d0ca51",
+    "groupcells": false,
+    "id": "lstTimeFrameForCheckins",
+    "ide_onSelection": "AS_ListBox_ec087ac4a9384200b0eb6b8681cd436c",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "f1d7984eb75b4f69b4b36fc58ef3e814",
+    "masterdata": [
+        [
+            "0",
+            "30 minutes time frame"
+        ],
+        [
+            "1",
+            "60 minutes time frame"
+        ],
+        [
+            "2",
+            "90 minutes time frame"
+        ],
+        [
+            "3",
+            "120 minutes time frame"
+        ],
+        [
+            "4",
+            "150 minutes time frame"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "parent": "CopyflxSubContainer0b6ddc20d79e646",
+    "pf": "frmUpdateJourney",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkey": "1",
+    "selectedkeys": null,
+    "selectedkeyvalue": [
+        "1",
+        "60 minutes time frame"
+    ],
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox",
+    "zindex": 1
+}

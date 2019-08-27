@@ -1,0 +1,24 @@
+{
+    "AS_Form_h16bc76211614cab90af577290365be2": {
+        "id": "AS_Form_h16bc76211614cab90af577290365be2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmNewJourneyTraveller",
+            "type": "forms",
+            "platform": "",
+            "KUID": "iaea82882d3548db892dbeb566e6f143"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a745d02342b246f080503ee6ece5b8cf",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

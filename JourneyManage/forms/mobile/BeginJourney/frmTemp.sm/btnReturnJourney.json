@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "36dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s0608601c6e4489b9b9d648e872c06d0",
+    "_text_": "create return journey",
+    "_top_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s7f6cdd4b32645238316d22088753df1",
+    "id": "btnReturnJourney",
+    "ide_onClick": "AS_Button_i74ae668256948088d204223420ec1fc",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c9866006be7f4ee38f5037b65be350be",
+    "name": "kony.ui.Button",
+    "parent": "frmTemp",
+    "pf": "frmTemp",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

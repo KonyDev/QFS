@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_b8292ff6d6cd4c5581daba59fe012027": {
+        "id": "AS_FlexContainer_b8292ff6d6cd4c5581daba59fe012027",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_e7afa95c3aa74c2babbd8e4f81011ce9",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.hideSelectorFlex(\"flxArrivalDateTime\");",
+            "callbackType": null
+        }]
+    }
+}

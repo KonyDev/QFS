@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_ie040d60e2094ee9a848bc9de6de6c5c": {
+        "id": "AS_FlexContainer_ie040d60e2094ee9a848bc9de6de6c5c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_eb39143e874d4ee7a46b2352adaa3387",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.hideSelectorFlex(\"flxUserAndPassenger\");",
+            "callbackType": null
+        }]
+    }
+}

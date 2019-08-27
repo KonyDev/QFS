@@ -1,0 +1,30 @@
+{
+    "AS_Image_defe8b1b7ec6470da811eed9f7ba1595": {
+        "id": "AS_Image_defe8b1b7ec6470da811eed9f7ba1595",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmNewJourneyRoute",
+            "type": "forms",
+            "platform": "",
+            "KUID": "jba05021cee846d6a62d81619b6232bf"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f183753f56544cb3a7355822881d7fa5",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flexDeparturePoint.isVisible=false;\nthis.view.flexSwitchToSearch.isVisible=true;",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "25dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s0608601c6e4489b9b9d648e872c06d0",
+    "_text_": "Button",
+    "_top_": {
+        "type": "string",
+        "value": "25dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s7f6cdd4b32645238316d22088753df1",
+    "id": "btnCreateNotification",
+    "ide_onClick": "AS_Button_e79dd508c16644b19ef650b846315c69",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "f205309a3b3d4017a26ae34f44ac16c3",
+    "name": "kony.ui.Button",
+    "parent": "LoginADFS",
+    "pf": "LoginADFS",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 100
+}

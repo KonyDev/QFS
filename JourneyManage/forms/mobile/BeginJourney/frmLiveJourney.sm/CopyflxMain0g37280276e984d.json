@@ -1,0 +1,79 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s579a0d61a7b46c6bd7c5c95ae698aff",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "70%"
+    },
+    "allboxes": [],
+    "allowhorizontalbounce": false,
+    "allowverticalbounce": true,
+    "bounces": true,
+    "canUpdateUI": true,
+    "children": [
+        "flxAboutUser",
+        "flxJourney",
+        "CopyflxNewJourney0a26198e8144c4d",
+        "flxGuidesManuals",
+        "flxMyAccountSidebar",
+        "flxHorizontalLineAccount",
+        "flxSettingsSidebar",
+        "CopyflxHorizontalLineAccount0dfb16fdb464343",
+        "flxLogoutSidebar",
+        "CopyflxHorizontalLineAccount0d062b44a5fa247",
+        "CopyflxImageKony0gfd7d09410a344"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "decelerat": false,
+    "dragg": false,
+    "enablescrolling": true,
+    "horizontalscrollindicator": true,
+    "id": "CopyflxMain0g37280276e984d",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "b3cf0616b0674010b0ebeb6bda3cddcd",
+    "layouttype": 4,
+    "name": "kony.ui.FlexScrollContainer",
+    "pagingenabled": false,
+    "parent": "flxSideBar",
+    "pf": "frmLiveJourney",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "scrolldirection": 2,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "track": false,
+    "verticalscrollindicator": true,
+    "wType": "FlexScrollContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

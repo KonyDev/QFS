@@ -1,0 +1,199 @@
+{
+    "classname": "inspLogin",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "b36009975eb2433b81d91048cfb3a220",
+                    "paramList": [
+                        {
+                            "name": "result"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "getUserAttributeSuccess",
+                    "pw": {
+                        "displayName": "getUserAttributeSuccess",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e1c449e749104d3eab7a8136aa4d2d2d",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "ec1c7257b9cf4623be939052e1ee37f1",
+                    "paramList": [
+                        {
+                            "name": "result"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "loginSuccess",
+                    "pw": {
+                        "displayName": "loginSuccess",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e1c449e749104d3eab7a8136aa4d2d2d",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "c7d5bd55a7544339b6f5a9349aa4c6a8",
+                    "paramList": [
+                        {
+                            "name": "result"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "failureCallback",
+                    "pw": {
+                        "displayName": "failureCallback",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e1c449e749104d3eab7a8136aa4d2d2d",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [
+                "Credentials"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "jacob.jack@kony.com",
+                    "group": "Credentials",
+                    "kuid": "f7f3918202a64997a01b781ff9f96f73",
+                    "originalPropertyKey": "userId",
+                    "propertyIndex": 1,
+                    "propertyKey": "userId",
+                    "pw": {
+                        "displayName": "User Id",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "e1c449e749104d3eab7a8136aa4d2d2d",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": false,
+                    "group": "General",
+                    "kuid": "i99945852e2f41b2b79f258856c032e1",
+                    "originalPropertyKey": "rememberMe",
+                    "propertyIndex": 1,
+                    "propertyKey": "rememberMe",
+                    "pw": {
+                        "displayName": "Remember Me",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "e1c449e749104d3eab7a8136aa4d2d2d",
+                    "type": "boolean",
+                    "value": "true/false"
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "kony@123",
+                    "group": "Credentials",
+                    "kuid": "a41b336487e34f3282b13928eee64984",
+                    "originalPropertyKey": "password",
+                    "propertyIndex": 2,
+                    "propertyKey": "password",
+                    "pw": {
+                        "displayName": "Password",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "e1c449e749104d3eab7a8136aa4d2d2d",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "i36df913f6724570b7cc3ef85c4fcf36",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "appTitle",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "App Title",
+                        "srcWidget": "lblLoginTitle",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "abf6c5cfc21742c68f6bd3f4e5b7dcd1"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ff5a15865e9f41fe8cd9342e6ac1836b",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 3,
+                    "propertyKey": "appLogo",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "App Logo",
+                        "srcWidget": "imgLoginLogo",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "a7d2746c61274883996ea1331ab56057"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "g24365701f2e49b99a2e093a667b8766",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 4,
+                    "propertyKey": "loginTitle",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Login Title",
+                        "srcWidget": "lblSignMsg",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "f5d0c77b010c462a91fdac029deaa5ec"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konysa",
+    "version": "1.0.0"
+}

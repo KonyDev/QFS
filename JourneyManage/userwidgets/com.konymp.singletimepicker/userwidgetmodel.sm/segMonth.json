@@ -1,0 +1,219 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {},
+        {},
+        {}
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "85%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "15%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "015",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segMonth",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e9d1d7114cc745ba8bafc143fa64c672",
+    "masterdata": {},
+    "mobile": {
+        "_data_": [
+            {
+                "lblRow": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                }
+            },
+            {
+                "lblRow": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                }
+            },
+            {
+                "lblRow": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "JAN"
+                }
+            },
+            {
+                "lblRow": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "FEB"
+                }
+            },
+            {
+                "lblRow": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "MAR"
+                }
+            },
+            {
+                "lblRow": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "APR"
+                }
+            },
+            {
+                "lblRow": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "MAY"
+                }
+            },
+            {
+                "lblRow": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "JUN"
+                }
+            },
+            {
+                "lblRow": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "JUL"
+                }
+            },
+            {
+                "lblRow": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "AUG"
+                }
+            },
+            {
+                "lblRow": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "SEP"
+                }
+            },
+            {
+                "lblRow": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "OCT"
+                }
+            },
+            {
+                "lblRow": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "NOV"
+                }
+            },
+            {
+                "lblRow": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "DEC"
+                }
+            },
+            {
+                "lblRow": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                }
+            },
+            {
+                "lblRow": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                }
+            }
+        ],
+        "rowTemplateId": "b62a2cc00e07460ab45db9085d3cb30a",
+        "rowtemplate": "flxHeader",
+        "sectionHeaderTemplateId": null,
+        "selectionBehaviorConfig": null,
+        "widgetdatamap": {
+            "flxRow": "flxRow",
+            "lblRow": "lblRow"
+        }
+    },
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom",
+        "vdistance": 1
+    },
+    "parent": "flxMonthColumn",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowcounter": 15,
+    "rowfocusskin": "sbf9d91b89ba457ba62945f3c2a92526",
+    "rowskin": "se1a1b7ce30548a28d3d57f854d9807a",
+    "rowtemplate": "flxHeader",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s6d26d70982642d1a5dc555e1c57b10a",
+    "sectionheadertemplate": "flxRow",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "selectionbehaviorconfig": null,
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": false,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "swipeContext": {
+        "currentPage": 0,
+        "imageWidth": 375,
+        "widthRatio": 0
+    },
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxRow": "flxRow",
+        "lblRow": "lblRow"
+    },
+    "zindex": 1
+}

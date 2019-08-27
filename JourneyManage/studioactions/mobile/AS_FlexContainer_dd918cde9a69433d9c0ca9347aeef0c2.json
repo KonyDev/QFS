@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_dd918cde9a69433d9c0ca9347aeef0c2": {
+        "id": "AS_FlexContainer_dd918cde9a69433d9c0ca9347aeef0c2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_ga49ec0505c2449fa353c1ae49bfefd9",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(this.view.flxSideBar.isVisible == false)\n  {\n    this.view.flxSideBar.isVisible = true;\n  }\n",
+            "callbackType": null
+        }]
+    }
+}

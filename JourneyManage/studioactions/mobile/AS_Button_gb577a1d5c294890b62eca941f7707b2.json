@@ -1,0 +1,20 @@
+{
+    "AS_Button_gb577a1d5c294890b62eca941f7707b2": {
+        "id": "AS_Button_gb577a1d5c294890b62eca941f7707b2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_ceee3a640f7145cfad789e08dea92678",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.proceedToNextNavigate(\"frmMyJourneys\");",
+            "callbackType": null
+        }]
+    }
+}

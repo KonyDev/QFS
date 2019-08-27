@@ -1,0 +1,31 @@
+{
+    "AS_Button_c368435504bc407aa25eff82753c7d08": {
+        "id": "AS_Button_c368435504bc407aa25eff82753c7d08",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_cae1a8b887fe43048d8d631c0828cf40",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmNewJourneyRoute",
+            "formKUID": "jba05021cee846d6a62d81619b6232bf",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "disabled": true,
+            "package": "",
+            "navigationObj": "{\n\"_meta_\" : {\n\t\"eventName\" : \"onClick\",\n\t\"widgetId\" : \"btnUpdateRoute\"\n}\n}",
+            "isCustomInput": false
+        }, {
+            "id": "ADD_SNIPPET_ide_onClick_i1c25560a8cd4032bd0f304f165fc951",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onProceedClick();",
+            "callbackType": null
+        }]
+    }
+}

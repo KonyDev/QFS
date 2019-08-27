@@ -1,0 +1,24 @@
+{
+    "AS_Button_j6f1e1e462fd4fb3bdd1792b85ef81ba": {
+        "id": "AS_Button_j6f1e1e462fd4fb3bdd1792b85ef81ba",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLiveJourney",
+            "type": "forms",
+            "platform": "",
+            "KUID": "gfa05929e4854240b0a6d0be650bc20e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c70493bcd32f4dc7953a4802ccc1a26c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.showMessageDetails(this.view.lblFetchID.text);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

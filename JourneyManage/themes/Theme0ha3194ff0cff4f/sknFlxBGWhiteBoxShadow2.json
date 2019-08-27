@@ -1,0 +1,96 @@
+{
+  "android": {
+    "font_name": "default"
+  },
+  "androidwearos": {
+    "font_name": "default"
+  },
+  "background_color": "ffffffff",
+  "bg_type": "one",
+  "border_color": "000000ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "delinkedPltfrms": {
+    "androidwear": [],
+    "desktop": [
+      "desktopweb"
+    ],
+    "mobile": [],
+    "tablet": [],
+    "watch": []
+  },
+  "desktopweb": {
+    "customCSS": "box-shadow: 0px 2px 10px rgba(0,0,0,0.15);\nbackground-color:white;\nborder-radius:4px;\ncursor:pointer;",
+    "font_name": "Helvetica",
+    "isCustomCSSEnabled": true,
+    "isForked": true
+  },
+  "ipad": {
+    "font_name": "System"
+  },
+  "iphone": {
+    "font_name": "System"
+  },
+  "isDefaultSkin": false,
+  "kiosk": {
+    "font_name": "None",
+    "isForked": true
+  },
+  "kuid": "s9c3214920bb4090bfca90fb18a24eef",
+  "spaan": {
+    "customCSS": "cursor:pointer;",
+    "font_name": "Helvetica",
+    "isCustomCSSEnabled": true,
+    "isForked": true
+  },
+  "spaandroidtablet": {
+    "customCSS": "cursor:pointer;",
+    "font_name": "Helvetica",
+    "isCustomCSSEnabled": true,
+    "isForked": true
+  },
+  "spabb": {
+    "customCSS": "cursor:pointer;",
+    "font_name": "Helvetica",
+    "isCustomCSSEnabled": true,
+    "isForked": true
+  },
+  "spaip": {
+    "customCSS": "cursor:pointer;",
+    "font_name": "Helvetica",
+    "isCustomCSSEnabled": true,
+    "isForked": true
+  },
+  "spaipad": {
+    "customCSS": "cursor:pointer;",
+    "font_name": "Helvetica",
+    "isCustomCSSEnabled": true,
+    "isForked": true
+  },
+  "spawindowstablet": {
+    "customCSS": "cursor:pointer;",
+    "font_name": "Helvetica",
+    "isCustomCSSEnabled": true,
+    "isForked": true
+  },
+  "spawinphone8": {
+    "customCSS": "cursor:pointer;",
+    "font_name": "Helvetica",
+    "isCustomCSSEnabled": true,
+    "isForked": true
+  },
+  "tabrcandroid": {
+    "font_name": "default"
+  },
+  "wType": "FlexContainer",
+  "watchos": {
+    "font_name": "System"
+  },
+  "windows8": {
+    "font_name": "None"
+  },
+  "winphone8": {
+    "font_name": "None"
+  }
+}

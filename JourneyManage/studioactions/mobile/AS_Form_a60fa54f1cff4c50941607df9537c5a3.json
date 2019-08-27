@@ -1,0 +1,24 @@
+{
+    "AS_Form_a60fa54f1cff4c50941607df9537c5a3": {
+        "id": "AS_Form_a60fa54f1cff4c50941607df9537c5a3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmNewJourneyTracking",
+            "type": "forms",
+            "platform": "",
+            "KUID": "g35b7c089619473a9a61a515efad7156"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__h017c390df66480cb89964d5c0fa4091",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "return;\n\nthis.view.flxTracking1.isVisible = true;\nthis.view.flxTracking2.isVisible = false;\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

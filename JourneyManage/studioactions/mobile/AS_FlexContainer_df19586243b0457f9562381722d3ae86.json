@@ -1,0 +1,31 @@
+{
+    "AS_FlexContainer_df19586243b0457f9562381722d3ae86": {
+        "id": "AS_FlexContainer_df19586243b0457f9562381722d3ae86",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCopyCopyAsJourney",
+            "type": "forms",
+            "platform": null,
+            "KUID": "f10dc10a2c3242f39411fd380024a3ef"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_a83a73646c6242cda9a40667e01a8419",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmNewJourneyTraveller",
+            "formKUID": "iaea82882d3548db892dbeb566e6f143",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n\"_meta_\" : {\n\t\"eventName\" : \"onClick\",\n\t\"widgetId\" : \"flxNewJourney\"\n}\n}",
+            "isCustomInput": false
+        }]
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "AS_UWI_b73dff45ff544f1295c90f9ee315fb09": {
+        "id": "AS_UWI_b73dff45ff544f1295c90f9ee315fb09",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "checkeInSequenceNumber",
+            "datatype": "collection"
+        }, {
+            "name": "successCallback",
+            "datatype": "collection"
+        }, {
+            "name": "failureCallback",
+            "datatype": "collection"
+        }],
+        "contextObj": {
+            "name": "frmLiveJourney",
+            "type": "forms",
+            "platform": "",
+            "KUID": "gfa05929e4854240b0a6d0be650bc20e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___ff8825f1ddde4aa0930f7ac702cf6fc0",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onNormalCheckIn",
+            "display": "onNormalCheckIn",
+            "inputparams": [{
+                "name": "sequenceNumber",
+                "value": " checkeInSequenceNumber"
+            }, {
+                "name": "successCallback",
+                "value": " successCallback"
+            }, {
+                "name": "failureCallback",
+                "value": " failureCallback"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": true,
+            "source": "controller"
+        }, {
+            "id": "ADD_SNIPPET__i4290f8ff109421ca58be2490670019d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onNormalCheckIn(checkeInSequenceNumber, successCallback, failureCallback);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

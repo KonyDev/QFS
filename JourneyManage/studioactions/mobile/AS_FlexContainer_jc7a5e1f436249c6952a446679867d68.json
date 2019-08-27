@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_jc7a5e1f436249c6952a446679867d68": {
+        "id": "AS_FlexContainer_jc7a5e1f436249c6952a446679867d68",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMyJourneys",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a563a4067fe54be19101a70cb3b2754d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__bca34b9ae9d843cabed220f618f6e923",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "try\n  {\n    fmgLogout();\n  }\ncatch(er)\n  {\n    alert(er.message);\n  }",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

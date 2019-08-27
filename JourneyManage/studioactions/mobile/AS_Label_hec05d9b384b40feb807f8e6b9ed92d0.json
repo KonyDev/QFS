@@ -1,0 +1,30 @@
+{
+    "AS_Label_hec05d9b384b40feb807f8e6b9ed92d0": {
+        "id": "AS_Label_hec05d9b384b40feb807f8e6b9ed92d0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a6ab29e2b1a2487a9f72b077d68dd981"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c00b7f50aa8d439d8ecb9c04f3e35449",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onClickForgotPassword();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

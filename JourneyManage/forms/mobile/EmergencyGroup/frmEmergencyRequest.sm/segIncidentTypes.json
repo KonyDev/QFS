@@ -1,0 +1,151 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "labelData": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "radioImage": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "radio_unselected.png"
+            }
+        },
+        {
+            "labelData": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "radioImage": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "radio_selected.png"
+            }
+        },
+        {
+            "labelData": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "radioImage": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "radio_unselected.png"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "16dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "16dp"
+    },
+    "_top_": {
+        "type": "string",
+        "value": "16dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "02",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segIncidentTypes",
+    "ide_onRowClick": "AS_Segment_be287a83b40a4f44bb30a6d998872dd4",
+    "info": null,
+    "invokedProperty": "selectedStateImage",
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "f0d40264490d407da916fda42513f4e3",
+    "masterdata": {},
+    "maxheight": {
+        "type": "string",
+        "value": "350dp"
+    },
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxMAin",
+    "pf": "frmEmergencyRequest",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "g908292049bf4f939fdeca7887293253",
+    "rowcounter": 2,
+    "rowfocusskin": "sbf9d91b89ba457ba62945f3c2a92526",
+    "rowskin": "s0059b0ebf18496d948d7dac7d0544de",
+    "rowtemplate": "parentFlex",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "s6d26d70982642d1a5dc555e1c57b10a",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": null,
+    "selectimage": "radio_selected.png",
+    "selectionbehavior": "singleselect",
+    "selectionbehaviorconfig": {
+        "imageIdentifier": "radioImage",
+        "selectedStateImage": "radio_selected.png",
+        "unselectedStateImage": "radio_unselected.png"
+    },
+    "selectionindicator": "radioImage",
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "unselectimage": "radio_unselected.png",
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxRadioImg": "flxRadioImg",
+        "flxShadow": "flxShadow",
+        "labelData": "labelData",
+        "parentFlex": "parentFlex",
+        "radioImage": "radioImage"
+    },
+    "zindex": 1
+}

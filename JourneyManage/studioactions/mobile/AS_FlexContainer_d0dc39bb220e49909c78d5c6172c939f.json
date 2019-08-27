@@ -1,0 +1,27 @@
+{
+    "AS_FlexContainer_d0dc39bb220e49909c78d5c6172c939f": {
+        "id": "AS_FlexContainer_d0dc39bb220e49909c78d5c6172c939f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "templateSegmentPassenger",
+            "type": "templates",
+            "platform": "",
+            "KUID": "f453619438ba46008758a80efee5ad3a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a96b6c66b7af4f8da2cae92bef0f621f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onCloseClick(eventobject, context);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "AS_Form_c683312dc6eb4552b65f867fd001b299": {
+        "id": "AS_Form_c683312dc6eb4552b65f867fd001b299",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmJourneySubmissionAwaited",
+            "type": "forms",
+            "platform": "",
+            "KUID": "h32e1393c00b499ca4e4338e2d06a7e4"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___hb5ef19023fa43e19fb73f006f90e1ba",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onFormPostShow",
+            "display": "onFormPostShow",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

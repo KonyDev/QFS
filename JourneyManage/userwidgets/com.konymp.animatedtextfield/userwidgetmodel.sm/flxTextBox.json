@@ -1,0 +1,62 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "se7f8595a64e4f568940130e86717efa",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "txtBoxComponent",
+        "lblUnderline",
+        "lblPlaceholder",
+        "lblPlaceholderFocusSkin",
+        "lblUnderlineFocusSkin"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxTextBox",
+    "ide_onClick": "AS_FlexContainer_f2c99520aa404a27b5699107ebb025e7",
+    "info": null,
+    "isvisible": true,
+    "kuid": "dbf75560c04340279648a20eac9f7d53",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "animatedtextfield",
+    "pf": "userwidgetmodel",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 10
+}

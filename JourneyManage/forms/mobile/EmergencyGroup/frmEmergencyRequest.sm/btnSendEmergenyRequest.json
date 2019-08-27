@@ -1,0 +1,66 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "48dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "16dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "16dp"
+    },
+    "_skin_": "sfe4dc127d2841139f1496f0be518d05",
+    "_text_": "Send Incident Request",
+    "_top_": {
+        "type": "number",
+        "value": 16
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "s7e71e5da164417b9378ea368ec1a7e9",
+    "id": "btnSendEmergenyRequest",
+    "ide_onClick": "AS_Button_c85aaa53bc294c41aaba45c68e0a4fcf",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "b6350a806d954eb69b05e260f786b451",
+    "name": "kony.ui.Button",
+    "parent": "flxMAin",
+    "pf": "frmEmergencyRequest",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

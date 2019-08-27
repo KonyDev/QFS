@@ -1,0 +1,28 @@
+{
+    "AS_Button_dc06096c7b624b7a8fbe77482dd9c500": {
+        "id": "AS_Button_dc06096c7b624b7a8fbe77482dd9c500",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTemp",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ia421d0413d24f7db8dfad791656d747"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___g6c3707ae4024645b7257f9b52812515",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "startJourney",
+            "display": "startJourney",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

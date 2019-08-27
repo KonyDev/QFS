@@ -1,0 +1,63 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "280dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s4e4e57ce14c4b1db46c627e4679ac33",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "data": {
+        "displayType": "Standard",
+        "doneButtonText": "Set Date",
+        "ide_onDateSelectionDone": "AS_UWI_h3b68bc2a9cf4acb936ebc50b4a1a0a0"
+    },
+    "enablescrolling": true,
+    "id": "arrivalDatepicker",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "dc18fd4d3853498cbd5ad20b27706f49",
+    "layouttype": 2,
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxArrivalDate",
+    "pf": "frmNewJourneyRoute",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "cdc08d31835645f48959e7866d054cff",
+    "wType": "UserWidgetInstance"
+}

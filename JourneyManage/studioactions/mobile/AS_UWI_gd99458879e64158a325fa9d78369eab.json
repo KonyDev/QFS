@@ -1,0 +1,15 @@
+{
+    "AS_UWI_gd99458879e64158a325fa9d78369eab": {
+        "id": "AS_UWI_gd99458879e64158a325fa9d78369eab",
+        "type": "ACTION_SEQUENCE",
+        "params": [],
+        "contextObj": {
+            "name": "frmNewJourneyRoute",
+            "type": "forms",
+            "platform": "",
+            "KUID": "jba05021cee846d6a62d81619b6232bf"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

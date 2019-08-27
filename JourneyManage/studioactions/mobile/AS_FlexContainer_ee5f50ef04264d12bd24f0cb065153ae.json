@@ -1,0 +1,31 @@
+{
+    "AS_FlexContainer_ee5f50ef04264d12bd24f0cb065153ae": {
+        "id": "AS_FlexContainer_ee5f50ef04264d12bd24f0cb065153ae",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMyJourneys",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a563a4067fe54be19101a70cb3b2754d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___bf98a7a964204b5889930f0f31278b6d",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmTemp",
+            "formKUID": "ia421d0413d24f7db8dfad791656d747",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "BeginJourney",
+            "navigationObj": "{\n\"_meta_\" : {\n\t\"eventName\" : \"\",\n\t\"widgetId\" : \"\"\n}\n}",
+            "isCustomInput": false
+        }]
+    }
+}

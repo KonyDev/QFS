@@ -1,0 +1,71 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_blur_": {
+        "enabled": false,
+        "value": 0
+    },
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s474b830b62b4288a7e8b6c34734cbcf",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "children": [
+        "departureAddress",
+        "departureDate",
+        "lblDepartureDateTitle",
+        "datepicker",
+        "lblDepartureTitle",
+        "timePicker",
+        "departureTime"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxDepartureDate",
+    "ide_onClick": "AS_FlexContainer_ce74d3b2985e403c849461168b7886ca",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "g2780c61a43340319cf123658e4449b8",
+    "layouttype": 4,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxScRoute",
+    "pf": "frmNewJourneyRoute",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 2
+}

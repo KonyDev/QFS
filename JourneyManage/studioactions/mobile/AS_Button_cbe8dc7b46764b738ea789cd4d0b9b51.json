@@ -1,0 +1,17 @@
+{
+    "AS_Button_cbe8dc7b46764b738ea789cd4d0b9b51": {
+        "id": "AS_Button_cbe8dc7b46764b738ea789cd4d0b9b51",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_c444066ae93c401aa1ae50e25f05f79f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.updateUserDetail();",
+            "callbackType": null
+        }]
+    }
+}

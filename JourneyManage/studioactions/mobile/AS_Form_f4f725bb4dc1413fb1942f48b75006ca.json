@@ -1,0 +1,25 @@
+{
+    "AS_Form_f4f725bb4dc1413fb1942f48b75006ca": {
+        "id": "AS_Form_f4f725bb4dc1413fb1942f48b75006ca",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmNewJourneyRoute",
+            "type": "forms",
+            "platform": "",
+            "KUID": "jba05021cee846d6a62d81619b6232bf"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ce36044ae1f1417fa0731691c912ed25",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxNewJourneyRoute.isVisible = true;\nthis.view.flxNewJourneyReady.isVisible = false;\nthis.view.flxNewJourneyRoute2.isVisible = false;\n",
+            "parentId": null,
+            "callbackType": null,
+            "disabled": true
+        }]
+    }
+}

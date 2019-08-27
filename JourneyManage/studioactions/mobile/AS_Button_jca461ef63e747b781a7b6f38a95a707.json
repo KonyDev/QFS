@@ -1,0 +1,31 @@
+{
+    "AS_Button_jca461ef63e747b781a7b6f38a95a707": {
+        "id": "AS_Button_jca461ef63e747b781a7b6f38a95a707",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_a3b07447b00044c8921d6f7f0b5d1437",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmNewJourneyVerification",
+            "formKUID": "i01a47578c104e9e9b09ea3c5b514c3c",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "disabled": true,
+            "package": "",
+            "navigationObj": "{\n\"_meta_\" : {\n\t\"eventName\" : \"onClick\",\n\t\"widgetId\" : \"btnConfirmVehicle\"\n}\n}",
+            "isCustomInput": false
+        }, {
+            "id": "ADD_SNIPPET_ide_onClick_c37aa9d73ee9429eb82e7787b1b2507a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//this.proceedNext();\nthis.getVehicleDetail(this.selectedVehicleId);",
+            "callbackType": null
+        }]
+    }
+}

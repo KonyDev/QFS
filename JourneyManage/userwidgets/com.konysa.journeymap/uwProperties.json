@@ -1,0 +1,46 @@
+{
+    "classname": "journeymap",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "AIzaSyBxz_lS49jNEpML6LiwXTbKQRPsTSS8HZM",
+                    "group": "General",
+                    "kuid": "def06b27116d40ad9f195164cc4c400d",
+                    "originalPropertyKey": "mapKey",
+                    "propertyIndex": 1,
+                    "propertyKey": "mapKey",
+                    "pw": {
+                        "displayName": "map key",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "cb059b9992a54258ad0f49b61a8061ac",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konysa",
+    "version": "1.0.0"
+}

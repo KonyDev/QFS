@@ -1,0 +1,78 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "2dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        1,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "",
+    "_right_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_skin_": "s92d703229724320b9a4b0a42049c3e1",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "8dp"
+    },
+    "android": {
+        "ide_onEndEditing": "AS_TextField_a1c09fd99c004e8899e9e3c6ade1b38e"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "desktopweb": {
+        "ide_onEndEditing": "AS_TextField_ab2a384af7304a22bb7916c93b52edd7"
+    },
+    "focusskin": "s92d703229724320b9a4b0a42049c3e1",
+    "id": "txtBox",
+    "ide_onDone": "AS_TextField_e127d713a4244faf9bfcaed016c4b7b2",
+    "info": null,
+    "iphone": {
+        "ide_onEndEditing": "AS_TextField_bc977893f5cf4012ba952d237f6bc0fd"
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "cfa007a0e0184a14818a999cc74dff1a",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "parent": "animatedtext",
+    "pf": "userwidgetmodel",
+    "placeholderskin": "s24f0589ad714294b3e3eea05869c98e",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "securetextentry": false,
+    "spamobile": {
+        "ide_onEndEditing": "AS_TextField_df9e647ab0d740ecb242cb9f0ab8c681"
+    },
+    "textinputmode": "A",
+    "tooltip": "",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}

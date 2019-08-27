@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_ba2d56c1ce9b4d578497dc191f5cd57c": {
+        "id": "AS_FlexContainer_ba2d56c1ce9b4d578497dc191f5cd57c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwu597b2461fa74c689dcfbf26ba6b748e",
+            "type": "userwidgets",
+            "KUID": "u597b2461fa74c689dcfbf26ba6b748e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e1f3034059804c368d729cda3f501c37",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.hideHambergurMenu();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

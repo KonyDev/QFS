@@ -1,0 +1,21 @@
+{
+    "AS_UWI_abe758c4bc4d4b59beb81eba4a3d6976": {
+        "id": "AS_UWI_abe758c4bc4d4b59beb81eba4a3d6976",
+        "type": "ACTION_SEQUENCE",
+        "params": [],
+        "contextObj": {
+            "name": "frmLiveJourney",
+            "type": "forms",
+            "platform": "",
+            "KUID": "gfa05929e4854240b0a6d0be650bc20e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__jc5567c014594bf5a5aa600838f195d1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "return;\ntry{\n  var ntf = new kony.mvc.Navigation(\"frmNewJourneyTraveller\");\n  ntf.navigate();\n}catch(excp){\n  debugger;\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

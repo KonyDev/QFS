@@ -1,0 +1,18 @@
+{
+    "AS_Button_eadd5d7abb224e7097b1214baf458ec0": {
+        "id": "AS_Button_eadd5d7abb224e7097b1214baf458ec0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ace95974a32e439f8871ade16e8d7c06",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.showVehicleList();\n//this.view.flxBeginJourneySelectVehicle.isVisible = true;",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

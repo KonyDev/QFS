@@ -1,0 +1,192 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "-17dp"
+    },
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "02",
+    "desktop": {
+        "_data_": [
+            {
+                "lblDUmmey": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                },
+                "lblTitle": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Contact Traveler"
+                },
+                "lblWhiteShado": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "1"
+                },
+                "rchTxtDesc": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "You will be pushed to contact the Travelere, if you succeed you will be able to close the Escalation case. If you were <b>NOT</b> able to contact the traveler, you will provide status information. This information will be saved on the details profile of the journey."
+                }
+            },
+            {
+                "lblDUmmey": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                },
+                "lblTitle": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Contact Supervisor"
+                },
+                "lblWhiteShado": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "2"
+                },
+                "rchTxtDesc": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "You will be pushed to contact the Travelere, if you succeed you will be able to close the Escalation case. If you were <b>NOT</b> able to contact the traveler, you will provide status information. This information will be saved on the details profile of the journey."
+                }
+            },
+            {
+                "lblDUmmey": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                },
+                "lblTitle": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Notify Emergency Team"
+                },
+                "lblWhiteShado": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "3"
+                },
+                "rchTxtDesc": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "This is the last measure of resort, where you will notify the Emergency team and from there you will be able to officially close the escalation in the system."
+                }
+            }
+        ],
+        "rowTemplateId": "aa65ff51ba51483a8da611c819110818",
+        "rowtemplate": "flxEscalationRoot",
+        "widgetdatamap": {
+            "flxBoxContainer": "flxBoxContainer",
+            "flxDasshedLine": "flxDasshedLine",
+            "flxEscalationRoot": "flxEscalationRoot",
+            "flxLine": "flxLine",
+            "flxNoteRoot": "flxNoteRoot",
+            "lblDUmmey": "lblDUmmey",
+            "lblTitle": "lblTitle",
+            "lblWhiteShado": "lblWhiteShado",
+            "rchTxtDesc": "rchTxtDesc"
+        }
+    },
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segNotePoints",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "d19b8690fd4e4c54ada7b09daef861b1",
+    "masterdata": {},
+    "maxheight": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxSegContainer",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowcounter": 2,
+    "rowfocusskin": "sbf9d91b89ba457ba62945f3c2a92526",
+    "rowskin": "s0059b0ebf18496d948d7dac7d0544de",
+    "rowtemplate": "flxEscalationRoot",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s6d26d70982642d1a5dc555e1c57b10a",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 0,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxBoxContainer": "flxBoxContainer",
+        "flxDasshedLine": "flxDasshedLine",
+        "flxEscalationRoot": "flxEscalationRoot",
+        "flxLine": "flxLine",
+        "flxNoteRoot": "flxNoteRoot",
+        "lblDUmmey": "lblDUmmey",
+        "lblTitle": "lblTitle",
+        "lblWhiteShado": "lblWhiteShado",
+        "rchTxtDesc": "rchTxtDesc"
+    },
+    "zindex": 1
+}

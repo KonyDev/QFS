@@ -1,0 +1,24 @@
+{
+    "AS_Form_h1526d28689a49aaa3bc879f61ac3ba5": {
+        "id": "AS_Form_h1526d28689a49aaa3bc879f61ac3ba5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmONJourney",
+            "type": "forms",
+            "platform": "",
+            "KUID": "g71df493ae38468c996f24355ae6562e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a59db27242894d5b8f5bd512d3bd7a3e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.addNotificationStatus();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "classname": "processstatus",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "g2d5a4baf3fc45fbb014fa0400d10531",
+                    "paramList": [
+                        {
+                            "name": "processList"
+                        }
+                    ],
+                    "propertyKey": "setProcessList",
+                    "pw": {
+                        "displayName": "setProcessList",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "dd685c63849d4f8f90009a476314191d",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "e7a27dddd8754bc6a00dbac397fd26a4",
+                    "paramList": [
+                        {
+                            "name": "index"
+                        }
+                    ],
+                    "propertyKey": "setProcessStatus",
+                    "pw": {
+                        "displayName": "setProcessStatus",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "dd685c63849d4f8f90009a476314191d",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "fb012945b703467c8c3a364f1ea81c3e",
+                    "paramList": [],
+                    "propertyKey": "getProcessStatus",
+                    "pw": {
+                        "displayName": "getProcessStatus",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "dd685c63849d4f8f90009a476314191d",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konysa",
+    "version": "1.0.0"
+}

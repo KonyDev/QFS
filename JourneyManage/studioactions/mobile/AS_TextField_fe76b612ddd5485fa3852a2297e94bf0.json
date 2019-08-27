@@ -1,0 +1,20 @@
+{
+    "AS_TextField_fe76b612ddd5485fa3852a2297e94bf0": {
+        "id": "AS_TextField_fe76b612ddd5485fa3852a2297e94bf0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onTextChange_bbb1e2802c264d03aad9765fa1ed8e68",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onDeparturePointPlaceSearch();",
+            "callbackType": null
+        }]
+    }
+}

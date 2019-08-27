@@ -1,0 +1,31 @@
+{
+    "AS_FlexContainer_c407b5c2c9c548eca6657214cfc2a85a": {
+        "id": "AS_FlexContainer_c407b5c2c9c548eca6657214cfc2a85a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmJourneySubmissionAwaited",
+            "type": "forms",
+            "platform": "",
+            "KUID": "h32e1393c00b499ca4e4338e2d06a7e4"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___ce9b3a377f6a43d09ef3dbebb1faa312",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "MyAccount",
+            "formKUID": "d4f38b7ff22040a0a2ddd13594ed027a",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n\"_meta_\" : {\n\t\"eventName\" : \"onClick\",\n\t\"widgetId\" : \"flxGuidesManuals\"\n}\n}",
+            "isCustomInput": false
+        }]
+    }
+}

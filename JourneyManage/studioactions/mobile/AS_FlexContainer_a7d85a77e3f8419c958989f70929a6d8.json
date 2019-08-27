@@ -1,0 +1,18 @@
+{
+    "AS_FlexContainer_a7d85a77e3f8419c958989f70929a6d8": {
+        "id": "AS_FlexContainer_a7d85a77e3f8419c958989f70929a6d8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmNewJourneyTraveller",
+            "type": "forms",
+            "platform": "",
+            "KUID": "iaea82882d3548db892dbeb566e6f143"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

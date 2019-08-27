@@ -1,0 +1,17 @@
+{
+    "AS_ListBox_bab58eeae7f34ef592dbde77de7d3066": {
+        "id": "AS_ListBox_bab58eeae7f34ef592dbde77de7d3066",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onSelection_j829b1c78db845a68d850e923d52b221",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onCheckInTypeSelection();\nreturn;\ntry\n  {\n    debugger;\n    this.selectedCheckinTypeUpdate = parseInt(this.view.lstTimeCheckins.selectedKey);\n    if(this.selectedCheckinTypeUpdate==3){\n      this.view.lblCheckinTimeFrame.isVisible=false;\n      this.view.flxTimeframeSelectorRoot.isVisible=false;\n      this.view.lstTimeFrameForCheckins.selectedKey=null;\n    }else{\n      this.view.lblCheckinTimeFrame.isVisible=true;\n      this.view.flxTimeframeSelectorRoot.isVisible=true;\n      this.view.lstTimeFrameForCheckins.selectedKey=7;\n    }\n  }\ncatch(err)\n  {\n    alert(err);\n  }",
+            "callbackType": null
+        }]
+    }
+}

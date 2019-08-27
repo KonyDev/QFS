@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "21dp"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "16dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sa6b7d79eb1f4a069efe38bbd3b17b18",
+    "_text_": "Read Message",
+    "_width_": {
+        "type": "string",
+        "value": "311dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s7f6cdd4b32645238316d22088753df1",
+    "id": "btnReadNewMessage",
+    "ide_onClick": "AS_Button_j6f1e1e462fd4fb3bdd1792b85ef81ba",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "aaf169a4f7364ca98920d8d522c1b1d4",
+    "name": "kony.ui.Button",
+    "parent": "flxNewMessage",
+    "pf": "frmLiveJourney",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

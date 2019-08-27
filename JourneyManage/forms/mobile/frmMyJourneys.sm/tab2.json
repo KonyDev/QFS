@@ -1,0 +1,54 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "se25aa496b924e43b07025b8eebb42db",
+    "_text_": "Upcoming",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "33.33%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "sb1ede8cebf141a589ad08e9afc99ec9",
+    "id": "tab2",
+    "ide_onClick": "AS_Button_fe6abb39f9ae453cb1580ed8cff3958d",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "b3262dec2a514fc1ba8b2f46c0421b52",
+    "name": "kony.ui.Button",
+    "parent": "flxTab",
+    "pf": "frmMyJourneys",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 2
+}

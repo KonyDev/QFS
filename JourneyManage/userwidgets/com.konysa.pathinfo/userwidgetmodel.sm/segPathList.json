@@ -1,0 +1,336 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "-16dp"
+    },
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "04",
+    "desktop": {
+        "_data_": [
+            {
+                "imgClock": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "clock_2.png"
+                },
+                "imgPathIcon": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "source_location.png"
+                },
+                "imgVechile": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "vechile.png"
+                },
+                "lblDate": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "24 Jun"
+                },
+                "lblLastKnownLocation": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblLine0": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblLine1": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblLocation": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "221 Presidential Street"
+                },
+                "lblTime": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "14:10"
+                }
+            },
+            {
+                "imgClock": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "clock_2.png"
+                },
+                "imgPathIcon": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "checked.png"
+                },
+                "imgVechile": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "vechile.png"
+                },
+                "lblDate": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "24 Jun"
+                },
+                "lblLastKnownLocation": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblLine0": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblLine1": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "a"
+                },
+                "lblLocation": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "221 Presidential Street"
+                },
+                "lblTime": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "14:10"
+                }
+            },
+            {
+                "imgClock": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "clock_2.png"
+                },
+                "imgPathIcon": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "checked.png"
+                },
+                "imgVechile": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "vechile.png"
+                },
+                "lblDate": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "24 Jun"
+                },
+                "lblLastKnownLocation": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblLine0": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblLine1": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "a"
+                },
+                "lblLocation": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "221 Presidential Street"
+                },
+                "lblTime": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "14:10"
+                }
+            },
+            {
+                "imgClock": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "clock_2.png"
+                },
+                "imgPathIcon": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "checked.png"
+                },
+                "imgVechile": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "vechile.png"
+                },
+                "lblDate": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "24 Jun"
+                },
+                "lblLastKnownLocation": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Last Known Location"
+                },
+                "lblLine0": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "a"
+                },
+                "lblLine1": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "a"
+                },
+                "lblLocation": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "221 Presidential Street"
+                },
+                "lblTime": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "14:10"
+                }
+            },
+            {
+                "imgClock": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "clock_2.png"
+                },
+                "imgPathIcon": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "location_white.png"
+                },
+                "imgVechile": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "vechile.png"
+                },
+                "lblDate": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "24 Jun"
+                },
+                "lblLastKnownLocation": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblLine0": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblLine1": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "a"
+                },
+                "lblLocation": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "221 Presidential Street"
+                },
+                "lblTime": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "14:10"
+                }
+            }
+        ],
+        "rowTemplateId": "f23d11fea2cd4ad9b81838dbdec2fe1e",
+        "rowtemplate": "flxPathRoot",
+        "widgetdatamap": {
+            "flxLastKnownLocation": "flxLastKnownLocation",
+            "flxPathContainer": "flxPathContainer",
+            "flxPathIcon": "flxPathIcon",
+            "flxPathRoot": "flxPathRoot",
+            "imgClock": "imgClock",
+            "imgPathIcon": "imgPathIcon",
+            "imgVechile": "imgVechile",
+            "lblDate": "lblDate",
+            "lblLastKnownLocation": "lblLastKnownLocation",
+            "lblLine0": "lblLine0",
+            "lblLine1": "lblLine1",
+            "lblLocation": "lblLocation",
+            "lblTime": "lblTime"
+        }
+    },
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segPathList",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "i73e817db79e4847b1e176d116b45625",
+    "masterdata": {},
+    "maxheight": {
+        "type": "number",
+        "value": "250"
+    },
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxSegRoot",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowcounter": 4,
+    "rowfocusskin": "sbf9d91b89ba457ba62945f3c2a92526",
+    "rowskin": "s0059b0ebf18496d948d7dac7d0544de",
+    "rowtemplate": "flxPathRoot",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s6d26d70982642d1a5dc555e1c57b10a",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "ffffff00",
+    "separatorrequired": true,
+    "separatorthickness": 0,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxLastKnownLocation": "flxLastKnownLocation",
+        "flxPathContainer": "flxPathContainer",
+        "flxPathIcon": "flxPathIcon",
+        "flxPathRoot": "flxPathRoot",
+        "imgClock": "imgClock",
+        "imgPathIcon": "imgPathIcon",
+        "imgVechile": "imgVechile",
+        "lblDate": "lblDate",
+        "lblLastKnownLocation": "lblLastKnownLocation",
+        "lblLine0": "lblLine0",
+        "lblLine1": "lblLine1",
+        "lblLocation": "lblLocation",
+        "lblTime": "lblTime"
+    },
+    "zindex": 1
+}

@@ -1,0 +1,18 @@
+{
+    "AS_FlexContainer_ab8f812e0e2f4a0b84df4b26a9e5aa77": {
+        "id": "AS_FlexContainer_ab8f812e0e2f4a0b84df4b26a9e5aa77",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__aaaad5b84ac2439abd0649ecc8871be6",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.navigateTofrmNewJourneyTraveller();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

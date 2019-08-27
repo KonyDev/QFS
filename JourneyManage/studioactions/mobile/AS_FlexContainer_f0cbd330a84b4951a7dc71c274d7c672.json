@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_f0cbd330a84b4951a7dc71c274d7c672": {
+        "id": "AS_FlexContainer_f0cbd330a84b4951a7dc71c274d7c672",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_gee5a64d8c314410805d2431e5c51e46",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(this.view.flxCheckBox4.isVisible == true)\n  {\n    this.view.flxCheckBox4.isVisible = false;\n    this.view.flxCheckBox3.isVisible = true;\n  }\nelse\n  {\n    this.view.flxCheckBox4.isVisible = true;\n    this.view.flxCheckBox3.isVisible = false;\n  }",
+            "callbackType": null
+        }]
+    }
+}

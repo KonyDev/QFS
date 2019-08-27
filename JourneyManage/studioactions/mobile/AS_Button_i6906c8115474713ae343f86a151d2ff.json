@@ -1,0 +1,24 @@
+{
+    "AS_Button_i6906c8115474713ae343f86a151d2ff": {
+        "id": "AS_Button_i6906c8115474713ae343f86a151d2ff",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDateTimeCompTesting",
+            "type": "forms",
+            "platform": null,
+            "KUID": "c5313fc81129460ca1b3dcd7c3f894d4"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__cda4d0a23da94bb48633d901a102c240",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "// var selectedDate=this.view.singledatepicker.getSelectedDate();\n// alert(\"SelectedDate: \"+jsons(selectedDate));\n\n\n\nvar selectedTime=this.view.departuretimepicker.getSelectedDate();\nalert(\"SelectedDate: \"+jsons(selectedTime));",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

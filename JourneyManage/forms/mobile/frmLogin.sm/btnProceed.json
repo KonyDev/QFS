@@ -1,0 +1,57 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s7fa20cb37614ad79350891d3a9ff814",
+    "_text_": "Proceed",
+    "_top_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "95%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s43e1877920a488ba7a987c9ada7bb03",
+    "id": "btnProceed",
+    "ide_onClick": "AS_Button_d01f0a3a01a0466aab7642c11ce8da33",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a6453bd0ad82456d9048d7a39c0eca6e",
+    "name": "kony.ui.Button",
+    "parent": "flxPopup",
+    "pf": "frmLogin",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

@@ -1,0 +1,38 @@
+{
+    "AS_Button_i199cb4f2423428cb5b6ed9f8652b3c3": {
+        "id": "AS_Button_i199cb4f2423428cb5b6ed9f8652b3c3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmNewJourneyTraveller",
+            "type": "forms",
+            "platform": "",
+            "KUID": "iaea82882d3548db892dbeb566e6f143"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___g9c8555d25484fac9ed9b806a0c9f69f",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmNewJourneyRoute",
+            "formKUID": "jba05021cee846d6a62d81619b6232bf",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "disabled": true,
+            "package": "",
+            "navigationObj": "{\n\"_meta_\" : {\n\t\"eventName\" : \"onClick\",\n\t\"widgetId\" : \"btnNextStep\"\n}\n}",
+            "isCustomInput": false
+        }, {
+            "id": "ADD_SNIPPET__b6c3b27454cc4962a94a612a9cee9692",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onProceedClick();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

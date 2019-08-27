@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_bd3f6b94e5604723a5c83c83eb860b3c": {
+        "id": "AS_FlexContainer_bd3f6b94e5604723a5c83c83eb860b3c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmUpdateJourney2",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b8cb1fe040f44950a1ed1e74bb676e00"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e1ced386005f430faf7e51aaf541d206",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.RouteDetailsOnClickEvent();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

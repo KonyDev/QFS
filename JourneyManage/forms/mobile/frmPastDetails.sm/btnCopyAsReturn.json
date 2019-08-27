@@ -1,0 +1,61 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s8bb44426f964296992099d5b7be8795",
+    "_text_": "Copy as Return",
+    "_top_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "95%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s976af2ecf4c48caaa869090feb2cf15",
+    "id": "btnCopyAsReturn",
+    "ide_onClick": "AS_Button_f4fe529e3edb4291bccd37c65058c4e8",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c5a6947ce5064d9facfccb02c82f578e",
+    "name": "kony.ui.Button",
+    "parent": "flxMain",
+    "pf": "frmPastDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

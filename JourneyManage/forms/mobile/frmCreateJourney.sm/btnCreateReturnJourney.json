@@ -1,0 +1,57 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sa6709a043df4488b44bc5f20985dd60",
+    "_text_": "Create Return Journey",
+    "_top_": {
+        "type": "string",
+        "value": "24dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "95%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s43e1877920a488ba7a987c9ada7bb03",
+    "id": "btnCreateReturnJourney",
+    "ide_onClick": "AS_Button_g31cd1c391ca4bd9b8d68ff2307fa00a",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "cfdd83cb086a4600a09e3fc0006f0e52",
+    "name": "kony.ui.Button",
+    "parent": "flxMain",
+    "pf": "frmCreateJourney",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

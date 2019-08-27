@@ -1,0 +1,24 @@
+{
+    "AS_Button_g9dbff46fcd045aab463560b66b00c85": {
+        "id": "AS_Button_g9dbff46fcd045aab463560b66b00c85",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCreateJourney",
+            "type": "forms",
+            "platform": "",
+            "KUID": "i08b816437854b449e6f9e6090061d71"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__g6bcad1c69b8404a81320f88ce8145fb",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.proceedToNextNavigate(\"frmMyJourneys\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

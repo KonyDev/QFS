@@ -1,0 +1,21 @@
+{
+    "AS_UWI_h3b68bc2a9cf4acb936ebc50b4a1a0a0": {
+        "id": "AS_UWI_h3b68bc2a9cf4acb936ebc50b4a1a0a0",
+        "type": "ACTION_SEQUENCE",
+        "params": [],
+        "contextObj": {
+            "name": "frmNewJourneyRoute",
+            "type": "forms",
+            "platform": "",
+            "KUID": "jba05021cee846d6a62d81619b6232bf"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__g1cff8bfc51d4ae0b09719a8becb2949",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var dateString = \"\";\nthis.onArrivalDateSelection(dateString);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

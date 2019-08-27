@@ -1,0 +1,18 @@
+{
+    "AS_Button_b15e4b92b16142ed907856ec12e9a681": {
+        "id": "AS_Button_b15e4b92b16142ed907856ec12e9a681",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__gf8d9a09706e4487a18e96d7f6119e54",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.updateCheckInTypeAndInterval();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

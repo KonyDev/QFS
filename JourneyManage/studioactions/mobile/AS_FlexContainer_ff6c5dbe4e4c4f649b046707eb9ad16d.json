@@ -1,0 +1,34 @@
+{
+    "AS_FlexContainer_ff6c5dbe4e4c4f649b046707eb9ad16d": {
+        "id": "AS_FlexContainer_ff6c5dbe4e4c4f649b046707eb9ad16d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "MyAccount",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d4f38b7ff22040a0a2ddd13594ed027a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_c50a0829b2c94812ba112b45defd65b5",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "new kony.ui.Toast({\"text\":\"Edit Button Clicked!\",\"duration\":constants.TOAST_LENGTH_SHORT }).show();",
+            "callbackType": null,
+            "disabled": true
+        }, {
+            "id": "INVOKE_FUNCTION___i04159cebeaf4325a81b3a6f3091b48f",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onBtnOkClick",
+            "display": "onBtnOkClick",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

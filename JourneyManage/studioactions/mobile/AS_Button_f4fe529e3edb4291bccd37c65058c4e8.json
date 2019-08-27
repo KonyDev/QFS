@@ -1,0 +1,24 @@
+{
+    "AS_Button_f4fe529e3edb4291bccd37c65058c4e8": {
+        "id": "AS_Button_f4fe529e3edb4291bccd37c65058c4e8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPastDetails",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ca0d1cf492b14ba588b5a8c73f7cff8a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a31539a8dfb147e299b19f8b0fae3033",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.CopyDataAsNewJourney['isReturn'] = true;\nthis.onClickCopyAsReturnJourney();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

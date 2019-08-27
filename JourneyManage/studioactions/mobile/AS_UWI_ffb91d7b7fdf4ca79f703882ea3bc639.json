@@ -1,0 +1,21 @@
+{
+    "AS_UWI_ffb91d7b7fdf4ca79f703882ea3bc639": {
+        "id": "AS_UWI_ffb91d7b7fdf4ca79f703882ea3bc639",
+        "type": "ACTION_SEQUENCE",
+        "params": [],
+        "contextObj": {
+            "name": "frmLiveJourney",
+            "type": "forms",
+            "platform": "",
+            "KUID": "gfa05929e4854240b0a6d0be650bc20e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d548a6a6f04744f18fdee67584554919",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.hideUpdateETAFlex();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

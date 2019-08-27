@@ -1,0 +1,23 @@
+{
+    "AS_Button_i3fb3e53d8bf4f3780dbc8c6eb94a0e2": {
+        "id": "AS_Button_i3fb3e53d8bf4f3780dbc8c6eb94a0e2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwu4adc5cc3f234fe39b0ca2a0c8608aa2",
+            "type": "userwidgets",
+            "KUID": "u4adc5cc3f234fe39b0ca2a0c8608aa2"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__fe30d96994c84f35a4ed9228d37476f9",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.dismissTouchAuthEnablementMsg();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

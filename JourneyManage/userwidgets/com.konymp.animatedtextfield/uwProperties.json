@@ -1,0 +1,163 @@
+{
+    "classname": "animatedtextfield",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "kuid": "cf6b1d4d3c9542bab38fd906bcb28484",
+                    "paramList": [],
+                    "propertyKey": "getText",
+                    "pw": {
+                        "displayName": "getText",
+                        "uiRepresentation": "Label-Label-Right"
+                    },
+                    "type": "api"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "f5b6041557844d989a5105284836b57a",
+                    "paramList": [],
+                    "propertyIndex": 5,
+                    "propertyKey": "onTextBoxDone",
+                    "pw": {
+                        "displayName": "onTextBoxDone",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "m637af45cce742f3a041685818e98f35",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [
+                "Skin Properties"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e3052d1ad60a485395b87167dd95496a",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "placeholderText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Placeholder Text",
+                        "srcWidget": "lblPlaceholder",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "dfefcd9890734816a6c9967abf707ef0"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c5663a6dd260401b8681af8e520c7049",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 4,
+                    "propertyKey": "underlineVisibility",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Underline Visibility",
+                        "srcWidget": "lblUnderline",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "f108349be7b74564b308af0ca9f58703"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "j803caaefc634afa9ef0a67bfb95dd16",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 5,
+                    "propertyKey": "placeholderSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Placeholder Skin",
+                        "srcWidget": "lblPlaceholder",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "dfefcd9890734816a6c9967abf707ef0"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ebe1f9337b664e2baffa13f980612365",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 6,
+                    "propertyKey": "placeholderFocusSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Placeholder Focus Skin",
+                        "srcWidget": "lblPlaceholderFocusSkin",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "cb9da2d4f07c4a248f05a556c500d2ca"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "aae5e9f63d834d929babdd2e3e49266c",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 7,
+                    "propertyKey": "underlineSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Underline Skin",
+                        "srcWidget": "lblUnderline",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "f108349be7b74564b308af0ca9f58703"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f0898f49006645d1a454e9c29c0eeb5e",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 8,
+                    "propertyKey": "underlineFocusSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Underline Focus Skin",
+                        "srcWidget": "lblUnderlineFocusSkin",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "d7f7539010d44520a3078d3cc17e5615"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konymp",
+    "version": "1.0.0"
+}

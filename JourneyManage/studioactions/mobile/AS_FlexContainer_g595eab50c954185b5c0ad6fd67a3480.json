@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_g595eab50c954185b5c0ad6fd67a3480": {
+        "id": "AS_FlexContainer_g595eab50c954185b5c0ad6fd67a3480",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___e3ca2904c82c4ed3b14325b58fdd489d",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmNewJourneyVehicle",
+            "formKUID": "c1aa10f1386444139d304d9a2168d412",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n\"_meta_\" : {\n\t\"eventName\" : \"onClick\",\n\t\"widgetId\" : \"flxBack\"\n}\n}",
+            "isCustomInput": false
+        }]
+    }
+}

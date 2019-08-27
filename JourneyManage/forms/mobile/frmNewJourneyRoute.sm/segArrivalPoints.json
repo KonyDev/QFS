@@ -1,0 +1,171 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "2dp"
+    },
+    "_data_": [
+        {
+            "imgDeparturePoints": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "trackerblue.png"
+            },
+            "lblDeparturePoints": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Current Location"
+            }
+        },
+        {
+            "imgDeparturePoints": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "trackerblue.png"
+            },
+            "lblDeparturePoints": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "221 Birmingham Street"
+            }
+        },
+        {
+            "imgDeparturePoints": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "trackerblue.png"
+            },
+            "lblDeparturePoints": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "12 Hosea Crest Suite 492"
+            }
+        },
+        {
+            "imgDeparturePoints": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "trackerblue.png"
+            },
+            "lblDeparturePoints": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "3322 Dudley Summit"
+            }
+        },
+        {
+            "imgDeparturePoints": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "trackerblue.png"
+            },
+            "lblDeparturePoints": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "575 Bridgette Summit Suite 821"
+            }
+        },
+        {
+            "imgDeparturePoints": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "trackerblue.png"
+            },
+            "lblDeparturePoints": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "0660 Joan Mountains"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "1dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "92%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "counter": "05",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segArrivalPoints",
+    "ide_onRowClick": "AS_Segment_i05c5adc0a3a42429472126a379a61f5",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ec7dfc51594048eea2f50b58cb62a11d",
+    "masterdata": {},
+    "maxheight": {
+        "type": "string",
+        "value": "250dp"
+    },
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxArraivalAddressSelector",
+    "pf": "frmNewJourneyRoute",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "dcb8064b6f4d455db30bbaf0792ebc6a",
+    "rowcounter": 5,
+    "rowfocusskin": "sbf9d91b89ba457ba62945f3c2a92526",
+    "rowskin": "s0059b0ebf18496d948d7dac7d0544de",
+    "rowtemplate": "flxLocationRoot",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s6d26d70982642d1a5dc555e1c57b10a",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxLocationRoot": "flxLocationRoot",
+        "flxSeparator": "flxSeparator",
+        "flxSubContainer": "flxSubContainer",
+        "imgDeparturePoints": "imgDeparturePoints",
+        "lblDeparturePoints": "lblDeparturePoints"
+    },
+    "zindex": 1
+}

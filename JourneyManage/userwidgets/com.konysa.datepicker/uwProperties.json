@@ -1,0 +1,123 @@
+{
+    "classname": "datepicker",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "h6a236a4303041218f952f3947114d09",
+                    "paramList": [
+                        {
+                            "name": "dateString"
+                        }
+                    ],
+                    "propertyKey": "setDate",
+                    "pw": {
+                        "displayName": "setDate",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "u22f232942e6467d9e11c75e4c0b42ba",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "e060b5500bbf4994b2f0524f10a1bb4c",
+                    "paramList": [
+                        {
+                            "name": "selectedDate"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "onDateSelected1",
+                    "pw": {
+                        "displayName": "onDateSelected1",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "u22f232942e6467d9e11c75e4c0b42ba",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": 2019,
+                    "group": "General",
+                    "kuid": "ce66d0c0718947f4a0c7dda1b7ef3db8",
+                    "originalPropertyKey": "startYear",
+                    "propertyIndex": 1,
+                    "propertyKey": "startYear",
+                    "pw": {
+                        "displayName": "startYear",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "^(\\+|-)?\\d+$"
+                    },
+                    "srcWgtKUID": "u22f232942e6467d9e11c75e4c0b42ba",
+                    "type": "integer",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": 2030,
+                    "group": "General",
+                    "kuid": "h52ea828caeb4676bb8c901180d1d6ef",
+                    "originalPropertyKey": "endYear",
+                    "propertyIndex": 2,
+                    "propertyKey": "endYear",
+                    "pw": {
+                        "displayName": "endYear",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "^(\\+|-)?\\d+$"
+                    },
+                    "srcWgtKUID": "u22f232942e6467d9e11c75e4c0b42ba",
+                    "type": "integer",
+                    "value": ""
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "g2a50549a2b54ec6b3b4b39b50939587",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 6,
+                    "propertyKey": "text",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Button Text",
+                        "srcWidget": "btnSetDate",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "u3d03c3610434c7e99b08c7231896a22"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konysa",
+    "version": "1.0.0"
+}

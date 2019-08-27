@@ -1,0 +1,38 @@
+{
+    "AS_FlexContainer_d9a8807b08f141feaa949bc050261d6e": {
+        "id": "AS_FlexContainer_d9a8807b08f141feaa949bc050261d6e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMyJourneys",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a563a4067fe54be19101a70cb3b2754d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e75e20eb22df49a589ff5ce52ed2608b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//kony.store.setItem(\"IsAlreadyLoggedIn\", false);",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "NAVIGATE_TO_FORM___h36ef473ae834abd91e9163ddce0945a",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmTemp",
+            "formKUID": "ia421d0413d24f7db8dfad791656d747",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "disabled": true,
+            "package": "BeginJourney",
+            "navigationObj": "{\n\"_meta_\" : {\n\t\"eventName\" : \"onClick\",\n\t\"widgetId\" : \"flxSettingsSidebar\"\n}\n}",
+            "isCustomInput": false
+        }]
+    }
+}

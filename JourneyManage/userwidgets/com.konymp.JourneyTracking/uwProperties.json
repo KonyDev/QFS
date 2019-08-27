@@ -1,0 +1,422 @@
+{
+    "classname": "JourneyTracking",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "j4d4720bd86c4b74a3f5590d1333ef2b",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 1,
+                    "propertyKey": "sknTraveller",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Travelling Container Skin",
+                        "srcWidget": "flxImgTravelling",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "hbdcceb3bfd7470d8df4c77e4e013788"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "dfe7abfc5cee4210a0260c471ac063bc",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 2,
+                    "propertyKey": "sknTracking",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Tracking Container Skin",
+                        "srcWidget": "flxImageTracking",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "abf4b820bf2a4017b1cbbba077bc7016"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "fc581b3e6e9044ad96d7f3cc2714557c",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 3,
+                    "propertyKey": "sknRoute",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Route Container Skin",
+                        "srcWidget": "flxImageRoute",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "c0cf4a50a0eb48098bb3a81c9268ce86"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "j486a93eb7304b06a2c2f288a4a8588c",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 4,
+                    "propertyKey": "sknVehicle",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Vehicle Container Skin",
+                        "srcWidget": "flxImageVehicle",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "e6bfc313c36a4fa4883d84147a411341"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a0c260ebb47445a6a434e7192412ec04",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 5,
+                    "propertyKey": "sknVerification",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Verification Container Skin",
+                        "srcWidget": "flxImageTrackingVerification",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "e43fd205f0c7448b85ef1a672dbe0c3e"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e364e4e8e3d1448d8279399ba4fa7370",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 6,
+                    "propertyKey": "srcTravelling",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Travelling Image",
+                        "srcWidget": "imgTravelling",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "g3ff6a9a74384e77803536e512d5c9e8"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a925a957788a402d969bfcb3013207f8",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 7,
+                    "propertyKey": "srcTracking",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Tracking Image",
+                        "srcWidget": "imgTracking",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "f0f8729de8d6438392ec09c97cf258ba"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "b8a320378e634ed3907acd8f89c8b099",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 8,
+                    "propertyKey": "srcRoute",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Route Image",
+                        "srcWidget": "imgRoute",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "c870541c17714dc383a659ab650d41ec"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "h8c33d533e084b2691b09648c1934843",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 9,
+                    "propertyKey": "srcVehicle",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Vehicle Image",
+                        "srcWidget": "imgVehicle",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "c883c7d8cd554333a09ea6c1d0b65ab0"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ae29f8c0970649e198aba7c18e572497",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 10,
+                    "propertyKey": "srcVerification",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Verification Image",
+                        "srcWidget": "imgVerification",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "ba928b86bb324f248305e0dcd371b2f0"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d2d40bcd20dd4334b8929dc1c03b4844",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 11,
+                    "propertyKey": "textTravelling",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Travelling Text",
+                        "srcWidget": "lblTravelling",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "a511509b048c400f8d72710fd3f167bb"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e3dd74368c6144368f1bea7ebfcc28aa",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 12,
+                    "propertyKey": "textTracking",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Tracking Text",
+                        "srcWidget": "lblTracking",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "a6d23a148dfc40b7b6581f673efead32"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d85f6fe9468c4970bb8ed7cb9bd8ced9",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 13,
+                    "propertyKey": "textRoute",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Route Text",
+                        "srcWidget": "lblRoute",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "df9ad22a354a47bc9d66352a061391f2"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "h67eeb31ca7041e58c9f7492e3ff9115",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 14,
+                    "propertyKey": "textVehicle",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Vehicle Text",
+                        "srcWidget": "lblVehicle",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "d9aa925417fd4fd0853a562df8e56da6"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "cdbad81bf10f40a89564b1b2a7ee8ae6",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 15,
+                    "propertyKey": "textVerification",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Verification Text",
+                        "srcWidget": "lblVerification",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "f4adb2274ea14bb1a2ef6972475fb58d"
+                },
+                {
+                    "access": "Enable",
+                    "defaultSkinKUID": "s34fef06802647d0957db53cd640026c",
+                    "group": "General",
+                    "kuid": "e5809b444d624206bc8ccf371b0ba32e",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 16,
+                    "propertyKey": "sknFirstLine",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "FirstLineSkin",
+                        "srcWidget": "flxFirst",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "jd91bcfd85664fa7b834f70a59ed8fe6"
+                },
+                {
+                    "access": "Enable",
+                    "defaultSkinKUID": "s34fef06802647d0957db53cd640026c",
+                    "group": "General",
+                    "kuid": "j87ab591c04c4b83bdfde2593dd696b5",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 17,
+                    "propertyKey": "sknSecondLine",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "SecondLineSkin",
+                        "srcWidget": "flxSecond",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "eba0be4e267942f2b677911c6f6e4fcb"
+                },
+                {
+                    "access": "Enable",
+                    "defaultSkinKUID": "s34fef06802647d0957db53cd640026c",
+                    "group": "General",
+                    "kuid": "g8c566d9767249d892630f7cd10b9f2e",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 18,
+                    "propertyKey": "sknThirdLine",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "ThirdLineSkin",
+                        "srcWidget": "flxThird",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "b264340bc73d4383b19add8b7eb4e39f"
+                },
+                {
+                    "access": "Enable",
+                    "defaultSkinKUID": "s66ff0eee09f471591edcc0e629ae952",
+                    "group": "General",
+                    "kuid": "h206ac33324f416f911146ead3f3f39d",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 19,
+                    "propertyKey": "sknFourthLine",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "FourthLineSkin",
+                        "srcWidget": "flxFourth",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "f9a19b0f487c44f7bd55d52ad1b803b3"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konymp",
+    "version": "1.0.0"
+}

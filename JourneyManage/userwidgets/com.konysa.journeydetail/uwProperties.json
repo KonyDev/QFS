@@ -1,0 +1,47 @@
+{
+    "classname": "journeydetail",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "af23677bdc024afbb5f1f4b008acf630",
+                    "paramList": [
+                        {
+                            "name": "param"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "onBackClick",
+                    "pw": {
+                        "displayName": "onBackClick",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "i048a475be4b4c7983566542cd90d251",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konysa",
+    "version": "1.0.0"
+}

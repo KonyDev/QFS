@@ -1,0 +1,21 @@
+{
+    "AS_UWI_j46040cfb5d848af84c2588ca4ccb089": {
+        "id": "AS_UWI_j46040cfb5d848af84c2588ca4ccb089",
+        "type": "ACTION_SEQUENCE",
+        "params": [],
+        "contextObj": {
+            "name": "frmTemp",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ia421d0413d24f7db8dfad791656d747"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__da66c3fdd22f40f8927067dc9b556eff",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this._onHambergurMenuHide();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

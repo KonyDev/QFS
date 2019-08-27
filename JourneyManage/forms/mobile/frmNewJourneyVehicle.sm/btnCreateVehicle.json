@@ -1,0 +1,57 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_skin_": "s7fa20cb37614ad79350891d3a9ff814",
+    "_text_": "Done",
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s43e1877920a488ba7a987c9ada7bb03",
+    "id": "btnCreateVehicle",
+    "ide_onClick": "AS_Button_c93399aa80d842c8bc3d0117713b794b",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "gc23e6d050244ad38d0c13b7ba2d714b",
+    "name": "kony.ui.Button",
+    "parent": "flxAddNewVehicle",
+    "pf": "frmNewJourneyVehicle",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

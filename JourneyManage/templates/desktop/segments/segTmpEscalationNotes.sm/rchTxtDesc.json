@@ -1,0 +1,63 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "86dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sc4b422347bc432998aba826a5a8c7a6",
+    "_text_": "You will be pushed to contact the Travelere, if you succeed you will be able to close the Escalation case. If you were <b>NOT</b> able to contact the traveler, you will provide status information. This information will be saved on the details profile of the journey.",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 1,
+    "id": "rchTxtDesc",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a8a1565ec1d447968356e422fe0ec674",
+    "linkskin": "sa2ed5b8ec89408291bc70175b99a7ee",
+    "name": "kony.ui.RichText",
+    "parent": "flxNoteRoot",
+    "pf": "segTmpEscalationNotes",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "watchos": {
+        "render": false
+    },
+    "widgetalignment": 5,
+    "windows10": {
+        "render": false
+    },
+    "winphone10": {
+        "render": false
+    },
+    "zindex": 1
+}

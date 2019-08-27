@@ -1,0 +1,81 @@
+{
+    "classname": "jrmgmtheader",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "c9e2c2c94dcf4ba2ba2e2e89235d6a0b",
+                    "paramList": [
+                        {
+                            "name": "param"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "onAddClick",
+                    "pw": {
+                        "displayName": "onAddClick",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "hfb0b5df6e1743b3940575dd04a3683e",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "f5ee386a753149fbbd37f70a60758e09",
+                    "paramList": [
+                        {
+                            "name": "param"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "onBellClick",
+                    "pw": {
+                        "displayName": "onBellClick",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "hfb0b5df6e1743b3940575dd04a3683e",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "h8739b37d7af4adba3b1972674a271c7",
+                    "paramList": [
+                        {
+                            "name": "param"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "onLogOutClick",
+                    "pw": {
+                        "displayName": "onLogOutClick",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "hfb0b5df6e1743b3940575dd04a3683e",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konysa",
+    "version": "1.0.0"
+}

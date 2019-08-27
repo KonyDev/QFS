@@ -1,0 +1,24 @@
+{
+    "AS_UWI_b9dfa410b8174f2a8fd297e359207ed8": {
+        "id": "AS_UWI_b9dfa410b8174f2a8fd297e359207ed8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "selectedTime",
+            "datatype": "collection"
+        }],
+        "contextObj": {
+            "name": "frmDateTimeCompTesting",
+            "type": "forms",
+            "platform": null,
+            "KUID": "c5313fc81129460ca1b3dcd7c3f894d4"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f1ba84c28e824908bb034c230bdfe6c0",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "alert(\"Here:: \"+jsons(selectedTime));",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "AS_Segment_a19725197d8f4c1dad9cf15d746a61e2": {
+        "id": "AS_Segment_a19725197d8f4c1dad9cf15d746a61e2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmNewJourneyRoute",
+            "type": "forms",
+            "platform": "",
+            "KUID": "jba05021cee846d6a62d81619b6232bf"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a2062abcddb44303b83a0b88f67e6490",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onDepartureAddressSelection(eventobject, rowNumber, sectionNumber);\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

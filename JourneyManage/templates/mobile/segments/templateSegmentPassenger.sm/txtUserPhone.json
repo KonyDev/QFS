@@ -1,0 +1,92 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_blur_": {
+        "enabled": false,
+        "value": 0
+    },
+    "_bottom_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "-8dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "",
+    "_right_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_skin_": "sc119c2e10ac416c94516cd619a70498",
+    "_text_": "",
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "disabledSkins": {
+        "placeholderSkin": "s9075151ad1540c69d08842a25fa0d73"
+    },
+    "focusskin": "sc119c2e10ac416c94516cd619a70498",
+    "id": "txtUserPhone",
+    "info": null,
+    "iphone": {
+        "psp": {
+            "showClearButton": false
+        }
+    },
+    "isvisible": true,
+    "keyboardstyle": "telpad",
+    "keyboardtype": "A",
+    "kuid": "b1574d36f7a24cbf9dfef49ddb4bac52",
+    "masterType": 1,
+    "maxtextlength": 16,
+    "mode": "N",
+    "name": "kony.ui.TextBox2",
+    "paddinginpixel": false,
+    "parent": "flxPassengerPhone",
+    "pf": "templateSegmentPassenger",
+    "securetextentry": false,
+    "showclearbutton": false,
+    "textinputmode": "N",
+    "tooltip": "",
+    "viewtype": "default",
+    "wType": "TextField",
+    "watchos": {
+        "render": false
+    },
+    "windows10": {
+        "render": false
+    },
+    "winphone10": {
+        "render": false
+    },
+    "zindex": 1
+}

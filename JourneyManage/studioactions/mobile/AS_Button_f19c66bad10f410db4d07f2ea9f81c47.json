@@ -1,0 +1,30 @@
+{
+    "AS_Button_f19c66bad10f410db4d07f2ea9f81c47": {
+        "id": "AS_Button_f19c66bad10f410db4d07f2ea9f81c47",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmUpdateJourney2",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b8cb1fe040f44950a1ed1e74bb676e00"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__he4d15212d224160a2f19bc5c072391d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.UpdateJourneyWithDetails();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

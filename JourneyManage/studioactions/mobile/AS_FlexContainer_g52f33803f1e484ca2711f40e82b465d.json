@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_g52f33803f1e484ca2711f40e82b465d": {
+        "id": "AS_FlexContainer_g52f33803f1e484ca2711f40e82b465d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_f9eab5a6637f4e24a5b83eb791183b6e",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmMyJourneys",
+            "formKUID": "a563a4067fe54be19101a70cb3b2754d",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n\"_meta_\" : {\n\t\"eventName\" : \"onClick\",\n\t\"widgetId\" : \"flxJourney\"\n}\n}",
+            "isCustomInput": false
+        }]
+    }
+}

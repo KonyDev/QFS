@@ -1,0 +1,27 @@
+{
+    "AS_FlexContainer_d165eab2944a40c2b2748fe851538770": {
+        "id": "AS_FlexContainer_d165eab2944a40c2b2748fe851538770",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "segTempQues",
+            "type": "templates",
+            "platform": "",
+            "KUID": "hb18f24e9f264c1d8179a9fb60a1c0e2"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f4a74bcbb9e3442083d7fddbdf50a50e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onFlexCheckboxClick(eventobject, context);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

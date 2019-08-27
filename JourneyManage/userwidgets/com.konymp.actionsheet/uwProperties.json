@@ -1,0 +1,510 @@
+{
+    "classname": "actionsheet",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "kuid": "fff25f215a544805b6779ced850efd9d",
+                    "paramList": [],
+                    "propertyKey": "show",
+                    "pw": {
+                        "displayName": "show",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d63f001eace44afd99020722c2208890",
+                    "type": "event"
+                },
+                {
+                    "kuid": "c1bafc94191c473cb4af9f9c910764af",
+                    "paramList": [],
+                    "propertyKey": "dismiss",
+                    "pw": {
+                        "displayName": "dismiss",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d63f001eace44afd99020722c2208890",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "kuid": "jb56deee94ef4067881adf22c48a3c1b",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "onClickOption1",
+                    "pw": {
+                        "displayName": "onClickOption1",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d63f001eace44afd99020722c2208890",
+                    "type": "event"
+                },
+                {
+                    "kuid": "d02c7ab777bc444ba9d6d23a2449c5f3",
+                    "paramList": [],
+                    "propertyIndex": 2,
+                    "propertyKey": "onClickOption2",
+                    "pw": {
+                        "displayName": "onClickOption2",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d63f001eace44afd99020722c2208890",
+                    "type": "event"
+                },
+                {
+                    "kuid": "a50ffad87c244f22a9c96291cb77086f",
+                    "paramList": [],
+                    "propertyIndex": 3,
+                    "propertyKey": "onClickOption3",
+                    "pw": {
+                        "displayName": "onClickOption3",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d63f001eace44afd99020722c2208890",
+                    "type": "event"
+                },
+                {
+                    "kuid": "bfeaf5f4ac1340a8b5b438dd2d6d64a9",
+                    "paramList": [],
+                    "propertyIndex": 4,
+                    "propertyKey": "onClickOption4",
+                    "pw": {
+                        "displayName": "onClickOption4",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d63f001eace44afd99020722c2208890",
+                    "type": "event"
+                },
+                {
+                    "kuid": "e60fa7f301e546c28ea44799d2b96a3e",
+                    "paramList": [],
+                    "propertyIndex": 5,
+                    "propertyKey": "onClickOption5",
+                    "pw": {
+                        "displayName": "onClickOption5",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d63f001eace44afd99020722c2208890",
+                    "type": "event"
+                },
+                {
+                    "kuid": "ab134dd3d84a469089f5a0ad53f73ced",
+                    "paramList": [],
+                    "propertyIndex": 6,
+                    "propertyKey": "onClickOption6",
+                    "pw": {
+                        "displayName": "onClickOption6",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d63f001eace44afd99020722c2208890",
+                    "type": "event"
+                },
+                {
+                    "kuid": "ed558760d4204072a8ceaf43a5068d6c",
+                    "paramList": [],
+                    "propertyIndex": 7,
+                    "propertyKey": "onClickOption7",
+                    "pw": {
+                        "displayName": "onClickOption7",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d63f001eace44afd99020722c2208890",
+                    "type": "event"
+                },
+                {
+                    "kuid": "cb5178dce58945139c84fc87e1c352e9",
+                    "paramList": [],
+                    "propertyIndex": 8,
+                    "propertyKey": "onClickOption8",
+                    "pw": {
+                        "displayName": "onClickOption8",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d63f001eace44afd99020722c2208890",
+                    "type": "event"
+                },
+                {
+                    "kuid": "i6804d61be2948d1aaa055b618df6688",
+                    "paramList": [],
+                    "propertyIndex": 9,
+                    "propertyKey": "onClose",
+                    "pw": {
+                        "displayName": "onClose",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d63f001eace44afd99020722c2208890",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [
+                "General"
+            ],
+            "properties": [
+                "Header",
+                "Options",
+                "Footer"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "Header",
+                    "kuid": "i41a4d5f4d28405395012bd2d2d849b6",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 1,
+                    "propertyKey": "sheetBackgroundSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "displayName": "Sheet Background Skin",
+                        "srcWidget": "flxActionSheetOptions",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "i067465ea196472e859626f10be6674c"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Header",
+                    "kuid": "fc9dc4f326514f5bbdf286330db55f07",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "headerMainText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Main Text",
+                        "srcWidget": "lblTitleText",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "2d4c0f4cc5c74ddb86014e59c7a36fb1"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Options",
+                    "kuid": "b7884fc965f74c5893c8d6fb4319d411",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "option1Text",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Option1 Text",
+                        "srcWidget": "btnOption1",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "be3b63d16d1a4764ba672e8d114f22d6"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Footer",
+                    "kuid": "e3a4b147943546a4b8ee7f3087c56fca",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "closeText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Close Text",
+                        "srcWidget": "btnClose",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "b104b2153a324fcd817c7190f8265db0"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Options",
+                    "kuid": "fbf95fc67571484b85e24971b4962b94",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "option2Text",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Option2 Text",
+                        "srcWidget": "btnOption2",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "b091769de0644e3387eafa5e2a655a44"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Header",
+                    "kuid": "a8898d0767674f4fbec6fce5a489a02e",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "headerSubText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Sub Text",
+                        "srcWidget": "lblDescriptionText",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "bd9275f876954a4db6f4cb42069abd50"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Footer",
+                    "kuid": "a7896ccf7d1e4ddeb136338b15fa0f90",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 2,
+                    "propertyKey": "footerBackgroundSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "displayName": "Footer Background Skin",
+                        "srcWidget": "flxCancel",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "ab9bdadbaed940448267ffe25fc60c61"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Options",
+                    "kuid": "e595b9dc84c14a05926ceb12fbe5796e",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 3,
+                    "propertyKey": "option3Text",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Option3  Text",
+                        "srcWidget": "btnOption3",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "d237dfae80f3448cb5beccbfaeb984bb"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Header",
+                    "kuid": "j8b9fefee5b84c50b1f07035a81183f6",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 3,
+                    "propertyKey": "headerMainTextSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "displayName": "Header Main Text Skin",
+                        "srcWidget": "lblTitleText",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "2d4c0f4cc5c74ddb86014e59c7a36fb1"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Footer",
+                    "kuid": "b31e9616b5674dd6821937de4b3e9ed7",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 3,
+                    "propertyKey": "footerButtonSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "displayName": "Footer Button Skin",
+                        "srcWidget": "btnClose",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "b104b2153a324fcd817c7190f8265db0"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Footer",
+                    "kuid": "ha684ef9cd0245c2868089ee7c65cdfd",
+                    "originalPropertyKey": "focusSkin",
+                    "propertyIndex": 4,
+                    "propertyKey": "footerButtonFocusSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "displayName": "Footer Button Focus Skin",
+                        "srcWidget": "btnClose",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "b104b2153a324fcd817c7190f8265db0"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Header",
+                    "kuid": "jdcf10bb13c847ca972062b036a8bf7d",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 4,
+                    "propertyKey": "headerSubTextSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "displayName": "Header Sub Text Skin",
+                        "srcWidget": "lblDescriptionText",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "bd9275f876954a4db6f4cb42069abd50"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Options",
+                    "kuid": "a68db1fe6c33400c89936567b5d960a8",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 4,
+                    "propertyKey": "option4Text",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Option4 Text",
+                        "srcWidget": "btnOption4",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "e321902781f04e35a7299f27e2c88067"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Options",
+                    "kuid": "d5962f571b0e4e13a0cf9677b735ee8f",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 5,
+                    "propertyKey": "option5Text",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Option5 Text",
+                        "srcWidget": "btnOption5",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "b24672d516f146fa9f23b6b859327318"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Header",
+                    "kuid": "b3e05d21896b48da941ad03360882191",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 5,
+                    "propertyKey": "separatorSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "displayName": "Separator Skin",
+                        "srcWidget": "flxHeaderUnderline",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "ie527fd2d8354c718036b5a3ca6e90d2"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Options",
+                    "kuid": "b9250416a9034d768921a78ffd6af326",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 6,
+                    "propertyKey": "option6Text",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Option6 Text",
+                        "srcWidget": "btnOption6",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "f2b54558532d4d6aad0767e6f8bf645b"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Options",
+                    "kuid": "c0593b4ba6074701acecef6fb9d918ef",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 7,
+                    "propertyKey": "option7Text",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Option7 Text",
+                        "srcWidget": "btnOption7",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "ee438c95260a418b90d8ce3213570c5c"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Options",
+                    "kuid": "cd964c6123c94d71bf9c2aca09ff25b7",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 8,
+                    "propertyKey": "option8Text",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Option8 Text",
+                        "srcWidget": "btnOption8",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "h0efa12cd3e841419079f64323c0fd2f"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Options",
+                    "kuid": "bd6fa4f02871463586e5e570fabc22ba",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 9,
+                    "propertyKey": "optionsSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "displayName": "Options Skin",
+                        "srcWidget": "btnOption1",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "be3b63d16d1a4764ba672e8d114f22d6"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Options",
+                    "kuid": "h11e9074e83a4117958f382040245f31",
+                    "originalPropertyKey": "focusSkin",
+                    "propertyIndex": 10,
+                    "propertyKey": "optionsFocusSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "displayName": "Options Focus Skin",
+                        "srcWidget": "btnOption1",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "be3b63d16d1a4764ba672e8d114f22d6"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konymp",
+    "version": "1.0.0"
+}

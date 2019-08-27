@@ -1,0 +1,31 @@
+{
+    "AS_FlexContainer_g331555efcef4edebe3a9200d848c355": {
+        "id": "AS_FlexContainer_g331555efcef4edebe3a9200d848c355",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLiveJourney",
+            "type": "forms",
+            "platform": null,
+            "KUID": "gfa05929e4854240b0a6d0be650bc20e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_f257e7712d104da3a80e37c14ad75c46",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmMyJourneys",
+            "formKUID": "a563a4067fe54be19101a70cb3b2754d",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n\"_meta_\" : {\n\t\"eventName\" : \"onClick\",\n\t\"widgetId\" : \"flxJourney\"\n}\n}",
+            "isCustomInput": false
+        }]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "AS_FlexContainer_a5c88c1ba2c3429dba177687983de4cb": {
+        "id": "AS_FlexContainer_a5c88c1ba2c3429dba177687983de4cb",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmNewJourneyRoute",
+            "type": "forms",
+            "platform": "",
+            "KUID": "jba05021cee846d6a62d81619b6232bf"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___ae03d95783534b158d3bd506f3468551",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onClickChooseOnMap",
+            "display": "onClickChooseOnMap",
+            "inputparams": [],
+            "parentId": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

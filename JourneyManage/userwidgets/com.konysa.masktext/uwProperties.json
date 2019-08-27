@@ -1,0 +1,79 @@
+{
+    "classname": "masktext",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "bbd3bded787a4fec9d28f90fcbb67b4f",
+                    "paramList": [],
+                    "propertyKey": "getText",
+                    "pw": {
+                        "displayName": "getText",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a33a2f718bb14a4da10ad89ed45fc239",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "dccf8cec5d3a4ffa80d4773a620f6616",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 1,
+                    "propertyKey": "skin1",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Border Skin",
+                        "srcWidget": "lblDivider",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "d1801b8a6ee6461cb0af0b3f8ac1c393"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e43c0d27b44f471598326ee7db356f6c",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 2,
+                    "propertyKey": "skin2",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Text box skin",
+                        "srcWidget": "txtBox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "df0c15a6be8d428c8890628ce6dd0602"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konysa",
+    "version": "1.0.0"
+}

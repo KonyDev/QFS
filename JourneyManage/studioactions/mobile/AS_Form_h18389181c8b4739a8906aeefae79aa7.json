@@ -1,0 +1,18 @@
+{
+    "AS_Form_h18389181c8b4739a8906aeefae79aa7": {
+        "id": "AS_Form_h18389181c8b4739a8906aeefae79aa7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCopyCopyAsJourney",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f10dc10a2c3242f39411fd380024a3ef"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s4e4e57ce14c4b1db46c627e4679ac33",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "data": {
+        "ide_onHamburgerMenuHide": "AS_UWI_f83627ee9a3c49f1aa2f40e27643ca29",
+        "ide_onJourneyClick": "AS_UWI_a39908b0ccac42ddaeef51a25dbeac58",
+        "ide_onMessageClick": "AS_UWI_i20fa9871adb4deaa26febf5fe3d4fd9",
+        "ide_onNewJourneyClick": "AS_UWI_abe758c4bc4d4b59beb81eba4a3d6976",
+        "ide_onSyncClick": "AS_UWI_a2cdba3f4aaf44b48ae080342f60dd3d"
+    },
+    "enablescrolling": true,
+    "id": "slidingmenu",
+    "info": null,
+    "iscustomlayout": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "bdc8f940d2d94f44a3c297ba513ef9f2",
+    "layouttype": 2,
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxExtra",
+    "pf": "frmLiveJourney",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "dd93c11fd7824e83ab2c84a94631d394",
+    "wType": "UserWidgetInstance"
+}

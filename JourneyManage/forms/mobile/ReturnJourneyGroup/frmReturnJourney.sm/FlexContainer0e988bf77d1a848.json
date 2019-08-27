@@ -1,0 +1,62 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "16dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "16dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_right_": {
+        "type": "string",
+        "value": "16dp"
+    },
+    "_skin_": "s0cf5ffaf3f8433580df28b6d8a89cd5",
+    "_top_": {
+        "type": "string",
+        "value": "16dp"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "flxIconsContainer",
+        "FlexContainer0e4da78ae837b49",
+        "CopyFlexContainer0f6d07f5923e747"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "FlexContainer0e988bf77d1a848",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "d4f8ac8ab4134f7998fef8a0b39bb234",
+    "layouttype": 3,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxJourneyCard",
+    "pf": "frmReturnJourney",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

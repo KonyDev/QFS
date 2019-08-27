@@ -1,0 +1,24 @@
+{
+    "AS_Form_d48533257f6844f8b04f12ec4bc65eb7": {
+        "id": "AS_Form_d48533257f6844f8b04f12ec4bc65eb7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "LoginADFS",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f7870a9a623746d48cc40e9488b9c426"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__hc83a95748b748cf863becd8ef9aad6a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "return;",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "22dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "22dp"
+    },
+    "_skin_": "s7fa20cb37614ad79350891d3a9ff814",
+    "_text_": "Done",
+    "_top_": {
+        "type": "string",
+        "value": "700dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s43e1877920a488ba7a987c9ada7bb03",
+    "id": "btnSubmitDepartureDateTime",
+    "ide_onClick": "AS_Button_f3431a1205d749ebac87d487c55fff0c",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e7f9e27c6fad4015aa0cb63d992999db",
+    "name": "kony.ui.Button",
+    "parent": "flxDepartureDateTime",
+    "pf": "frmUpdateJourney",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

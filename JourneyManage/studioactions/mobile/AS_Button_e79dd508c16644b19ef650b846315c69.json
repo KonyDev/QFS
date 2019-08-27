@@ -1,0 +1,34 @@
+{
+    "AS_Button_e79dd508c16644b19ef650b846315c69": {
+        "id": "AS_Button_e79dd508c16644b19ef650b846315c69",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "LoginADFS",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f7870a9a623746d48cc40e9488b9c426"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___f12fe2ee1a6645d98cfcef4fe2896c7e",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "simulateJourneyNotification",
+            "display": "simulateJourneyNotification",
+            "inputparams": [{
+                "name": "msg",
+                "value": ""
+            }, {
+                "name": "title1",
+                "value": ""
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        1,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Please Select",
+    "_right_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_skin_": "s1400476d550426db70634316e266a50",
+    "_top_": {
+        "type": "string",
+        "value": "185dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "focusskin": "s66a14d03ba54c8b8a333dd9113c8610",
+    "groupcells": false,
+    "id": "lstBoxSupervisor",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a139d52d56fa476fa9cc4962ee4af69d",
+    "masterdata": [
+        [
+            "lb1",
+            "Select a supervisor"
+        ],
+        [
+            "lb2",
+            "Placeholder Two"
+        ],
+        [
+            "lb3",
+            "Placeholder Three"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "parent": "flxFilterRoot",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkey": "lb1",
+    "selectedkeys": null,
+    "selectedkeyvalue": [
+        "lb1",
+        "Select a supervisor"
+    ],
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox",
+    "zindex": 1
+}

@@ -1,0 +1,24 @@
+{
+    "AS_Button_e2318e7bda9a4acea2011d47f7726f84": {
+        "id": "AS_Button_e2318e7bda9a4acea2011d47f7726f84",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLiveJourney",
+            "type": "forms",
+            "platform": "",
+            "KUID": "gfa05929e4854240b0a6d0be650bc20e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__dc41dfb821b6452e825101d1fefb5f55",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.showUpdateETAFlex();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

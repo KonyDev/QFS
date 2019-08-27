@@ -1,0 +1,166 @@
+{
+    "classname": "userListDetail",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "a5c7699bd0e648b6b3abb4344d2e1bac",
+                    "paramList": [
+                        {
+                            "name": "headerText"
+                        }
+                    ],
+                    "propertyKey": "setHeaderText",
+                    "pw": {
+                        "displayName": "setHeaderText",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ebad0a1b3b394feebb3f6452347cd573",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "b50be84608384ec6b0115b59ffcdb684",
+                    "paramList": [
+                        {
+                            "name": "imgName"
+                        }
+                    ],
+                    "propertyKey": "setDropDownImage",
+                    "pw": {
+                        "displayName": "setDropDownImage",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ebad0a1b3b394feebb3f6452347cd573",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "icda34f4758b49d5a4f4610a539d09e0",
+                    "paramList": [
+                        {
+                            "name": "dataArr"
+                        }
+                    ],
+                    "propertyKey": "setMasterData",
+                    "pw": {
+                        "displayName": "setMasterData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ebad0a1b3b394feebb3f6452347cd573",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "fc954d8e9b804d1384b861d507a50590",
+                    "paramList": [
+                        {
+                            "name": "keyName"
+                        }
+                    ],
+                    "propertyKey": "setSelectedKey",
+                    "pw": {
+                        "displayName": "setSelectedKey",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ebad0a1b3b394feebb3f6452347cd573",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "ia62c095a80046c7b4feb7200ff82abd",
+                    "paramList": [],
+                    "propertyKey": "getCurrentSelection",
+                    "pw": {
+                        "displayName": "getCurrentSelection",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ebad0a1b3b394feebb3f6452347cd573",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "j15f0f5f7a9b4cc5b961290c140e3bdf",
+                    "originalPropertyKey": "onSelection",
+                    "propertyIndex": 1,
+                    "propertyKey": "onSelection",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onSelection",
+                        "srcWidget": "lstTimeCheckins",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "ListBox"
+                    },
+                    "srcWgtKUID": "id10dd5f6b854b838936fbb0ca542f43"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "b1f915a9dd034d67afcd5dd5f2432446",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "text",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Text",
+                        "srcWidget": "tbxListBox",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "e6ac93ccb153428c8ce7b4cee3c1a45b"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f65652ab0b9d4fe7854d583b9d91b144",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "headerText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Header Text",
+                        "srcWidget": "lblHeader",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "j6f04013b14545ac923738acbb765a24"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konysa",
+    "version": "1.0.0"
+}

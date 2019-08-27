@@ -1,0 +1,83 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Please Select",
+    "_skin_": "s93412042bb74abf812f4043f0d0ca51",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "95%"
+    },
+    "android": {
+        "psp": {
+            "popupTitle": "Please Select"
+        }
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "dropdownimage": "",
+    "focusskin": "s93412042bb74abf812f4043f0d0ca51",
+    "groupcells": false,
+    "id": "lstTimeCheckins",
+    "ide_onSelection": "AS_ListBox_d5df47b75e6e426a92018a89f73714ae",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "h8f1f33ed8504cb2b0b5c3a95eb43651",
+    "masterdata": [
+        [
+            "1",
+            "Time Checkins "
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "parent": "CopyflxSubContainer0da4b7e831e8844",
+    "pf": "frmNewJourneyRoute",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkey": "1",
+    "selectedkeys": null,
+    "selectedkeyvalue": [
+        "1",
+        "Time Checkins "
+    ],
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox",
+    "zindex": 1
+}

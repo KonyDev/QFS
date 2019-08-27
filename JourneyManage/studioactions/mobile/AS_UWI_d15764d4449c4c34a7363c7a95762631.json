@@ -1,0 +1,24 @@
+{
+    "AS_UWI_d15764d4449c4c34a7363c7a95762631": {
+        "id": "AS_UWI_d15764d4449c4c34a7363c7a95762631",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "record",
+            "datatype": "collection"
+        }],
+        "contextObj": {
+            "name": "frmLiveJourney",
+            "type": "forms",
+            "platform": "",
+            "KUID": "gfa05929e4854240b0a6d0be650bc20e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a9fd5763cc434a85bf351dc586e13761",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.updateExpectedArrivalTime(record);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

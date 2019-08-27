@@ -1,0 +1,27 @@
+{
+    "AS_FlexContainer_c0b3c4099c234713b1455ae9909bf16a": {
+        "id": "AS_FlexContainer_c0b3c4099c234713b1455ae9909bf16a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwhf2342d8f8ce47da836a53c0f65084e8",
+            "type": "userwidgets",
+            "KUID": "hf2342d8f8ce47da836a53c0f65084e8"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___d2ccad1352154bfc919c47db13f80cad",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "dialSupervisor",
+            "display": "dialSupervisor",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

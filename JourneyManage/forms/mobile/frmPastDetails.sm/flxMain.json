@@ -1,0 +1,82 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s21e6bd2df76480580f5602fd13725f8",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "allowhorizontalbounce": false,
+    "allowverticalbounce": true,
+    "bounces": false,
+    "bouncesZoom": false,
+    "canUpdateUI": true,
+    "children": [
+        "flxHeader",
+        "flxJourneyDetails",
+        "flxCrewInfo",
+        "flxTrackingPointDetails",
+        "flxVehicleDetails",
+        "segJourneyStatus",
+        "btnCopy",
+        "btnCopyAsReturn"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "decelerat": false,
+    "dragg": false,
+    "enablescrolling": true,
+    "horizontalscrollindicator": true,
+    "id": "flxMain",
+    "info": null,
+    "iphone": {
+        "psp": {
+            "bouncesZoom": false
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ac1605e5155649e39bfbb689f684c3b8",
+    "layouttype": 4,
+    "name": "kony.ui.FlexScrollContainer",
+    "pagingenabled": false,
+    "parent": "frmPastDetails",
+    "pf": "frmPastDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "scrolldirection": 2,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "track": false,
+    "verticalscrollindicator": true,
+    "wType": "FlexScrollContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

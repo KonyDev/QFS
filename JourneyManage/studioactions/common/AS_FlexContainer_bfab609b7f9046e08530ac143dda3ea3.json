@@ -1,0 +1,18 @@
+{
+    "AS_FlexContainer_bfab609b7f9046e08530ac143dda3ea3": {
+        "id": "AS_FlexContainer_bfab609b7f9046e08530ac143dda3ea3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e6bc946cc14a4625a90fe0508360eb16",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.enableTextBox();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

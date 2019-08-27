@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_bc4fc5774a4645a1b32366526a755dad": {
+        "id": "AS_FlexContainer_bc4fc5774a4645a1b32366526a755dad",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_a62b45b13b7648daaba650c9724ebce5",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.hideSelectorFlex(\"flxSelectCheckInTypeAndInterval\");",
+            "callbackType": null
+        }]
+    }
+}

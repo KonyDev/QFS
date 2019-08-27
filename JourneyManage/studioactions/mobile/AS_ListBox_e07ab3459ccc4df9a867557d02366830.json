@@ -1,0 +1,17 @@
+{
+    "AS_ListBox_e07ab3459ccc4df9a867557d02366830": {
+        "id": "AS_ListBox_e07ab3459ccc4df9a867557d02366830",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onSelection_id9ce7b014af40f0ae1e05c1c915bcec",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onTimeIntervalSelection();",
+            "callbackType": null
+        }]
+    }
+}

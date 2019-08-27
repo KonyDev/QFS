@@ -1,0 +1,23 @@
+{
+    "AS_Segment_a5a1dcc61f374887a772f07deb60b41a": {
+        "id": "AS_Segment_a5a1dcc61f374887a772f07deb60b41a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "jb4b1a7a91094e9fae2555bff8f2e4c8"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

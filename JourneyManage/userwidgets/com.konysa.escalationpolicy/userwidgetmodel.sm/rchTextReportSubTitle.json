@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sa8ddcee7744499499553d3598b546b6",
+    "_text_": "Step 1 of Escalation reported policy. Contact the driver and provide status. If you are not able to acquire contact you will proceed to Step 2<b> contact the Supervisor.</b>",
+    "_top_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "rchTextReportSubTitle",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "j618120e48514bdc91cc58d6a1afb898",
+    "linkskin": "sa2ed5b8ec89408291bc70175b99a7ee",
+    "name": "kony.ui.RichText",
+    "parent": "flxContactDriverRoot",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

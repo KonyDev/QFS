@@ -1,0 +1,99 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s425c13c29e44759930a8b4245b04d54",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "data": {
+        "ListBoxMasterData": [
+            [
+                "-1",
+                "Time Checkins "
+            ],
+            [
+                "1",
+                "30"
+            ],
+            [
+                "2",
+                "60"
+            ],
+            [
+                "3",
+                "90"
+            ],
+            [
+                "4",
+                "120"
+            ],
+            [
+                "5",
+                "150"
+            ],
+            [
+                "6",
+                "180"
+            ],
+            [
+                "7",
+                "210"
+            ]
+        ],
+        "ide_dismissAlert": "AS_UWI_ffb91d7b7fdf4ca79f703882ea3bc639",
+        "ide_updateETA": "AS_UWI_d15764d4449c4c34a7363c7a95762631",
+        "selectedKey": "-1"
+    },
+    "enablescrolling": true,
+    "id": "ETAReporting",
+    "info": null,
+    "iscustomlayout": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "f3d11d4245dd4bf9b964f6a850cf4ea3",
+    "layouttype": 4,
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxUpdateETAContainer",
+    "pf": "frmLiveJourney",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "dc22b0291d064655bfeb6bdced0f71df",
+    "wType": "UserWidgetInstance"
+}

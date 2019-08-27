@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_g08391ec9a39414bb8d7fbfad01a94e8": {
+        "id": "AS_FlexContainer_g08391ec9a39414bb8d7fbfad01a94e8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmUpdateJourney2",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b8cb1fe040f44950a1ed1e74bb676e00"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d44c505bfa18453bb2491799ea1054f6",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onDriverPassengerClick();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "AS_UWI_a39908b0ccac42ddaeef51a25dbeac58": {
+        "id": "AS_UWI_a39908b0ccac42ddaeef51a25dbeac58",
+        "type": "ACTION_SEQUENCE",
+        "params": [],
+        "contextObj": {
+            "name": "frmLiveJourney",
+            "type": "forms",
+            "platform": "",
+            "KUID": "gfa05929e4854240b0a6d0be650bc20e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__i5748c7e220348a89b75c5b8e055df19",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.navigateToMyJourney();",
+            "parentId": null,
+            "callbackType": null,
+            "disabled": false
+        }]
+    }
+}

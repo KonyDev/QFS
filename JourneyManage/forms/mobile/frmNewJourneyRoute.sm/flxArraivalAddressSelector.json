@@ -1,0 +1,67 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s474b830b62b4288a7e8b6c34734cbcf",
+    "_top_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "94%"
+    },
+    "allboxes": [],
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "children": [
+        "flexArrivalPointSelectorTitle",
+        "flxSearchArraivalLocation",
+        "segArrivalPoints",
+        "flxArrivalAddressFooter"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxArraivalAddressSelector",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "g57457837c974b62ad0f4048e38bd242",
+    "layouttype": 4,
+    "maxheight": {
+        "type": "string",
+        "value": "80%"
+    },
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxArrivalPoint",
+    "pf": "frmNewJourneyRoute",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

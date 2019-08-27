@@ -1,0 +1,18 @@
+{
+    "AS_Button_g9860884178d4afd8be1baec38c2fda1": {
+        "id": "AS_Button_g9860884178d4afd8be1baec38c2fda1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCreateJourney",
+            "type": "forms",
+            "platform": "",
+            "KUID": "i08b816437854b449e6f9e6090061d71"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

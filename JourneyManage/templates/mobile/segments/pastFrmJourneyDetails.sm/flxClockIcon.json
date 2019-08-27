@@ -1,0 +1,65 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "16dp"
+    },
+    "_left_": {
+        "type": "number",
+        "value": "173"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_right_": {
+        "type": "string",
+        "value": "65dp"
+    },
+    "_skin_": "s4e4e57ce14c4b1db46c627e4679ac33",
+    "_top_": {
+        "type": "string",
+        "value": "57dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "16dp"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "clockImg"
+    ],
+    "clipbounds": true,
+    "containerId": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxClockIcon",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c2dec27ac2a54f2ea955e375348481b7",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxJourneyStatus",
+    "pf": "pastFrmJourneyDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 3
+}

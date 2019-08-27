@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_e5b8823904d945648a36fd78beca6dce": {
+        "id": "AS_FlexContainer_e5b8823904d945648a36fd78beca6dce",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmJourneySubmissionAwaited",
+            "type": "forms",
+            "platform": "",
+            "KUID": "h32e1393c00b499ca4e4338e2d06a7e4"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a1ffca51b93e4044a14bbc8d0f5b7d4a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxSideBar.isVisible = true;\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

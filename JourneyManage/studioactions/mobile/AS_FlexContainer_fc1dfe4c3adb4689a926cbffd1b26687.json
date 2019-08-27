@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_fc1dfe4c3adb4689a926cbffd1b26687": {
+        "id": "AS_FlexContainer_fc1dfe4c3adb4689a926cbffd1b26687",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_jef4f86b1f7f4a9694633df1030ee5b6",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxArrivalPoint.isVisible=true;\nthis.view.flexSwitchToSearchArrival.isVisible=false;",
+            "callbackType": null
+        }]
+    }
+}

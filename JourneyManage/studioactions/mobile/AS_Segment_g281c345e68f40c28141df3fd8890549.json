@@ -1,0 +1,30 @@
+{
+    "AS_Segment_g281c345e68f40c28141df3fd8890549": {
+        "id": "AS_Segment_g281c345e68f40c28141df3fd8890549",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmMyJourneys",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a563a4067fe54be19101a70cb3b2754d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ie9dd491588f424d9b0d8f44eaac1747",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "// alert(this.view.segTodayJourneyDetails.selectedRowIndex);\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

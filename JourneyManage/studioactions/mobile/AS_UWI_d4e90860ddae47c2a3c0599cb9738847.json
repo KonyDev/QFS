@@ -1,0 +1,21 @@
+{
+    "AS_UWI_d4e90860ddae47c2a3c0599cb9738847": {
+        "id": "AS_UWI_d4e90860ddae47c2a3c0599cb9738847",
+        "type": "ACTION_SEQUENCE",
+        "params": [],
+        "contextObj": {
+            "name": "frmWithOnwardJourney",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c543451ed3fd4a9d9880b3200bfc1c06"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__fcda9b8b5c96425f8d5ebcdca20904f9",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.navigateToForm(\"frmMyJourneys\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

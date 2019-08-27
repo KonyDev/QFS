@@ -1,0 +1,22 @@
+{
+    "AS_Button_d34820d200ef43afb55dc28f72b08398": {
+        "id": "AS_Button_d34820d200ef43afb55dc28f72b08398",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "jb4b1a7a91094e9fae2555bff8f2e4c8"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_a3cba187449f48909ed5c9435f889768",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.handler.doneClick();\n",
+            "callbackType": null
+        }]
+    }
+}

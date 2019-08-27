@@ -1,0 +1,30 @@
+{
+    "AS_Segment_ie48a7a2bd474971b6f07a04a2a69ad3": {
+        "id": "AS_Segment_ie48a7a2bd474971b6f07a04a2a69ad3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "MyAccount",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d4f38b7ff22040a0a2ddd13594ed027a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f6ce7addc52d45d99f8444868c1cc932",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this._invokePDFviewerMethod();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

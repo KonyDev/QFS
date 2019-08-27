@@ -1,0 +1,57 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_skin_": "s8bb44426f964296992099d5b7be8795",
+    "_text_": "Next",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "40%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s976af2ecf4c48caaa869090feb2cf15",
+    "id": "btnConfirmAddressSelection",
+    "ide_onClick": "AS_Button_a11af82f9a3749049892a52ffa7b98b9",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "be69417c7e454495aad4932d7e930c32",
+    "name": "kony.ui.Button",
+    "parent": "flxConfirmAddressSelectionButtons",
+    "pf": "frmNewJourneyRoute",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

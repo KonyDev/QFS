@@ -1,0 +1,31 @@
+{
+    "AS_Button_f3431a1205d749ebac87d487c55fff0c": {
+        "id": "AS_Button_f3431a1205d749ebac87d487c55fff0c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_de59fd91f19746dc8d77b10b7d335b33",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmNewJourneyRoute",
+            "formKUID": "jba05021cee846d6a62d81619b6232bf",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "disabled": true,
+            "package": "",
+            "navigationObj": "{\n\"_meta_\" : {\n\t\"eventName\" : \"onClick\",\n\t\"widgetId\" : \"btnSubmitDepartureDateTime\"\n}\n}",
+            "isCustomInput": false
+        }, {
+            "id": "ADD_SNIPPET_ide_onClick_d80b90795b79431c8a6b65b4b91373c4",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.hideSelectorFlex(\"flxDepartureDateTime\");",
+            "callbackType": null
+        }]
+    }
+}

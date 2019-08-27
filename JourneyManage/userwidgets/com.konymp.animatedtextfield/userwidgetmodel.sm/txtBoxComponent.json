@@ -1,0 +1,109 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        2,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "",
+    "_skin_": "sedd78e2b5fa41a6b392692ac7d760cd",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "android": {
+        "contentAlignment": 7,
+        "ide_onEndEditing": "AS_TextField_b778fa88d4d54a66a1c26913f9889d3e"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "desktopweb": {
+        "ide_onEndEditing": "AS_TextField_f253673a66064e7693d2872e4e34f5bb"
+    },
+    "focusskin": "sedd78e2b5fa41a6b392692ac7d760cd",
+    "id": "txtBoxComponent",
+    "info": null,
+    "ipad": {
+        "contentAlignment": 7,
+        "ide_onEndEditing": "AS_TextField_a06c427860104cab9dd43d33bc95ac2c"
+    },
+    "iphone": {
+        "contentAlignment": 7,
+        "ide_onEndEditing": "AS_TextField_h5e4652b0b944a389c3fde089fd6bd3e",
+        "psp": {
+            "pasteboardType": 4,
+            "showClearButton": false,
+            "showCloseButton": true
+        }
+    },
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kiosk": {},
+    "kuid": "e73a79dd40794954974a1bf0e1dacc04",
+    "maxtextlength": "",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "paddingLocked": false,
+    "paddinginpixel": false,
+    "parent": "flxTextBox",
+    "pasteboardtype": 4,
+    "pf": "userwidgetmodel",
+    "securetextentry": false,
+    "showclearbutton": false,
+    "spaipad": {},
+    "spamobile": {
+        "contentAlignment": 4,
+        "ide_onEndEditing": "AS_TextField_be78a8d5208a4adc8a6b93b2029b5a2b"
+    },
+    "spatablet": {
+        "contentAlignment": 4,
+        "ide_onEndEditing": "AS_TextField_cdea689f0fff4439803ee992e86053ad"
+    },
+    "tabrcandroid": {
+        "contentAlignment": 7,
+        "ide_onEndEditing": "AS_TextField_g50410fdcd094392aa30b8bb8b7ff151"
+    },
+    "textinputmode": "A",
+    "viewtype": "default",
+    "wType": "TextField",
+    "windows8": {
+        "contentAlignment": 7
+    },
+    "winphone8": {
+        "contentAlignment": 7
+    },
+    "zindex": 1
+}

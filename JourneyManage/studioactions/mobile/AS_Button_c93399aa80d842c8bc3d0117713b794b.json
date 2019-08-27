@@ -1,0 +1,17 @@
+{
+    "AS_Button_c93399aa80d842c8bc3d0117713b794b": {
+        "id": "AS_Button_c93399aa80d842c8bc3d0117713b794b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_c7bda0ba5464404cbd0eb9e7bdb8c1ef",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.createNewVehicle();\n/*\n\nthis.view.flxAddNewVehicle.isVisible = false;\nthis.view.flxSelectVehicleContainer.isVisible = false;\nthis.view.flxNewJourneyReady.isVisible = true;*/",
+            "callbackType": null
+        }]
+    }
+}

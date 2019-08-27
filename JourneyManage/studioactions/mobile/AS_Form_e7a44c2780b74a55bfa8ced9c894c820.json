@@ -1,0 +1,24 @@
+{
+    "AS_Form_e7a44c2780b74a55bfa8ced9c894c820": {
+        "id": "AS_Form_e7a44c2780b74a55bfa8ced9c894c820",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmReturnJourney",
+            "type": "forms",
+            "platform": "",
+            "KUID": "g9cb4147c8b049efb9208df00ba61ef2"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c9c05c3bc65b43e5a87d407f372ddd0c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onFormPostShow();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

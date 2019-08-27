@@ -1,0 +1,21 @@
+{
+    "AS_UWI_dfdffce582a64b7b82623c522a204b76": {
+        "id": "AS_UWI_dfdffce582a64b7b82623c522a204b76",
+        "type": "ACTION_SEQUENCE",
+        "params": [],
+        "contextObj": {
+            "name": "frmCreateJourney",
+            "type": "forms",
+            "platform": "",
+            "KUID": "i08b816437854b449e6f9e6090061d71"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f70da2f859144078922c284a41dff747",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.hideSlidingMenu();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "2dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "sa2f4858c04d45eb8b1bc4fd90d0af23",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "data": {
+        "appTitle": "JOURNEY APP",
+        "ide_failureCallback": "AS_UWI_a28db6b1b9344e25b103c8aad8966b35",
+        "ide_getUserAttributeSuccess": "AS_UWI_e04a176bd03d4a4fbfcc7628bc875228",
+        "ide_loginSuccess": "AS_UWI_b4980df6a59f40158c3919dcf1df9873",
+        "password": "kony@123",
+        "rememberMe": true,
+        "userId": "jacob.jack@kony.com"
+    },
+    "id": "inspLogin",
+    "info": null,
+    "iscustomlayout": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "ab29abc535c84b2abd2fdd7860d13b5b",
+    "layouttype": 2,
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxRoot",
+    "pf": "frmLoginJourney",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snaptogrid": true,
+    "sourceUserWidget": "e1c449e749104d3eab7a8136aa4d2d2d",
+    "wType": "UserWidgetInstance"
+}

@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_b9579e588269455a8dde2c24ae0ba217": {
+        "id": "AS_FlexContainer_b9579e588269455a8dde2c24ae0ba217",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmUpdateJourney",
+            "type": "forms",
+            "platform": "",
+            "KUID": "db46bba994fd4068be922e743c3042d9"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a951a44817e146a990d0178ca1d22204",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.updateDepartureAddress();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

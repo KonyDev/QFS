@@ -1,0 +1,24 @@
+{
+    "AS_ListBox_c59214f457a5496085fa724b2c9a466c": {
+        "id": "AS_ListBox_c59214f457a5496085fa724b2c9a466c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmNewJourneyVehicle",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c1aa10f1386444139d304d9a2168d412"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ia48f73bb9a44d4bbad99b199b8bd3e6",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onVehicleSelection(eventobject);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

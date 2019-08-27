@@ -1,0 +1,23 @@
+{
+    "AS_Segment_b79d0c75a70a4f6d967d562a54553261": {
+        "id": "AS_Segment_b79d0c75a70a4f6d967d562a54553261",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onRowClick_e674e679f55e42be8729f8c5beb84762",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onTrackingPointSelection();\nreturn;\n\nthis.view.flxNewJourneyTracking.flxTracking1.isVisible = false;\nthis.view.flxNewJourneyTracking.flxTracking2.isVisible = true;\n\n//Setting the JSONVariable\nApplicationData1.SavingData.TrackingPoint = this.view.segTrackingPoints.selectedRowItems[0].lblTrackingPoint;\n\n\n//Setting the MasterData of the Segment to the ListBox.\nfor(var i=0;i<this.view.lstBoxTrackingPoints.masterDataMap[0].length;i++)\n  {\n    if(this.view.lstBoxTrackingPoints.masterDataMap[0][i].myvalue == ApplicationData1.SavingData.TrackingPoint)\n      {\n        this.view.lstBoxTrackingPoints.selectedKey = (this.view.lstBoxTrackingPoints.masterDataMap[0][i].mykey);\n      }\n  }\n",
+            "callbackType": null
+        }]
+    }
+}

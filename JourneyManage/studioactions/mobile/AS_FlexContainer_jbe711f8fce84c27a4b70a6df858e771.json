@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_jbe711f8fce84c27a4b70a6df858e771": {
+        "id": "AS_FlexContainer_jbe711f8fce84c27a4b70a6df858e771",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "BeginJourney",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c209668368854dddb6a0f2dc19f51f0d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_b1b8cb0e768947f396f957e7c3999f39",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(this.view.flxCheckBox1.isVisible == true)\n  {\n    this.view.flxCheckBox1.isVisible = false;\n  }\nelse\n  {\n    this.view.flxCheckBox1.isVisible = true;\n  }",
+            "callbackType": null
+        }]
+    }
+}

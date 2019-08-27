@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sa0916ce82b54d24b63685ceb01d2d26",
+    "_text_": "Cancel",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": null,
+    "id": "btnTouchCancel",
+    "ide_onClick": "AS_Button_i3fb3e53d8bf4f3780dbc8c6eb94a0e2",
+    "info": null,
+    "isvisible": true,
+    "kuid": "c0614baa70c94a3d8f1e9f8a5878a75c",
+    "name": "kony.ui.Button",
+    "parent": "flxTouchIDButtons",
+    "pf": "userwidgetmodel",
+    "wType": "Button",
+    "zindex": 10
+}

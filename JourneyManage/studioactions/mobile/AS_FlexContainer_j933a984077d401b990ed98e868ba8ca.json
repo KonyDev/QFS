@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_j933a984077d401b990ed98e868ba8ca": {
+        "id": "AS_FlexContainer_j933a984077d401b990ed98e868ba8ca",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmReturnJourney",
+            "type": "forms",
+            "platform": "",
+            "KUID": "g9cb4147c8b049efb9208df00ba61ef2"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e087fc6dcba5422ab58305e64963279e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.toggleDepartureDateTimeFlex();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

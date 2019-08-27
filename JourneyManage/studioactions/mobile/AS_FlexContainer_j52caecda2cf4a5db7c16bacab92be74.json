@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_j52caecda2cf4a5db7c16bacab92be74": {
+        "id": "AS_FlexContainer_j52caecda2cf4a5db7c16bacab92be74",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_b685f83c3d554dc2bb383925fb844f91",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.hideSelectorFlex(\"flxRouteSelection\");",
+            "callbackType": null
+        }]
+    }
+}

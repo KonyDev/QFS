@@ -1,0 +1,31 @@
+{
+    "AS_FlexContainer_i1d09a848c254293b6a110f6ff76cf6b": {
+        "id": "AS_FlexContainer_i1d09a848c254293b6a110f6ff76cf6b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCopyCopyAsJourney",
+            "type": "forms",
+            "platform": null,
+            "KUID": "f10dc10a2c3242f39411fd380024a3ef"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_f1a591ce73394643a6f5d2be6ff4da66",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "MyAccount",
+            "formKUID": "d4f38b7ff22040a0a2ddd13594ed027a",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n\"_meta_\" : {\n\t\"eventName\" : \"onClick\",\n\t\"widgetId\" : \"flxMyAccountSidebar\"\n}\n}",
+            "isCustomInput": false
+        }]
+    }
+}

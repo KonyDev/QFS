@@ -1,0 +1,23 @@
+{
+    "AS_Button_bba056d16fe44d259ffe9f541353aeea": {
+        "id": "AS_Button_bba056d16fe44d259ffe9f541353aeea",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwc31f9ea6c89d4067aef69429741f9bd4",
+            "type": "userwidgets",
+            "KUID": "c31f9ea6c89d4067aef69429741f9bd4"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a39ad6db86d24eadb50d42a1b281bedd",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this._updateETA();\n/*try\n  {\n    alert(this.view.lstTimeCheckins.selectedKeyValues);\n  }\ncatch(err)\n  {\n    alert(\"Error in Getting the Selected Key for UpdatedETA.\");\n  }*/",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

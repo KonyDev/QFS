@@ -1,0 +1,183 @@
+{
+  "android": {
+    "background_color": "ffffffff",
+    "bg_type": "one",
+    "font_color": "5968eeff",
+    "font_name": "default",
+    "font_size": 100,
+    "font_style": "underline",
+    "isForked": true
+  },
+  "androidwearos": {
+    "background_color": "ffffffff",
+    "bg_type": "one",
+    "font_color": "5968eeff",
+    "font_name": "default",
+    "font_size": 100,
+    "font_style": "underline",
+    "isForked": true
+  },
+  "background_color": "4b88f1ff",
+  "bg_type": "one",
+  "border_color": "ffffffff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "desktopweb": {
+    "background_color": "ffffffff",
+    "bg_type": "one",
+    "customCSS": "cursor:pointer;\nbackground-color:transparent;\ncolor:#5968ee;\nfont-family:SFProDisplay;\nfont-size:16px;\ntext-decoration:underline;",
+    "font_color": "5968eeff",
+    "font_name": "SF-Pro-Display-Regular",
+    "font_size": 100,
+    "font_style": "underline",
+    "isCustomCSSEnabled": true,
+    "isForked": true
+  },
+  "fontSizeInPx": false,
+  "font_color": "ffffffff",
+  "font_name": "iphoneSystem",
+  "font_size": 150,
+  "font_style": "normal",
+  "font_weight": "normal",
+  "ipad": {
+    "background_color": "ffffffff",
+    "bg_type": "one",
+    "font_color": "5968eeff",
+    "font_name": "System",
+    "font_size": 100,
+    "isForked": true
+  },
+  "iphone": {
+    "background_color": "ffffffff",
+    "bg_type": "one",
+    "font_color": "5968eeff",
+    "font_name": "System",
+    "font_size": 100,
+    "isForked": true
+  },
+  "isDefaultSkin": false,
+  "kiosk": {
+    "background_color": "ffffffff",
+    "bg_type": "one",
+    "font_color": "5968eeff",
+    "font_name": "None",
+    "font_size": 100,
+    "font_style": "underline",
+    "isForked": true
+  },
+  "kuid": "s99eca4bb6b14de1b075978094ff599d",
+  "spaan": {
+    "background_color": "ffffffff",
+    "bg_type": "one",
+    "customCSS": "cursor:pointer;\nbackground-color:transparent;\ncolor:#5968ee;\nfont-family:SFProDisplay;\nfont-size:16px;\ntext-decoration:underline;",
+    "font_color": "5968eeff",
+    "font_name": "Helvetica",
+    "font_size": 100,
+    "font_style": "underline",
+    "isCustomCSSEnabled": true,
+    "isForked": true
+  },
+  "spaandroidtablet": {
+    "background_color": "ffffffff",
+    "bg_type": "one",
+    "customCSS": "cursor:pointer;\nbackground-color:transparent;\ncolor:#5968ee;\nfont-family:SFProDisplay;\nfont-size:16px;\ntext-decoration:underline;",
+    "font_color": "5968eeff",
+    "font_name": "Helvetica",
+    "font_size": 100,
+    "font_style": "underline",
+    "isCustomCSSEnabled": true,
+    "isForked": true
+  },
+  "spabb": {
+    "background_color": "ffffffff",
+    "bg_type": "one",
+    "customCSS": "cursor:pointer;\nbackground-color:transparent;\ncolor:#5968ee;\nfont-family:SFProDisplay;\nfont-size:16px;\ntext-decoration:underline;",
+    "font_color": "5968eeff",
+    "font_name": "Helvetica",
+    "font_size": 100,
+    "font_style": "underline",
+    "isCustomCSSEnabled": true,
+    "isForked": true
+  },
+  "spaip": {
+    "background_color": "ffffffff",
+    "bg_type": "one",
+    "customCSS": "cursor:pointer;\nbackground-color:transparent;\ncolor:#5968ee;\nfont-family:SFProDisplay;\nfont-size:16px;\ntext-decoration:underline;",
+    "font_color": "5968eeff",
+    "font_name": "Helvetica",
+    "font_size": 100,
+    "font_style": "underline",
+    "isCustomCSSEnabled": true,
+    "isForked": true
+  },
+  "spaipad": {
+    "background_color": "ffffffff",
+    "bg_type": "one",
+    "customCSS": "cursor:pointer;\nbackground-color:transparent;\ncolor:#5968ee;\nfont-family:SFProDisplay;\nfont-size:16px;\ntext-decoration:underline;",
+    "font_color": "5968eeff",
+    "font_name": "Helvetica",
+    "font_size": 100,
+    "font_style": "underline",
+    "isCustomCSSEnabled": true,
+    "isForked": true
+  },
+  "spawindowstablet": {
+    "background_color": "ffffffff",
+    "bg_type": "one",
+    "customCSS": "cursor:pointer;\nbackground-color:transparent;\ncolor:#5968ee;\nfont-family:SFProDisplay;\nfont-size:16px;\ntext-decoration:underline;",
+    "font_color": "5968eeff",
+    "font_name": "Helvetica",
+    "font_size": 100,
+    "font_style": "underline",
+    "isCustomCSSEnabled": true,
+    "isForked": true
+  },
+  "spawinphone8": {
+    "background_color": "ffffffff",
+    "bg_type": "one",
+    "customCSS": "cursor:pointer;\nbackground-color:transparent;\ncolor:#5968ee;\nfont-family:SFProDisplay;\nfont-size:16px;\ntext-decoration:underline;",
+    "font_color": "5968eeff",
+    "font_name": "Helvetica",
+    "font_size": 100,
+    "font_style": "underline",
+    "isCustomCSSEnabled": true,
+    "isForked": true
+  },
+  "tabrcandroid": {
+    "background_color": "ffffffff",
+    "bg_type": "one",
+    "font_color": "5968eeff",
+    "font_name": "default",
+    "font_size": 100,
+    "font_style": "underline",
+    "isForked": true
+  },
+  "wType": "Button",
+  "watchos": {
+    "background_color": "ffffffff",
+    "bg_type": "one",
+    "font_color": "5968eeff",
+    "font_name": "System",
+    "font_size": 100,
+    "isForked": true
+  },
+  "windows8": {
+    "background_color": "ffffffff",
+    "bg_type": "one",
+    "font_color": "5968eeff",
+    "font_name": "None",
+    "font_size": 100,
+    "font_style": "underline",
+    "isForked": true
+  },
+  "winphone8": {
+    "background_color": "ffffffff",
+    "bg_type": "one",
+    "font_color": "5968eeff",
+    "font_name": "None",
+    "font_size": 100,
+    "font_style": "underline",
+    "isForked": true
+  }
+}

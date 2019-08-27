@@ -1,0 +1,25 @@
+{
+    "AS_Button_iee5a48458a34547aeacbed73ebc6aba": {
+        "id": "AS_Button_iee5a48458a34547aeacbed73ebc6aba",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmNewJourneyVerification",
+            "type": "forms",
+            "platform": "",
+            "KUID": "i01a47578c104e9e9b09ea3c5b514c3c"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__fc8d526fe87c4e1a81e0555a480bb1c8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.createOrupdateJourney();",
+            "parentId": null,
+            "callbackType": null,
+            "disabled": true
+        }]
+    }
+}

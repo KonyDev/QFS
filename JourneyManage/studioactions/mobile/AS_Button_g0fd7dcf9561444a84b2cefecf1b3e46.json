@@ -1,0 +1,31 @@
+{
+    "AS_Button_g0fd7dcf9561444a84b2cefecf1b3e46": {
+        "id": "AS_Button_g0fd7dcf9561444a84b2cefecf1b3e46",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPastDetails",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ca0d1cf492b14ba588b5a8c73f7cff8a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_fc2f400eec4c4daba56ff47594e45666",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmNewJourneyRoute",
+            "formKUID": "jba05021cee846d6a62d81619b6232bf",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n\"_meta_\" : {\n\t\"eventName\" : \"\",\n\t\"widgetId\" : \"\"\n}\n}",
+            "isCustomInput": false
+        }]
+    }
+}

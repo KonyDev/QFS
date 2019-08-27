@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_cc571ae63fe1422ab735f939f14fc909": {
+        "id": "AS_FlexContainer_cc571ae63fe1422ab735f939f14fc909",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_hc6cb5200867474586f2cc0d00c5b599",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.hideSelectorFlex(\"flxTrackingPoint\");",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_d7839bc7e40e4a44bd4a9743fe476134": {
+        "id": "AS_FlexContainer_d7839bc7e40e4a44bd4a9743fe476134",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmNewJourneyRoute",
+            "type": "forms",
+            "platform": "",
+            "KUID": "jba05021cee846d6a62d81619b6232bf"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ee86b00eddd34f0b933ad242b2f50e9b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.print(\"disabled map click by giving this flex a dummy onclick\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "AS_Button_babafa5b96104210919046accc6dae0a": {
+        "id": "AS_Button_babafa5b96104210919046accc6dae0a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmNewJourneyRoute",
+            "type": "forms",
+            "platform": "",
+            "KUID": "jba05021cee846d6a62d81619b6232bf"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___f7bf3a6e3a9f4a9ab50d49ec4e1ed329",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onClickBackToSearch",
+            "display": "onClickBackToSearch",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

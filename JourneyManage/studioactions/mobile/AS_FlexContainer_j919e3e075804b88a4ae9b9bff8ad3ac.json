@@ -1,0 +1,19 @@
+{
+    "AS_FlexContainer_j919e3e075804b88a4ae9b9bff8ad3ac": {
+        "id": "AS_FlexContainer_j919e3e075804b88a4ae9b9bff8ad3ac",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d40b286ab4f44cb7a7b80c49d45c83bc",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var navObject = new kony.mvc.Navigation(\"MyAccount\");\nvar params = {\"Id\":\"MyAccount\"};\nparams[DATA_MODEL.USER_TBL]=this.userDetail;\nnavObject.navigate(params);",
+            "parentId": null,
+            "callbackType": null,
+            "disabled": false
+        }]
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "AS_FlexContainer_b5327ec18ff7433683491602848d8db4": {
+        "id": "AS_FlexContainer_b5327ec18ff7433683491602848d8db4",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c3e3a06e1646486581915e7603a9e15e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var navObject = new kony.mvc.Navigation(\"MyAccount\");\nvar params = {\"Id\":\"GuidesAndManuals\"};\nnavObject.navigate(params);",
+            "parentId": null,
+            "callbackType": null,
+            "disabled": false
+        }]
+    }
+}

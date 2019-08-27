@@ -1,0 +1,60 @@
+{
+    "classname": "questionaire",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "f8213bcfe851470d930e18925a0a2136",
+                    "paramList": [
+                        {
+                            "name": "questionData"
+                        }
+                    ],
+                    "propertyKey": "setQuestions",
+                    "pw": {
+                        "displayName": "setQuestions",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "c0426bfc722241829e4b49647e8ead95",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "h81deab01a9e49b99b5034ebe8420747",
+                    "paramList": [],
+                    "propertyKey": "getAnswers",
+                    "pw": {
+                        "displayName": "getAnswers",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "c0426bfc722241829e4b49647e8ead95",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konsa",
+    "version": "1.0.0"
+}

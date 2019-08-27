@@ -1,0 +1,17 @@
+{
+    "AS_Button_h057b5084be541358de626b937d0802e": {
+        "id": "AS_Button_h057b5084be541358de626b937d0802e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_g2ae0c05d7644b068e73e3d9f0a2a8ae",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.showSelectorFlex(\"flxSelectVehicle\");\n//this.view.flxBeginJourneySelectVehicle.isVisible = true;",
+            "callbackType": null
+        }]
+    }
+}

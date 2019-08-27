@@ -1,0 +1,18 @@
+{
+    "AS_FlexContainer_aa64fd1e82f143448261b0cff55628c0": {
+        "id": "AS_FlexContainer_aa64fd1e82f143448261b0cff55628c0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ie109cbac592415f98278f6cdda69408",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.navigateToForm(\"frmNewJourneyTracking\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,81 @@
+{
+    "classname": "normallogin",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "bd5dc20cf2d444039ae222d301a1d29d",
+                    "paramList": [
+                        {
+                            "name": "result"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "loginSuccess",
+                    "pw": {
+                        "displayName": "loginSuccess",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "cc2fc2e351044348a7538d00e0f3c467",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "f460e669c13c4b2590a24c98c5ec382b",
+                    "paramList": [
+                        {
+                            "name": "result"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "loginFailure",
+                    "pw": {
+                        "displayName": "loginFailure",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "cc2fc2e351044348a7538d00e0f3c467",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "b60b986302854846bcb4e7853ac00d97",
+                    "paramList": [
+                        {
+                            "name": "result"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "errorCallback",
+                    "pw": {
+                        "displayName": "errorCallback",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "cc2fc2e351044348a7538d00e0f3c467",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konysa",
+    "version": "1.0.0"
+}

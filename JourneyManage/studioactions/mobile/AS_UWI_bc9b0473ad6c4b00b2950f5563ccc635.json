@@ -1,0 +1,24 @@
+{
+    "AS_UWI_bc9b0473ad6c4b00b2950f5563ccc635": {
+        "id": "AS_UWI_bc9b0473ad6c4b00b2950f5563ccc635",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "selectedDate",
+            "datatype": "collection"
+        }],
+        "contextObj": {
+            "name": "frmNewJourneyRoute",
+            "type": "forms",
+            "platform": "",
+            "KUID": "jba05021cee846d6a62d81619b6232bf"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f581e768bdc4495fb4adac41f01f224f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onArrivalDateSelection(selectedDate);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

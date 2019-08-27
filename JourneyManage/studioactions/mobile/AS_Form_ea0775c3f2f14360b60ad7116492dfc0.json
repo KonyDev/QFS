@@ -1,0 +1,24 @@
+{
+    "AS_Form_ea0775c3f2f14360b60ad7116492dfc0": {
+        "id": "AS_Form_ea0775c3f2f14360b60ad7116492dfc0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmNewJourneyVerification",
+            "type": "forms",
+            "platform": null,
+            "KUID": "i01a47578c104e9e9b09ea3c5b514c3c"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__dd38f146c8ce4d809d279aaa403274cc",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onFormPostshow();\n// this.view.flxTracker.shadowDepth = 6;\n// this.view.flxTracker.shadowType = constants.VIEW_BOUNDS_SHADOW;",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

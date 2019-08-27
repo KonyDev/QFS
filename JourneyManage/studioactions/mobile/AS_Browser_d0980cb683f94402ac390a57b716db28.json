@@ -1,0 +1,24 @@
+{
+    "AS_Browser_d0980cb683f94402ac390a57b716db28": {
+        "id": "AS_Browser_d0980cb683f94402ac390a57b716db28",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "LoginADFS",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f7870a9a623746d48cc40e9488b9c426"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__b139d26772d341a2bdb03ccb90097a30",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "try\n  {\n    this.view.flxSplashContainer.isVisible = false;\nkony.application.dismissLoadingScreen();\n  }\ncatch(err)\n  {\n    alert(err.message);\n  }",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

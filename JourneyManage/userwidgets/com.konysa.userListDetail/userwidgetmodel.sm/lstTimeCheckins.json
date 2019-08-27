@@ -1,0 +1,78 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "-8dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Please Select",
+    "_skin_": "s2041fbb3d354ac288fbd6bb2715f43d",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "android": {
+        "psp": {
+            "popupTitle": "Please Select"
+        }
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "dropdownimage": "arrow_down_new.png",
+    "focusskin": "s66a14d03ba54c8b8a333dd9113c8610",
+    "groupcells": false,
+    "id": "lstTimeCheckins",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "id10dd5f6b854b838936fbb0ca542f43",
+    "masterdata": [
+        [
+            "1",
+            "Time Checkins "
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "parent": "flxListParent",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkey": "1",
+    "selectedkeys": null,
+    "selectedkeyvalue": [
+        "1",
+        "Time Checkins "
+    ],
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox",
+    "zindex": 1
+}

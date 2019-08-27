@@ -1,0 +1,80 @@
+{
+    "classname": "customAlertWithImage",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "d5b41ae414c646098573d6a3c745d2ca",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "dismissSuccessAlert",
+                    "pw": {
+                        "displayName": "dismissSuccessAlert",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "g7ad3ab548e04447b2fcf75168c8d474",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e7f300318692412f81e33fd9d0a080f3",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "text",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Text",
+                        "srcWidget": "lblHeaderText",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "d9321d33069646979b1653c68a9a2e92"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ddf2cedc2bca4600ab1f80553af1d1fa",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "text1",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Text",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "c7f0a56d99c6405da862d35770b1d7c9"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konysa",
+    "version": "1.0.0"
+}

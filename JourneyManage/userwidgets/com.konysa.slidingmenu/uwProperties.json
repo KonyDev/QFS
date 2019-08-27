@@ -1,0 +1,236 @@
+{
+    "classname": "slidingmenu",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "icebb765f61341ba9ed8c718ab582ce2",
+                    "paramList": [],
+                    "propertyKey": "showHambergurMenu",
+                    "pw": {
+                        "displayName": "showHambergurMenu",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "dd93c11fd7824e83ab2c84a94631d394",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "fd374928a57c4f1f8fc4db50dd20b102",
+                    "paramList": [],
+                    "propertyKey": "hideHambergurMenu",
+                    "pw": {
+                        "displayName": "hideHambergurMenu",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "dd93c11fd7824e83ab2c84a94631d394",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "j90df9e58975492eb25ee70aa89ed226",
+                    "paramList": [
+                        {
+                            "name": "user"
+                        }
+                    ],
+                    "propertyKey": "setUserInfo",
+                    "pw": {
+                        "displayName": "setUserInfo",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "dd93c11fd7824e83ab2c84a94631d394",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "b7c55b695427436ab45508010f01c8a9",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "onHamburgerMenuHide",
+                    "pw": {
+                        "displayName": "onHamburgerMenuHide",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "dd93c11fd7824e83ab2c84a94631d394",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "if8eeace2b0d44628cd43fbad3039a66",
+                    "paramList": [],
+                    "propertyIndex": 2,
+                    "propertyKey": "onJourneyClick",
+                    "pw": {
+                        "displayName": "onJourneyClick",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "dd93c11fd7824e83ab2c84a94631d394",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "f55ad2721d4f46f38e4587d0391c2cbf",
+                    "paramList": [],
+                    "propertyIndex": 3,
+                    "propertyKey": "onNewJourneyClick",
+                    "pw": {
+                        "displayName": "onNewJourneyClick",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "dd93c11fd7824e83ab2c84a94631d394",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "i55894ada20145d08c6e3fd66034b7cf",
+                    "paramList": [],
+                    "propertyIndex": 4,
+                    "propertyKey": "onLiveJourneyClick",
+                    "pw": {
+                        "displayName": "onLiveJourneyClick",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "dd93c11fd7824e83ab2c84a94631d394",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "acb0469530884eaba55644a4f3db43b6",
+                    "paramList": [],
+                    "propertyIndex": 5,
+                    "propertyKey": "onGuideManualsClick",
+                    "pw": {
+                        "displayName": "onGuideManualsClick",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "dd93c11fd7824e83ab2c84a94631d394",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "edf18b5a8e104a51b4a05dc47f887539",
+                    "paramList": [],
+                    "propertyIndex": 6,
+                    "propertyKey": "onMyAccountClick",
+                    "pw": {
+                        "displayName": "onMyAccountClick",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "dd93c11fd7824e83ab2c84a94631d394",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "h12172d3df684004a50db83f91bc7fae",
+                    "paramList": [],
+                    "propertyIndex": 7,
+                    "propertyKey": "onSyncClick",
+                    "pw": {
+                        "displayName": "onSyncClick",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "dd93c11fd7824e83ab2c84a94631d394",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "f907498381dd43e9bd613c74385413b8",
+                    "paramList": [],
+                    "propertyIndex": 8,
+                    "propertyKey": "onSettingClick",
+                    "pw": {
+                        "displayName": "onSettingClick",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "dd93c11fd7824e83ab2c84a94631d394",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "b718b8c342fe46aa8b373e18da72d182",
+                    "paramList": [],
+                    "propertyIndex": 9,
+                    "propertyKey": "onLogoutClick",
+                    "pw": {
+                        "displayName": "onLogoutClick",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "dd93c11fd7824e83ab2c84a94631d394",
+                    "type": "event"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ea0e4fab21a547038dce61b61174e254",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 10,
+                    "propertyKey": "onMessageClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onMessageClick",
+                        "srcWidget": "flxNewMessage",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "f43f8963eeeb46048b18b31070f51456"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c2595ef61f5c44a6b1ba67a8182e0822",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 1,
+                    "propertyKey": "src",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "displayName": "Source",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "j7a59d2e064640d5afb5329f471df443"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konysa",
+    "version": "1.0.0"
+}

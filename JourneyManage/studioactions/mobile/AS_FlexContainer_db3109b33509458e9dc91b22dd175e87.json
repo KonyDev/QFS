@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_db3109b33509458e9dc91b22dd175e87": {
+        "id": "AS_FlexContainer_db3109b33509458e9dc91b22dd175e87",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMyJourneys",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a563a4067fe54be19101a70cb3b2754d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_d53c60bac0194a81b55b1233e6788a9e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.showAllMessages();",
+            "callbackType": null
+        }]
+    }
+}

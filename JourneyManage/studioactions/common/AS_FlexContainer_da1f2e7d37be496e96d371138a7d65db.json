@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_da1f2e7d37be496e96d371138a7d65db": {
+        "id": "AS_FlexContainer_da1f2e7d37be496e96d371138a7d65db",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwu4adc5cc3f234fe39b0ca2a0c8608aa2",
+            "type": "userwidgets",
+            "KUID": "u4adc5cc3f234fe39b0ca2a0c8608aa2"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__cbeb9757c0ff471f96dadfef7814edbc",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.cancelTouchAuth();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

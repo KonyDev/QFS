@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_f9be124d7ebe48deb0cd8238d9cc946a": {
+        "id": "AS_FlexContainer_f9be124d7ebe48deb0cd8238d9cc946a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_ga8993566c6a4e03bd34ea2f23e888e0",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//this.onDriverPassengerClick();\nthis.showCheckInPointInfoSelector();",
+            "callbackType": null
+        }]
+    }
+}
