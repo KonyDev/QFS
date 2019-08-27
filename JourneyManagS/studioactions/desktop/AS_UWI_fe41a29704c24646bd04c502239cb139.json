@@ -1,0 +1,28 @@
+{
+    "AS_UWI_fe41a29704c24646bd04c502239cb139": {
+        "id": "AS_UWI_fe41a29704c24646bd04c502239cb139",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmJourneyList",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a971256743a14935a548091ac4418d25"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___i513f120e9c94d6880648882843e2ede",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onClickForDelayJourneys",
+            "display": "onClickForDelayJourneys",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

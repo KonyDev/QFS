@@ -1,0 +1,17 @@
+{
+    "AS_Button_hab5349f38c6411e9bc7676fac73f157": {
+        "id": "AS_Button_hab5349f38c6411e9bc7676fac73f157",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_ga4fbeb79b384c28b09e12a686c5ff4b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.FlxPersonalVehicleDetails.isVisible = true;\nthis.view.FlxCompanyVehicleListBox.isVisible = false;\n\t\t",
+            "callbackType": null
+        }]
+    }
+}

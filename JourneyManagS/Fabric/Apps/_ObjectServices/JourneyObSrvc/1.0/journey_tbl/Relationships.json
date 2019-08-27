@@ -1,0 +1,85 @@
+[ {
+  "sourceObject" : "journey_tbl",
+  "targetObject" : "checkpoints_tbl",
+  "relationshipKeys" : [ {
+    "sourceField" : "journey_id_pk",
+    "targetField" : "journey_id_fk",
+    "etag" : "8470b646-dbbf-49a0-8717-94d9d514dd7b"
+  } ],
+  "name" : "journey_tbl_checkpoints_tbl",
+  "type" : "OneToMany",
+  "custom" : false,
+  "cascadeDelete" : false
+}, {
+  "sourceObject" : "journey_tbl",
+  "targetObject" : "incident_notification_tbl",
+  "relationshipKeys" : [ {
+    "sourceField" : "journey_id_pk",
+    "targetField" : "journey_id_fk",
+    "etag" : "b46ed316-02a2-4038-9834-f060197d9457"
+  } ],
+  "name" : "journey_tbl_incident_notification_tbl",
+  "type" : "OneToMany",
+  "custom" : false,
+  "cascadeDelete" : false
+}, {
+  "sourceObject" : "journey_tbl",
+  "targetObject" : "journey_notif_map_tbl",
+  "relationshipKeys" : [ {
+    "sourceField" : "journey_id_pk",
+    "targetField" : "journey_id_fk",
+    "etag" : "b60919ed-9979-4768-aa33-2d77c97d8daa"
+  } ],
+  "name" : "journey_tbl_journey_notif_map_tbl",
+  "type" : "OneToMany",
+  "custom" : false,
+  "cascadeDelete" : false
+}, {
+  "sourceObject" : "journey_tbl",
+  "targetObject" : "journey_passengers_tbl",
+  "relationshipKeys" : [ {
+    "sourceField" : "journey_id_pk",
+    "targetField" : "journey_id_fk",
+    "etag" : "3156c92b-d921-484c-b62e-ca46c4aee731"
+  } ],
+  "name" : "journey_tbl_journey_passengers_tbl",
+  "type" : "OneToMany",
+  "custom" : false,
+  "cascadeDelete" : false
+}, {
+  "sourceObject" : "journey_tbl",
+  "targetObject" : "journey_signature_tbl",
+  "relationshipKeys" : [ {
+    "sourceField" : "journey_id_pk",
+    "targetField" : "journey_id_fk",
+    "etag" : "1fb72446-9c5a-45e3-940e-7e83b4d5d56c"
+  } ],
+  "name" : "journey_tbl_journey_signature_tbl",
+  "type" : "OneToMany",
+  "custom" : false,
+  "cascadeDelete" : false
+}, {
+  "sourceObject" : "journey_tbl",
+  "targetObject" : "journey_tracepoints_tbl",
+  "relationshipKeys" : [ {
+    "sourceField" : "journey_id_pk",
+    "targetField" : "journey_id_fk",
+    "etag" : "d4402af8-1d36-4a8d-8627-01b82b4e2e29"
+  } ],
+  "name" : "journey_tbl_journey_tracepoints_tbl",
+  "type" : "OneToMany",
+  "custom" : false,
+  "cascadeDelete" : false
+}, {
+  "sourceObject" : "journey_tbl",
+  "targetObject" : "user_answers_tbl",
+  "relationshipKeys" : [ {
+    "sourceField" : "journey_id_pk",
+    "targetField" : "journey_id_fk",
+    "etag" : "a29ab0b2-9a83-45a9-95ee-0ee59e080083"
+  } ],
+  "name" : "journey_tbl_user_answers_tbl",
+  "type" : "OneToMany",
+  "custom" : false,
+  "cascadeDelete" : false
+} ]

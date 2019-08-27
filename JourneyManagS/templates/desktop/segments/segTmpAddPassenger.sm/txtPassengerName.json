@@ -1,0 +1,75 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "48px"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Enter Your Name",
+    "_skin_": "s52a6abcf1b543c29d511df0113313ca",
+    "_text_": "",
+    "_top_": {
+        "type": "number",
+        "value": "90"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "371px"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "focusskin": "sb0a0b0dc5fd4ccba6e9476eea5bc298",
+    "id": "txtPassengerName",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "i04e5ffa91bc404c91d34cf8d6c8f963",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "parent": "flxAddPassenger",
+    "pf": "segTmpAddPassenger",
+    "placeholderskin": "s24f0589ad714294b3e3eea05869c98e",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "securetextentry": false,
+    "textinputmode": "A",
+    "tooltip": "",
+    "viewtype": "default",
+    "wType": "TextField",
+    "watchos": {
+        "render": false
+    },
+    "windows10": {
+        "render": false
+    },
+    "winphone10": {
+        "render": false
+    },
+    "zindex": 1
+}

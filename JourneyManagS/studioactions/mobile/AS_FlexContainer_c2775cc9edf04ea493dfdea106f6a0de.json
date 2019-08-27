@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_c2775cc9edf04ea493dfdea106f6a0de": {
+        "id": "AS_FlexContainer_c2775cc9edf04ea493dfdea106f6a0de",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "MyAccount",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d4f38b7ff22040a0a2ddd13594ed027a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__db29941cbb3a4059a468dea551656626",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "// new kony.ui.Toast({\"text\":\"Back Button Clicked!\",\"duration\":constants.TOAST_LENGTH_SHORT }).show();\nthis.view.flxSideBar.isVisible = true;\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

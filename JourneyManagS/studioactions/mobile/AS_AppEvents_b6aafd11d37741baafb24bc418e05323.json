@@ -1,0 +1,18 @@
+{
+    "AS_AppEvents_b6aafd11d37741baafb24bc418e05323": {
+        "id": "AS_AppEvents_b6aafd11d37741baafb24bc418e05323",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__j18ba4f4f3014fbaab7d77272a649964",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "setupSyncForPostAppInit();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

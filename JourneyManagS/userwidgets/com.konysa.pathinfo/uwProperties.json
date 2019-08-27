@@ -1,0 +1,105 @@
+{
+    "classname": "pathinfo",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "ff47de2c08264d478a4c56f2c06ad78a",
+                    "paramList": [],
+                    "propertyKey": "setWidgetDataMapTOSegment",
+                    "pw": {
+                        "displayName": "setWidgetDataMapTOSegment",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "hc2c1b8870b54a858f346fc5373dd059",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "j2e0aa7f51764feea8c197657acf5d14",
+                    "paramList": [],
+                    "propertyKey": "setCheckPointsDataToSegment",
+                    "pw": {
+                        "displayName": "setCheckPointsDataToSegment",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "hc2c1b8870b54a858f346fc5373dd059",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "b6d53b7748a04bc18a2703ebcea44326",
+                    "paramList": [],
+                    "propertyKey": "setFlxActionVisibility_pathInfo",
+                    "pw": {
+                        "displayName": "setFlxActionVisibility_pathInfo",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "hc2c1b8870b54a858f346fc5373dd059",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d11d77d568e6489ba140bc6cea2f76ff",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "onClickOfChangeETA",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onClickOfChangeETA",
+                        "srcWidget": "flxChangeETA",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "i6d31864e3ad4c98b5ea113aea0caf9b"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f007bea96cd7498896024a1808efc29f",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 2,
+                    "propertyKey": "onClickOfCloseJourney",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onClickOfCloseJourney",
+                        "srcWidget": "flxCLoseJourney",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "jbe1bef230104a41869361f2de7e15e1"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konysa",
+    "version": "1.0.0"
+}

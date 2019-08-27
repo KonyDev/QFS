@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_b52564c5d6ec4837aa217fc40a37ced0": {
+        "id": "AS_FlexContainer_b52564c5d6ec4837aa217fc40a37ced0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_e0dcd41ba80c4e79aab8987b7654c405",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var x = new kony.mvc.Navigation(\"fmLogin\");\n x.navigate();",
+            "callbackType": null
+        }]
+    }
+}

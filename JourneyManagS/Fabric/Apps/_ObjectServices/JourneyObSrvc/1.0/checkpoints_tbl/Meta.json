@@ -1,0 +1,103 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "update" : "updateMapping",
+    "create" : "createMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "UpdateTimeStampField" : {
+      "DateFormat" : "",
+      "Name" : "lastupdateddatetime"
+    },
+    "SoftDeleteFlagField" : {
+      "ActiveValue" : "false",
+      "InactiveValue" : "true",
+      "Name" : "softdeleteflag"
+    },
+    "backendMeta" : {
+      "backendObjectName" : "checkpoints_tbl",
+      "qualifiedName" : "journey_db_dev.checkpoints_tbl",
+      "metadataformatterobject" : "{\"displayName\":\"checkpoints_tbl\",\"qualifiedName\":\"journey_db_dev.checkpoints_tbl\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"checkpoints_tbl\",\"schemaName\":\"journey_db_dev\",\"tableName\":\"checkpoints_tbl\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "checkpoints_tbl",
+      "qualifiedName" : "journey_db_dev.checkpoints_tbl",
+      "metadataformatterobject" : "{\"displayName\":\"checkpoints_tbl\",\"qualifiedName\":\"journey_db_dev.checkpoints_tbl\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"checkpoints_tbl\",\"schemaName\":\"journey_db_dev\",\"tableName\":\"checkpoints_tbl\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "checkpoint_reported_by_fk",
+    "targetField" : "checkpoint_reported_by_fk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "admin_action_id_for_delay_fk",
+    "targetField" : "admin_action_id_for_delay_fk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "actual_checkin_timestamp",
+    "targetField" : "actual_checkin_timestamp",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "checkin_location_lon",
+    "targetField" : "checkin_location_lon",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "check_point_seq_num",
+    "targetField" : "check_point_seq_num",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "journey_id_fk",
+    "targetField" : "journey_id_fk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "softdeleteflag",
+    "targetField" : "softdeleteflag",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "checkin_location_address",
+    "targetField" : "checkin_location_address",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "admin_action_description",
+    "targetField" : "admin_action_description",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "checkpoint_row_id_pk",
+    "targetField" : "checkpoint_row_id_pk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "createdby",
+    "targetField" : "createdby",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "expected_checkin_timestamp",
+    "targetField" : "expected_checkin_timestamp",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "lastupdatedby",
+    "targetField" : "lastupdatedby",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "checkpoint_status_id_fk",
+    "targetField" : "checkpoint_status_id_fk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "lastupdateddatetime",
+    "targetField" : "lastupdateddatetime",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "createddatetime",
+    "targetField" : "createddatetime",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "checkin_location_lat",
+    "targetField" : "checkin_location_lat",
+    "type" : "request_response"
+  } ]
+}

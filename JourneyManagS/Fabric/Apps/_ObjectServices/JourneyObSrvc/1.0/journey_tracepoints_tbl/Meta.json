@@ -1,0 +1,67 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "update" : "updateMapping",
+    "create" : "createMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "UpdateTimeStampField" : {
+      "DateFormat" : "",
+      "Name" : "lastupdateddatetime"
+    },
+    "SoftDeleteFlagField" : {
+      "ActiveValue" : "false",
+      "InactiveValue" : "true",
+      "Name" : "softdeleteflag"
+    },
+    "backendMeta" : {
+      "backendObjectName" : "journey_tracepoints_tbl",
+      "qualifiedName" : "journey_db_dev.journey_tracepoints_tbl",
+      "metadataformatterobject" : "{\"displayName\":\"journey_tracepoints_tbl\",\"qualifiedName\":\"journey_db_dev.journey_tracepoints_tbl\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"journey_tracepoints_tbl\",\"schemaName\":\"journey_db_dev\",\"tableName\":\"journey_tracepoints_tbl\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "journey_tracepoints_tbl",
+      "qualifiedName" : "journey_db_dev.journey_tracepoints_tbl",
+      "metadataformatterobject" : "{\"displayName\":\"journey_tracepoints_tbl\",\"qualifiedName\":\"journey_db_dev.journey_tracepoints_tbl\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"journey_tracepoints_tbl\",\"schemaName\":\"journey_db_dev\",\"tableName\":\"journey_tracepoints_tbl\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "tracepoint_seq_num",
+    "targetField" : "tracepoint_seq_num",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "tracepoint_lat",
+    "targetField" : "tracepoint_lat",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "tracepoint_row_id_pk",
+    "targetField" : "tracepoint_row_id_pk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "lastupdateddatetime",
+    "targetField" : "lastupdateddatetime",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "createddatetime",
+    "targetField" : "createddatetime",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "journey_id_fk",
+    "targetField" : "journey_id_fk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "softdeleteflag",
+    "targetField" : "softdeleteflag",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "tracepoint_lon",
+    "targetField" : "tracepoint_lon",
+    "type" : "request_response"
+  } ]
+}

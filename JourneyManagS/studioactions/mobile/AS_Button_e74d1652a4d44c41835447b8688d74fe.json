@@ -1,0 +1,31 @@
+{
+    "AS_Button_e74d1652a4d44c41835447b8688d74fe": {
+        "id": "AS_Button_e74d1652a4d44c41835447b8688d74fe",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "ReturnJourney",
+            "type": "forms",
+            "platform": null,
+            "KUID": "i377f1da027948c89bcee7a08b1c63f0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_f8bfcaa0ea19411795d77fbc9402c99f",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmNewJourneyVehicle",
+            "formKUID": "c1aa10f1386444139d304d9a2168d412",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n\"_meta_\" : {\n\t\"eventName\" : \"\",\n\t\"widgetId\" : \"\"\n}\n}",
+            "isCustomInput": false
+        }]
+    }
+}

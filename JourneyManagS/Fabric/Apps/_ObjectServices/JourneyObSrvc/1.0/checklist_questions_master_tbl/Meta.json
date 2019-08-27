@@ -1,0 +1,71 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "update" : "updateMapping",
+    "create" : "createMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "UpdateTimeStampField" : {
+      "DateFormat" : "",
+      "Name" : "lastupdateddatetime"
+    },
+    "SoftDeleteFlagField" : {
+      "ActiveValue" : "false",
+      "InactiveValue" : "true",
+      "Name" : "softdeleteflag"
+    },
+    "backendMeta" : {
+      "backendObjectName" : "checklist_questions_master_tbl",
+      "qualifiedName" : "journey_db_dev.checklist_questions_master_tbl",
+      "metadataformatterobject" : "{\"displayName\":\"checklist_questions_master_tbl\",\"qualifiedName\":\"journey_db_dev.checklist_questions_master_tbl\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"checklist_questions_master_tbl\",\"schemaName\":\"journey_db_dev\",\"tableName\":\"checklist_questions_master_tbl\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "checklist_questions_master_tbl",
+      "qualifiedName" : "journey_db_dev.checklist_questions_master_tbl",
+      "metadataformatterobject" : "{\"displayName\":\"checklist_questions_master_tbl\",\"qualifiedName\":\"journey_db_dev.checklist_questions_master_tbl\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"checklist_questions_master_tbl\",\"schemaName\":\"journey_db_dev\",\"tableName\":\"checklist_questions_master_tbl\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "question_id_pk",
+    "targetField" : "question_id_pk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "question_text",
+    "targetField" : "question_text",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "question_type_id_fk",
+    "targetField" : "question_type_id_fk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "createdby",
+    "targetField" : "createdby",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "lastupdatedby",
+    "targetField" : "lastupdatedby",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "is_mandatory_to_answer",
+    "targetField" : "is_mandatory_to_answer",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "lastupdateddatetime",
+    "targetField" : "lastupdateddatetime",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "createddatetime",
+    "targetField" : "createddatetime",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "softdeleteflag",
+    "targetField" : "softdeleteflag",
+    "type" : "request_response"
+  } ]
+}

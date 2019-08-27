@@ -1,0 +1,30 @@
+{
+    "AS_Segment_cd2379be01a1421998b9fb6967396af8": {
+        "id": "AS_Segment_cd2379be01a1421998b9fb6967396af8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "KUID": "a971256743a14935a548091ac4418d25",
+            "name": "frmJourneyList",
+            "platform": "",
+            "type": "forms"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__bee61e99b0ce4f3a9193d4a85aa7dba2",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onJourneyCardClick()",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

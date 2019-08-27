@@ -1,0 +1,87 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "56px"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "30px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Please Select",
+    "_skin_": "s5b7623a16b44081b3487971d4e5e359",
+    "_top_": {
+        "type": "string",
+        "value": "165px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "343px"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "desktopweb": {
+        "psp": {
+            "multiple": false
+        }
+    },
+    "focusskin": "s66a14d03ba54c8b8a333dd9113c8610",
+    "groupcells": false,
+    "id": "listboxData",
+    "ide_onSelection": "AS_ListBox_g453d0505ca84c51bb01608686fc2432",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "bbbb162c6a994584b608220eee764757",
+    "masterdata": [
+        [
+            "lbl1",
+            "One"
+        ],
+        [
+            "lb2",
+            "Two"
+        ],
+        [
+            "lb3",
+            "Three"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "paddingLocked": true,
+    "parent": "flxTrackDetailsEdit",
+    "pf": "frmReviewDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkey": "lbl1",
+    "selectedkeys": null,
+    "selectedkeyvalue": [
+        "lbl1",
+        "One"
+    ],
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox",
+    "zindex": 1
+}

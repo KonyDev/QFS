@@ -1,0 +1,24 @@
+{
+    "AS_Form_h753595f0f374d7dab4279b72929e2ef": {
+        "id": "AS_Form_h753595f0f374d7dab4279b72929e2ef",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmJourneyList",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a971256743a14935a548091ac4418d25"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d756587502bd4430bb91e124a793a606",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.destroyPreviousForms();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

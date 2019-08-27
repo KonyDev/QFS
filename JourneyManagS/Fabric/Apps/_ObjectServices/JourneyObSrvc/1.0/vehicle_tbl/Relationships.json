@@ -1,0 +1,25 @@
+[ {
+  "sourceObject" : "vehicle_tbl",
+  "targetObject" : "journey_tbl",
+  "relationshipKeys" : [ {
+    "sourceField" : "vehicle_id_pk",
+    "targetField" : "journey_selected_vehicle_id_fk",
+    "etag" : "89eebc6a-ffa7-4d94-bad4-26ecaff15289"
+  } ],
+  "name" : "vehicle_tbl_journey_tbl",
+  "type" : "OneToMany",
+  "custom" : false,
+  "cascadeDelete" : false
+}, {
+  "sourceObject" : "vehicle_tbl",
+  "targetObject" : "vehicle_images_tbl",
+  "relationshipKeys" : [ {
+    "sourceField" : "vehicle_id_pk",
+    "targetField" : "vehicle_id_fk",
+    "etag" : "27f1921c-b193-4a71-810f-cc0c9f7cb401"
+  } ],
+  "name" : "vehicle_tbl_vehicle_images_tbl",
+  "type" : "OneToMany",
+  "custom" : false,
+  "cascadeDelete" : false
+} ]

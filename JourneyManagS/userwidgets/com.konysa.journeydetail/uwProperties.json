@@ -1,0 +1,139 @@
+{
+    "classname": "journeydetail",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "fcb134805bce44f78a95d3cb80815771",
+                    "paramList": [],
+                    "propertyKey": "setDataToWidgets",
+                    "pw": {
+                        "displayName": "setDataToWidgets",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "i048a475be4b4c7983566542cd90d251",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "ibe3c40ca9d242b0b3187d5a214707dc",
+                    "paramList": [],
+                    "propertyKey": "updateJourneyStatusOnJourneyDetailsUI",
+                    "pw": {
+                        "displayName": "updateJourneyStatusOnJourneyDetailsUI",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "i048a475be4b4c7983566542cd90d251",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "haf87d14507448c680888ea284af827c",
+                    "paramList": [],
+                    "propertyKey": "setVisibilityOfActionFlex",
+                    "pw": {
+                        "displayName": "setVisibilityOfActionFlex",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "i048a475be4b4c7983566542cd90d251",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "icd36ecc9423410b84e1d7a60bd45dd2",
+                    "paramList": [
+                        {
+                            "name": "param"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "onBackClick",
+                    "pw": {
+                        "displayName": "onBackClick",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "i048a475be4b4c7983566542cd90d251",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "baca98e9c11d40e99fdaa8a2546b030b",
+                    "paramList": [
+                        {
+                            "name": "param"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "actionOfChangeETABtn",
+                    "pw": {
+                        "displayName": "actionOfChangeETABtn",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "i048a475be4b4c7983566542cd90d251",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "d4d7498ef2b645fe9d2a5fdb95868a98",
+                    "paramList": [
+                        {
+                            "name": "param"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "actionOfCloseJourneyBtn",
+                    "pw": {
+                        "displayName": "actionOfCloseJourneyBtn",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "i048a475be4b4c7983566542cd90d251",
+                    "type": "event"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a96f6c2ced3846e7a2a03ce12ba747e0",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 2,
+                    "propertyKey": "onClickOfCreateCheckInBtn",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onClickOfCreateCheckInBtn",
+                        "srcWidget": "flxSendNotification",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "be8d6740b04646a6b4e378afdaa9a9d7"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konysa",
+    "version": "1.0.0"
+}

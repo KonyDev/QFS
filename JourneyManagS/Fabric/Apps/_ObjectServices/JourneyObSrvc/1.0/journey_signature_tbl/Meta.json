@@ -1,0 +1,67 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "update" : "updateMapping",
+    "create" : "createMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "UpdateTimeStampField" : {
+      "DateFormat" : "",
+      "Name" : "lastupdateddatetime"
+    },
+    "SoftDeleteFlagField" : {
+      "ActiveValue" : "false",
+      "InactiveValue" : "true",
+      "Name" : "softdeleteflag"
+    },
+    "backendMeta" : {
+      "backendObjectName" : "journey_signature_tbl",
+      "qualifiedName" : "journey_db_dev.journey_signature_tbl",
+      "metadataformatterobject" : "{\"displayName\":\"journey_signature_tbl\",\"qualifiedName\":\"journey_db_dev.journey_signature_tbl\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"journey_signature_tbl\",\"schemaName\":\"journey_db_dev\",\"tableName\":\"journey_signature_tbl\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "journey_signature_tbl",
+      "qualifiedName" : "journey_db_dev.journey_signature_tbl",
+      "metadataformatterobject" : "{\"displayName\":\"journey_signature_tbl\",\"qualifiedName\":\"journey_db_dev.journey_signature_tbl\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"journey_signature_tbl\",\"schemaName\":\"journey_db_dev\",\"tableName\":\"journey_signature_tbl\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "createdby",
+    "targetField" : "createdby",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "signature_row_id_pk",
+    "targetField" : "signature_row_id_pk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "lastupdatedby",
+    "targetField" : "lastupdatedby",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "lastupdateddatetime",
+    "targetField" : "lastupdateddatetime",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "journey_user_signature_base64",
+    "targetField" : "journey_user_signature_base64",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "createddatetime",
+    "targetField" : "createddatetime",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "journey_id_fk",
+    "targetField" : "journey_id_fk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "softdeleteflag",
+    "targetField" : "softdeleteflag",
+    "type" : "request_response"
+  } ]
+}

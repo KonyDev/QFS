@@ -1,0 +1,17 @@
+{
+    "AS_Button_hfd3b107f131452b9b50de2ca25499ca": {
+        "id": "AS_Button_hfd3b107f131452b9b50de2ca25499ca",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_ice9f97dbbb643829c44bb159cff4136",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.saveTravellerData();",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "AS_Button_d8f09bcd0ea9497cb2919f64be48207c": {
+        "id": "AS_Button_d8f09bcd0ea9497cb2919f64be48207c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_fcfbd55066984118a88a554e6fb58afd",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.saveRouteDetails();",
+            "callbackType": null
+        }]
+    }
+}

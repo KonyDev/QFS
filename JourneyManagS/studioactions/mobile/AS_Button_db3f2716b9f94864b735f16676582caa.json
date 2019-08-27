@@ -1,0 +1,25 @@
+{
+    "AS_Button_db3f2716b9f94864b735f16676582caa": {
+        "id": "AS_Button_db3f2716b9f94864b735f16676582caa",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_cf737039d6da4962af21b5cf3e94642a",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmNewJourneyVehicle",
+            "formKUID": "c1aa10f1386444139d304d9a2168d412",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n\"_meta_\" : {\n\t\"eventName\" : \"onClick\",\n\t\"widgetId\" : \"btnSubmit\"\n}\n}",
+            "isCustomInput": false
+        }]
+    }
+}

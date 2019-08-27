@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_c862b962d52a45d28df34c6e78bf0ed1": {
+        "id": "AS_FlexContainer_c862b962d52a45d28df34c6e78bf0ed1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMyJourneys",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a563a4067fe54be19101a70cb3b2754d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__b11b7501a39642b0ad344afccf3c5c6d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(this.view.flxSideBar.isVisible == false)\n  {\n    this.view.flxSideBar.isVisible = true;\n  }\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

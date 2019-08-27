@@ -1,0 +1,206 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "btnBegin": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "btnEdit": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "btnProgress": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "btnSeeDetails": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "destIcon": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "departurepoint.png"
+            },
+            "imgVerticalDotsBlue": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lblArrival": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblArrivalData": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblFrom": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblFromData": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblJourneyId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblJourneyTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblStart": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblStartData": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblTo": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblToData": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblVerticalDottedLine": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "locationImg": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "grey_3.png"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "4%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "4%"
+    },
+    "_top_": {
+        "type": "string",
+        "value": "3%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "92%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "00",
+    "disabledSkins": {},
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segTodayJourneyDetails",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c1f075b40ea0408fb0e778881778f384",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "mainFlex",
+    "pf": "frmMyJourneys",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "c70952400a134bef939480dbd39ef360",
+    "rowcounter": 0,
+    "rowfocusskin": "s09164c521894b64afc465ef63b57445",
+    "rowskin": "s09164c521894b64afc465ef63b57445",
+    "rowtemplate": "segTodayDataParentFlx",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s6d26d70982642d1a5dc555e1c57b10a",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "CopyflxLocImg0c3e11f582e7a4f": "CopyflxLocImg0c3e11f582e7a4f",
+        "InnerFlex": "InnerFlex",
+        "InnerFlex2": "InnerFlex2",
+        "backgroundFlex": "backgroundFlex",
+        "btnBegin": "btnBegin",
+        "btnEdit": "btnEdit",
+        "btnProgress": "btnProgress",
+        "btnSeeDetails": "btnSeeDetails",
+        "destIcon": "destIcon",
+        "flxEditDetails": "flxEditDetails",
+        "flxJourneyDetails": "flxJourneyDetails",
+        "flxJourneyId": "flxJourneyId",
+        "flxLocImg": "flxLocImg",
+        "flxShadow": "flxShadow",
+        "imgVerticalDotsBlue": "imgVerticalDotsBlue",
+        "innerFlx2Parent": "innerFlx2Parent",
+        "innerFlxParent": "innerFlxParent",
+        "lblArrival": "lblArrival",
+        "lblArrivalData": "lblArrivalData",
+        "lblFrom": "lblFrom",
+        "lblFromData": "lblFromData",
+        "lblJourneyId": "lblJourneyId",
+        "lblJourneyTime": "lblJourneyTime",
+        "lblStart": "lblStart",
+        "lblStartData": "lblStartData",
+        "lblTo": "lblTo",
+        "lblToData": "lblToData",
+        "lblVerticalDottedLine": "lblVerticalDottedLine",
+        "locationImg": "locationImg",
+        "segTodayDataParentFlx": "segTodayDataParentFlx"
+    },
+    "zindex": 1
+}

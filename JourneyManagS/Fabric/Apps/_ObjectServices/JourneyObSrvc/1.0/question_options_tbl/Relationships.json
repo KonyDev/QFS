@@ -1,0 +1,13 @@
+[ {
+  "sourceObject" : "question_options_tbl",
+  "targetObject" : "user_answers_tbl",
+  "relationshipKeys" : [ {
+    "sourceField" : "question_options_row_id_pk",
+    "targetField" : "question_options_row_id_fk",
+    "etag" : "e632913f-c3cd-448b-a891-3f54c768f3ee"
+  } ],
+  "name" : "question_options_tbl_user_answers_tbl",
+  "type" : "OneToMany",
+  "custom" : false,
+  "cascadeDelete" : false
+} ]

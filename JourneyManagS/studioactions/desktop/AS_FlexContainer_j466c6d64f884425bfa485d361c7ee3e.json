@@ -1,0 +1,26 @@
+{
+    "AS_FlexContainer_j466c6d64f884425bfa485d361c7ee3e": {
+        "id": "AS_FlexContainer_j466c6d64f884425bfa485d361c7ee3e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "CopymapCalloutTemplate0a5e3f0e425c441",
+            "type": "templates",
+            "platform": null,
+            "KUID": "je90049950f148eb9d65a9ab3245f66b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_e31c9fddf38842aeb147917f500576f5",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onActionButtonClick(eventobject, context);",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_df966c60b32c46b0b630f2bf43a0c756": {
+        "id": "AS_FlexContainer_df966c60b32c46b0b630f2bf43a0c756",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_fa9d35213168479aa15c4d4c6759c960",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "new kony.ui.Toast({\"text\":\"Back Button Clicked!\",\"duration\":constants.TOAST_LENGTH_SHORT }).show();",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,156 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "80dp"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "number",
+        "value": "30"
+    },
+    "_top_": {
+        "type": "string",
+        "value": "195dp"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "counter": "00",
+    "desktop": {
+        "_data_": [
+            {
+                "imgSelection": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": ""
+                },
+                "lblTrackingPoint": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                }
+            }
+        ],
+        "rowTemplateId": "d3f94ab2336d440eab5c0240c651598a",
+        "rowtemplate": "Flex0ab488ced76e94b",
+        "sectionHeaderTemplateId": null,
+        "selectionBehaviorConfig": {
+            "imageIdentifier": "imgSelection",
+            "selectedStateImage": "checkbox_selected.png",
+            "unselectedStateImage": "chechbox_unselected.png"
+        },
+        "widgetdatamap": {
+            "Flex0ab488ced76e94b": "Flex0ab488ced76e94b",
+            "imgSelection": "imgSelection",
+            "lblTrackingPoint": "lblTrackingPoint"
+        }
+    },
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segTrackingPoint",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "g6a768f8fc364f6fbffc2d40d52d6446",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom",
+        "vdistance": 1
+    },
+    "parent": "flxFilterRoot",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowcounter": 0,
+    "rowfocusskin": "sbf9d91b89ba457ba62945f3c2a92526",
+    "rowskin": "se984062090b4258b3310b9cc9c6b060",
+    "rowtemplate": "Flex0ab488ced76e94b",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s6d26d70982642d1a5dc555e1c57b10a",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectimage": "checkbox_selected.png",
+    "selectionbehavior": "multiselect",
+    "selectionbehaviorconfig": {
+        "imageIdentifier": "imgSelection",
+        "selectedStateImage": "checkbox_selected.png",
+        "unselectedStateImage": "chechbox_unselected.png"
+    },
+    "selectionindicator": "imgSelection",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": false,
+    "separatorthickness": 1,
+    "showscrollbars": true,
+    "swipeContext": {
+        "currentPage": 0,
+        "imageWidth": 1200,
+        "widthRatio": 0
+    },
+    "unselectimage": "chechbox_unselected.png",
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "Flex0ab488ced76e94b": "Flex0ab488ced76e94b",
+        "imgSelection": "imgSelection",
+        "lblTrackingPoint": "lblTrackingPoint"
+    },
+    "zindex": 1
+}

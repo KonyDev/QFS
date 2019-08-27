@@ -1,0 +1,63 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "56dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "47dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s4e4e57ce14c4b1db46c627e4679ac33",
+    "_top_": {
+        "type": "string",
+        "value": "10px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "207px"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "lblVehicleOptionOne",
+        "btnVehicleOptionOne",
+        "imgVehicleOptionOne"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxVehicleOptionOne",
+    "ide_onClick": "AS_FlexContainer_bcb17fd203e84454bb3cee95f50484e3",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "dbd2e94c3e0a43c4907af9129a860937",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxVehicleDetailsEdit",
+    "pf": "frmReviewDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

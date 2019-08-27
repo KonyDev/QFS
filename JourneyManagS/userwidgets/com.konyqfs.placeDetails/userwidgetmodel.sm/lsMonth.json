@@ -1,0 +1,64 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "48px"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "4.50%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Please Select",
+    "_skin_": "s0c7be7e10534e1d8afb40cbeadfefc7",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "35%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "focusskin": "s66a14d03ba54c8b8a333dd9113c8610",
+    "groupcells": false,
+    "id": "lsMonth",
+    "ide_onSelection": "AS_ListBox_i92349be028b42e79f2c27c4f63d21ad",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e87811fbb4644648bef0773ebf4bbc3c",
+    "masterdata": [],
+    "name": "kony.ui.ListBox",
+    "parent": "flxDateDetails",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkeys": null,
+    "selectedkeyvalue": null,
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox",
+    "zindex": 1
+}

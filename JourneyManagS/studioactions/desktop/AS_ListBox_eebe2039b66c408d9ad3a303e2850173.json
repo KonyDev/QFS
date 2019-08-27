@@ -1,0 +1,24 @@
+{
+    "AS_ListBox_eebe2039b66c408d9ad3a303e2850173": {
+        "id": "AS_ListBox_eebe2039b66c408d9ad3a303e2850173",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmVehicleDetails",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d292512426da4595bd57480fe9362e16"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ie82b6c061aa4c10ae2d9dad6dc4b28d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.selectedCompanyVehicle(eventobject);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

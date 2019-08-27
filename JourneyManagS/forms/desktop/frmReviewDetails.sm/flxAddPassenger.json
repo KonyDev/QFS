@@ -1,0 +1,63 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "48px"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "30px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s66367258d2c47ffba430bb19aba1812",
+    "_top_": {
+        "type": "string",
+        "value": "509px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "195px"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "imgPlusIcon",
+        "btnAddPassenger",
+        "lblAddPassengerVerticalLine"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxAddPassenger",
+    "ide_onClick": "AS_FlexContainer_bc3d67e496b140e1ab90b062cc378e5b",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "d8d88aaf760b444c8cb9d04f5ad33859",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxTravellerEditDetails",
+    "pf": "frmReviewDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

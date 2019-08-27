@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "14px"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "408px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s37403e7693c4ff79701671a9b168479",
+    "_text_": "Next step:<b>Vehicle Details</B>",
+    "_top_": {
+        "type": "string",
+        "value": "757px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "145px"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "rchtxtNextStep",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "b157811ba94e4322ac9a8226f3352709",
+    "linkskin": "sa2ed5b8ec89408291bc70175b99a7ee",
+    "name": "kony.ui.RichText",
+    "parent": "RightFlex",
+    "pf": "frmTrackingDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

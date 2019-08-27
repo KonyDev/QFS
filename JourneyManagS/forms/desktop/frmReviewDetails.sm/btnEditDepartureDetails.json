@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "48px"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "240px"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s5daa0cbfe4b4c46b577ea7418843ee5",
+    "_text_": "EDIT",
+    "_top_": {
+        "type": "string",
+        "value": "244px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "132px"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s7f6cdd4b32645238316d22088753df1",
+    "id": "btnEditDepartureDetails",
+    "ide_onClick": "AS_Button_cd87da0ce5574c9aa1894db88bc3956d",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "b9f4ca4f78964b55b5596522bfdddcf3",
+    "name": "kony.ui.Button",
+    "parent": "FlxEditRouteDetails",
+    "pf": "frmReviewDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

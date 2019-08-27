@@ -1,0 +1,27 @@
+{
+    "AS_FlexContainer_h5d3b7fa804547dd8e8e340e8a1307eb": {
+        "id": "AS_FlexContainer_h5d3b7fa804547dd8e8e340e8a1307eb",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "KUID": "hf2342d8f8ce47da836a53c0f65084e8",
+            "name": "uwhf2342d8f8ce47da836a53c0f65084e8",
+            "type": "userwidgets"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___id4dbd3bb4034d988086399af3f1cf33",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "setNetworkStatus",
+            "display": "setNetworkStatus",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

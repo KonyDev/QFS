@@ -1,0 +1,24 @@
+{
+    "AS_Button_he8598d2157a4fe08377f57876c1a4b7": {
+        "id": "AS_Button_he8598d2157a4fe08377f57876c1a4b7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmReviewDetails",
+            "type": "forms",
+            "platform": "",
+            "KUID": "i4be5c035ee345b28fc4005c6df62851"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__b929d93842184776be094e07aeece5fe",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.convertTimeToUTC();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

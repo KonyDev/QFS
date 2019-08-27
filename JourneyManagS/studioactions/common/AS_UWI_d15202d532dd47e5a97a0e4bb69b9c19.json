@@ -1,0 +1,17 @@
+{
+    "AS_UWI_d15202d532dd47e5a97a0e4bb69b9c19": {
+        "id": "AS_UWI_d15202d532dd47e5a97a0e4bb69b9c19",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwu731632af2af4d6a8eddd09584edda0d",
+            "type": "userwidgets",
+            "KUID": "u731632af2af4d6a8eddd09584edda0d"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

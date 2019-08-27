@@ -1,0 +1,24 @@
+{
+    "AS_Button_ad3b616d010d44f288558238d92f8b63": {
+        "id": "AS_Button_ad3b616d010d44f288558238d92f8b63",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a6ab29e2b1a2487a9f72b077d68dd981"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ecf8e2592ddb4e309e402eec350a33e1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onClickPasswordChangeCancel();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

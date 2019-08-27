@@ -1,0 +1,24 @@
+{
+    "AS_Button_bfc664357d1b4e808634326e11a23c3a": {
+        "id": "AS_Button_bfc664357d1b4e808634326e11a23c3a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "BeginJourney",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c209668368854dddb6a0f2dc19f51f0d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__acc041fa3add448b94e1dddb49dc1ef9",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "try\n  {\n    var x = new kony.mvc.Navigation(\"frmONJourney\");\nx.navigate();\n  }\ncatch(err)\n  {\n    alert(err);\n  }",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

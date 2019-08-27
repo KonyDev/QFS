@@ -1,0 +1,24 @@
+{
+    "AS_Button_c0ba5f11817045ffbb66dc4c6104f810": {
+        "id": "AS_Button_c0ba5f11817045ffbb66dc4c6104f810",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmRoute",
+            "type": "forms",
+            "platform": "",
+            "KUID": "g11187183d304ca6816c2d2e893bb0c6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__befa48fd507444e7939af6e14f38d923",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.updateData();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

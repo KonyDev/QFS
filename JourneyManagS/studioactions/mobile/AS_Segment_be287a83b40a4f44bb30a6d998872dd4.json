@@ -1,0 +1,23 @@
+{
+    "AS_Segment_be287a83b40a4f44bb30a6d998872dd4": {
+        "id": "AS_Segment_be287a83b40a4f44bb30a6d998872dd4",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onRowClick_ed70eee4742945ebac41cfb9d3866fff",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(rowNumber == 5){\n  this.view.flxOtherEmergencyDetails.setVisibility(true);\n}\nelse{\n  this.view.flxOtherEmergencyDetails.setVisibility(false);\n}",
+            "callbackType": null
+        }]
+    }
+}

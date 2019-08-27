@@ -1,0 +1,30 @@
+{
+    "AS_FlexContainer_b373ad9324924f61af29691ce9724091": {
+        "id": "AS_FlexContainer_b373ad9324924f61af29691ce9724091",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmVehicleDetails",
+            "type": "forms",
+            "platform": null,
+            "KUID": "d292512426da4595bd57480fe9362e16"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__bf88924576564bafba60419ae77fdbdd",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,13 @@
+[ {
+  "sourceObject" : "checkin_interval_master_tbl",
+  "targetObject" : "journey_tbl",
+  "relationshipKeys" : [ {
+    "sourceField" : "checkin_interval_row_id_pk",
+    "targetField" : "checkin_interval_row_id_fk",
+    "etag" : "cf7dc949-253c-44a4-903b-c9dd52ffbe70"
+  } ],
+  "name" : "checkin_interval_master_tbl_journey_tbl",
+  "type" : "OneToMany",
+  "custom" : false,
+  "cascadeDelete" : false
+} ]

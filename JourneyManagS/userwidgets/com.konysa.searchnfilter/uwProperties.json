@@ -1,0 +1,287 @@
+{
+    "classname": "searchnfilter",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "b4b45490de1a4f0d896fa89d70c8407d",
+                    "paramList": [],
+                    "propertyKey": "hideFilterBox",
+                    "pw": {
+                        "displayName": "hideFilterBox",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "c4549175db124b2eb68680eab85a92d7",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "b93501778c8d40e38202b2a1dd42c38b",
+                    "paramList": [],
+                    "propertyKey": "hideSearchBox",
+                    "pw": {
+                        "displayName": "hideSearchBox",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "c4549175db124b2eb68680eab85a92d7",
+                    "type": "event"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "aa8dd19cbc054934a9d72b69a302b6d2",
+                    "originalPropertyKey": "setData",
+                    "propertyKey": "setTrackingPointsData",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "setTrackingPointsData",
+                        "srcWidget": "segTrackingPoint",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Segment"
+                    },
+                    "srcWgtKUID": "g6a768f8fc364f6fbffc2d40d52d6446"
+                }
+            ]
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "gc580f8d5c224d91b360e18366eaed73",
+                    "originalPropertyKey": "onSelection",
+                    "propertyIndex": 3,
+                    "propertyKey": "onSelectionOfTrackingPoints",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onSelectionOfTrackingPoints",
+                        "srcWidget": "lstBoxTrackingPoint",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "ListBox"
+                    },
+                    "srcWgtKUID": "bd1fdb6318bd4e55abd955e3405367dd"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d9a21d8416f74204baba4802f1797d1f",
+                    "originalPropertyKey": "onDone",
+                    "propertyIndex": 4,
+                    "propertyKey": "onDoneOfTxtBoxUser",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onDoneOfTxtBoxUser",
+                        "srcWidget": "txtBoxUser",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "h30809cd31aa4c48a21c181397937170"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ceb9cb4295cb475ea88360872bdecf79",
+                    "originalPropertyKey": "onSelection",
+                    "propertyIndex": 5,
+                    "propertyKey": "onSelectionCallBack",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onSelectionCallBack",
+                        "srcWidget": "lstBoxSupervisor",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "ListBox"
+                    },
+                    "srcWgtKUID": "f65bd1bede1e409ab54a03fe101d13b4"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c3a497326535460bba0b9338f9ab363a",
+                    "originalPropertyKey": "onRowClick",
+                    "propertyIndex": 6,
+                    "propertyKey": "onSelectionOfTrackingPointsSegment",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onSelectionOfTrackingPointsSegment",
+                        "srcWidget": "segTrackingPoint",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Segment"
+                    },
+                    "srcWgtKUID": "g6a768f8fc364f6fbffc2d40d52d6446"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "j17a7bcf9967442ebeaea26ae4233e69",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 7,
+                    "propertyKey": "closeFilter",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "closeFilter",
+                        "srcWidget": "flxCloseFIlter",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "b8269a64b6bd4739ac957c02cf00d487"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ecaa48f216c54b099e735753e76b05da",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 8,
+                    "propertyKey": "closeSearch",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "closeSearch",
+                        "srcWidget": "flxCloseSearch",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "b1935074f7eb425385c659e741aa2c41"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "e679a26a1dfc4ad787cfb3bddd0eb9d0",
+                    "originalPropertyKey": "selectedIndices",
+                    "propertyIndex": 7,
+                    "propertyKey": "selectedIndices",
+                    "pw": {
+                        "displayName": "selectedIndices",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "c4549175db124b2eb68680eab85a92d7",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c70b37bed2944e0081d0c5fdfb16698c",
+                    "originalPropertyKey": "masterData",
+                    "propertyIndex": 2,
+                    "propertyKey": "trackingPointsMasterData",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "companionKeys": [
+                            {
+                                "isVisible": false,
+                                "key": "selectedKey1",
+                                "originalKey": "selectedKey"
+                            },
+                            {
+                                "isVisible": false,
+                                "key": "selectedKeys1",
+                                "originalKey": "selectedKeys"
+                            }
+                        ],
+                        "dependentKeysKUIDs": null,
+                        "displayName": "trackingPointsMasterData",
+                        "srcWidget": "lstBoxTrackingPoint",
+                        "type": "data",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Masterdata-Groupwidget",
+                                "dataUpdaterId": "Masterdata-Groupwidget",
+                                "popupId": "Masterdata-Groupwidget",
+                                "type": "GroupWidgetMasterDataBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Button",
+                        "wType": "ListBox"
+                    },
+                    "srcWgtKUID": "bd1fdb6318bd4e55abd955e3405367dd"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ca7a5857fc824624974e7e14116e1d1d",
+                    "originalPropertyKey": "masterData",
+                    "propertyIndex": 3,
+                    "propertyKey": "supervisorsMasterData",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "companionKeys": [
+                            {
+                                "isVisible": false,
+                                "key": "selectedKey",
+                                "originalKey": "selectedKey"
+                            },
+                            {
+                                "isVisible": false,
+                                "key": "selectedKeys",
+                                "originalKey": "selectedKeys"
+                            }
+                        ],
+                        "dependentKeysKUIDs": null,
+                        "displayName": "supervisorsMasterData",
+                        "srcWidget": "lstBoxSupervisor",
+                        "type": "data",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Masterdata-Groupwidget",
+                                "dataUpdaterId": "Masterdata-Groupwidget",
+                                "popupId": "Masterdata-Groupwidget",
+                                "type": "GroupWidgetMasterDataBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Button",
+                        "wType": "ListBox"
+                    },
+                    "srcWgtKUID": "f65bd1bede1e409ab54a03fe101d13b4"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [
+                {
+                    "kuid": "df882ff218004a8c9f6ceb3c7dbe14d9",
+                    "propertyKey": "segTrackingPoint",
+                    "srcWgtKUID": "g6a768f8fc364f6fbffc2d40d52d6446"
+                }
+            ],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konysa",
+    "version": "1.0.0"
+}

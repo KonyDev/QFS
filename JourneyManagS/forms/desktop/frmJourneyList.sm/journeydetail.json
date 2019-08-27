@@ -1,0 +1,67 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_children_": [],
+    "_left_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_right_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_skin_": "s4e4e57ce14c4b1db46c627e4679ac33",
+    "_top_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "data": {
+        "ide_actionOfChangeETABtn": "AS_UWI_bb69736aa78c4ff98c2341b70f7eb166",
+        "ide_actionOfCloseJourneyBtn": "AS_UWI_b7eb136173be48d6858d7a3792c08317",
+        "ide_actionOfEmergencyBtn": "AS_UWI_g72ba8ead93e4d82b832fc0bf31a1a89",
+        "ide_onBackClick": "AS_UWI_c5da25c5417949619c75f4d5f3b61c21",
+        "ide_onClickOfCreateCheckInBtn": "AS_UWI_b44b68f718674cf79bfce23916b9d888",
+        "ide_onDetailBack": "AS_UWI_g1ca276679b8495a8b37844f8743f81a"
+    },
+    "enablescrolling": true,
+    "id": "journeydetail",
+    "info": null,
+    "iscustomlayout": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "bda31fd0bbad48bcafe9f1363722aa50",
+    "layouttype": 2,
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxJourneyDetail",
+    "pf": "frmJourneyList",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "i048a475be4b4c7983566542cd90d251",
+    "wType": "UserWidgetInstance"
+}

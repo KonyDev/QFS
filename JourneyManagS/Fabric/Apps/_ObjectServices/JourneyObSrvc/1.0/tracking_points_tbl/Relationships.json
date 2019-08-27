@@ -1,0 +1,13 @@
+[ {
+  "sourceObject" : "tracking_points_tbl",
+  "targetObject" : "journey_tbl",
+  "relationshipKeys" : [ {
+    "sourceField" : "tracking_point_id_pk",
+    "targetField" : "journey_tracking_point_id_fk",
+    "etag" : "1cb1827b-629d-46e8-b5f3-62372f6aa324"
+  } ],
+  "name" : "tracking_points_tbl_journey_tbl",
+  "type" : "OneToMany",
+  "custom" : false,
+  "cascadeDelete" : false
+} ]

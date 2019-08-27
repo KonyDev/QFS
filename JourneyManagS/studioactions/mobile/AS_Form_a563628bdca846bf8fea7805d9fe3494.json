@@ -1,0 +1,24 @@
+{
+    "AS_Form_a563628bdca846bf8fea7805d9fe3494": {
+        "id": "AS_Form_a563628bdca846bf8fea7805d9fe3494",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "KUID": "a231e153e1bf4b29ad96c3b5057b7125",
+            "name": "frmEmergencyRequest",
+            "platform": "",
+            "type": "forms"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ff1391fe572747318a5b432fdc273f67",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.setNetworkStatus();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

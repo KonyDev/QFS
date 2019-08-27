@@ -1,0 +1,18 @@
+{
+    "AS_Button_h7eb2e8a32074bd6b4174372bd78d996": {
+        "id": "AS_Button_h7eb2e8a32074bd6b4174372bd78d996",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "TestFetchJourneyDetails",
+            "type": "forms",
+            "platform": null,
+            "KUID": "feb48e6c0f334074b0844e4e41c62d2f"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

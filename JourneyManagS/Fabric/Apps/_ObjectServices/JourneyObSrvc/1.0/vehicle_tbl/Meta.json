@@ -1,0 +1,79 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "update" : "updateMapping",
+    "create" : "createMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "UpdateTimeStampField" : {
+      "DateFormat" : "",
+      "Name" : "lastupdateddatetime"
+    },
+    "SoftDeleteFlagField" : {
+      "ActiveValue" : "false",
+      "InactiveValue" : "true",
+      "Name" : "softdeleteflag"
+    },
+    "backendMeta" : {
+      "backendObjectName" : "vehicle_tbl",
+      "qualifiedName" : "journey_db_dev.vehicle_tbl",
+      "metadataformatterobject" : "{\"displayName\":\"vehicle_tbl\",\"qualifiedName\":\"journey_db_dev.vehicle_tbl\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"vehicle_tbl\",\"schemaName\":\"journey_db_dev\",\"tableName\":\"vehicle_tbl\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "vehicle_tbl",
+      "qualifiedName" : "journey_db_dev.vehicle_tbl",
+      "metadataformatterobject" : "{\"displayName\":\"vehicle_tbl\",\"qualifiedName\":\"journey_db_dev.vehicle_tbl\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"vehicle_tbl\",\"schemaName\":\"journey_db_dev\",\"tableName\":\"vehicle_tbl\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "vehicle_make",
+    "targetField" : "vehicle_make",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "vehicle_color",
+    "targetField" : "vehicle_color",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "createdby",
+    "targetField" : "createdby",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "vehicle_reg_num",
+    "targetField" : "vehicle_reg_num",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "lastupdatedby",
+    "targetField" : "lastupdatedby",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "vehicle_model",
+    "targetField" : "vehicle_model",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "user_emp_id_fk",
+    "targetField" : "user_emp_id_fk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "lastupdateddatetime",
+    "targetField" : "lastupdateddatetime",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "vehicle_id_pk",
+    "targetField" : "vehicle_id_pk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "createddatetime",
+    "targetField" : "createddatetime",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "softdeleteflag",
+    "targetField" : "softdeleteflag",
+    "type" : "request_response"
+  } ]
+}

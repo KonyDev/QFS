@@ -1,0 +1,19 @@
+{    
+"theme_color": "#FFFFFF",    
+"orientation": "potrait",    
+"background_color": "#9E9E9E",    
+"display": "standalone",    
+"name": "Journey Management Admin",    
+"short_name": "Journey Managment",
+"start_url": "/apps/JourneyManagemen/",
+"icons": [{      
+"src": "launcher-192.png",      
+"type": "image/png",      
+"sizes": "192x192"
+},    {
+"src": "launcher-512.png",      
+"type": "image/png",      
+"sizes": "512x512"    
+}]
+
+}								

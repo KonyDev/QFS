@@ -1,0 +1,88 @@
+{
+    "classname": "Passenger",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a6e860acfa574757bf1363fa7844b53f",
+                    "originalPropertyKey": "onTouchEnd",
+                    "propertyIndex": 1,
+                    "propertyKey": "onTouchEndImageClose",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onTouchEndImageClose",
+                        "srcWidget": "imgClose",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "hd07846acf074989b64aeb7535e1016e"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "defaultSkinKUID": "Name",
+                    "group": "General",
+                    "kuid": "bedc30e07017482191e51194ddd0c13b",
+                    "originalPropertyKey": "headertext",
+                    "propertyIndex": 1,
+                    "propertyKey": "headertext",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Header Text",
+                        "srcWidget": "PassengerName",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "b7954b0bec86474c94f490b491f956d7"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "cf1f569ede584606967ee9f8523bfb70",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "text",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Textbox Text",
+                        "srcWidget": "PassengerName",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "b7954b0bec86474c94f490b491f956d7"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konymp",
+    "version": "1.0.0"
+}

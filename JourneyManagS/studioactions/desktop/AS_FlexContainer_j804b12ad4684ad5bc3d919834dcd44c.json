@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_j804b12ad4684ad5bc3d919834dcd44c": {
+        "id": "AS_FlexContainer_j804b12ad4684ad5bc3d919834dcd44c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmVehicleDetails",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d292512426da4595bd57480fe9362e16"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__dfebba0e4859427c8a8fa28eab84b612",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.selectVehicle(eventobject);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

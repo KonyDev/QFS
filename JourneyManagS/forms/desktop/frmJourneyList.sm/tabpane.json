@@ -1,0 +1,67 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_right_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_skin_": "sc4b9adbdd5044049b718941f03e7aad",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "data": {
+        "ide_allTabOnClick": "AS_UWI_f4d1aac08cf84e3d84e1e8f61610ff03",
+        "ide_delayTabOnClick": "AS_UWI_fe41a29704c24646bd04c502239cb139",
+        "ide_incidentTabOnClick": "AS_UWI_b895d26363dd4362bcca5ebe7f0fae72",
+        "ide_liveTabOnClick": "AS_UWI_b9a975eb2e0444478ea830e8aa80d91a"
+    },
+    "enablescrolling": true,
+    "id": "tabpane",
+    "ide_onTouchStart": "AS_UWI_af2db03d134f47e28f7d937b99e7d15b",
+    "info": null,
+    "iscustomlayout": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "b47bb50e482a4d83ae56c2d057635188",
+    "layouttype": 2,
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxTabPane",
+    "pf": "frmJourneyList",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "d7efb214254e4112884d00dca01ff4ca",
+    "wType": "UserWidgetInstance"
+}

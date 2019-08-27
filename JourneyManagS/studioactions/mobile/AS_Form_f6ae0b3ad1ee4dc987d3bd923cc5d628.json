@@ -1,0 +1,24 @@
+{
+    "AS_Form_f6ae0b3ad1ee4dc987d3bd923cc5d628": {
+        "id": "AS_Form_f6ae0b3ad1ee4dc987d3bd923cc5d628",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmNewJourneyTracking",
+            "type": "forms",
+            "platform": "",
+            "KUID": "g35b7c089619473a9a61a515efad7156"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__cd14ceef602e4ea1936ded96caf7c218",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.setFlxNewJourneyTracking();\nthis.setListBoxTrackingPoints();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

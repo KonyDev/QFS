@@ -1,0 +1,23 @@
+{
+    "AS_Segment_a4dbe688785d4c77a702738dbe539f64": {
+        "id": "AS_Segment_a4dbe688785d4c77a702738dbe539f64",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onRowClick_b777ba9725a440f09fb9bebed65e6196",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxNewJourneyRoute.isVisible = false;\nthis.view.flxNewJourneyRoute2.isVisible = true;",
+            "callbackType": null
+        }]
+    }
+}

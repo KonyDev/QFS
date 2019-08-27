@@ -1,0 +1,24 @@
+{
+    "AS_Button_af8a6e50065c486693754ea18573eced": {
+        "id": "AS_Button_af8a6e50065c486693754ea18573eced",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmJourneyList",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a971256743a14935a548091ac4418d25"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f9496d8610ea4ac481cd488436a01ca6",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxNotifyScreen.isVisible = false;",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

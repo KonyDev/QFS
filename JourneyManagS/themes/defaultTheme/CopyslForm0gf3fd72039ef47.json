@@ -1,0 +1,20 @@
+{
+  "background_color": "575eefff",
+  "bg_type": "one",
+  "border_color": "ffffffff",
+  "delinkedPltfrms": {
+    "androidwear": [],
+    "desktop": [],
+    "mobile": [
+      "iphone"
+    ],
+    "tablet": [],
+    "watch": []
+  },
+  "iphone": {
+    "isForked": true
+  },
+  "isDefaultSkin": false,
+  "kuid": "sc764083e1834c929a72190cba96d19a",
+  "wType": "Form"
+}

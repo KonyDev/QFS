@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "18px"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "461px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sf59ada239a14283a4d1300652004949",
+    "_text_": "Next step:<b>RouteDetails</B>",
+    "_top_": {
+        "type": "string",
+        "value": "8px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "140px"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 1,
+    "id": "rchtxtNextStep",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "h4eff9af3baf4ceb80b0fe9e1297c340",
+    "linkskin": "sa2ed5b8ec89408291bc70175b99a7ee",
+    "name": "kony.ui.RichText",
+    "parent": "RightFlex",
+    "pf": "frmTravellerDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

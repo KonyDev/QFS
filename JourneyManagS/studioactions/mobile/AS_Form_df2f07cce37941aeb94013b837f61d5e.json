@@ -1,0 +1,24 @@
+{
+    "AS_Form_df2f07cce37941aeb94013b837f61d5e": {
+        "id": "AS_Form_df2f07cce37941aeb94013b837f61d5e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmNewJourneyVehicle",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c1aa10f1386444139d304d9a2168d412"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__dcf103c755db49fda76843821bdafcd5",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxNewJourneyRouteSelectVehicle.isVisible = true;\nthis.view.flxNewJourneyVehicleCompany.isVisible = false;\nthis.view.flxNewJourneyVehiclePersonal.isVisible = false;",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

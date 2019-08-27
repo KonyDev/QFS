@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "48px"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "454px"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s5daa0cbfe4b4c46b577ea7418843ee5",
+    "_text_": "Next Step",
+    "_top_": {
+        "type": "string",
+        "value": "878px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "132px"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sac9e5ebdae843129ff5938e25125b63",
+    "id": "btnNext",
+    "ide_onClick": "AS_Button_aaf8dfd6f80c4e38a2b5b285fbda2b63",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ie76f1f16cf34853a73e218ea297166a",
+    "name": "kony.ui.Button",
+    "parent": "RightFlex",
+    "pf": "frmRoute",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

@@ -1,0 +1,24 @@
+{
+    "AS_Button_c0c96c3dce8846a38a6ec4a40b0dd6a3": {
+        "id": "AS_Button_c0c96c3dce8846a38a6ec4a40b0dd6a3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmVehicleDetails",
+            "type": "forms",
+            "platform": null,
+            "KUID": "d292512426da4595bd57480fe9362e16"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ee62abeccb2f4726989d91491ed95805",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.FlxPersonalVehicleDetails.isVisible = false;\nthis.view.FlxCompanyVehicleListBox.isVisible = true;\n\t\t",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

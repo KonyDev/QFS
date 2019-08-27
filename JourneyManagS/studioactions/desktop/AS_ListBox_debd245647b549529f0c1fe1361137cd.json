@@ -1,0 +1,24 @@
+{
+    "AS_ListBox_debd245647b549529f0c1fe1361137cd": {
+        "id": "AS_ListBox_debd245647b549529f0c1fe1361137cd",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmRoute",
+            "type": "forms",
+            "platform": "",
+            "KUID": "g11187183d304ca6816c2d2e893bb0c6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a7e3c9ea502e49aa8c099a761cae96f2",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.selectedTime(eventobject);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

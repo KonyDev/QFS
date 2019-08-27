@@ -1,0 +1,27 @@
+{
+    "AS_FlexContainer_h06c018e9e8b413e92f843eb129beb7c": {
+        "id": "AS_FlexContainer_h06c018e9e8b413e92f843eb129beb7c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "segTempJourneyCard",
+            "type": "templates",
+            "platform": "",
+            "KUID": "b10655ee1e7442ca85ed5d3f82cb6c4f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__h64748618cf14e1eb1f1d54725b6b162",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

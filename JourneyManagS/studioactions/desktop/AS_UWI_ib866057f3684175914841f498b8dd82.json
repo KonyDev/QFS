@@ -1,0 +1,24 @@
+{
+    "AS_UWI_ib866057f3684175914841f498b8dd82": {
+        "id": "AS_UWI_ib866057f3684175914841f498b8dd82",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmJourneyList",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a971256743a14935a548091ac4418d25"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__b3e14c1a312f4a459ae3d281db2097fc",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onClickOfUpdateETACancel();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

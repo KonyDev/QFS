@@ -1,0 +1,163 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "imgDeparturePoints": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "trackerblue.png"
+            },
+            "lblDeparturePoints": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Current Location"
+            }
+        },
+        {
+            "imgDeparturePoints": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "trackerblue.png"
+            },
+            "lblDeparturePoints": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "221 Birmingham Street"
+            }
+        },
+        {
+            "imgDeparturePoints": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "trackerblue.png"
+            },
+            "lblDeparturePoints": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Laplace Stores"
+            }
+        },
+        {
+            "imgDeparturePoints": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "trackerblue.png"
+            },
+            "lblDeparturePoints": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "658 Tillman Wall"
+            }
+        },
+        {
+            "imgDeparturePoints": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "trackerblue.png"
+            },
+            "lblDeparturePoints": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "047 Jordi Ports"
+            }
+        },
+        {
+            "imgDeparturePoints": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "trackerblue.png"
+            },
+            "lblDeparturePoints": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "123 Baker Street"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "45%"
+    },
+    "_indicator_": "none",
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "24dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "95%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "counter": "05",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segDeparturePoints",
+    "ide_onRowClick": "AS_Segment_a4dbe688785d4c77a702738dbe539f64",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "f4430e0f7c1845ea9fff9669bf1b4440",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxNewJourneyRoute",
+    "pf": "ReturnJourney",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "dcb8064b6f4d455db30bbaf0792ebc6a",
+    "rowcounter": 5,
+    "rowfocusskin": "s0059b0ebf18496d948d7dac7d0544de",
+    "rowskin": "s0059b0ebf18496d948d7dac7d0544de",
+    "rowtemplate": "CopyflxMain0i82fd40689c04f",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s6d26d70982642d1a5dc555e1c57b10a",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "CopyflxMain0i82fd40689c04f": "CopyflxMain0i82fd40689c04f",
+        "FlexContainer0g94eb4bcc7804f": "FlexContainer0g94eb4bcc7804f",
+        "flxSubContainer": "flxSubContainer",
+        "imgDeparturePoints": "imgDeparturePoints",
+        "lblDeparturePoints": "lblDeparturePoints"
+    },
+    "zindex": 1
+}

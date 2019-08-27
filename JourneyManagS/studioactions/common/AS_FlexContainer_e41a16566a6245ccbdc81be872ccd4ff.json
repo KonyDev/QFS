@@ -1,0 +1,29 @@
+{
+    "AS_FlexContainer_e41a16566a6245ccbdc81be872ccd4ff": {
+        "id": "AS_FlexContainer_e41a16566a6245ccbdc81be872ccd4ff",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "uwuc26eb7625644924a226c264d7eb0a6f",
+            "type": "userwidgets",
+            "KUID": "uc26eb7625644924a226c264d7eb0a6f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d6c77459278148989ded07a2f36d4348",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this._onBellClick(eventobject,x,y);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

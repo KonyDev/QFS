@@ -1,0 +1,113 @@
+{
+    "classname": "journeymap",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "h348c3d1351d431a80fddf2f32a86374",
+                    "paramList": [
+                        {
+                            "name": "locationObj"
+                        }
+                    ],
+                    "propertyKey": "setPin",
+                    "pw": {
+                        "displayName": "setPin",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "cb059b9992a54258ad0f49b61a8061ac",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "fa6db9ee18494608a2154ddd95540e69",
+                    "paramList": [],
+                    "propertyKey": "deleteAllPins",
+                    "pw": {
+                        "displayName": "deleteAllPins",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "cb059b9992a54258ad0f49b61a8061ac",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "d728652ce31b4a8c8635b6d23b3b4e66",
+                    "paramList": [],
+                    "propertyKey": "drawPolyline",
+                    "pw": {
+                        "displayName": "drawPolyline",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "cb059b9992a54258ad0f49b61a8061ac",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "d80dff29a96946fda8d10ec6c0a58c6a",
+                    "paramList": [],
+                    "propertyKey": "deletePolyline",
+                    "pw": {
+                        "displayName": "deletePolyline",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "cb059b9992a54258ad0f49b61a8061ac",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "fea38d8a074c475ead0549a8423fa749",
+                    "paramList": [],
+                    "propertyKey": "setZoomLevelOnMap",
+                    "pw": {
+                        "displayName": "setZoomLevelOnMap",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "cb059b9992a54258ad0f49b61a8061ac",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "AIzaSyBxz_lS49jNEpML6LiwXTbKQRPsTSS8HZM",
+                    "group": "General",
+                    "kuid": "def06b27116d40ad9f195164cc4c400d",
+                    "originalPropertyKey": "mapKey",
+                    "propertyIndex": 1,
+                    "propertyKey": "mapKey",
+                    "pw": {
+                        "displayName": "map key",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "cb059b9992a54258ad0f49b61a8061ac",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konysa",
+    "version": "1.0.0"
+}

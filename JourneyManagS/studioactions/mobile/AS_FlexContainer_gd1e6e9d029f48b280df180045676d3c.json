@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_gd1e6e9d029f48b280df180045676d3c": {
+        "id": "AS_FlexContainer_gd1e6e9d029f48b280df180045676d3c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMyJourneys",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a563a4067fe54be19101a70cb3b2754d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_f02963906ae14705871cb0ba7e8264b9",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "// if(this.view.flxSideBar.isVisible == false)\n//   {\n//     this.view.flxSideBar.isVisible = true;\n//   }\nthis.view.flxThreeDotsClickContainer.isVisible = true;\nthis.view.flxDots.isVisible = false;\nthis.view.lblCenterTextMyJourneys.isVisible = true;\nthis.view.flxHamburgerOnJourney.isVisible = false;\nthis.view.flxBackButton.isVisible = true;\n\n",
+            "callbackType": null
+        }]
+    }
+}

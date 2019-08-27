@@ -1,0 +1,70 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_right_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_skin_": "s4e4e57ce14c4b1db46c627e4679ac33",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "data": {
+        "ide_closeFilter": "AS_UWI_c298512c399548a7b7a69d76b44a73dd",
+        "ide_closeSearch": "AS_UWI_e8b65465ec5a4bb586e9612ff504defd",
+        "ide_onDoneOfTxtBoxUser": "AS_UWI_cc729a4bce26407b931a50744ecddaa0",
+        "ide_onSelectionCallBack": "AS_UWI_hf26053530b44be8a82ab81691e661fa",
+        "ide_onSelectionOfTrackingPoints": "AS_UWI_be962e8d47ca44bbad6ac766e74cc63b",
+        "ide_onSelectionOfTrackingPointsSegment": "AS_UWI_adc89a31cd9d42c59c14efa883a7b57c",
+        "ide_onSelectionofListBox": "AS_UWI_ceffcfff456c4f78a81c2075ff7ebc32",
+        "trackingPointsMasterData": []
+    },
+    "enablescrolling": true,
+    "id": "searchnfilter",
+    "info": null,
+    "iscustomlayout": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "e1aa9640b8314806b3d4e2fd5e7ab75c",
+    "layouttype": 2,
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxSearchNFilter",
+    "pf": "frmJourneyList",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "c4549175db124b2eb68680eab85a92d7",
+    "wType": "UserWidgetInstance"
+}

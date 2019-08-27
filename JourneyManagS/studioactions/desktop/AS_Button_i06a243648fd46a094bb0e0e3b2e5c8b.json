@@ -1,0 +1,24 @@
+{
+    "AS_Button_i06a243648fd46a094bb0e0e3b2e5c8b": {
+        "id": "AS_Button_i06a243648fd46a094bb0e0e3b2e5c8b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTravellerDetails",
+            "type": "forms",
+            "platform": "",
+            "KUID": "caefcb37b26a4b3aa9b5bd688c35dde7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__i21f79afa43542d79bb0a61379f8a31b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.updateData();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "AS_UWI_adc89a31cd9d42c59c14efa883a7b57c": {
+        "id": "AS_UWI_adc89a31cd9d42c59c14efa883a7b57c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmJourneyList",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a971256743a14935a548091ac4418d25"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___h5838eb6188745418ca6e57173acf952",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "trackingPointsSegmentOnclick",
+            "display": "trackingPointsSegmentOnclick",
+            "inputparams": [{
+                "name": "eventobject",
+                "value": " eventobject"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

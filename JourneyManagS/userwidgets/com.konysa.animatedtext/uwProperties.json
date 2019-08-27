@@ -1,0 +1,62 @@
+{
+    "classname": "animatedtext",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "he4ebe15d05a4b35bd7a982feea54c71",
+                    "paramList": [],
+                    "propertyKey": "getText",
+                    "pw": {
+                        "displayName": "getText",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "g414deb7b9774d3487a33692aca084a3",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ebfc74b0b6194015a8a6883e020ec894",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 2,
+                    "propertyKey": "skin2",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Text box skin",
+                        "srcWidget": "txtBox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "cfa007a0e0184a14818a999cc74dff1a"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konysa",
+    "version": "1.0.0"
+}

@@ -1,0 +1,29 @@
+{
+    "AS_ListBox_f92e80c9686c4e5eb31b9b7cd21c25ab": {
+        "id": "AS_ListBox_f92e80c9686c4e5eb31b9b7cd21c25ab",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwub1914fe0340444f94681ee4d573a42c",
+            "type": "userwidgets",
+            "KUID": "ub1914fe0340444f94681ee4d573a42c"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___gf68fa5fa1264c079dc14657fceecb07",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onSelectionCallBack",
+            "display": "onSelectionCallBack",
+            "inputparams": [{
+                "name": "list"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

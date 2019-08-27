@@ -1,0 +1,31 @@
+{
+    "AS_TextField_f8860e91e04e4f1195a113ad5fe1cba5": {
+        "id": "AS_TextField_f8860e91e04e4f1195a113ad5fe1cba5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "frmQFSLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a71e8c8aa1ac4eb5b64201719c47c06f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___bd3a8098e6934914a4bbb1253ed78f84",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "doLogin",
+            "display": "doLogin",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

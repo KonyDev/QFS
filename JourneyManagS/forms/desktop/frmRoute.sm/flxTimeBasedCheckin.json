@@ -1,0 +1,63 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "56dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s4e4e57ce14c4b1db46c627e4679ac33",
+    "_top_": {
+        "type": "string",
+        "value": "137dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "207px"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "lblTimeBasedCheckin",
+        "btnTimeBasedCheckin",
+        "imgTimeBasedCheckin"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxTimeBasedCheckin",
+    "ide_onClick": "AS_FlexContainer_a8bc298f40d34acf95a78524586c9a4e",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ia5dde6b5af94d53af357a9544b78a25",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "FlxCheckinDetails",
+    "pf": "frmRoute",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

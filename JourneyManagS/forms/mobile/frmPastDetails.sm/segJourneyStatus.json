@@ -1,0 +1,501 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "4%"
+    },
+    "_data_": [
+        {
+            "btnStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "No Delay"
+            },
+            "carImg": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "car_1.png"
+            },
+            "clockImg": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "clock.png"
+            },
+            "imgTrackingPoint": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "departurepoint_1.png"
+            },
+            "lblJourneyDuration": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4h"
+            },
+            "lblJourneyTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Journey Time"
+            },
+            "lblMiles": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "0.1 Mi"
+            },
+            "lblTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "04:15 PM"
+            },
+            "lblTrackingPointName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "123 Baker Street"
+            }
+        },
+        {
+            "btnStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "No Delay"
+            },
+            "carImg": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "car_1.png"
+            },
+            "clockImg": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "clock.png"
+            },
+            "imgTrackingPoint": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "departurepoint_1.png"
+            },
+            "lblJourneyDuration": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4h"
+            },
+            "lblJourneyTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Journey Time"
+            },
+            "lblMiles": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "0.1 Mi"
+            },
+            "lblTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "04:15 PM"
+            },
+            "lblTrackingPointName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "123 Baker Street"
+            }
+        },
+        {
+            "btnStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "No Delay"
+            },
+            "carImg": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "car_1.png"
+            },
+            "clockImg": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "clock.png"
+            },
+            "imgTrackingPoint": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "departurepoint_1.png"
+            },
+            "lblJourneyDuration": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4h"
+            },
+            "lblJourneyTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Journey Time"
+            },
+            "lblMiles": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "0.1 Mi"
+            },
+            "lblTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "04:15 PM"
+            },
+            "lblTrackingPointName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "123 Baker Street"
+            }
+        },
+        {
+            "btnStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "No Delay"
+            },
+            "carImg": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "car_1.png"
+            },
+            "clockImg": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "clock.png"
+            },
+            "imgTrackingPoint": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "departurepoint_1.png"
+            },
+            "lblJourneyDuration": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4h"
+            },
+            "lblJourneyTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Journey Time"
+            },
+            "lblMiles": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "0.1 Mi"
+            },
+            "lblTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "04:15 PM"
+            },
+            "lblTrackingPointName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "123 Baker Street"
+            }
+        },
+        {
+            "btnStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "No Delay"
+            },
+            "carImg": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "car_1.png"
+            },
+            "clockImg": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "clock.png"
+            },
+            "imgTrackingPoint": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "departurepoint_1.png"
+            },
+            "lblJourneyDuration": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4h"
+            },
+            "lblJourneyTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Journey Time"
+            },
+            "lblMiles": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "0.1 Mi"
+            },
+            "lblTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "04:15 PM"
+            },
+            "lblTrackingPointName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "123 Baker Street"
+            }
+        },
+        {
+            "btnStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "No Delay"
+            },
+            "carImg": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "car_1.png"
+            },
+            "clockImg": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "clock.png"
+            },
+            "imgTrackingPoint": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "departurepoint_1.png"
+            },
+            "lblJourneyDuration": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4h"
+            },
+            "lblJourneyTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Journey Time"
+            },
+            "lblMiles": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "0.1 Mi"
+            },
+            "lblTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "04:15 PM"
+            },
+            "lblTrackingPointName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "123 Baker Street"
+            }
+        },
+        {
+            "btnStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "No Delay"
+            },
+            "carImg": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "car_1.png"
+            },
+            "clockImg": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "clock.png"
+            },
+            "imgTrackingPoint": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "departurepoint_1.png"
+            },
+            "lblJourneyDuration": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4h"
+            },
+            "lblJourneyTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Journey Time"
+            },
+            "lblMiles": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "0.1 Mi"
+            },
+            "lblTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "04:15 PM"
+            },
+            "lblTrackingPointName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "123 Baker Street"
+            }
+        },
+        {
+            "btnStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "No Delay"
+            },
+            "carImg": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "car_1.png"
+            },
+            "clockImg": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "clock.png"
+            },
+            "imgTrackingPoint": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "departurepoint_1.png"
+            },
+            "lblJourneyDuration": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4h"
+            },
+            "lblJourneyTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Journey Time"
+            },
+            "lblMiles": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "0.1 Mi"
+            },
+            "lblTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "04:15 PM"
+            },
+            "lblTrackingPointName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "123 Baker Street"
+            }
+        },
+        {
+            "btnStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "No Delay"
+            },
+            "carImg": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "car_1.png"
+            },
+            "clockImg": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "clock.png"
+            },
+            "imgTrackingPoint": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "departurepoint_1.png"
+            },
+            "lblJourneyDuration": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4h"
+            },
+            "lblJourneyTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Journey Time"
+            },
+            "lblMiles": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "0.1 Mi"
+            },
+            "lblTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "04:15 PM"
+            },
+            "lblTrackingPointName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "123 Baker Street"
+            }
+        },
+        {
+            "btnStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "No Delay"
+            },
+            "carImg": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "car_1.png"
+            },
+            "clockImg": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "clock.png"
+            },
+            "imgTrackingPoint": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "departurepoint_1.png"
+            },
+            "lblJourneyDuration": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4h"
+            },
+            "lblJourneyTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Journey Time"
+            },
+            "lblMiles": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "0.1 Mi"
+            },
+            "lblTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "04:15 PM"
+            },
+            "lblTrackingPointName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "123 Baker Street"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "4%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "2%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "counter": "09",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segJourneyStatus",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "bbd35a1d047b40b6a23b19111468729b",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxMain",
+    "pf": "frmPastDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "c4dbff6d19254d08adf29cf57a015680",
+    "rowcounter": 9,
+    "rowfocusskin": "sbf9d91b89ba457ba62945f3c2a92526",
+    "rowskin": "s0625012ca484925b3c3adb072c624ac",
+    "rowtemplate": "flxJourneyStatus",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s6d26d70982642d1a5dc555e1c57b10a",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "separatorthickness": 0,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "btnStatus": "btnStatus",
+        "carImg": "carImg",
+        "clockImg": "clockImg",
+        "flxCarIcon": "flxCarIcon",
+        "flxClockIcon": "flxClockIcon",
+        "flxJourneyData": "flxJourneyData",
+        "flxJourneyStatus": "flxJourneyStatus",
+        "flxShadow": "flxShadow",
+        "flxTrackingPointIcon": "flxTrackingPointIcon",
+        "imgTrackingPoint": "imgTrackingPoint",
+        "lblJourneyDuration": "lblJourneyDuration",
+        "lblJourneyTime": "lblJourneyTime",
+        "lblMiles": "lblMiles",
+        "lblTime": "lblTime",
+        "lblTrackingPointName": "lblTrackingPointName"
+    },
+    "zindex": 1
+}

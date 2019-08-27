@@ -1,0 +1,221 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "counter": "03",
+    "desktop": {
+        "_data_": [
+            {
+                "lblDown": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblIndex": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "1"
+                },
+                "lblProcess": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Traveler Details"
+                },
+                "lblUp": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                }
+            },
+            {
+                "lblDown": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblIndex": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "2"
+                },
+                "lblProcess": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Route Details"
+                },
+                "lblUp": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                }
+            },
+            {
+                "lblDown": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblIndex": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "3"
+                },
+                "lblProcess": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Tracking Details"
+                },
+                "lblUp": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                }
+            },
+            {
+                "lblDown": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblIndex": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "4"
+                },
+                "lblProcess": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Vehicle Details"
+                },
+                "lblUp": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                }
+            },
+            {
+                "lblDown": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblIndex": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "5"
+                },
+                "lblProcess": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Review & Verifcation"
+                },
+                "lblUp": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                }
+            }
+        ],
+        "rowTemplateId": "ef117360eae74c938b1eb06dd5088ed9",
+        "rowtemplate": "flxRootProcessStatusDW",
+        "widgetdatamap": {
+            "flxRootProcessStatusDW": "flxRootProcessStatusDW",
+            "flxTracker": "flxTracker",
+            "lblDown": "lblDown",
+            "lblIndex": "lblIndex",
+            "lblProcess": "lblProcess",
+            "lblUp": "lblUp"
+        }
+    },
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segStatus",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "cae7ac9d7b934441844507b316083cdd",
+    "masterdata": {},
+    "mobile": {
+        "widgetdatamap": {}
+    },
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "processstatus",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowcounter": 3,
+    "rowfocusskin": "sbf9d91b89ba457ba62945f3c2a92526",
+    "rowskin": "s0059b0ebf18496d948d7dac7d0544de",
+    "rowtemplate": "flxRootProcessStatusDW",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s6d26d70982642d1a5dc555e1c57b10a",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": false,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxRootProcessStatusDW": "flxRootProcessStatusDW",
+        "flxTracker": "flxTracker",
+        "lblDown": "lblDown",
+        "lblIndex": "lblIndex",
+        "lblProcess": "lblProcess",
+        "lblUp": "lblUp"
+    },
+    "zindex": 1
+}

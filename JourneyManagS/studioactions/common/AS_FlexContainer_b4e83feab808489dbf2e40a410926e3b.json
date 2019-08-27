@@ -1,0 +1,18 @@
+{
+    "AS_FlexContainer_b4e83feab808489dbf2e40a410926e3b": {
+        "id": "AS_FlexContainer_b4e83feab808489dbf2e40a410926e3b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d79f5e17590742ac870627bb075b9854",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.clearWatch();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

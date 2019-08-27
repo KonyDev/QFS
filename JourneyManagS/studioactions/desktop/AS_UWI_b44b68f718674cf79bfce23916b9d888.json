@@ -1,0 +1,28 @@
+{
+    "AS_UWI_b44b68f718674cf79bfce23916b9d888": {
+        "id": "AS_UWI_b44b68f718674cf79bfce23916b9d888",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmJourneyList",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a971256743a14935a548091ac4418d25"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___f944617141a14b9aa9328c7b869aba3d",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onClickOfCreateCheckInBtn",
+            "display": "onClickOfCreateCheckInBtn",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

@@ -1,0 +1,37 @@
+[ {
+  "sourceObject" : "checklist_questions_master_tbl",
+  "targetObject" : "question_localisation_mapping_tbl",
+  "relationshipKeys" : [ {
+    "sourceField" : "question_id_pk",
+    "targetField" : "question_id_fk",
+    "etag" : "8a36bca7-d7f0-41e7-982b-99692ebec518"
+  } ],
+  "name" : "checklist_questions_master_tbl_question_localisation_mapping_tbl",
+  "type" : "OneToMany",
+  "custom" : false,
+  "cascadeDelete" : false
+}, {
+  "sourceObject" : "checklist_questions_master_tbl",
+  "targetObject" : "question_options_tbl",
+  "relationshipKeys" : [ {
+    "sourceField" : "question_id_pk",
+    "targetField" : "question_id_fk",
+    "etag" : "fd7102da-f71b-44fc-8635-bddebcca97b2"
+  } ],
+  "name" : "checklist_questions_master_tbl_question_options_tbl",
+  "type" : "OneToMany",
+  "custom" : false,
+  "cascadeDelete" : false
+}, {
+  "sourceObject" : "checklist_questions_master_tbl",
+  "targetObject" : "user_answers_tbl",
+  "relationshipKeys" : [ {
+    "sourceField" : "question_id_pk",
+    "targetField" : "question_id_fk",
+    "etag" : "d6ed8bd2-df87-4ffb-9112-859e8c01c930"
+  } ],
+  "name" : "checklist_questions_master_tbl_user_answers_tbl",
+  "type" : "OneToMany",
+  "custom" : false,
+  "cascadeDelete" : false
+} ]

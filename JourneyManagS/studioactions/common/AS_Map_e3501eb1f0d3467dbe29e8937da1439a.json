@@ -1,0 +1,26 @@
+{
+    "AS_Map_e3501eb1f0d3467dbe29e8937da1439a": {
+        "id": "AS_Map_e3501eb1f0d3467dbe29e8937da1439a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "location"
+        }],
+        "contextObj": {
+            "name": "uwud91fcb57356442bb8f1153906be7c0c",
+            "type": "userwidgets",
+            "KUID": "ud91fcb57356442bb8f1153906be7c0c"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ba58546b2a234d94a68bb198e7502865",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var locationData={};\nthis.view.mapJourney.dismissCallout(locationData);\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

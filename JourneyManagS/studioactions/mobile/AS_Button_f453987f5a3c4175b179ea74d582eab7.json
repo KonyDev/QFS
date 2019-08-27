@@ -1,0 +1,27 @@
+{
+    "AS_Button_f453987f5a3c4175b179ea74d582eab7": {
+        "id": "AS_Button_f453987f5a3c4175b179ea74d582eab7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "segTodayDataTemplates",
+            "type": "templates",
+            "platform": "",
+            "KUID": "c70952400a134bef939480dbd39ef360"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e622634a282844028da3a67f2b78cea7",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.executeOnParent(\"navigateToPastDetailsForm\",{});",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

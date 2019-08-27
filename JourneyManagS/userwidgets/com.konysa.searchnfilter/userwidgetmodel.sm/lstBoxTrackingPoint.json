@@ -1,0 +1,70 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        1,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Please Select",
+    "_right_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_skin_": "s1400476d550426db70634316e266a50",
+    "_top_": {
+        "type": "string",
+        "value": "196dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "desktopweb": {
+        "psp": {
+            "multiSelectRows": "2",
+            "multiple": true
+        }
+    },
+    "focusskin": "s66a14d03ba54c8b8a333dd9113c8610",
+    "groupcells": false,
+    "id": "lstBoxTrackingPoint",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "bd1fdb6318bd4e55abd955e3405367dd",
+    "masterdata": [],
+    "multiselect": true,
+    "name": "kony.ui.ListBox",
+    "parent": "flxFilterRoot",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkeys": null,
+    "selectedkeyvalue": null,
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox",
+    "zindex": 1
+}

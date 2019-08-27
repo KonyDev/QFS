@@ -1,0 +1,111 @@
+{
+  "android": {
+    "background_color": "575ee7ff",
+    "bg_type": "one",
+    "isForked": true
+  },
+  "androidwearos": {
+    "background_color": "575ee7ff",
+    "bg_type": "one",
+    "font_name": "default",
+    "isForked": true
+  },
+  "background_color": "ffffffff",
+  "bg_type": "one",
+  "border_color": "000000ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "desktopweb": {
+    "background_color": "575ee7ff",
+    "bg_type": "one",
+    "customCSS": "cursor:pointer;\nborder-radius:4px;\nbackground-color:#575ee7;",
+    "isCustomCSSEnabled": true,
+    "isForked": true
+  },
+  "ipad": {
+    "background_color": "575ee7ff",
+    "bg_type": "one",
+    "isForked": true
+  },
+  "iphone": {
+    "background_color": "575ee7ff",
+    "bg_type": "one",
+    "isForked": true
+  },
+  "isDefaultSkin": false,
+  "kiosk": {
+    "background_color": "575ee7ff",
+    "bg_type": "one",
+    "isForked": true
+  },
+  "kuid": "s09af5debabc4a2db80e314c8a76188b",
+  "spaan": {
+    "background_color": "575ee7ff",
+    "bg_type": "one",
+    "customCSS": "cursor:pointer;\nborder-radius:4px;\nbackground-color:#575ee7;",
+    "isCustomCSSEnabled": true,
+    "isForked": true
+  },
+  "spaandroidtablet": {
+    "background_color": "575ee7ff",
+    "bg_type": "one",
+    "customCSS": "cursor:pointer;\nborder-radius:4px;\nbackground-color:#575ee7;",
+    "isCustomCSSEnabled": true,
+    "isForked": true
+  },
+  "spabb": {
+    "background_color": "575ee7ff",
+    "bg_type": "one",
+    "customCSS": "cursor:pointer;\nborder-radius:4px;\nbackground-color:#575ee7;",
+    "isCustomCSSEnabled": true,
+    "isForked": true
+  },
+  "spaip": {
+    "background_color": "575ee7ff",
+    "bg_type": "one",
+    "customCSS": "cursor:pointer;\nborder-radius:4px;\nbackground-color:#575ee7;",
+    "isCustomCSSEnabled": true,
+    "isForked": true
+  },
+  "spaipad": {
+    "background_color": "575ee7ff",
+    "bg_type": "one",
+    "customCSS": "cursor:pointer;\nborder-radius:4px;\nbackground-color:#575ee7;",
+    "isCustomCSSEnabled": true,
+    "isForked": true
+  },
+  "spawindowstablet": {
+    "background_color": "575ee7ff",
+    "bg_type": "one",
+    "customCSS": "cursor:pointer;\nborder-radius:4px;\nbackground-color:#575ee7;",
+    "isCustomCSSEnabled": true,
+    "isForked": true
+  },
+  "spawinphone8": {
+    "background_color": "575ee7ff",
+    "bg_type": "one",
+    "customCSS": "cursor:pointer;\nborder-radius:4px;\nbackground-color:#575ee7;",
+    "isCustomCSSEnabled": true,
+    "isForked": true
+  },
+  "tabrcandroid": {
+    "background_color": "575ee7ff",
+    "bg_type": "one",
+    "isForked": true
+  },
+  "wType": "FlexContainer",
+  "watchos": {
+    "font_name": "System"
+  },
+  "windows8": {
+    "background_color": "575ee7ff",
+    "bg_type": "one",
+    "isForked": true
+  },
+  "winphone8": {
+    "background_color": "575ee7ff",
+    "bg_type": "one",
+    "isForked": true
+  }
+}

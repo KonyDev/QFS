@@ -1,0 +1,86 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        2,
+        0,
+        0,
+        2
+    ],
+    "_skin_": "se9eb346df90493a817546db38c32f36",
+    "_text_": "Username",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "contentAlignment": 7,
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "lblPlaceholder",
+    "ide_onTouchStart": "AS_Label_acd2edb1c5604cb892bdad714391b580",
+    "info": null,
+    "ipad": {
+        "contentAlignment": 7,
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "contentAlignment": 7,
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isvisible": true,
+    "kuid": "dfefcd9890734816a6c9967abf707ef0",
+    "name": "kony.ui.Label",
+    "paddinginpixel": false,
+    "parent": "flxTextBox",
+    "pf": "userwidgetmodel",
+    "spamobile": {
+        "contentAlignment": 4
+    },
+    "spatablet": {
+        "contentAlignment": 4
+    },
+    "tabrcandroid": {
+        "contentAlignment": 7
+    },
+    "textstyle": {},
+    "tooltip": "",
+    "wType": "Label",
+    "windows8": {
+        "contentAlignment": 7
+    },
+    "winphone8": {
+        "contentAlignment": 7
+    },
+    "zindex": 5
+}

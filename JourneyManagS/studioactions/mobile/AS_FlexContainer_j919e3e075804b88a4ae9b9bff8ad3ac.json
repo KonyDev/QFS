@@ -1,0 +1,31 @@
+{
+    "AS_FlexContainer_j919e3e075804b88a4ae9b9bff8ad3ac": {
+        "id": "AS_FlexContainer_j919e3e075804b88a4ae9b9bff8ad3ac",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___ee4abdd96cbc417caf91112e0defffe1",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "MyAccount",
+            "formKUID": "d4f38b7ff22040a0a2ddd13594ed027a",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n\"_meta_\" : {\n\t\"eventName\" : \"onClick\",\n\t\"widgetId\" : \"flxMyAccountSidebar\"\n}\n}",
+            "isCustomInput": false
+        }, {
+            "id": "ADD_SNIPPET__d40b286ab4f44cb7a7b80c49d45c83bc",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxSideBar.isVisible = false;",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

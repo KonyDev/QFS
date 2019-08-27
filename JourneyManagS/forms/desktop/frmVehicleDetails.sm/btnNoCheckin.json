@@ -1,0 +1,52 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "24px"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s6dffed99b1543608598ccf2b67c550a",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "15px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "24px"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s7f6cdd4b32645238316d22088753df1",
+    "id": "btnNoCheckin",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "f7df7f6e2a884a4f91c6f0fe39f657c2",
+    "name": "kony.ui.Button",
+    "parent": "flxVehicleOptionThree",
+    "pf": "frmVehicleDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

@@ -1,0 +1,91 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "update" : "updateMapping",
+    "create" : "createMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "UpdateTimeStampField" : {
+      "DateFormat" : "",
+      "Name" : "lastupdateddatetime"
+    },
+    "SoftDeleteFlagField" : {
+      "ActiveValue" : "false",
+      "InactiveValue" : "true",
+      "Name" : "softdeleteflag"
+    },
+    "backendMeta" : {
+      "backendObjectName" : "user_tbl",
+      "qualifiedName" : "journey_db_dev.user_tbl",
+      "metadataformatterobject" : "{\"displayName\":\"user_tbl\",\"qualifiedName\":\"journey_db_dev.user_tbl\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"user_tbl\",\"schemaName\":\"journey_db_dev\",\"tableName\":\"user_tbl\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "user_tbl",
+      "qualifiedName" : "journey_db_dev.user_tbl",
+      "metadataformatterobject" : "{\"displayName\":\"user_tbl\",\"qualifiedName\":\"journey_db_dev.user_tbl\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"user_tbl\",\"schemaName\":\"journey_db_dev\",\"tableName\":\"user_tbl\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "user_emp_id_pk",
+    "targetField" : "user_emp_id_pk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "user_firstname",
+    "targetField" : "user_firstname",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "user_lastname",
+    "targetField" : "user_lastname",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "region_id_fk",
+    "targetField" : "region_id_fk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "language_id_fk",
+    "targetField" : "language_id_fk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "softdeleteflag",
+    "targetField" : "softdeleteflag",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "user_satellite",
+    "targetField" : "user_satellite",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "user_phone1",
+    "targetField" : "user_phone1",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "user_email_id",
+    "targetField" : "user_email_id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "group_id_fk",
+    "targetField" : "group_id_fk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "country_id_fk",
+    "targetField" : "country_id_fk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "user_radio",
+    "targetField" : "user_radio",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "lastupdateddatetime",
+    "targetField" : "lastupdateddatetime",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "createddatetime",
+    "targetField" : "createddatetime",
+    "type" : "request_response"
+  } ]
+}

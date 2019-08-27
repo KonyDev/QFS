@@ -1,0 +1,133 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "Image0b6f7aa5bda1145": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "car.png"
+            },
+            "lblCarModel": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "365 234B"
+            },
+            "lblCarName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Ford Focus"
+            }
+        },
+        {
+            "Image0b6f7aa5bda1145": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "car.png"
+            },
+            "lblCarModel": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "365 234B"
+            },
+            "lblCarName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Ford Focus"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "16dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "android": {},
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "counter": "01",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segmentPersonalCar",
+    "ide_onRowClick": "AS_Segment_j2e77dea7cb4474e96821878ba616678",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a698a7214b5541f9a99a0d3f0fbcd155",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxNewJourneyRouteSelectVehicle",
+    "pf": "frmNewJourneyVehicle",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "ba54d82e24e242d381588c79a49ab532",
+    "rowcounter": 1,
+    "rowfocusskin": "sbf9d91b89ba457ba62945f3c2a92526",
+    "rowskin": "s0059b0ebf18496d948d7dac7d0544de",
+    "rowtemplate": "CopyflxMain0b62d1a20bb874e",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s6d26d70982642d1a5dc555e1c57b10a",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "separatorthickness": 0,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "CopyflxMain0b62d1a20bb874e": "CopyflxMain0b62d1a20bb874e",
+        "Image0b6f7aa5bda1145": "Image0b6f7aa5bda1145",
+        "flxSubContainer": "flxSubContainer",
+        "lblCarModel": "lblCarModel",
+        "lblCarName": "lblCarName"
+    },
+    "zindex": 1
+}

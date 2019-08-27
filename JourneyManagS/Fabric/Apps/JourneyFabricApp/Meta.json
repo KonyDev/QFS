@@ -1,0 +1,58 @@
+{
+  "icon" : "icon.png",
+  "subType" : "customapp",
+  "description" : "JourneyFabricApp",
+  "version" : "1.0",
+  "intSvcs" : [ {
+    "name" : "DistanceMatrix",
+    "version" : "1.0",
+    "etag" : "7027682c-a9ff-4f1a-946e-c08ee7c40df0"
+  }, {
+    "name" : "fmgKMSService",
+    "version" : "1.0",
+    "etag" : "4a438912-40cb-4101-bdba-58a7bde58641"
+  }, {
+    "name" : "fmgPushAccLogin",
+    "version" : "1.0",
+    "etag" : "654bdfa8-b6cb-42c7-bcf3-c42615470f43"
+  }, {
+    "name" : "LoginSvc",
+    "version" : "1.0",
+    "etag" : "772b9820-1506-4cc2-84ec-349dd41b66ad"
+  }, {
+    "name" : "PlaceAutocomplete",
+    "version" : "1.0",
+    "etag" : "b0a62178-97fa-4775-847c-34e6d6986fef"
+  }, {
+    "name" : "PlaceDetail",
+    "version" : "1.0",
+    "etag" : "b889aea5-ec6b-4c13-a95a-929af2aa429e"
+  }, {
+    "name" : "placeSearchAutoComplete",
+    "version" : "1.0",
+    "etag" : "5ca63cb0-0a0e-4c1b-88a4-4e210072b1ca"
+  }, {
+    "name" : "ReverseGeoCode",
+    "version" : "1.0",
+    "etag" : "bcf41113-ae2b-46af-b371-42b1dcecea2c"
+  }, {
+    "name" : "sendPushNotification",
+    "version" : "1.0",
+    "etag" : "124fa772-f6b4-404b-94ad-1c298eafa4c7"
+  } ],
+  "orchSvcs" : [ {
+    "name" : "fmgOrchSvcForPush",
+    "version" : "1.0",
+    "etag" : "632bc3c7-21ff-47e8-9ead-84f0f51cb5ec"
+  }, {
+    "name" : "OrchPushNotificationService",
+    "version" : "1.0",
+    "etag" : "cb60a762-724b-4bbb-97f2-b744d42fe050"
+  } ],
+  "objectSvcs" : [ {
+    "name" : "JourneyObSrvc",
+    "version" : "1.0",
+    "etag" : "e746dcae-8567-44f8-af67-2cedabbed264"
+  } ],
+  "identity" : [ "InspCustomLogin" ]
+}

@@ -1,0 +1,27 @@
+{
+    "AS_Button_c519c15bf8e24c8d82022fb235effed2": {
+        "id": "AS_Button_c519c15bf8e24c8d82022fb235effed2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "segTodayDataTemplates",
+            "type": "templates",
+            "platform": "",
+            "KUID": "c70952400a134bef939480dbd39ef360"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f9f06d224b4c4ae29452c0f6ae96a0d3",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.executeOnParent(\"NavigateToBeginJourney\",{});",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

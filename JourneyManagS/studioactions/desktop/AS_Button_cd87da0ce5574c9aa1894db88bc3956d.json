@@ -1,0 +1,17 @@
+{
+    "AS_Button_cd87da0ce5574c9aa1894db88bc3956d": {
+        "id": "AS_Button_cd87da0ce5574c9aa1894db88bc3956d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_a2379e0a53604f3c9860aec5b3b1af68",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.showEditableFields();",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "AS_ListBox_c71e476da1de4d9aa4c5648b36dac899": {
+        "id": "AS_ListBox_c71e476da1de4d9aa4c5648b36dac899",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "KUID": "uec3161044c243b6b90c883834bfbcb7",
+            "name": "uwuec3161044c243b6b90c883834bfbcb7",
+            "type": "userwidgets"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e6b24ba361d84a569a35dc6dccc9b4c8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var selectedMonth=this.view.lsMonth.selectedKey;\nvar year = this.view.lsYear.selectedKeyValue;\nvar day=this.view.lsDate.selectedKey;\nvar noOfDays=this.getNumberOfDaysinCurrentMonth(selectedMonth, year[1]);\nthis.setDefaultDatesData(noOfDays);\nthis.view.lsDate.selectedKey=day;\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

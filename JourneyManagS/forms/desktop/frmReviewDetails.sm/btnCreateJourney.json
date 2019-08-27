@@ -1,0 +1,57 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "10px"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "50px"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_skin_": "s12fcf6f37f74e30b6b3ad991f48d495",
+    "_text_": "Create Journey",
+    "_top_": {
+        "type": "string",
+        "value": "22px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "174px"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sac9e5ebdae843129ff5938e25125b63",
+    "id": "btnCreateJourney",
+    "ide_onClick": "AS_Button_he8598d2157a4fe08377f57876c1a4b7",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a5f290ba8659483cac6dd721e2a9210d",
+    "name": "kony.ui.Button",
+    "parent": "flxReviewDashboardData",
+    "pf": "frmReviewDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

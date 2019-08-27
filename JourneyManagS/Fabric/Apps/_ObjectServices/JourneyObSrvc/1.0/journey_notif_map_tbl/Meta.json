@@ -1,0 +1,67 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "update" : "updateMapping",
+    "create" : "createMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "UpdateTimeStampField" : {
+      "DateFormat" : "",
+      "Name" : "lastupdateddatetime"
+    },
+    "SoftDeleteFlagField" : {
+      "ActiveValue" : "false",
+      "InactiveValue" : "true",
+      "Name" : "softdeleteflag"
+    },
+    "backendMeta" : {
+      "backendObjectName" : "journey_notif_map_tbl",
+      "qualifiedName" : "journey_db_dev.journey_notif_map_tbl",
+      "metadataformatterobject" : "{\"displayName\":\"journey_notif_map_tbl\",\"qualifiedName\":\"journey_db_dev.journey_notif_map_tbl\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"journey_notif_map_tbl\",\"schemaName\":\"journey_db_dev\",\"tableName\":\"journey_notif_map_tbl\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "journey_notif_map_tbl",
+      "qualifiedName" : "journey_db_dev.journey_notif_map_tbl",
+      "metadataformatterobject" : "{\"displayName\":\"journey_notif_map_tbl\",\"qualifiedName\":\"journey_db_dev.journey_notif_map_tbl\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"journey_notif_map_tbl\",\"schemaName\":\"journey_db_dev\",\"tableName\":\"journey_notif_map_tbl\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "createdby",
+    "targetField" : "createdby",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "lastupdatedby",
+    "targetField" : "lastupdatedby",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "notification_id_fk",
+    "targetField" : "notification_id_fk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "lastupdateddatetime",
+    "targetField" : "lastupdateddatetime",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "createddatetime",
+    "targetField" : "createddatetime",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "row_id_pk",
+    "targetField" : "row_id_pk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "journey_id_fk",
+    "targetField" : "journey_id_fk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "softdeleteflag",
+    "targetField" : "softdeleteflag",
+    "type" : "request_response"
+  } ]
+}

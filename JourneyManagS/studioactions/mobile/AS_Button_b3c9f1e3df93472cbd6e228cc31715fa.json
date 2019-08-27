@@ -1,0 +1,31 @@
+{
+    "AS_Button_b3c9f1e3df93472cbd6e228cc31715fa": {
+        "id": "AS_Button_b3c9f1e3df93472cbd6e228cc31715fa",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmNewJourneyVehicle",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c1aa10f1386444139d304d9a2168d412"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___h183497256d84314bce52e436b579825",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmNewJourneyVerification",
+            "formKUID": "i01a47578c104e9e9b09ea3c5b514c3c",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n\"_meta_\" : {\n\t\"eventName\" : \"onClick\",\n\t\"widgetId\" : \"CopybtnSignIn0c86be9e40eae43\"\n}\n}",
+            "isCustomInput": false
+        }]
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "47dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s4e4e57ce14c4b1db46c627e4679ac33",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "300px"
+    },
+    "allboxes": [],
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "children": [
+        "lblMake",
+        "txtboxMake",
+        "lblModel",
+        "txtboxModel",
+        "lblColor",
+        "txtboxColor",
+        "lblRegistration",
+        "txtboxRegistration",
+        "lblNewVehicleType",
+        "txtboxNewVehicleType"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "FlxAddNewVehicleDetails",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "d9b4d3e3cb2a4f2d957dc9306fd88b1f",
+    "layouttype": 4,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxVehicleDetailsDashboard",
+    "pf": "frmVehicleDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

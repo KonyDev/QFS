@@ -1,0 +1,30 @@
+{
+    "AS_Segment_a19725197d8f4c1dad9cf15d746a61e2": {
+        "id": "AS_Segment_a19725197d8f4c1dad9cf15d746a61e2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmNewJourneyRoute",
+            "type": "forms",
+            "platform": "",
+            "KUID": "jba05021cee846d6a62d81619b6232bf"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a2062abcddb44303b83a0b88f67e6490",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "// ApplicationData1.SavingData.DeparturePoint =  (this.view.segDeparturePoints.selectedRowItems[0].lblDeparturePoints);\nthis.view.flxNewJourneyRoute.isVisible = false;\nthis.view.flxNewJourneyRoute2.isVisible = true;\n\n\n\n//Setting the JSONVariable\nApplicationData1.SavingData.DeparturePoint = (this.view.segDeparturePoints.selectedRowItems[0].lblDeparturePoints);\n\nthis.view.HeaderEntry2.text = ApplicationData1.SavingData.DeparturePoint;\n\n//Setting the MasterData of the Segment to the ListBox.\n// for(var i=0;i<this.view.lstBoxTrackingPoints.masterDataMap[0].length;i++)\n//   {\n//     if(this.view.lstBoxTrackingPoints.masterDataMap[0][i].myvalue == ApplicationData1.SavingData.TrackingPoint)\n//       {\n//         this.view.lstBoxTrackingPoints.selectedKey = (this.view.lstBoxTrackingPoints.masterDataMap[0][i].mykey);\n//       }\n//   }\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

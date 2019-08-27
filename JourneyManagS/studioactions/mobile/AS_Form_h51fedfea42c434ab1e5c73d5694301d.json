@@ -1,0 +1,24 @@
+{
+    "AS_Form_h51fedfea42c434ab1e5c73d5694301d": {
+        "id": "AS_Form_h51fedfea42c434ab1e5c73d5694301d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmNewJourneyVehicle",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c1aa10f1386444139d304d9a2168d412"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__i0952cd80b69423cbc70b7dde8e8b7c0",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.setCarInformation();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

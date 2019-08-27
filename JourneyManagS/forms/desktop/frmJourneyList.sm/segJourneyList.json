@@ -1,0 +1,180 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "imgCheckIn": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "chechbox_unselected.png"
+            },
+            "imgMenu": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "menu_icon.png"
+            },
+            "lblActionText": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Contact Supervisor"
+            },
+            "lblDriverName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Peter Oliver"
+            },
+            "lblETA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ETA"
+            },
+            "lblEmailID": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblFooter2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblJourneyStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Normal"
+            },
+            "lblLastKnownLocation": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "10 Georgetown Street"
+            },
+            "lblLastKonwnLocationTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Last Known Location"
+            },
+            "lblShadow": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "28 Jun, 16:10 PM"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "850dp"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "2dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_top_": {
+        "type": "number",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "99.90%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "00",
+    "disabledSkins": {},
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segJourneyList",
+    "ide_onRowClick": "AS_Segment_ff39eb080d91432b8e795d455b73ea4f",
+    "info": null,
+    "invokedProperty": "selectedStateImage",
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "cbb689b3f97b4655bb6588076fb74562",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "paddinginpixel": false,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxJourneyRootList",
+    "pf": "frmJourneyList",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "b10655ee1e7442ca85ed5d3f82cb6c4f",
+    "rowcounter": 0,
+    "rowfocusskin": "sbf9d91b89ba457ba62945f3c2a92526",
+    "rowskin": "sda62d9dbee1481ab3cb6efc6574efbb",
+    "rowtemplate": "flxRootJourneyCard",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s6d26d70982642d1a5dc555e1c57b10a",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "selectionindicator": "imgCheckIn",
+    "separatorcolor": "fafafa00",
+    "separatorrequired": true,
+    "separatorthickness": 10,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxAction": "flxAction",
+        "flxActionRoot": "flxActionRoot",
+        "flxCheckIn": "flxCheckIn",
+        "flxContainer": "flxContainer",
+        "flxJourneyCardHeader": "flxJourneyCardHeader",
+        "flxLocationTime": "flxLocationTime",
+        "flxMenu": "flxMenu",
+        "flxRoot": "flxRoot",
+        "flxRootJourneyCard": "flxRootJourneyCard",
+        "flxTitle": "flxTitle",
+        "imgCheckIn": "imgCheckIn",
+        "imgMenu": "imgMenu",
+        "lblActionText": "lblActionText",
+        "lblDriverName": "lblDriverName",
+        "lblETA": "lblETA",
+        "lblEmailID": "lblEmailID",
+        "lblFooter2": "lblFooter2",
+        "lblJourneyStatus": "lblJourneyStatus",
+        "lblLastKnownLocation": "lblLastKnownLocation",
+        "lblLastKonwnLocationTitle": "lblLastKonwnLocationTitle",
+        "lblShadow": "lblShadow",
+        "lblTime": "lblTime"
+    },
+    "zindex": 1
+}

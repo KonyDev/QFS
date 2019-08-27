@@ -1,0 +1,65 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s37736204f544d7486cd4991218517cf",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "data": {
+        "ide_onClickOfUpdateETA": "AS_UWI_d63b8ae9a0d447cca32abc2ace40ab51",
+        "ide_onClickOfUpdateETACancel": "AS_UWI_ib866057f3684175914841f498b8dd82",
+        "ide_onClickOfUpdateETAConformBtn": "AS_UWI_e96d61391a1144d3a2a4ede841b9562a"
+    },
+    "enablescrolling": true,
+    "id": "ETAReporting",
+    "info": null,
+    "iscustomlayout": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "dea27c254e0d41e4acd6d697ed4b49ff",
+    "layouttype": 4,
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxETA",
+    "pf": "frmJourneyList",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "dc22b0291d064655bfeb6bdced0f71df",
+    "wType": "UserWidgetInstance"
+}

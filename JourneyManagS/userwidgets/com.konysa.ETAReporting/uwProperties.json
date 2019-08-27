@@ -1,0 +1,193 @@
+{
+    "classname": "ETAReporting",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "a08c4eace08946a6b8960041256baef9",
+                    "paramList": [],
+                    "propertyKey": "getListBoxSelectedValue",
+                    "pw": {
+                        "displayName": "getListBoxSelectedValue",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "dc22b0291d064655bfeb6bdced0f71df",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "c8af674b59b948bd987e4e2677208e8c",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "dismissAlert",
+                    "pw": {
+                        "displayName": "dismissAlert",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "dc22b0291d064655bfeb6bdced0f71df",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "j4654df960f94f8ea6ea0e78af979dc7",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "componentPreShow",
+                    "pw": {
+                        "displayName": "componentPreShow",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "dc22b0291d064655bfeb6bdced0f71df",
+                    "type": "event"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "jfdbde735c74410b86cf8669752f41eb",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 2,
+                    "propertyKey": "onClickOfUpdateETA",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onClickOfUpdateETA",
+                        "srcWidget": "btnCheckIn",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "c5e4fe4590734da8a69c8af1d8559499"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f27fa6e515474dd8a493de3ac11475e3",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 3,
+                    "propertyKey": "onClickOfUpdateETACancel",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onClickOfUpdateETACancel",
+                        "srcWidget": "btnCancel",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "a06c849f10a046c798966d9091ad8d69"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f790d217cd294a23bb580ab8d4038efe",
+                    "originalPropertyKey": "masterData",
+                    "propertyIndex": 1,
+                    "propertyKey": "ListBoxMasterData",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "companionKeys": [
+                            {
+                                "isVisible": false,
+                                "key": "selectedKey",
+                                "originalKey": "selectedKey"
+                            },
+                            {
+                                "isVisible": false,
+                                "key": "selectedKeys",
+                                "originalKey": "selectedKeys"
+                            }
+                        ],
+                        "dependentKeysKUIDs": null,
+                        "displayName": "ListBox MasterData",
+                        "srcWidget": "lstTimeCheckins",
+                        "type": "data",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Masterdata-Groupwidget",
+                                "dataUpdaterId": "Masterdata-Groupwidget",
+                                "popupId": "Masterdata-Groupwidget",
+                                "type": "GroupWidgetMasterDataBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Button",
+                        "wType": "ListBox"
+                    },
+                    "srcWgtKUID": "c949ae2e96a04d978be3adc98038aead"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e46f989bdf264b01a9fe9a35fa720ba4",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 3,
+                    "propertyKey": "HeaderText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Header Text",
+                        "srcWidget": "lblHeaderText",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "f6ec623d9f0a4133910c5e9140e78fa2"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "hfa6c76cd5a54ca08f5c6323289dd843",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 4,
+                    "propertyKey": "DescriptionText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Description",
+                        "srcWidget": "lblBody",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "de66159a8dd24ef0acedc2c16c5f47ad"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [
+                {
+                    "kuid": "bfd27aab85c744cebac6e235a6e1adc7",
+                    "propertyKey": "lstTimeCheckins",
+                    "srcWgtKUID": "c949ae2e96a04d978be3adc98038aead"
+                }
+            ],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konysa",
+    "version": "1.0.0"
+}

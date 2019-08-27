@@ -1,0 +1,33 @@
+{
+    "AS_Button_jc15b9b72a884dc28f1e7391212e47b8": {
+        "id": "AS_Button_jc15b9b72a884dc28f1e7391212e47b8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "KUID": "ue307f9705384099a9a5c676be892c9d",
+            "name": "uwue307f9705384099a9a5c676be892c9d",
+            "type": "userwidgets"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___a0ea4fcf81cf4127ae98d0c8d263f639",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onTouchEnd",
+            "display": "onTouchEnd",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "48px"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "459px"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s5daa0cbfe4b4c46b577ea7418843ee5",
+    "_text_": "Save",
+    "_top_": {
+        "type": "string",
+        "value": "30px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "132px"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sac9e5ebdae843129ff5938e25125b63",
+    "id": "btnSave",
+    "ide_onClick": "AS_Button_he535bb4fd804441bb99c6fddbcc24e4",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "e3e4225fbc604eb796df9f77b84a970e",
+    "name": "kony.ui.Button",
+    "parent": "RightFlex",
+    "pf": "frmVehicleDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

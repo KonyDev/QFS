@@ -1,0 +1,17 @@
+{
+  "name" : "default",
+  "dataAdapterId" : "1",
+  "type" : "CustomDataAdapter",
+  "encryptSecureInfo" : false,
+  "config" : {
+    "authservicetype" : "IdentityProvider",
+    "jdbcClass" : "com.mysql.jdbc.Driver",
+    "jdbcUrl" : "jdbc:mysql://ace-dev-rds.cd39ybdqxbpb.us-east-1.rds.amazonaws.com:3306/",
+    "userId" : "aceuser",
+    "password" : "ace4dsgh7sha",
+    "advancedSettings" : "{'softdeleteflag':'softdeleteflag'}",
+    "maxPoolSize" : null,
+    "connectionTimeout" : "600000"
+  },
+  "jsonpath" : false
+}

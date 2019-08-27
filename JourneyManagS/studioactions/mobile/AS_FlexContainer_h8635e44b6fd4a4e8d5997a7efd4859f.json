@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_h8635e44b6fd4a4e8d5997a7efd4859f": {
+        "id": "AS_FlexContainer_h8635e44b6fd4a4e8d5997a7efd4859f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_aa5a6add32e54e4b9b0be6461e3ad79e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var ntf = new kony.mvc.Navigation(kony.application.getPreviousForm().id);\nntf.navigate();",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "AS_ListBox_addf7c9993cd4a23a692936e959973ff": {
+        "id": "AS_ListBox_addf7c9993cd4a23a692936e959973ff",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onSelection_dd07c95600ab48fcb899fa1937e43613",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.selectedCompanyVehicle(eventobject);",
+            "callbackType": null
+        }]
+    }
+}

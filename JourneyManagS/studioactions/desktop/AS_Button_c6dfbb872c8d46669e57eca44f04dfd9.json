@@ -1,0 +1,24 @@
+{
+    "AS_Button_c6dfbb872c8d46669e57eca44f04dfd9": {
+        "id": "AS_Button_c6dfbb872c8d46669e57eca44f04dfd9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmJourneyList",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a971256743a14935a548091ac4418d25"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__gd53db3699f54039911dcb67da534753",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.pushMessage();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

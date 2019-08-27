@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_i274525d5c2341489e9ef477408305fd": {
+        "id": "AS_FlexContainer_i274525d5c2341489e9ef477408305fd",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmNewJourneyTraveller",
+            "type": "forms",
+            "platform": null,
+            "KUID": "iaea82882d3548db892dbeb566e6f143"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ef32272d67f4488da4bfd0c793048b74",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxAddPassengerContainer.isVisible = true;",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

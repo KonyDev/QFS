@@ -1,0 +1,17 @@
+{
+    "AS_Button_e57db506ed284c7f9c7efc2b20860659": {
+        "id": "AS_Button_e57db506ed284c7f9c7efc2b20860659",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_af718d1956da46f1ad33e18d519ec21b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxPassengerDetailsContainer.isVisible = true;\ntry\n{\n  this.showAllThePassengers();\n}\ncatch(err)\n{\n  alert(err.message);\n}\n",
+            "callbackType": null
+        }]
+    }
+}

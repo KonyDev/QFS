@@ -1,0 +1,43 @@
+{
+    "classname": "customAlertWithoutContactCheckin",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "c75ddc6d69b0470187d8210454b437db",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "dismissAlert",
+                    "pw": {
+                        "displayName": "dismissAlert",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "f2cca61a66e84eac914062512db1c877",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konysa",
+    "version": "1.0.0"
+}

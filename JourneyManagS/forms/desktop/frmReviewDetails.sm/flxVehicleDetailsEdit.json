@@ -1,0 +1,73 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "400px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "seea5174d4874326a922722d5f49a7c8",
+    "_top_": {
+        "type": "string",
+        "value": "10px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "390px"
+    },
+    "allboxes": [],
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "children": [
+        "lblVehicleHeaderEdit",
+        "lblVehicleType",
+        "flxVehicleOptionOne",
+        "FlxCompanyVehicleListBox",
+        "lblHorizontalLine1",
+        "flxVehicleOptionTwo",
+        "FlxPersonalVehicleListBox",
+        "lblHorizontalLine2",
+        "flxVehicleOptionThree",
+        "lblHorizontalLine3",
+        "flxVehicleOptionFour",
+        "FlxAddNewVehicleDetails",
+        "lblHorizontalLine4",
+        "btnVehicleDetailsSave"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxVehicleDetailsEdit",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "bdb379434417410b8d6b157729de9768",
+    "layouttype": 4,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxReviewDashboardData",
+    "pf": "frmReviewDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

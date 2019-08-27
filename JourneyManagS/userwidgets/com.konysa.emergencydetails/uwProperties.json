@@ -1,0 +1,63 @@
+{
+    "classname": "emergencydetails",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "b869b4c967b04feeb891039b8615aac9",
+                    "paramList": [],
+                    "propertyKey": "setEmergencyDetails",
+                    "pw": {
+                        "displayName": "setEmergencyDetails",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a44d65bfe49545019267516163a141fd",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ce544aa65a31431e852b5257ec8e9630",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "OnClickOfflxEmergencyAction",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "OnClickOfflxEmergencyAction",
+                        "srcWidget": "flxEmergencyAction",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "f2389263e0104acb843fa2c13dabfd82"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konysa",
+    "version": "1.0.0"
+}

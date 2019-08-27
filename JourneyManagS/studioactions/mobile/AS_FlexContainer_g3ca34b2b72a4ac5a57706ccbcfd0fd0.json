@@ -1,0 +1,27 @@
+{
+    "AS_FlexContainer_g3ca34b2b72a4ac5a57706ccbcfd0fd0": {
+        "id": "AS_FlexContainer_g3ca34b2b72a4ac5a57706ccbcfd0fd0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "fe08a3032f3743ccad7663a45ad9bd83"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "CHANNEL_CONDITION_ide_onClick_h8705215d8a441fea4f3e729ec639fc3",
+            "type": "CHANNEL_CONDITION",
+            "platforms": ["spaan", "spaip", "spabb", "spaipad", "spatabandroid", "desktopweb", "ipad"]
+        }, {
+            "id": "ADD_SNIPPET_ide_onClick_f7cda81ed8024d81b0f750e1ee71829e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.animateComponent(this.view.lblPlaceholder);",
+            "parentId": "CHANNEL_CONDITION_ide_onClick_h8705215d8a441fea4f3e729ec639fc3",
+            "callbackType": null
+        }]
+    }
+}

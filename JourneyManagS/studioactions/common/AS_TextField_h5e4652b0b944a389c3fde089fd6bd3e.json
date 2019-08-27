@@ -1,0 +1,26 @@
+{
+    "AS_TextField_h5e4652b0b944a389c3fde089fd6bd3e": {
+        "id": "AS_TextField_h5e4652b0b944a389c3fde089fd6bd3e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "uwuca2fd6d21aa4a8495fffe2f7f148eda",
+            "type": "userwidgets",
+            "KUID": "uca2fd6d21aa4a8495fffe2f7f148eda"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a759cd995a04405b9c73e86fa8665822",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onDone(this.view.lblPlaceholder);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

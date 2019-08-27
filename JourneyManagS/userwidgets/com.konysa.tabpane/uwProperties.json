@@ -1,0 +1,146 @@
+{
+    "classname": "tabpane",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "e0c58e5742dd403eb407c3bd04078106",
+                    "paramList": [],
+                    "propertyKey": "setSkinForSelectedTab",
+                    "pw": {
+                        "displayName": "setSkinForSelectedTab",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d7efb214254e4112884d00dca01ff4ca",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ebf773bc12e04aa99fde3839df95475c",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "allTabOnClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "allTabOnClick",
+                        "srcWidget": "flxTab0",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "e8e0671bac0c49349cfd9f6c0f57c516"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ca5ef92abd6443fdaf69ae1f62e424bd",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 2,
+                    "propertyKey": "liveTabOnClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "liveTabOnClick",
+                        "srcWidget": "flxTab1",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "f685eff09ef44976a4c4259f6d8fa9ad"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "h8e5077f18594198a1f4ad20789313c3",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 3,
+                    "propertyKey": "incidentTabOnClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "incidentTabOnClick",
+                        "srcWidget": "flxTab2",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "f9468c8115ce4897a19e140f363cdd2c"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e874010515324291892e8cf7857b5bd5",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 4,
+                    "propertyKey": "delayTabOnClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "delayTabOnClick",
+                        "srcWidget": "flxTab3",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "d1335aff64804c12a908053a605f69c6"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 1,
+                    "propertyKey": "skin1",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "displayName": "Normal",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "f685eff09ef44976a4c4259f6d8fa9ad"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 2,
+                    "propertyKey": "skin2",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "displayName": "Normal",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "f9468c8115ce4897a19e140f363cdd2c"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konysa",
+    "version": "1.0.0"
+}

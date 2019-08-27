@@ -1,0 +1,24 @@
+{
+    "AS_ListBox_f9642273f6a94b358c955a86ce14142a": {
+        "id": "AS_ListBox_f9642273f6a94b358c955a86ce14142a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "KUID": "d2023e0a4df6485187c9a509f693c423",
+            "name": "frmTrackingDetails",
+            "platform": "",
+            "type": "forms"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f0b1c943e0fa42ee963cd40b5bbc1537",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.selectedData(eventobject);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

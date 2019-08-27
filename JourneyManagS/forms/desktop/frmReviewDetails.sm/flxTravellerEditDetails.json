@@ -1,0 +1,74 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "700dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "400dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "scfa67e6cb524d908e4a7f386d2e8f51",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "390px"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "lblTravellerDetailsDashboard",
+        "lblName",
+        "TextFieldName",
+        "lblMobile",
+        "TextFieldMobile",
+        "lblRoomNo",
+        "TextFieldRoomNo",
+        "lblSiterepName",
+        "TextFieldSiterepName",
+        "lblUserID",
+        "TextFieldUserID",
+        "flxSegData",
+        "flxAddPassenger",
+        "btnNextStep"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxTravellerEditDetails",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "aaced72d61a5463b9bb6c778461f8faf",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxReviewDashboardData",
+    "pf": "frmReviewDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

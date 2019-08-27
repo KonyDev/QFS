@@ -1,0 +1,33 @@
+{
+    "AS_Label_eb97386433c8403c9e581de67ad87a6f": {
+        "id": "AS_Label_eb97386433c8403c9e581de67ad87a6f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "fe08a3032f3743ccad7663a45ad9bd83"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "CHANNEL_CONDITION_ide_onTouchStart_hbb43ebfa2a44f759d618d8aa61db09d",
+            "type": "CHANNEL_CONDITION",
+            "platforms": ["iphone", "android", "tabrcandroid"]
+        }, {
+            "id": "ADD_SNIPPET_ide_onTouchStart_ada83d85c6dd417cb00044fb4570dc70",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.animateComponent(this.view.lblPlaceholder);",
+            "parentId": "CHANNEL_CONDITION_ide_onTouchStart_hbb43ebfa2a44f759d618d8aa61db09d",
+            "callbackType": null
+        }]
+    }
+}

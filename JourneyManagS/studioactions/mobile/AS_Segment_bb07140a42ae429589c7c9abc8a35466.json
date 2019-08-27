@@ -1,0 +1,30 @@
+{
+    "AS_Segment_bb07140a42ae429589c7c9abc8a35466": {
+        "id": "AS_Segment_bb07140a42ae429589c7c9abc8a35466",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmNewJourneyTraveller",
+            "type": "forms",
+            "platform": "",
+            "KUID": "iaea82882d3548db892dbeb566e6f143"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f3330805be244954bf875b53c2ac8fbf",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "// alert(this.view.Segment0j4cc0ab190dd48.selectedRowIndex);\nthis.view.Segment0j4cc0ab190dd48.removeAt(this.view.Segment0j4cc0ab190dd48.selectedRowIndex[1]);\n// alert(this.view.Segment0j4cc0ab190dd48.data);\nif(this.view.Segment0j4cc0ab190dd48.data.length==0)\n  {\n    this.view.flxPassengerDetailsContainer.isVisible = false;\n  }",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

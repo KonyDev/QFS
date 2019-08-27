@@ -1,0 +1,76 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "926px"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "400px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "scfa67e6cb524d908e4a7f386d2e8f51",
+    "_top_": {
+        "type": "string",
+        "value": "10px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "390px"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "lblTrackingHeader",
+        "lblTrackingSubheader",
+        "lblSupervisor",
+        "lblNameSupervisor",
+        "TextFieldNameSupervisor",
+        "lblMobileHeader",
+        "TextFieldMobileValue",
+        "lblRoomNoHeader",
+        "TextFieldRoomNoValue",
+        "lblSiterep",
+        "lblSiterepNameHeader",
+        "TextFieldSiterepNameValue",
+        "lblMobileNumber",
+        "txtboxMobileNumber",
+        "btnTrackingDetailsSave",
+        "listboxData",
+        "rchtxtNextStep"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxTrackDetailsEdit",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "ie2b229ae61843e9ac4e400ff1c1ebaf",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxReviewDashboardData",
+    "pf": "frmReviewDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

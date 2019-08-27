@@ -1,0 +1,189 @@
+{
+    "classname": "escalationpolicy",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "e9b9d756bdc44b67ac1c5dc7d14e75be",
+                    "paramList": [],
+                    "propertyKey": "setDataToHeaderWidgets",
+                    "pw": {
+                        "displayName": "setDataToHeaderWidgets",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "i8f093a454b549d0ab00878bfdb5d63d",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "ad79ac4e05c648c7a2d53426d1210782",
+                    "paramList": [],
+                    "propertyKey": "getEscalationDesc",
+                    "pw": {
+                        "displayName": "getEscalationDesc",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "i8f093a454b549d0ab00878bfdb5d63d",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "jd8c7162f4a64c12afb5068f3d0ef041",
+                    "paramList": [],
+                    "propertyKey": "launchPolicy",
+                    "pw": {
+                        "displayName": "launchPolicy",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "i8f093a454b549d0ab00878bfdb5d63d",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "f8b9782a6caa44ff9c40c9cdd34f5477",
+                    "paramList": [],
+                    "propertyKey": "setDataToSegNotePoints",
+                    "pw": {
+                        "displayName": "setDataToSegNotePoints",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "i8f093a454b549d0ab00878bfdb5d63d",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "fd9b1f83391a47a6a7c255bd87ab6972",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "onClickOfNoContinueAction",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onClickOfNoContinueAction",
+                        "srcWidget": "flxNoContinueAction",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "c61cf5a38aab4b74bfef7615a68ed93b"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "fb4d45d5912f44508493f069477209eb",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 2,
+                    "propertyKey": "onClickofYesContinueAction",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onClickofYesContinueAction",
+                        "srcWidget": "flxYesContinueAction",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "da7edcdcc7f44d58a3dc895fe528df18"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "g71ce28a7244491899c64a66318ebb65",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 3,
+                    "propertyKey": "onClickOfYesCancelAction",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onClickOfYesCancelAction",
+                        "srcWidget": "flxYesCancelAction",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "e26eded5274a4876bb579ca0d66049a6"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "h46140b62b1d43ff830e0b2f1c06d19b",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 4,
+                    "propertyKey": "onClickOfNoCancelAction",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onClickOfNoCancelAction",
+                        "srcWidget": "flxNoCancelAction",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "c5cec6f14b0848159e810f5d5193a3b5"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "fc922342ea524a5b90e568ae255bf1ff",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 5,
+                    "propertyKey": "onClickOfFlxCancel",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onClickOfFlxCancel",
+                        "srcWidget": "flxCancel",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "daa087465cd14037aca11c80239226fb"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d7598b9afdc848feaee3c6a59b2f9c5f",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 6,
+                    "propertyKey": "onClickOfContactDriverCancel",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onClickOfContactDriverCancel",
+                        "srcWidget": "flxContactDriverCancel",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "adbbf621e89d490cb5052105700bba09"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konysa",
+    "version": "1.0.0"
+}

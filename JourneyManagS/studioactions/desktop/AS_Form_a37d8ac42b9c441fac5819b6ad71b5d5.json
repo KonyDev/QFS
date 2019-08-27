@@ -1,0 +1,28 @@
+{
+    "AS_Form_a37d8ac42b9c441fac5819b6ad71b5d5": {
+        "id": "AS_Form_a37d8ac42b9c441fac5819b6ad71b5d5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmJourneyList",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a971256743a14935a548091ac4418d25"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___c412c90f784f480da2c27a01a76ef918",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "createPin",
+            "display": "createPin",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

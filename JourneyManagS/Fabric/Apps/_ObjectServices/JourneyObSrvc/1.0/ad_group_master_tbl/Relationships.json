@@ -1,0 +1,13 @@
+[ {
+  "sourceObject" : "ad_group_master_tbl",
+  "targetObject" : "user_tbl",
+  "relationshipKeys" : [ {
+    "sourceField" : "group_id_pk",
+    "targetField" : "group_id_fk",
+    "etag" : "2a270845-1a75-4d0c-8106-ae7b33d44481"
+  } ],
+  "name" : "ad_group_master_tbl_user_tbl",
+  "type" : "OneToMany",
+  "custom" : false,
+  "cascadeDelete" : false
+} ]

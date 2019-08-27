@@ -1,0 +1,30 @@
+{
+    "AS_FlexContainer_i29298aa4b7b44d98c1ad18d91cbf1d7": {
+        "id": "AS_FlexContainer_i29298aa4b7b44d98c1ad18d91cbf1d7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmQFSLogin",
+            "type": "forms",
+            "platform": null,
+            "KUID": "a71e8c8aa1ac4eb5b64201719c47c06f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e90cf4644b69453b8dc2c566a5f6868a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.tbxPassword.secureTextEntry=true;",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "10px"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "50px"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "30px"
+    },
+    "_skin_": "s230edac40f64c3490568c7a7c96d790",
+    "_text_": "Save",
+    "_width_": {
+        "type": "string",
+        "value": "140px"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s7f6cdd4b32645238316d22088753df1",
+    "id": "btnVehicleDetailsSave",
+    "ide_onClick": "AS_Button_b77197ae36d340459b0acd143b4bc5a9",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "d819fdd6a81d47b6a631c84664a5ae1e",
+    "name": "kony.ui.Button",
+    "parent": "flxVehicleDetailsEdit",
+    "pf": "frmReviewDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

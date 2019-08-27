@@ -1,0 +1,24 @@
+{
+    "AS_Form_a10e7287a2f74eb9a939b035be0bd79c": {
+        "id": "AS_Form_a10e7287a2f74eb9a939b035be0bd79c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "MyAccount",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d4f38b7ff22040a0a2ddd13594ed027a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e52dd677d2e24e88a4942ecc119048c5",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxSideBar.isVisible = false;\n// this.view.flxTab1.shadowDepth = 6;\n// this.view.flxTab1.shadowType = constants.VIEW_BOUNDS_SHADOW;\n\n\n// this.view.flxTab2.shadowDepth = 6;\n// this.view.flxTab2.shadowType = constants.VIEW_BOUNDS_SHADOW;\n\n\n// this.view.flxTab3.shadowDepth = 6;\n// this.view.flxTab3.shadowType = constants.VIEW_BOUNDS_SHADOW;\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

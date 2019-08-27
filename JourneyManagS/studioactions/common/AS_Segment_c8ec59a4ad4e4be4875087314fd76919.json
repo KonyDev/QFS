@@ -1,0 +1,29 @@
+{
+    "AS_Segment_c8ec59a4ad4e4be4875087314fd76919": {
+        "id": "AS_Segment_c8ec59a4ad4e4be4875087314fd76919",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "KUID": "uec3161044c243b6b90c883834bfbcb7",
+            "name": "uwuec3161044c243b6b90c883834bfbcb7",
+            "type": "userwidgets"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d5ffd106a4354634bff982d4f2a9097c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "debugger;\nthis.view.segPlaceDetails.pressedSkin=\"segRowFocusSkin\";\nthis.view.tbxDepartureDetails.text=this.view.segPlaceDetails.data[rowNumber].lblPlaceData;\nthis.view.segPlaceDetails.setVisibility(false);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "AS_Button_b77197ae36d340459b0acd143b4bc5a9": {
+        "id": "AS_Button_b77197ae36d340459b0acd143b4bc5a9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_je83a23b5a0e45c5a8b2b2f27f8345d1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.saveVehicleDetails();",
+            "callbackType": null
+        }]
+    }
+}

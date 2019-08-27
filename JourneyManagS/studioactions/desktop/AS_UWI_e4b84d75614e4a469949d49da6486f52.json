@@ -1,0 +1,18 @@
+{
+    "AS_UWI_e4b84d75614e4a469949d49da6486f52": {
+        "id": "AS_UWI_e4b84d75614e4a469949d49da6486f52",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "selectedKeyValue",
+            "datatype": "collection"
+        }],
+        "contextObj": {
+            "name": "frmJourneyList",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a971256743a14935a548091ac4418d25"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

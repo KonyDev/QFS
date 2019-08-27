@@ -1,0 +1,67 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "sb49f4db824a4c5ea0b5d6132452d583",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "data": {
+        "ide_onClickOfContactDriverCancel": "AS_UWI_fcac8f9a51b14028bfe32d22f295ede4",
+        "ide_onClickOfFlxCancel": "AS_UWI_d0f10c94b0344f5b891789b0d76dc80d",
+        "ide_onClickOfNoCancelAction": "AS_UWI_f323da83d81b451f8e1bdb73ddc33b10",
+        "ide_onClickOfNoContinueAction": "AS_UWI_h26099c71eb74b7e90f8985714787583",
+        "ide_onClickOfYesCancelAction": "AS_UWI_c9fb0a45516d4a06a88bb4cb521d9199",
+        "ide_onClickofYesContinueAction": "AS_UWI_d6225be8372c43fbafef78ef9ffb9a5a"
+    },
+    "enablescrolling": true,
+    "id": "escalationpolicy",
+    "info": null,
+    "iscustomlayout": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "i14209d2c34a4e4486340120216896d9",
+    "layouttype": 2,
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxEscalationpolocy",
+    "pf": "frmJourneyList",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "i8f093a454b549d0ab00878bfdb5d63d",
+    "wType": "UserWidgetInstance"
+}

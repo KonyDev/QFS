@@ -1,0 +1,31 @@
+{
+    "AS_Button_g9860884178d4afd8be1baec38c2fda1": {
+        "id": "AS_Button_g9860884178d4afd8be1baec38c2fda1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCreateJourney",
+            "type": "forms",
+            "platform": "",
+            "KUID": "i08b816437854b449e6f9e6090061d71"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___cfa4379dd1c94d0b8245da56ed674b8f",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmJourneySubmissionAwaited",
+            "formKUID": "h32e1393c00b499ca4e4338e2d06a7e4",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n\"_meta_\" : {\n\t\"eventName\" : \"onClick\",\n\t\"widgetId\" : \"btnCancel\"\n}\n}",
+            "isCustomInput": false
+        }]
+    }
+}

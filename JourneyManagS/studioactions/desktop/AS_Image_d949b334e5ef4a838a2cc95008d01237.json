@@ -1,0 +1,30 @@
+{
+    "AS_Image_d949b334e5ef4a838a2cc95008d01237": {
+        "id": "AS_Image_d949b334e5ef4a838a2cc95008d01237",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmReviewDetails",
+            "type": "forms",
+            "platform": "",
+            "KUID": "i4be5c035ee345b28fc4005c6df62851"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f8b0bc6b30a64902b23c9138ced1d7eb",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.navigateToTrackingForm();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

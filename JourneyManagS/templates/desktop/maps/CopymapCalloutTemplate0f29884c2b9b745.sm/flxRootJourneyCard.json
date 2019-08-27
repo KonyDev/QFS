@@ -1,0 +1,67 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s9eeb74a4c8f4c1093aa8e22e96679c2",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "372dp"
+    },
+    "allboxes": [],
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "children": [
+        "flxContainer"
+    ],
+    "clipbounds": true,
+    "containerId": true,
+    "containerweight": 100,
+    "desktopweb": {
+        "psp": {}
+    },
+    "disabledSkins": {
+        "hoverSkin": "s19c90adab314e4b890c3a8976450f57"
+    },
+    "enablescrolling": true,
+    "id": "flxRootJourneyCard",
+    "info": null,
+    "isTemplate": true,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ib7d2fa90d4c4094a8b5378d8409b16e",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "CopyflxMapTemplate0a0ff65a9bba142",
+    "pf": "CopymapCalloutTemplate0f29884c2b9b745",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1
+}

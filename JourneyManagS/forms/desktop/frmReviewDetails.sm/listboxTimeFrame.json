@@ -1,0 +1,81 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "48px"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "30px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Please Select",
+    "_skin_": "sba2bcc89d2f498fae5ef54d5bc44b37",
+    "_top_": {
+        "type": "string",
+        "value": "241px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "330px"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "focusskin": "s66a14d03ba54c8b8a333dd9113c8610",
+    "groupcells": false,
+    "id": "listboxTimeFrame",
+    "ide_onSelection": "AS_ListBox_ebd2f007c51546f4954afe1f17713ea5",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ha4f98104b604414972bc62a7819afd9",
+    "masterdata": [
+        [
+            "lb1",
+            "3 hours frame"
+        ],
+        [
+            "lb2",
+            "2 hours frame"
+        ],
+        [
+            "lb3",
+            "1 hour frame"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "parent": "FlxCheckinDetails",
+    "pf": "frmReviewDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkey": "lb1",
+    "selectedkeys": null,
+    "selectedkeyvalue": [
+        "lb1",
+        "3 hours frame"
+    ],
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox",
+    "zindex": 1
+}

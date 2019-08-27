@@ -1,0 +1,164 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "imgTrackingPoint": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "trackerblue.png"
+            },
+            "lblTrackingPoint": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Port Hedland"
+            }
+        },
+        {
+            "imgTrackingPoint": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "trackerblue.png"
+            },
+            "lblTrackingPoint": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Christmas Creek"
+            }
+        },
+        {
+            "imgTrackingPoint": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "trackerblue.png"
+            },
+            "lblTrackingPoint": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Exploration"
+            }
+        },
+        {
+            "imgTrackingPoint": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "trackerblue.png"
+            },
+            "lblTrackingPoint": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Cloudbreak"
+            }
+        },
+        {
+            "imgTrackingPoint": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "trackerblue.png"
+            },
+            "lblTrackingPoint": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Solomon"
+            }
+        },
+        {
+            "imgTrackingPoint": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "trackerblue.png"
+            },
+            "lblTrackingPoint": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Northstar"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "70%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "24dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "05",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segTrackingPoints",
+    "ide_onRowClick": "AS_Segment_efecae9c7343484681e9c2f6296ceaa4",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "j80ecc4c74a44ffbbc70b2cd5eedcab7",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxTracking1",
+    "pf": "frmNewJourneyTracking",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "he0f5465911645439cf0501e7904f3e4",
+    "rowcounter": 5,
+    "rowfocusskin": "sbf9d91b89ba457ba62945f3c2a92526",
+    "rowskin": "s3f39ebdd8674471a24b6be50b07a425",
+    "rowtemplate": "flxMain",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s6d26d70982642d1a5dc555e1c57b10a",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "separatorthickness": 0,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxHorizontalLine": "flxHorizontalLine",
+        "flxMain": "flxMain",
+        "flxSubContainer": "flxSubContainer",
+        "imgTrackingPoint": "imgTrackingPoint",
+        "lblTrackingPoint": "lblTrackingPoint"
+    },
+    "zindex": 1
+}

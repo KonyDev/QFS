@@ -1,0 +1,65 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "27px"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "11.30%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Enter Message Title",
+    "_skin_": "sc7dde9978b74468aff8c5cc495693e1",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "31.80%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "77.40%"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "focusskin": "sb0a0b0dc5fd4ccba6e9476eea5bc298",
+    "id": "txtboxTitle",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "bed2761e04e74242ae240ad296649892",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "parent": "flxInner",
+    "pf": "frmJourneyList",
+    "placeholderskin": "s24f0589ad714294b3e3eea05869c98e",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "securetextentry": false,
+    "textinputmode": "A",
+    "tooltip": "",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}

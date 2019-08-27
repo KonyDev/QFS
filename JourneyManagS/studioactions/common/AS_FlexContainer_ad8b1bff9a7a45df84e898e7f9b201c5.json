@@ -1,0 +1,29 @@
+{
+    "AS_FlexContainer_ad8b1bff9a7a45df84e898e7f9b201c5": {
+        "id": "AS_FlexContainer_ad8b1bff9a7a45df84e898e7f9b201c5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "KUID": "hf2342d8f8ce47da836a53c0f65084e8",
+            "name": "uwhf2342d8f8ce47da836a53c0f65084e8",
+            "type": "userwidgets"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__j8096e5316a44662a389dba2ef67b449",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var ntf = new kony.mvc.Navigation(\"frmEmergencyRequest\");\nntf.navigate();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

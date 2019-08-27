@@ -1,0 +1,27 @@
+{
+    "AS_TextField_j43e6d33ef7b4c5b877487ed06750f10": {
+        "id": "AS_TextField_j43e6d33ef7b4c5b877487ed06750f10",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "KUID": "uec3161044c243b6b90c883834bfbcb7",
+            "name": "uwuec3161044c243b6b90c883834bfbcb7",
+            "type": "userwidgets"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___a49a741d347a41abb06eaeae155e6f70",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "searchForLocation",
+            "display": "searchForLocation",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

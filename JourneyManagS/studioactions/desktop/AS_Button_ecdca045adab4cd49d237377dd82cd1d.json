@@ -1,0 +1,28 @@
+{
+    "AS_Button_ecdca045adab4cd49d237377dd82cd1d": {
+        "id": "AS_Button_ecdca045adab4cd49d237377dd82cd1d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmQFSLogin",
+            "type": "forms",
+            "platform": null,
+            "KUID": "a71e8c8aa1ac4eb5b64201719c47c06f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___dc32c4668a624acb94aa07af53b79fef",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "doLogin",
+            "display": "doLogin",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

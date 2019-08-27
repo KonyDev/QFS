@@ -1,0 +1,79 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "update" : "updateMapping",
+    "create" : "createMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "UpdateTimeStampField" : {
+      "DateFormat" : "",
+      "Name" : "lastupdateddatetime"
+    },
+    "SoftDeleteFlagField" : {
+      "ActiveValue" : "false",
+      "InactiveValue" : "true",
+      "Name" : "softdeleteflag"
+    },
+    "backendMeta" : {
+      "backendObjectName" : "tracking_points_tbl",
+      "qualifiedName" : "journey_db_dev.tracking_points_tbl",
+      "metadataformatterobject" : "{\"displayName\":\"tracking_points_tbl\",\"qualifiedName\":\"journey_db_dev.tracking_points_tbl\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"tracking_points_tbl\",\"schemaName\":\"journey_db_dev\",\"tableName\":\"tracking_points_tbl\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "tracking_points_tbl",
+      "qualifiedName" : "journey_db_dev.tracking_points_tbl",
+      "metadataformatterobject" : "{\"displayName\":\"tracking_points_tbl\",\"qualifiedName\":\"journey_db_dev.tracking_points_tbl\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"tracking_points_tbl\",\"schemaName\":\"journey_db_dev\",\"tableName\":\"tracking_points_tbl\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "tracking_point_phone_1",
+    "targetField" : "tracking_point_phone_1",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "createdby",
+    "targetField" : "createdby",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "tracking_point_lat",
+    "targetField" : "tracking_point_lat",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "tracking_point_phone_2",
+    "targetField" : "tracking_point_phone_2",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "lastupdatedby",
+    "targetField" : "lastupdatedby",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "tracking_point_id_pk",
+    "targetField" : "tracking_point_id_pk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "tracking_point_email_id",
+    "targetField" : "tracking_point_email_id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "tracking_point_lon",
+    "targetField" : "tracking_point_lon",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "lastupdateddatetime",
+    "targetField" : "lastupdateddatetime",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "tracking_point_address",
+    "targetField" : "tracking_point_address",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "softdeleteflag",
+    "targetField" : "softdeleteflag",
+    "type" : "request_response"
+  } ]
+}

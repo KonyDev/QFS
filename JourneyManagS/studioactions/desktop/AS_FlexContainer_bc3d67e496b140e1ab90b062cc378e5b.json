@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_bc3d67e496b140e1ab90b062cc378e5b": {
+        "id": "AS_FlexContainer_bc3d67e496b140e1ab90b062cc378e5b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_d1269dc6bc704756aa4f6df2096dc3b1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxSegData.isVisible = true;",
+            "callbackType": null
+        }]
+    }
+}

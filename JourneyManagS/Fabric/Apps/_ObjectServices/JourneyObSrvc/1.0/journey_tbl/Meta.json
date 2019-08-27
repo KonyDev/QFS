@@ -1,0 +1,187 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "update" : "updateMapping",
+    "create" : "createMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "UpdateTimeStampField" : {
+      "DateFormat" : "",
+      "Name" : "lastupdateddatetime"
+    },
+    "SoftDeleteFlagField" : {
+      "ActiveValue" : "false",
+      "InactiveValue" : "true",
+      "Name" : "softdeleteflag"
+    },
+    "backendMeta" : {
+      "backendObjectName" : "journey_tbl",
+      "qualifiedName" : "journey_db_dev.journey_tbl",
+      "metadataformatterobject" : "{\"displayName\":\"journey_tbl\",\"qualifiedName\":\"journey_db_dev.journey_tbl\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"journey_tbl\",\"schemaName\":\"journey_db_dev\",\"tableName\":\"journey_tbl\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "journey_tbl",
+      "qualifiedName" : "journey_db_dev.journey_tbl",
+      "metadataformatterobject" : "{\"displayName\":\"journey_tbl\",\"qualifiedName\":\"journey_db_dev.journey_tbl\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"journey_tbl\",\"schemaName\":\"journey_db_dev\",\"tableName\":\"journey_tbl\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "journey_last_updated_by",
+    "targetField" : "journey_last_updated_by",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "journey_actual_arrival_datetime",
+    "targetField" : "journey_actual_arrival_datetime",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "journey_satellite",
+    "targetField" : "journey_satellite",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "journeystatus_code_fk",
+    "targetField" : "journeystatus_code_fk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "journey_expected_departure_lat",
+    "targetField" : "journey_expected_departure_lat",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "journey_onward_journey_id",
+    "targetField" : "journey_onward_journey_id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "journey_id_pk",
+    "targetField" : "journey_id_pk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "journey_uf_id",
+    "targetField" : "journey_uf_id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "journey_emp_phone_num",
+    "targetField" : "journey_emp_phone_num",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "journey_selected_vehicle_id_fk",
+    "targetField" : "journey_selected_vehicle_id_fk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "journey_actual_departure_address",
+    "targetField" : "journey_actual_departure_address",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "journey_supervisor_camp_room_num",
+    "targetField" : "journey_supervisor_camp_room_num",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "softdeleteflag",
+    "targetField" : "softdeleteflag",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "journey_actual_departure_lon",
+    "targetField" : "journey_actual_departure_lon",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "journey_expected_arrivalpoint_address",
+    "targetField" : "journey_expected_arrivalpoint_address",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "journey_expected_departure_address",
+    "targetField" : "journey_expected_departure_address",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "journey_supervisor_phone",
+    "targetField" : "journey_supervisor_phone",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "journey_actual_arrivalpoint_lon",
+    "targetField" : "journey_actual_arrivalpoint_lon",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "checkin_interval_row_id_fk",
+    "targetField" : "checkin_interval_row_id_fk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "journey_radio",
+    "targetField" : "journey_radio",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "journey_actual_departure_datetime",
+    "targetField" : "journey_actual_departure_datetime",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "journey_expected_arrivalpoint_lon",
+    "targetField" : "journey_expected_arrivalpoint_lon",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "journey_actual_arrivalpoint_lat",
+    "targetField" : "journey_actual_arrivalpoint_lat",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "journey_expected_departure_datetime",
+    "targetField" : "journey_expected_departure_datetime",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "user_emp_id_fk",
+    "targetField" : "user_emp_id_fk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "journey_created_by_fk",
+    "targetField" : "journey_created_by_fk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "journey_actual_arrivalpoint_address",
+    "targetField" : "journey_actual_arrivalpoint_address",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "journey_expected_arrivalpoint_lat",
+    "targetField" : "journey_expected_arrivalpoint_lat",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "checkin_type_id_fk",
+    "targetField" : "checkin_type_id_fk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "journey_expected_departure_lon",
+    "targetField" : "journey_expected_departure_lon",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "journey_actual_departure_lat",
+    "targetField" : "journey_actual_departure_lat",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "journey_supervisor_name",
+    "targetField" : "journey_supervisor_name",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "journey_supervisor_emp_id",
+    "targetField" : "journey_supervisor_emp_id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "journey_reason_id_fk",
+    "targetField" : "journey_reason_id_fk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "lastupdateddatetime",
+    "targetField" : "lastupdateddatetime",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "journey_expected_arrival_datetime",
+    "targetField" : "journey_expected_arrival_datetime",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "createddatetime",
+    "targetField" : "createddatetime",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "journey_tracking_point_id_fk",
+    "targetField" : "journey_tracking_point_id_fk",
+    "type" : "request_response"
+  } ]
+}

@@ -1,0 +1,188 @@
+{
+    "classname": "placeDetails",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "h22f19e443354c0695e694d1a6ce5343",
+                    "paramList": [
+                        {
+                            "name": "dateString"
+                        }
+                    ],
+                    "propertyKey": "setDate",
+                    "pw": {
+                        "displayName": "setDate",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "j4128087eed44862a5defd3832170789",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "f1aff901385e40d3a87ceaaebe033379",
+                    "paramList": [
+                        {
+                            "name": "timeString"
+                        }
+                    ],
+                    "propertyKey": "setTime",
+                    "pw": {
+                        "displayName": "setTime",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "j4128087eed44862a5defd3832170789",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "cd9082d2d85a4b4bb19d05963a2956f9",
+                    "paramList": [
+                        {
+                            "name": "data"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "onDone",
+                    "pw": {
+                        "displayName": "onDone",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "j4128087eed44862a5defd3832170789",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": 1980,
+                    "group": "General",
+                    "kuid": "iabbfd0b2a2546b4b9db1b080c02735c",
+                    "originalPropertyKey": "startYear",
+                    "propertyIndex": 1,
+                    "propertyKey": "startYear",
+                    "pw": {
+                        "displayName": "startYear",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "^(\\+|-)?\\d+$"
+                    },
+                    "srcWgtKUID": "j4128087eed44862a5defd3832170789",
+                    "type": "integer",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": 2025,
+                    "group": "General",
+                    "kuid": "d1f880e70b924f4899639d8d59234b09",
+                    "originalPropertyKey": "endYear",
+                    "propertyIndex": 2,
+                    "propertyKey": "endYear",
+                    "pw": {
+                        "displayName": "endYear",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "^(\\+|-)?\\d+$"
+                    },
+                    "srcWgtKUID": "j4128087eed44862a5defd3832170789",
+                    "type": "integer",
+                    "value": ""
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "b655191c72ad42a097893d69834445b2",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 3,
+                    "propertyKey": "text",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Text",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "c6f21020e44540ceb360d77060d02035"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "be3c0ab946ca47bba7307cc11e67eced",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 4,
+                    "propertyKey": "text1",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Text",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "aeb9333b2d5345bbb7af2213cb0f1d09"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c1f8c60406ab4594aa2244b921886388",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 5,
+                    "propertyKey": "text2",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Text",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "e6dbcb65bcf84448b867561802b2bff9"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "fae2abd0097946739bad27ba8627efb2",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 6,
+                    "propertyKey": "text3",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Text",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "efe8f61e7cc14f738a6b638c12989023"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konyqfs",
+    "version": "1.0.0"
+}

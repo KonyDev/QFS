@@ -1,0 +1,28 @@
+{
+    "AS_UWI_dfe28cbc07b146eebac9384118b0218c": {
+        "id": "AS_UWI_dfe28cbc07b146eebac9384118b0218c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmJourneyList",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a971256743a14935a548091ac4418d25"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___dc99e5bb63d847fab01e631519840bc0",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onClickOfFlxRefreshBtn",
+            "display": "onClickOfFlxRefreshBtn",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

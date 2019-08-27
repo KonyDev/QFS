@@ -1,0 +1,72 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "322px"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "se6338c46a86491daafe2f6f44021bad",
+    "_top_": {
+        "type": "string",
+        "value": "101px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "380px"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "lblDepatureDetailsHeader",
+        "imgDepature",
+        "lblDepartureFrom",
+        "lblDepartureFromValue",
+        "lblArrivalTo",
+        "lblArrivalToValue",
+        "lblStartTime",
+        "lblStartTimeValue",
+        "lblArrivalTime",
+        "lblArrivalTimeValue",
+        "imgArrival",
+        "btnEditDepartureDetails",
+        "lblArrivalDetails"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "FlxEditRouteDetails",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "de6a2fd7a4914df5b2a93896e9505548",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxRouteDetailsEdit",
+    "pf": "frmReviewDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

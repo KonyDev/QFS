@@ -1,0 +1,17 @@
+{
+    "AS_ListBox_g453d0505ca84c51bb01608686fc2432": {
+        "id": "AS_ListBox_g453d0505ca84c51bb01608686fc2432",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onSelection_h4bf5089cc7847aabd9387764ccfa814",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.selectedData(eventobject);",
+            "callbackType": null
+        }]
+    }
+}

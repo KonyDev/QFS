@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_b381f5414033463db47db9ab24fef561": {
+        "id": "AS_FlexContainer_b381f5414033463db47db9ab24fef561",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___df2ca4555f4c446f8865c9dd443be14d",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmNewJourneyRoute",
+            "formKUID": "jba05021cee846d6a62d81619b6232bf",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n\"_meta_\" : {\n\t\"eventName\" : \"onClick\",\n\t\"widgetId\" : \"flxBack\"\n}\n}",
+            "isCustomInput": false
+        }]
+    }
+}

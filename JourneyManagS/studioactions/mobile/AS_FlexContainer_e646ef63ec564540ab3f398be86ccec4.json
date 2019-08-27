@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_e646ef63ec564540ab3f398be86ccec4": {
+        "id": "AS_FlexContainer_e646ef63ec564540ab3f398be86ccec4",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_b4adf456bb534641b8a94c79cb9b3561",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxThreeDotsClickContainer.isVisible = true;\nthis.view.flxDots.isVisible = false;\nthis.view.lblCenterTextMyJourneys.isVisible = false;\nthis.view.lblMore.isVisible = true;\nthis.view.flxHamburgerOnJourney.isVisible = false;\nthis.view.flxBackButton.isVisible = true;\n\n",
+            "callbackType": null
+        }]
+    }
+}

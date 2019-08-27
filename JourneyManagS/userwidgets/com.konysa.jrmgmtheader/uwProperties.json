@@ -1,0 +1,151 @@
+{
+    "classname": "jrmgmtheader",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "e929679ad06f4596bb4939249e62634d",
+                    "paramList": [],
+                    "propertyKey": "enableBellNotification",
+                    "pw": {
+                        "displayName": "enableBellNotification",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "hfb0b5df6e1743b3940575dd04a3683e",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "aaea24dac0014f60a2018a2917402ac0",
+                    "paramList": [
+                        {
+                            "name": "param"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "onAddClick",
+                    "pw": {
+                        "displayName": "onAddClick",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "hfb0b5df6e1743b3940575dd04a3683e",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "g6d80dc27f044a06973da2167bc81bfc",
+                    "paramList": [
+                        {
+                            "name": "param"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "onBellClick",
+                    "pw": {
+                        "displayName": "onBellClick",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "hfb0b5df6e1743b3940575dd04a3683e",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "da2e3251a1674c02b257dd82d7695c05",
+                    "paramList": [
+                        {
+                            "name": "param"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "onLogOutClick",
+                    "pw": {
+                        "displayName": "onLogOutClick",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "hfb0b5df6e1743b3940575dd04a3683e",
+                    "type": "event"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "de5492f837f94f65860a39e0be3b23d8",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 2,
+                    "propertyKey": "onClickOfFlxRefresh",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onClickOfFlxRefresh",
+                        "srcWidget": "flxRefresh",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "c81a594f21ac405ab1bbeec398bdedc3"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f46dd365ff454616be2587219fef8f2c",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 3,
+                    "propertyKey": "onClickOfBtnRefresh",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onClickOfBtnRefresh",
+                        "srcWidget": "Button0i85adcefb26443",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "a9776c79a834428b8d47c25e3ea9aa7c"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e33f5475eb04422087476541e347bf55",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 4,
+                    "propertyKey": "onClickOfLogOut",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onClickOfLogOut",
+                        "srcWidget": "flxLogOut",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "a51fbd78ed9541f78bf34a389eacaa20"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konysa",
+    "version": "1.0.0"
+}

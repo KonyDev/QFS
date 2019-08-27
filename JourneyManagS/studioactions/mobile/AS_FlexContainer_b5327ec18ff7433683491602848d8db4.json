@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_b5327ec18ff7433683491602848d8db4": {
+        "id": "AS_FlexContainer_b5327ec18ff7433683491602848d8db4",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_i0990d5d6c0048b784a79accd281f147",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "MyAccount",
+            "formKUID": "d4f38b7ff22040a0a2ddd13594ed027a",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n\"_meta_\" : {\n\t\"eventName\" : \"onClick\",\n\t\"widgetId\" : \"flxGuidesManuals\"\n}\n}",
+            "isCustomInput": false
+        }]
+    }
+}

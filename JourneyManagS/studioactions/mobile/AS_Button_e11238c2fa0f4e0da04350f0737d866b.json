@@ -1,0 +1,23 @@
+{
+    "AS_Button_e11238c2fa0f4e0da04350f0737d866b": {
+        "id": "AS_Button_e11238c2fa0f4e0da04350f0737d866b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "ReturnJourney",
+            "type": "forms",
+            "platform": null,
+            "KUID": "i377f1da027948c89bcee7a08b1c63f0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_f3db91e02d2b45bd84b1495f459323b8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxNewJourneyReady.isVisible = false;\nthis.view.flxNewJourneyRoute.isVisible = true;\n",
+            "callbackType": null
+        }]
+    }
+}

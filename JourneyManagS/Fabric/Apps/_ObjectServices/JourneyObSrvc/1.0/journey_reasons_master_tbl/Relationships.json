@@ -1,0 +1,13 @@
+[ {
+  "sourceObject" : "journey_reasons_master_tbl",
+  "targetObject" : "journey_tbl",
+  "relationshipKeys" : [ {
+    "sourceField" : "journey_reason_id_pk",
+    "targetField" : "journey_reason_id_fk",
+    "etag" : "bf651e04-9ba9-4b4f-8910-17060b4e1d35"
+  } ],
+  "name" : "journey_reasons_master_tbl_journey_tbl",
+  "type" : "OneToMany",
+  "custom" : false,
+  "cascadeDelete" : false
+} ]

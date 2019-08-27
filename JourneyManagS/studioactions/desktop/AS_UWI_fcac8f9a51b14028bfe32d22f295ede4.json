@@ -1,0 +1,28 @@
+{
+    "AS_UWI_fcac8f9a51b14028bfe32d22f295ede4": {
+        "id": "AS_UWI_fcac8f9a51b14028bfe32d22f295ede4",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmJourneyList",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a971256743a14935a548091ac4418d25"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___g293af11b79d4ff0bdda16d6e406bcd0",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onClickOfYesCancelAction",
+            "display": "onClickOfYesCancelAction",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

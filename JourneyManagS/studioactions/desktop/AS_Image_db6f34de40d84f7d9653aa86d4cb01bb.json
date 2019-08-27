@@ -1,0 +1,33 @@
+{
+    "AS_Image_db6f34de40d84f7d9653aa86d4cb01bb": {
+        "id": "AS_Image_db6f34de40d84f7d9653aa86d4cb01bb",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "segTmpAddPassenger",
+            "type": "templates",
+            "platform": "",
+            "KUID": "cce87efdd9754307bf3f054e336e1445"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e82966282437409a9d9f26a029b3b4fa",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.removeAddedPassenger(eventobject,context);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

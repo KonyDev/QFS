@@ -1,0 +1,52 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "24px"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s6dffed99b1543608598ccf2b67c550a",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "15px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "24px"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s7f6cdd4b32645238316d22088753df1",
+    "id": "btnLocationCheckin",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "geec1453e30e47ad9b1a71fadaea48db",
+    "name": "kony.ui.Button",
+    "parent": "flxLocationCheckin",
+    "pf": "frmReviewDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

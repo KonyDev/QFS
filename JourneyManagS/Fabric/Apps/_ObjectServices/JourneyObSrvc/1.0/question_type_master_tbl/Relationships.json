@@ -1,0 +1,13 @@
+[ {
+  "sourceObject" : "question_type_master_tbl",
+  "targetObject" : "checklist_questions_master_tbl",
+  "relationshipKeys" : [ {
+    "sourceField" : "question_type_id_pk",
+    "targetField" : "question_type_id_fk",
+    "etag" : "765ae225-4dda-4444-a8ac-55908a418b0f"
+  } ],
+  "name" : "question_type_master_tbl_checklist_questions_master_tbl",
+  "type" : "OneToMany",
+  "custom" : false,
+  "cascadeDelete" : false
+} ]

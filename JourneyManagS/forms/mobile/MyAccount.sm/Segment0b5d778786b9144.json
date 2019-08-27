@@ -1,0 +1,196 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "CopyImage0f90a75f581aa4c": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "guiesline.png"
+            },
+            "CopyLabel0hac1ab7087eb49": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Vehicle Specification Guide"
+            }
+        },
+        {
+            "CopyImage0f90a75f581aa4c": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "guiesline.png"
+            },
+            "CopyLabel0hac1ab7087eb49": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Vehicle Specification Guide"
+            }
+        },
+        {
+            "CopyImage0f90a75f581aa4c": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "guiesline.png"
+            },
+            "CopyLabel0hac1ab7087eb49": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Vehicle Specification Guide"
+            }
+        },
+        {
+            "CopyImage0f90a75f581aa4c": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "guiesline.png"
+            },
+            "CopyLabel0hac1ab7087eb49": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Vehicle Specification Guide"
+            }
+        },
+        {
+            "CopyImage0f90a75f581aa4c": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "guiesline.png"
+            },
+            "CopyLabel0hac1ab7087eb49": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Vehicle Specification Guide"
+            }
+        },
+        {
+            "CopyImage0f90a75f581aa4c": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "guiesline.png"
+            },
+            "CopyLabel0hac1ab7087eb49": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Vehicle Specification Guide"
+            }
+        },
+        {
+            "CopyImage0f90a75f581aa4c": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "guiesline.png"
+            },
+            "CopyLabel0hac1ab7087eb49": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Vehicle Specification Guide"
+            }
+        },
+        {
+            "CopyImage0f90a75f581aa4c": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "guiesline.png"
+            },
+            "CopyLabel0hac1ab7087eb49": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Vehicle Specification Guide"
+            }
+        },
+        {
+            "CopyImage0f90a75f581aa4c": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "guiesline.png"
+            },
+            "CopyLabel0hac1ab7087eb49": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Vehicle Specification Guide"
+            }
+        },
+        {
+            "CopyImage0f90a75f581aa4c": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "guiesline.png"
+            },
+            "CopyLabel0hac1ab7087eb49": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Vehicle Specification Guide"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "09",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "Segment0b5d778786b9144",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "fe65f0312393457a814ed402397af367",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "FlexScrollContainer0i0238bc14aa64b",
+    "pf": "MyAccount",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "d9769e4e47e14e59b130379fa657a424",
+    "rowcounter": 9,
+    "rowfocusskin": "sbf9d91b89ba457ba62945f3c2a92526",
+    "rowskin": "s0059b0ebf18496d948d7dac7d0544de",
+    "rowtemplate": "Flex0f324b5d9a3a94a",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s6d26d70982642d1a5dc555e1c57b10a",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "CopyImage0f90a75f581aa4c": "CopyImage0f90a75f581aa4c",
+        "CopyLabel0hac1ab7087eb49": "CopyLabel0hac1ab7087eb49",
+        "CopyflxTab0c4f3dd7f79e141": "CopyflxTab0c4f3dd7f79e141",
+        "Flex0f324b5d9a3a94a": "Flex0f324b5d9a3a94a",
+        "flxTab1": "flxTab1"
+    },
+    "zindex": 1
+}

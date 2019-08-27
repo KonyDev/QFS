@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_bc0723b4bcb44c1cbc847dab00c11294": {
+        "id": "AS_FlexContainer_bc0723b4bcb44c1cbc847dab00c11294",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTravellerDetails",
+            "type": "forms",
+            "platform": "",
+            "KUID": "caefcb37b26a4b3aa9b5bd688c35dde7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__b08e26af4c9b4814aaac11a16063feb3",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.addPassengers();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

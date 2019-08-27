@@ -1,0 +1,134 @@
+{
+    "classname": "terminateJourney",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "h51d8c1070914728aee345062f932383",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "dismissAlert",
+                    "pw": {
+                        "displayName": "dismissAlert",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "hcb59017f6f1485c8d1a119ecf3b3af0",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "eaeab5bd13ce4a9eb741f4a1c3469d9f",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "componentPreShow",
+                    "pw": {
+                        "displayName": "componentPreShow",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "hcb59017f6f1485c8d1a119ecf3b3af0",
+                    "type": "event"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ef8a6b4a0543401c9cf87a4611209958",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 2,
+                    "propertyKey": "OnClickOfTerminateJourneyConform",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "OnClickOfTerminateJourneyConform",
+                        "srcWidget": "btnCheckIn",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "gb447be90b5844299bc0a8ec4e295a97"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "aded72d628584a1d8348cf48143b79de",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 3,
+                    "propertyKey": "onClickOfTerminateJourneyCancel",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onClickOfTerminateJourneyCancel",
+                        "srcWidget": "btnCancel",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "g3ad4ade08ea492f9a8f4b468c8f6ef6"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "da4491d4cf4b40aca10e32b35f86f4a1",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 3,
+                    "propertyKey": "HeaderText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Header Text",
+                        "srcWidget": "lblHeaderText",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "a5d424ddc11d42fc8270b9448fbf9a51"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "fdb6d046a83e40ac94eedabd3cbca52c",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 4,
+                    "propertyKey": "DescriptionText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Description",
+                        "srcWidget": "lblBody",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "bd493eb1fa8b42d2b1bead47a4db92cd"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konysa",
+    "version": "1.0.0"
+}

@@ -1,0 +1,27 @@
+{
+    "AS_FlexContainer_f394252cb2dd4180afab9e2f7585d425": {
+        "id": "AS_FlexContainer_f394252cb2dd4180afab9e2f7585d425",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "KUID": "hf2342d8f8ce47da836a53c0f65084e8",
+            "name": "uwhf2342d8f8ce47da836a53c0f65084e8",
+            "type": "userwidgets"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___cd4082e387b34b3aa54fde8cc4b0164c",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "dialTrackingPoint",
+            "display": "dialTrackingPoint",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}
