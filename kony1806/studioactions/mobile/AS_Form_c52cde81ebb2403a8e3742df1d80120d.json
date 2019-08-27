@@ -1,0 +1,24 @@
+{
+    "AS_Form_c52cde81ebb2403a8e3742df1d80120d": {
+        "id": "AS_Form_c52cde81ebb2403a8e3742df1d80120d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAddHaspLock",
+            "type": "forms",
+            "platform": "",
+            "KUID": "dda4308f7cc343bc9856d0806a1e2836"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d84a230c3bed482ea6bc279ae2d8c44d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.preShowFun();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

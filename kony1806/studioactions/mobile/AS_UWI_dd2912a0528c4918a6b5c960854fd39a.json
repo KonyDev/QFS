@@ -1,0 +1,24 @@
+{
+    "AS_UWI_dd2912a0528c4918a6b5c960854fd39a": {
+        "id": "AS_UWI_dd2912a0528c4918a6b5c960854fd39a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmStartLockout",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a5e576adfd254facab7fbffef961c44b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__fa1cfa3676a14da5aaf2508dba206ddc",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.showShutdownProcedure();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

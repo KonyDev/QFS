@@ -1,0 +1,30 @@
+{
+    "AS_Browser_d0719996a2fa476cb4239c8219cf6558": {
+        "id": "AS_Browser_d0719996a2fa476cb4239c8219cf6558",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmAddLock",
+            "type": "forms",
+            "platform": "",
+            "KUID": "j8f42e4a7dfd42e6896b6d6f33cad477"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__eb80b9d1768546ecb6be251564c93b59",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onSaveSignSucc();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

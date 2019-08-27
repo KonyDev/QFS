@@ -1,0 +1,24 @@
+{
+    "AS_Button_daedeb602ad04f509d7f4230293b25d3": {
+        "id": "AS_Button_daedeb602ad04f509d7f4230293b25d3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAddLock",
+            "type": "forms",
+            "platform": "",
+            "KUID": "j8f42e4a7dfd42e6896b6d6f33cad477"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ffa1485adbff45db8256dfd73bb05a7f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onClickNextStep();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

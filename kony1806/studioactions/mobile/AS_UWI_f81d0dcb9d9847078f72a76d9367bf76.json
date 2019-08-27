@@ -1,0 +1,24 @@
+{
+    "AS_UWI_f81d0dcb9d9847078f72a76d9367bf76": {
+        "id": "AS_UWI_f81d0dcb9d9847078f72a76d9367bf76",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmProjectRequest",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e74d0d8b72c4424fbb6bd15043f59060"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c4f572bc9b444ee59609860a080b1c7e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.confirm();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

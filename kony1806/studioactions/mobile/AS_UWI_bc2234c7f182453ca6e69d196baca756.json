@@ -1,0 +1,24 @@
+{
+    "AS_UWI_bc2234c7f182453ca6e69d196baca756": {
+        "id": "AS_UWI_bc2234c7f182453ca6e69d196baca756",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAddLock",
+            "type": "forms",
+            "platform": "",
+            "KUID": "j8f42e4a7dfd42e6896b6d6f33cad477"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c0a91cae7e954bcbabbcf807713b704e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onClickCheckList2();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

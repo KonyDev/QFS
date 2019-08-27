@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s1f25a597e124b759ef247ccccd7c275",
+    "_text_": "I, John Green, certify that I have completed <b> Lock Out on Asset 5AS745</b> according to company standards.",
+    "_top_": {
+        "type": "string",
+        "value": "335dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "94%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "49.51%"
+    },
+    "containerweight": 100,
+    "contentalignment": 1,
+    "id": "rchTxtCertify",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e1071ca343b74b6cab68e5038a8b814d",
+    "linkskin": "sc13d45e8fbb4a5db5e2f9722128aa68",
+    "name": "kony.ui.RichText",
+    "parent": "FlexScrollContainer0a01e0347dba14d",
+    "pf": "frmAddLock",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

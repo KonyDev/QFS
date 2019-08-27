@@ -1,0 +1,23 @@
+{
+    "AS_PickerView_b85498337edc437a9cec1f25e6013841": {
+        "id": "AS_PickerView_b85498337edc437a9cec1f25e6013841",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "component"
+        }, {
+            "datatype": "string",
+            "name": "keyselected"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onSelection_cb98df102f434e6d9e3dcdba67c37e03",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.pickerSelection();",
+            "callbackType": null
+        }]
+    }
+}

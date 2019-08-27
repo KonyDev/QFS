@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_gaf5a47e6ddf404dbb0cfd17c23a0f11": {
+        "id": "AS_FlexContainer_gaf5a47e6ddf404dbb0cfd17c23a0f11",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAddLock",
+            "type": "forms",
+            "platform": "",
+            "KUID": "j8f42e4a7dfd42e6896b6d6f33cad477"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e923e394254c48f79169d11374d35cea",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.print(\" \");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

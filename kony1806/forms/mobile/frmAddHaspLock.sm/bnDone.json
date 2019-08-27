@@ -1,0 +1,62 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "48dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sde456ca02914a51852652ccc9e01265",
+    "_text_": "Done",
+    "_top_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "95%"
+    },
+    "android": {
+        "psp": {
+            "pressedSkin": "sde456ca02914a51852652ccc9e01265"
+        }
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sde456ca02914a51852652ccc9e01265",
+    "id": "bnDone",
+    "ide_onClick": "AS_Button_b00381801c3345a2b9391a1c38db066a",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "b673c98e1804440fb45f05b49f7d7e18",
+    "name": "kony.ui.Button",
+    "parent": "flxVerifyShutdown1",
+    "pf": "frmAddHaspLock",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

@@ -1,0 +1,24 @@
+{
+    "AS_UWI_d683725cc9274778bac64ff3ee6e2b05": {
+        "id": "AS_UWI_d683725cc9274778bac64ff3ee6e2b05",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "i699113d466746f49757f808f766ba1a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a14fad6983d74433a12b6db4e97be967",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//alert(\"Hi\")\nthis.animateNotification();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

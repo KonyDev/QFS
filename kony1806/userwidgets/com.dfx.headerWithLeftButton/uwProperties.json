@@ -1,0 +1,167 @@
+{
+    "classname": "headerWithLeftButton",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e28505f9ff0c43c8884d47d389ebdbe7",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "onClickBack",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onClickBack",
+                        "srcWidget": "flexBack",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "bb7aa9ce0c444fed8aaad390f892db69"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d42729bea0d247dcbf5169ad6970a372",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 2,
+                    "propertyKey": "onClickRightIcon",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onClickRightIcon",
+                        "srcWidget": "flexProjects",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "aa28d566eeae45d5b736441ea329d29c"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a212c16b95aa487891147eb3551036ca",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "textHeader",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textHeader",
+                        "srcWidget": "lblHeader",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "e26b07bd86e14106bff61b0959556bab"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d7823b04fccf47d894f5d73dded46937",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 2,
+                    "propertyKey": "src",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "src",
+                        "srcWidget": "imgBack",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "bc0437568b8d47ebab31bed965466008"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "cc8b31780b9e4753850896df2af98139",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 3,
+                    "propertyKey": "isVisibleRightIcon",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "isVisibleRightIcon",
+                        "srcWidget": "flexProjects",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "aa28d566eeae45d5b736441ea329d29c"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "h70705462c4647cdb03b47cad3de1e38",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 4,
+                    "propertyKey": "srcRightIcon",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "srcRightIcon",
+                        "srcWidget": "imgProjects",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "d9f8ee58cc0e4aeaa1d9134d7399d569"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [
+                {
+                    "kuid": "d8e935b558f647158dd1b4195332c0c7",
+                    "propertyKey": "flexBack",
+                    "srcWgtKUID": "bb7aa9ce0c444fed8aaad390f892db69"
+                }
+            ],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.dfx",
+    "version": "1.0.0"
+}

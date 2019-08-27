@@ -1,0 +1,358 @@
+{
+    "classname": "signaturecapture",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "cc614c88182b410b866d1a4b97a39569",
+                    "paramList": [],
+                    "propertyKey": "getSignatureFromDevice",
+                    "pw": {
+                        "displayName": "getSignatureFromDevice",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "g53b1301cd174390a8a8c908fe6cb72a",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "i0323fddc31c46cf8acc756b3394fd70",
+                    "paramList": [],
+                    "propertyKey": "clearSignature",
+                    "pw": {
+                        "displayName": "clearSignature",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "g53b1301cd174390a8a8c908fe6cb72a",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "i278f21d043040efbbed93dbb4a658a5",
+                    "paramList": [],
+                    "propertyKey": "getSignature",
+                    "pw": {
+                        "displayName": "getSignature",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "g53b1301cd174390a8a8c908fe6cb72a",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "ad9771ae665946fcbbd2c9f6d2f994ed",
+                    "paramList": [
+                        {
+                            "name": "response"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "onSaveImageSuccess",
+                    "pw": {
+                        "displayName": "onSaveImageSuccess",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "g53b1301cd174390a8a8c908fe6cb72a",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "be12dc17c88b458db2030cc3c7509216",
+                    "paramList": [
+                        {
+                            "name": "response"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "onSaveImageFailure",
+                    "pw": {
+                        "displayName": "onSaveImageFailure",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "g53b1301cd174390a8a8c908fe6cb72a",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "c27b59fbef604f80a6d59efff99e5d00",
+                    "paramList": [
+                        {
+                            "name": "response"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "onErrorCallback",
+                    "pw": {
+                        "displayName": "onErrorCallback",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "g53b1301cd174390a8a8c908fe6cb72a",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [
+                "Save As"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "gb69e894e9694adfbd09e4ae9c643741",
+                    "originalPropertyKey": "penColor",
+                    "propertyIndex": 1,
+                    "propertyKey": "penColor",
+                    "pw": {
+                        "displayName": "pen color hexcode",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g53b1301cd174390a8a8c908fe6cb72a",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Device",
+                    "group": "Save As",
+                    "kuid": "bfa0f8b126ff4793a3339334cf21848c",
+                    "originalPropertyKey": "saveTo",
+                    "propertyIndex": 1,
+                    "propertyKey": "saveTo",
+                    "pw": {
+                        "displayName": "save to",
+                        "uiRepresentation": "Label-Combobox"
+                    },
+                    "srcWgtKUID": "g53b1301cd174390a8a8c908fe6cb72a",
+                    "type": "list selector",
+                    "value": [
+                        "Device",
+                        "Network File System"
+                    ]
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "png",
+                    "group": "Save As",
+                    "kuid": "ad998509359e4852b9351496a247c01e",
+                    "originalPropertyKey": "saveAs",
+                    "propertyIndex": 2,
+                    "propertyKey": "saveAs",
+                    "pw": {
+                        "displayName": "image save format",
+                        "uiRepresentation": "Label-Combobox"
+                    },
+                    "srcWgtKUID": "g53b1301cd174390a8a8c908fe6cb72a",
+                    "type": "list selector",
+                    "value": [
+                        "png",
+                        "jpeg"
+                    ]
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "c57f3f9f8ce74d0b951d2fa95af6bede",
+                    "originalPropertyKey": "canvasBackground",
+                    "propertyIndex": 2,
+                    "propertyKey": "canvasBackground",
+                    "pw": {
+                        "displayName": "background color hexcode",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g53b1301cd174390a8a8c908fe6cb72a",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": true,
+                    "group": "General",
+                    "kuid": "h4bb8abc7a0441dc99ed41df68e0e3ef",
+                    "originalPropertyKey": "saveSignature",
+                    "propertyIndex": 5,
+                    "propertyKey": "saveSignature",
+                    "pw": {
+                        "displayName": "save signature as image",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "g53b1301cd174390a8a8c908fe6cb72a",
+                    "type": "boolean",
+                    "value": "true/false"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "i8666017254246f69b495310faa9da5d",
+                    "originalPropertyKey": "width",
+                    "propertyIndex": 3,
+                    "propertyKey": "width1",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "defaultValue": {
+                            "type": "string",
+                            "value": ""
+                        },
+                        "dependentKeysKUIDs": null,
+                        "displayName": "canvas width",
+                        "forkablePlatforms": {
+                            "desktop": [
+                                "desktopweb",
+                                "kiosk"
+                            ],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spaip",
+                                "spaan",
+                                "spawinphone8",
+                                "spabb"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
+                            ]
+                        },
+                        "srcWidget": "flxCanvas",
+                        "type": "object",
+                        "uiConfig": {
+                            "Combobox": {
+                                "masterData": [
+                                    [
+                                        "Dp",
+                                        "dp"
+                                    ],
+                                    [
+                                        "Px",
+                                        "px"
+                                    ],
+                                    [
+                                        "%",
+                                        "%"
+                                    ],
+                                    [
+                                        "Default",
+                                        "Default"
+                                    ],
+                                    [
+                                        "Preferred",
+                                        "preferred"
+                                    ]
+                                ]
+                            },
+                            "Label": {},
+                            "Textbox": {}
+                        },
+                        "uiRepresentation": "Label-Textbox-Combobox",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "j6c817284ec24964bfbef37cf72b50cb"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "h6c2a8870b3742518f16353dd46446be",
+                    "originalPropertyKey": "height",
+                    "propertyIndex": 4,
+                    "propertyKey": "height1",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "defaultValue": {
+                            "type": "string",
+                            "value": ""
+                        },
+                        "dependentKeysKUIDs": null,
+                        "displayName": "canvas height",
+                        "forkablePlatforms": {
+                            "desktop": [
+                                "desktopweb",
+                                "kiosk"
+                            ],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spaip",
+                                "spaan",
+                                "spawinphone8",
+                                "spabb"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
+                            ]
+                        },
+                        "srcWidget": "flxCanvas",
+                        "type": "object",
+                        "uiConfig": {
+                            "Combobox": {
+                                "masterData": [
+                                    [
+                                        "Dp",
+                                        "dp"
+                                    ],
+                                    [
+                                        "Px",
+                                        "px"
+                                    ],
+                                    [
+                                        "%",
+                                        "%"
+                                    ],
+                                    [
+                                        "Default",
+                                        "Default"
+                                    ],
+                                    [
+                                        "Preferred",
+                                        "preferred"
+                                    ]
+                                ]
+                            },
+                            "Label": {},
+                            "Textbox": {}
+                        },
+                        "uiRepresentation": "Label-Textbox-Combobox",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "j6c817284ec24964bfbef37cf72b50cb"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konymp",
+    "version": "1.0.0"
+}

@@ -1,0 +1,193 @@
+{
+    "classname": "isolationPoint",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e87e29a7428849aaa253060e580bc920",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "onClickDetails",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onClickDetails",
+                        "srcWidget": "flexIsolationPoint",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "f45c7fe45ee04c0a89c007448740adb8"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e0e24862fd9a4b95bef541d337d196e4",
+                    "originalPropertyKey": "onRowClick",
+                    "propertyIndex": 2,
+                    "propertyKey": "onRowClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onRowClick",
+                        "srcWidget": "segIsolation",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Segment"
+                    },
+                    "srcWgtKUID": "edc624ab9d23459a8c762a144a2bd15b"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": {
+                        "data": [
+                            {
+                                "imageType": "image1",
+                                "isolationNum": "E - 1",
+                                "type": "Electrical type",
+                                "typeDetail": "480 VAC Single Feed"
+                            },
+                            {
+                                "imageType": "image2",
+                                "isolationNum": "E - 2",
+                                "type": "Hydraulic Type",
+                                "typeDetail": "480 VAC Feed"
+                            }
+                        ],
+                        "schema": [
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "isolationNum",
+                                "columnHeaderType": "text",
+                                "columnID": "isolationNum",
+                                "columnOnClick": null,
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "deefa496c0f54c34aac047dff5b1a4af"
+                            },
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "imageType",
+                                "columnHeaderType": "text",
+                                "columnID": "imageType",
+                                "columnOnClick": null,
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "a4402ebb4d964294be29840bcf355e25"
+                            },
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "type",
+                                "columnHeaderType": "text",
+                                "columnID": "type",
+                                "columnOnClick": null,
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "a31e6919d5f2408b9f003fe88c9a2df2"
+                            },
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "typeDetail",
+                                "columnHeaderType": "text",
+                                "columnID": "typeDetail",
+                                "columnOnClick": null,
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "b3788c10600943a6a3a4c1d0db43d792"
+                            }
+                        ]
+                    },
+                    "group": "General",
+                    "kuid": "a07b458042574e9cac107a0ec7a0221c",
+                    "originalPropertyKey": "arrayData",
+                    "propertyIndex": 1,
+                    "propertyKey": "arrayData",
+                    "pw": {
+                        "displayName": "arrayData",
+                        "uiRepresentation": "Label-DataGrid"
+                    },
+                    "srcWgtKUID": "df7440973a2c438cab02e1a7216d7acd",
+                    "type": "data grid",
+                    "value": 4
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e83eec7e366d4397971ba07603e86134",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "textNUm",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textNum",
+                        "srcWidget": "lblNum",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "a6ed42f9db11430f85c24db1fb593d9d"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "jf7e2cc0b4d44156b3e4f32ee93efe59",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 3,
+                    "propertyKey": "textIsolationPoint",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textIsolationPoint",
+                        "srcWidget": "lblIsolationPoint",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "dafd801a39b948a7a0f3d7f8fafd90b7"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 4,
+                    "propertyKey": "skin1",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "displayName": "Normal",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "a6ed42f9db11430f85c24db1fb593d9d"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.dfx",
+    "version": "1.0.0"
+}

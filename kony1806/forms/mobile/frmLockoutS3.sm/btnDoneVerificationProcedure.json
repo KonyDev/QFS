@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s32c2d8e96ff4d85a21360740598948e",
+    "_text_": "Done",
+    "_top_": {
+        "type": "string",
+        "value": "240dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s626a678fc7c451ab32a3b6bf0c6a84e",
+    "id": "btnDoneVerificationProcedure",
+    "ide_onClick": "AS_Button_a0c38eab5b5240478af5ec9cec09d2f9",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "f803f271907946e99d938852bcc0299d",
+    "name": "kony.ui.Button",
+    "parent": "flxScrollVerificationProcedureContent",
+    "pf": "frmLockoutS3",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

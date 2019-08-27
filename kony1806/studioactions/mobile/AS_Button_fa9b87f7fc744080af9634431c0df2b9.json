@@ -1,0 +1,24 @@
+{
+    "AS_Button_fa9b87f7fc744080af9634431c0df2b9": {
+        "id": "AS_Button_fa9b87f7fc744080af9634431c0df2b9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmRequestLockout",
+            "type": "forms",
+            "platform": null,
+            "KUID": "af0db8f0ca704b38a345c091e5c4efba"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d0d84137688e468b8142ee80ffee107d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.navToSummary();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

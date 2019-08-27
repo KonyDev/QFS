@@ -1,0 +1,24 @@
+{
+    "AS_UWI_fc25a68697c54a16a6bad5f59bb8e120": {
+        "id": "AS_UWI_fc25a68697c54a16a6bad5f59bb8e120",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPendingLockoutSummary",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f48455cc1f1b4583b1f4dcb989ed86a7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ce847aa474e64fc1942eafffa7a92f75",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.openHam();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

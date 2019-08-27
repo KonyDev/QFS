@@ -1,0 +1,24 @@
+{
+    "AS_UWI_b901906ff967402c93f3e0f4a2e1b3a1": {
+        "id": "AS_UWI_b901906ff967402c93f3e0f4a2e1b3a1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "response",
+            "datatype": "collection"
+        }],
+        "contextObj": {
+            "name": "frmAddLock",
+            "type": "forms",
+            "platform": "",
+            "KUID": "j8f42e4a7dfd42e6896b6d6f33cad477"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a39eac8972664f208e367294185776b5",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onSaveSignSucc();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

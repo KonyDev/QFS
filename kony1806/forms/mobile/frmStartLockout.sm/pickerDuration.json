@@ -1,0 +1,242 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizPickerView",
+    "DNDConfig": null,
+    "__inst": null,
+    "__parentReadjusting__": false,
+    "__wheels": null,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sb0f808044224c25a0961e73f184a80e",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "android": {
+        "psp": {
+            "viewType": 0
+        }
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "desktopweb": {
+        "render": false
+    },
+    "id": "pickerDuration",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "itemorientation": "vertical",
+    "kiosk": {
+        "render": false
+    },
+    "kuid": "f58195efb14041eabd3f5ac4583d6262",
+    "masterdata": [
+        [
+            [
+                "y1",
+                "0"
+            ],
+            [
+                "y2",
+                "1"
+            ],
+            [
+                "y3",
+                "2"
+            ],
+            30,
+            "daysComp"
+        ],
+        [
+            [
+                "m1",
+                "0"
+            ],
+            [
+                "m2",
+                "1"
+            ],
+            [
+                "m3",
+                "2"
+            ],
+            [
+                "m4",
+                "3"
+            ],
+            [
+                "m5",
+                "4"
+            ],
+            [
+                "m6",
+                "5"
+            ],
+            [
+                "m7",
+                "6"
+            ],
+            [
+                "m8",
+                "7"
+            ],
+            [
+                "m9",
+                "8"
+            ],
+            [
+                "m10",
+                "9"
+            ],
+            [
+                "m11",
+                "10"
+            ],
+            [
+                "m12",
+                "11"
+            ],
+            [
+                "m13",
+                "12"
+            ],
+            [
+                "m14",
+                "13"
+            ],
+            [
+                "m15",
+                "14"
+            ],
+            [
+                "m16",
+                "15"
+            ],
+            [
+                "m17",
+                "16"
+            ],
+            [
+                "m18",
+                "17"
+            ],
+            [
+                "m19",
+                "18"
+            ],
+            [
+                "m20",
+                "19"
+            ],
+            [
+                "m21",
+                "20"
+            ],
+            [
+                "m22",
+                "21"
+            ],
+            [
+                "m23",
+                "22"
+            ],
+            [
+                "m24",
+                "23"
+            ],
+            40,
+            "HoursComp"
+        ],
+        [
+            [
+                "min5",
+                "10"
+            ],
+            [
+                "min1",
+                "20"
+            ],
+            [
+                "min2",
+                "30"
+            ],
+            [
+                "min3",
+                "40"
+            ],
+            [
+                "min4",
+                "50"
+            ],
+            30,
+            "minutesComp"
+        ]
+    ],
+    "masterdatamap": null,
+    "name": "kony.ui.PickerView",
+    "parent": "flexDuration",
+    "pf": "frmStartLockout",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkey": null,
+    "selectedkeys": null,
+    "selectedkeyvalue": null,
+    "selectedkeyvalues": [
+        "0",
+        "0",
+        "10"
+    ],
+    "size": 18,
+    "spaan": {
+        "render": false
+    },
+    "spaandroidtablet": {
+        "render": false
+    },
+    "spabb": {
+        "render": false
+    },
+    "spaip": {
+        "render": false
+    },
+    "spaipad": {
+        "render": false
+    },
+    "spawindowstablet": {
+        "render": false
+    },
+    "spawinphone8": {
+        "render": false
+    },
+    "viewtype": 0,
+    "wType": "PickerView",
+    "watchos": {
+        "render": false
+    },
+    "windows8": {
+        "render": false
+    },
+    "zindex": 1
+}

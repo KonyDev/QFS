@@ -1,0 +1,24 @@
+{
+    "AS_UWI_g00b105ef44b4b7eabb6b5be14affc41": {
+        "id": "AS_UWI_g00b105ef44b4b7eabb6b5be14affc41",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLockoutS2",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b8f6570f083e4140be32a9f2d8249615"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__j494143887c140d0a9d252b848b6c572",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.closeHam();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

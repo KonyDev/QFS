@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_af4276c73c1f4665a82666fc0fd30827": {
+        "id": "AS_FlexContainer_af4276c73c1f4665a82666fc0fd30827",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPendingUnlockSummary",
+            "type": "forms",
+            "platform": null,
+            "KUID": "be61b1d40a964d9dbbe9a6522e27b17f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_d724cea42b484067a12f58e3f2389812",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//",
+            "callbackType": null
+        }]
+    }
+}

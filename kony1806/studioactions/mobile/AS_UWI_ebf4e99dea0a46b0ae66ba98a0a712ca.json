@@ -1,0 +1,24 @@
+{
+    "AS_UWI_ebf4e99dea0a46b0ae66ba98a0a712ca": {
+        "id": "AS_UWI_ebf4e99dea0a46b0ae66ba98a0a712ca",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmProjectDetail",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b3b0a15c0b9a4d53aac28fec24d9fc41"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d159ad0734f147c1b1945394be4b114f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.navBack();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

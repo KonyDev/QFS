@@ -1,0 +1,24 @@
+{
+    "AS_Button_d08268435cf14932829d46214e6ae0d7": {
+        "id": "AS_Button_d08268435cf14932829d46214e6ae0d7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmIsolationPointDetail",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e71f2c2e42584319adccd2d4afd22d42"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__j3b0d3f191c8496d9df5b8de2a0c98ea",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.navtoDetail(\"frmProjectRequest\");\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

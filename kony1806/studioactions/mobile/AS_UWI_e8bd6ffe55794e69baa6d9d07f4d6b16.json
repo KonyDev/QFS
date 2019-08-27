@@ -1,0 +1,24 @@
+{
+    "AS_UWI_e8bd6ffe55794e69baa6d9d07f4d6b16": {
+        "id": "AS_UWI_e8bd6ffe55794e69baa6d9d07f4d6b16",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAddLock",
+            "type": "forms",
+            "platform": "",
+            "KUID": "j8f42e4a7dfd42e6896b6d6f33cad477"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e071dd8c682644a399e084367caff94d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.openHam();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

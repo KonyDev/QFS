@@ -1,0 +1,200 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        [
+            {
+                "lblIsolationPoint": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Isolation Point 1"
+                }
+            },
+            [
+                {
+                    "imgSource": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "powerf.png"
+                    },
+                    "lblIsolationPoint": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "E-1"
+                    },
+                    "lblSourceDet": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "480 VAC"
+                    },
+                    "lblTap": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Done"
+                    }
+                },
+                {
+                    "imgSource": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "wavef.png"
+                    },
+                    "lblIsolationPoint": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "W-1"
+                    },
+                    "lblSourceDet": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "450 PSI INLET"
+                    },
+                    "lblTap": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Done"
+                    }
+                }
+            ]
+        ],
+        [
+            {
+                "lblIsolationPoint": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Isolation Point 2"
+                }
+            },
+            [
+                {
+                    "imgSource": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "powerf.png"
+                    },
+                    "lblIsolationPoint": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "E-2"
+                    },
+                    "lblSourceDet": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "480 VAC"
+                    },
+                    "lblTap": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Done"
+                    }
+                },
+                {
+                    "imgSource": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "wavef.png"
+                    },
+                    "lblIsolationPoint": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "W-2"
+                    },
+                    "lblSourceDet": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "450 PSI INLET"
+                    },
+                    "lblTap": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Done"
+                    }
+                }
+            ]
+        ]
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "11",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": true,
+    "id": "segIsolationPoint",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none",
+            "showProgressIndicator": false
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "be6b1e686b9546d797904c8902681043",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxScrollContent",
+    "pf": "frmPendingLockoutSummary",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "fdcb53a64cba4e93af30dfa2f33f40a6",
+    "rowcounter": 1,
+    "rowfocusskin": "s1980f28216045ab861bae4ea86ff5da",
+    "rowskin": "sf4fcda8aae641559ff41a4df717d9c4",
+    "rowtemplate": "flxSummaryRowIsolation",
+    "screenlevelwidget": false,
+    "seccounter": 1,
+    "sectionHeaderTemplateId": "e91fb8467bc64bd295e613dcf9ebee5b",
+    "sectionheaderskin": "sc3598c2ee94470eb12e480357fa043d",
+    "sectionheadertemplate": "flxSummaryIsolation",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showprogressindicator": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flexRow": "flexRow",
+        "flxSummaryIsolation": "flxSummaryIsolation",
+        "flxSummaryRowIsolation": "flxSummaryRowIsolation",
+        "imgSource": "imgSource",
+        "lblIsolationPoint": "lblIsolationPoint",
+        "lblSourceDet": "lblSourceDet",
+        "lblTap": "lblTap"
+    },
+    "zindex": 1
+}

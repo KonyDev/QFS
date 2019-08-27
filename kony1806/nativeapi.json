@@ -1,0 +1,185 @@
+{
+    "NativeFunctionAPI": {
+        "iOS": {
+            "11.0": {
+                "Kony_SyncV2-iOS-11.0": {
+                    "title": "Kony_SyncV2",
+                    "platform": "iOS",
+                    "os": "11.0",
+                    "isDefault": true,
+                    "url": "D:\\KonyDevelopment\\VIZ8.3\\Kony_Visualizer_Enterprise\\configuration\\org.eclipse.osgi\\bundles\\488\\1\\.cp\\resources\\sdk\\nativeBindings\\Kony_SyncV2-iOS-11.0.zip",
+                    "filepath": "C:\\Users\\KH1099\\Kony8.2\\DFXLockOut\\nativebindings\\iOS\\11.0\\Kony_SyncV2-iOS-11.0.zip",
+                    "enable": false
+                },
+                "Kony_SDKCommons-iOS-11.0": {
+                    "title": "Kony_SDKCommons",
+                    "platform": "iOS",
+                    "os": "11.0",
+                    "isDefault": true,
+                    "url": "D:\\KonyDevelopment\\VIZ8.3\\Kony_Visualizer_Enterprise\\configuration\\org.eclipse.osgi\\bundles\\488\\1\\.cp\\resources\\sdk\\nativeBindings\\Kony_SDKCommons-iOS-11.0.zip",
+                    "filepath": "C:\\Users\\KH1099\\Kony8.2\\DFXLockOut\\nativebindings\\iOS\\11.0\\Kony_SDKCommons-iOS-11.0.zip",
+                    "enable": false
+                }
+            },
+            "12.0": {
+                "Foundation-iOS-12.0": {
+                    "title": "Foundation",
+                    "platform": "iOS",
+                    "os": "12.0",
+                    "isDefault": false,
+                    "url": "D:\\KonyDevelopment\\VIZ8.3\\Workspace_0\\.nativebindings\\iOS\\12.0\\Foundation-iOS-12.0.zip",
+                    "filepath": "D:\\KonyDevelopment\\VIZ8.3\\Workspace_0\\DFXLogOut\\nativebindings\\iOS\\12.0\\Foundation-iOS-12.0.zip",
+                    "enable": false
+                },
+                "Sig-iOS-12.0": {
+                    "title": "Sig",
+                    "platform": "iOS",
+                    "os": "12.0",
+                    "isDefault": false,
+                    "url": "D:\\KonyDevelopment\\VIZ8.3\\Workspace_0\\.nativebindings\\iOS\\12.0\\Sig-iOS-12.0.zip",
+                    "filepath": "D:\\KonyDevelopment\\VIZ8.3\\Workspace_0\\DFXLogOut\\nativebindings\\iOS\\12.0\\Sig-iOS-12.0.zip",
+                    "enable": false
+                },
+                "AVFoundation-iOS-12.0": {
+                    "title": "AVFoundation",
+                    "platform": "iOS",
+                    "os": "12.0",
+                    "isDefault": false,
+                    "url": "D:\\KonyDevelopment\\VIZ8.3\\Workspace_0\\.nativebindings\\iOS\\12.0\\AVFoundation-iOS-12.0.zip",
+                    "filepath": "D:\\KonyDevelopment\\VIZ8.3\\Workspace_0\\DFXLogOut\\nativebindings\\iOS\\12.0\\AVFoundation-iOS-12.0.zip",
+                    "enable": false
+                },
+                "Speech-iOS-12.0": {
+                    "title": "Speech",
+                    "platform": "iOS",
+                    "os": "12.0",
+                    "isDefault": false,
+                    "url": "D:\\KonyDevelopment\\VIZ8.3\\Workspace_0\\.nativebindings\\iOS\\12.0\\Speech-iOS-12.0.zip",
+                    "filepath": "D:\\KonyDevelopment\\VIZ8.3\\Workspace_0\\DFXLogOut\\nativebindings\\iOS\\12.0\\Speech-iOS-12.0.zip",
+                    "enable": false
+                },
+                "UIKit-iOS-12.0": {
+                    "title": "UIKit",
+                    "platform": "iOS",
+                    "os": "12.0",
+                    "isDefault": false,
+                    "url": "D:\\KonyDevelopment\\VIZ8.3\\Workspace_0\\.nativebindings\\iOS\\12.0\\UIKit-iOS-12.0.zip",
+                    "filepath": "D:\\KonyDevelopment\\VIZ8.3\\Workspace_0\\DFXLogOut\\nativebindings\\iOS\\12.0\\UIKit-iOS-12.0.zip",
+                    "enable": false
+                }
+            }
+        },
+        "Android": {
+            "4.0": {
+                "Kony_SDKCommons-Android-4.0": {
+                    "title": "Kony_SDKCommons",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "isDefault": true,
+                    "url": "D:\\KonyDevelopment\\VIZ8.3\\Kony_Visualizer_Enterprise\\configuration\\org.eclipse.osgi\\bundles\\488\\1\\.cp\\resources\\sdk\\nativeBindings\\Kony_SDKCommons-Android-4.0.zip",
+                    "filepath": "C:\\Users\\KH1099\\Kony8.2\\DFXLockOut\\nativebindings\\Android\\4.0\\Kony_SDKCommons-Android-4.0.zip",
+                    "enable": false
+                },
+                "Kony_SyncV2-Android-4.0": {
+                    "title": "Kony_SyncV2",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "isDefault": true,
+                    "url": "D:\\KonyDevelopment\\VIZ8.3\\Kony_Visualizer_Enterprise\\configuration\\org.eclipse.osgi\\bundles\\488\\1\\.cp\\resources\\sdk\\nativeBindings\\Kony_SyncV2-Android-4.0.zip",
+                    "filepath": "C:\\Users\\KH1099\\Kony8.2\\DFXLockOut\\nativebindings\\Android\\4.0\\Kony_SyncV2-Android-4.0.zip",
+                    "enable": false
+                },
+                "SignatureCapture-Android-4.0": {
+                    "title": "SignatureCapture",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "isDefault": false,
+                    "url": "D:\\KonyDevelopment\\VIZ8.3\\Workspace_0\\.nativebindings\\Android\\4.0\\SignatureCapture-Android-4.0.zip",
+                    "filepath": "D:\\KonyDevelopment\\VIZ8.3\\Workspace_0\\DFXLogOut\\nativebindings\\Android\\4.0\\SignatureCapture-Android-4.0.zip",
+                    "enable": false
+                },
+                "android.speech-Android-4.0": {
+                    "title": "android.speech",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "isDefault": false,
+                    "url": "D:\\KonyDevelopment\\VIZ8.3\\Workspace_0\\.nativebindings\\Android\\4.0\\android.speech-Android-4.0.zip",
+                    "filepath": "D:\\KonyDevelopment\\VIZ8.3\\Workspace_0\\DFXLogOut\\nativebindings\\Android\\4.0\\android.speech-Android-4.0.zip",
+                    "enable": false
+                },
+                "android.support.v4.content-Android-4.0": {
+                    "title": "android.support.v4.content",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "isDefault": false,
+                    "url": "D:\\KonyDevelopment\\VIZ8.3\\Workspace_0\\.nativebindings\\Android\\4.0\\android.support.v4.content-Android-4.0.zip",
+                    "filepath": "D:\\KonyDevelopment\\VIZ8.3\\Workspace_0\\DFXLogOut\\nativebindings\\Android\\4.0\\android.support.v4.content-Android-4.0.zip",
+                    "enable": false
+                },
+                "android.speech.tts-Android-4.0": {
+                    "title": "android.speech.tts",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "isDefault": false,
+                    "url": "D:\\KonyDevelopment\\VIZ8.3\\Workspace_0\\.nativebindings\\Android\\4.0\\android.speech.tts-Android-4.0.zip",
+                    "filepath": "D:\\KonyDevelopment\\VIZ8.3\\Workspace_0\\DFXLogOut\\nativebindings\\Android\\4.0\\android.speech.tts-Android-4.0.zip",
+                    "enable": false
+                },
+                "android.preference-Android-4.0": {
+                    "title": "android.preference",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "isDefault": false,
+                    "url": "D:\\KonyDevelopment\\VIZ8.3\\Workspace_0\\.nativebindings\\Android\\4.0\\android.preference-Android-4.0.zip",
+                    "filepath": "D:\\KonyDevelopment\\VIZ8.3\\Workspace_0\\DFXLogOut\\nativebindings\\Android\\4.0\\android.preference-Android-4.0.zip",
+                    "enable": false
+                },
+                "android.webkit-Android-4.0": {
+                    "title": "android.webkit",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "isDefault": false,
+                    "url": "D:\\KonyDevelopment\\VIZ8.3\\Workspace_0\\.nativebindings\\Android\\4.0\\android.webkit-Android-4.0.zip",
+                    "filepath": "D:\\KonyDevelopment\\VIZ8.3\\Workspace_0\\DFXLogOut\\nativebindings\\Android\\4.0\\android.webkit-Android-4.0.zip",
+                    "enable": false
+                },
+                "android.support.v4.app-Android-4.0": {
+                    "title": "android.support.v4.app",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "isDefault": false,
+                    "url": "D:\\KonyDevelopment\\VIZ8.3\\Workspace_0\\.nativebindings\\Android\\4.0\\android.support.v4.app-Android-4.0.zip",
+                    "filepath": "D:\\KonyDevelopment\\VIZ8.3\\Workspace_0\\DFXLogOut\\nativebindings\\Android\\4.0\\android.support.v4.app-Android-4.0.zip",
+                    "enable": false
+                },
+                "android.content.pm-Android-4.0": {
+                    "title": "android.content.pm",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "isDefault": false,
+                    "url": "D:\\KonyDevelopment\\VIZ8.3\\Workspace_0\\.nativebindings\\Android\\4.0\\android.content.pm-Android-4.0.zip",
+                    "filepath": "D:\\KonyDevelopment\\VIZ8.3\\Workspace_0\\DFXLogOut\\nativebindings\\Android\\4.0\\android.content.pm-Android-4.0.zip",
+                    "enable": false
+                },
+                "java.util-Android-4.0": {
+                    "title": "java.util",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "isDefault": false,
+                    "url": "D:\\KonyDevelopment\\VIZ8.3\\Workspace_0\\.nativebindings\\Android\\4.0\\java.util-Android-4.0.zip",
+                    "filepath": "D:\\KonyDevelopment\\VIZ8.3\\Workspace_0\\DFXLogOut\\nativebindings\\Android\\4.0\\java.util-Android-4.0.zip",
+                    "enable": false
+                },
+                "android.content-Android-4.0": {
+                    "title": "android.content",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "isDefault": false,
+                    "url": "D:\\KonyDevelopment\\VIZ8.3\\Workspace_0\\.nativebindings\\Android\\4.0\\android.content-Android-4.0.zip",
+                    "filepath": "D:\\KonyDevelopment\\VIZ8.3\\Workspace_0\\DFXLogOut\\nativebindings\\Android\\4.0\\android.content-Android-4.0.zip",
+                    "enable": false
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "AS_UWI_b0b6f6736f284317975801755a24ebca": {
+        "id": "AS_UWI_b0b6f6736f284317975801755a24ebca",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAddHaspLock",
+            "type": "forms",
+            "platform": "",
+            "KUID": "dda4308f7cc343bc9856d0806a1e2836"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__b0adf40c73fc43899d9c5302c8a4290e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//this.hideVerifyIsolation();\nthis.onClickShutDownCheckList();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

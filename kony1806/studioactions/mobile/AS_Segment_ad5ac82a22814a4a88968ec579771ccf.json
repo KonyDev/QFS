@@ -1,0 +1,30 @@
+{
+    "AS_Segment_ad5ac82a22814a4a88968ec579771ccf": {
+        "id": "AS_Segment_ad5ac82a22814a4a88968ec579771ccf",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmRequestLockout",
+            "type": "forms",
+            "platform": "",
+            "KUID": "af0db8f0ca704b38a345c091e5c4efba"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__b7d445b31d1947148d8f1bbd33677176",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onsegRowClickMOnth()",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

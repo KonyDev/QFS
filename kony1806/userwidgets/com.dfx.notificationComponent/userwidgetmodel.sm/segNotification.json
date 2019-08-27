@@ -1,0 +1,454 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "19",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": true,
+    "id": "segNotification",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "aa1b0ac1ee3c44abae54302cf37e2ac7",
+    "masterdata": {},
+    "mobile": {
+        "_data_": [
+            [
+                {
+                    "lblHeader": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "New"
+                    },
+                    "lblLine1": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    }
+                },
+                [
+                    {
+                        "btnPendingUnlock": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "{visible:false,text:\"\"}"
+                        },
+                        "imgLock": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "imagedrag.png"
+                        },
+                        "imgPic": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "imagedrag.png"
+                        },
+                        "lblLine1": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblTime": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "54 minutes ago"
+                        },
+                        "rtxtMessage": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "<b>Blake Campbell</b> unlocked <b>Mechanical Power Press</b>"
+                        }
+                    }
+                ]
+            ],
+            [
+                {
+                    "lblHeader": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Earlier"
+                    },
+                    "lblLine1": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    }
+                },
+                [
+                    {
+                        "btnPendingUnlock": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Pending Unlock"
+                        },
+                        "imgLock": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "imagedrag.png"
+                        },
+                        "imgPic": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "imagedrag.png"
+                        },
+                        "lblLine1": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblTime": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label"
+                        },
+                        "rtxtMessage": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "RichText"
+                        }
+                    },
+                    {
+                        "btnPendingUnlock": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Pending Unlock"
+                        },
+                        "imgLock": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "imagedrag.png"
+                        },
+                        "imgPic": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "imagedrag.png"
+                        },
+                        "lblLine1": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblTime": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label"
+                        },
+                        "rtxtMessage": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "RichText"
+                        }
+                    },
+                    {
+                        "btnPendingUnlock": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Pending Unlock"
+                        },
+                        "imgLock": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "imagedrag.png"
+                        },
+                        "imgPic": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "imagedrag.png"
+                        },
+                        "lblLine1": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblTime": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label"
+                        },
+                        "rtxtMessage": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "RichText"
+                        }
+                    },
+                    {
+                        "btnPendingUnlock": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Pending Unlock"
+                        },
+                        "imgLock": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "imagedrag.png"
+                        },
+                        "imgPic": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "imagedrag.png"
+                        },
+                        "lblLine1": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblTime": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label"
+                        },
+                        "rtxtMessage": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "RichText"
+                        }
+                    },
+                    {
+                        "btnPendingUnlock": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Pending Unlock"
+                        },
+                        "imgLock": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "imagedrag.png"
+                        },
+                        "imgPic": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "imagedrag.png"
+                        },
+                        "lblLine1": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblTime": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label"
+                        },
+                        "rtxtMessage": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "RichText"
+                        }
+                    },
+                    {
+                        "btnPendingUnlock": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Pending Unlock"
+                        },
+                        "imgLock": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "imagedrag.png"
+                        },
+                        "imgPic": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "imagedrag.png"
+                        },
+                        "lblLine1": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblTime": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label"
+                        },
+                        "rtxtMessage": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "RichText"
+                        }
+                    },
+                    {
+                        "btnPendingUnlock": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Pending Unlock"
+                        },
+                        "imgLock": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "imagedrag.png"
+                        },
+                        "imgPic": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "imagedrag.png"
+                        },
+                        "lblLine1": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblTime": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label"
+                        },
+                        "rtxtMessage": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "RichText"
+                        }
+                    },
+                    {
+                        "btnPendingUnlock": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Pending Unlock"
+                        },
+                        "imgLock": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "imagedrag.png"
+                        },
+                        "imgPic": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "imagedrag.png"
+                        },
+                        "lblLine1": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblTime": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label"
+                        },
+                        "rtxtMessage": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "RichText"
+                        }
+                    },
+                    {
+                        "btnPendingUnlock": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Pending Unlock"
+                        },
+                        "imgLock": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "imagedrag.png"
+                        },
+                        "imgPic": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "imagedrag.png"
+                        },
+                        "lblLine1": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblTime": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label"
+                        },
+                        "rtxtMessage": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "RichText"
+                        }
+                    },
+                    {
+                        "btnPendingUnlock": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Pending Unlock"
+                        },
+                        "imgLock": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "imagedrag.png"
+                        },
+                        "imgPic": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "imagedrag.png"
+                        },
+                        "lblLine1": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblTime": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label"
+                        },
+                        "rtxtMessage": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "RichText"
+                        }
+                    }
+                ]
+            ]
+        ],
+        "rowTemplateId": "i99791b589d64d6eaaf25484e750954f",
+        "rowtemplate": "flexRow",
+        "sectionHeaderTemplateId": "c7989d76ff2e4f02a9df6c6bfab8807b",
+        "sectionheadertemplate": "flexHeader",
+        "widgetdatamap": {
+            "FlexContainer0fa56caa41c854e": "FlexContainer0fa56caa41c854e",
+            "FlexGroup0ea6a5a1ea76740": "FlexGroup0ea6a5a1ea76740",
+            "btnPendingUnlock": "btnPendingUnlock",
+            "flexHeader": "flexHeader",
+            "flexRow": "flexRow",
+            "imgLock": "imgLock",
+            "imgPic": "imgPic",
+            "lblHeader": "lblHeader",
+            "lblLine1": "lblLine1",
+            "lblTime": "lblTime",
+            "rtxtMessage": "rtxtMessage"
+        }
+    },
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxScrollContent",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowcounter": 9,
+    "rowfocusskin": "s1980f28216045ab861bae4ea86ff5da",
+    "rowskin": "sf4fcda8aae641559ff41a4df717d9c4",
+    "rowtemplate": null,
+    "screenlevelwidget": false,
+    "seccounter": 1,
+    "sectionheaderskin": "sc3598c2ee94470eb12e480357fa043d",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": false,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "FlexContainer0fa56caa41c854e": "FlexContainer0fa56caa41c854e",
+        "FlexGroup0ea6a5a1ea76740": "FlexGroup0ea6a5a1ea76740",
+        "btnPendingUnlock": "btnPendingUnlock",
+        "flexHeader": "flexHeader",
+        "flexRow": "flexRow",
+        "imgLock": "imgLock",
+        "imgPic": "imgPic",
+        "lblHeader": "lblHeader",
+        "lblLine1": "lblLine1",
+        "lblTime": "lblTime",
+        "rtxtMessage": "rtxtMessage"
+    },
+    "zindex": 1
+}

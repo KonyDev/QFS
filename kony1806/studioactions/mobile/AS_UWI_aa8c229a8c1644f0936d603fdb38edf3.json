@@ -1,0 +1,24 @@
+{
+    "AS_UWI_aa8c229a8c1644f0936d603fdb38edf3": {
+        "id": "AS_UWI_aa8c229a8c1644f0936d603fdb38edf3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "i699113d466746f49757f808f766ba1a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f2948d33caf840dcb6c83bb61c4ff0e7",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.openHam();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "AS_UWI_bb0044d78f0a4c22a638ca19457a41ae": {
+        "id": "AS_UWI_bb0044d78f0a4c22a638ca19457a41ae",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmIsolationPointDetail",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e71f2c2e42584319adccd2d4afd22d42"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f31eadd96fb3421abea3cec35a1791b4",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.navtoDetail(\"frmProjectDetail\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

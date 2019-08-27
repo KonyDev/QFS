@@ -1,0 +1,269 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizPickerView",
+    "DNDConfig": null,
+    "__inst": {
+        "_selectedValues": {},
+        "settings": {
+            "ariaDesc": "Select a value",
+            "cancelText": "Cancel",
+            "delay": 300,
+            "disabled": false,
+            "display": "inline",
+            "fixedWidth": [
+                40,
+                60
+            ],
+            "headerText": "{value}",
+            "height": 40,
+            "id": "frmRequestLockout_pickerDueDate",
+            "lang": "en-US",
+            "layout": "fixed",
+            "minWidth": 0,
+            "mode": "scroller",
+            "preset": "",
+            "readonly": false,
+            "rows": 3,
+            "scrollLock": true,
+            "setText": "Set",
+            "showLabel": false,
+            "showOnFocus": true,
+            "showOnTap": true,
+            "speedUnit": 0.0012,
+            "tap": true,
+            "theme": "ios",
+            "timeUnit": 0.1,
+            "wheels": [
+                [
+                    {
+                        "keys": [
+                            "y1",
+                            "y2",
+                            "y3"
+                        ],
+                        "values": [
+                            "2009",
+                            "2010",
+                            "2011"
+                        ],
+                        "width": 40
+                    },
+                    {
+                        "keys": [
+                            "m1",
+                            "m2",
+                            "m3",
+                            "m4",
+                            "m5",
+                            "m6",
+                            "m7"
+                        ],
+                        "values": [
+                            "Jan",
+                            "Feb",
+                            "Mar",
+                            "Apr",
+                            "May",
+                            "Jun",
+                            "Jul"
+                        ],
+                        "width": 60
+                    }
+                ]
+            ],
+            "width": 70
+        },
+        "temp": [
+            "y1",
+            "m1"
+        ],
+        "val": "y1 m1",
+        "values": [
+            "y1",
+            "m1"
+        ]
+    },
+    "__parentReadjusting__": false,
+    "__wheels": [
+        [
+            {
+                "keys": [
+                    "y1",
+                    "y2",
+                    "y3"
+                ],
+                "values": [
+                    "2009",
+                    "2010",
+                    "2011"
+                ],
+                "width": 40
+            },
+            {
+                "keys": [
+                    "m1",
+                    "m2",
+                    "m3",
+                    "m4",
+                    "m5",
+                    "m6",
+                    "m7"
+                ],
+                "values": [
+                    "Jan",
+                    "Feb",
+                    "Mar",
+                    "Apr",
+                    "May",
+                    "Jun",
+                    "Jul"
+                ],
+                "width": 60
+            }
+        ]
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s308a08ec5bb4a049bcf32a3b8e73fcc",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "android": {
+        "psp": {
+            "viewType": 0
+        }
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "desktopweb": {
+        "render": false
+    },
+    "disabledSkins": {},
+    "enablehapticfeedback": false,
+    "focusskin": "s308a08ec5bb4a049bcf32a3b8e73fcc",
+    "id": "pickerDueDate",
+    "ide_onSelection": "AS_PickerView_e7cfc33256ed47c18543b38e220a3f7a",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "itemorientation": "vertical",
+    "kiosk": {
+        "render": false
+    },
+    "kuid": "cc558667c01d4c21b22435d5ffe0b9f3",
+    "masterdata": [
+        [
+            [
+                "y1",
+                "2009"
+            ],
+            [
+                "y2",
+                "2010"
+            ],
+            [
+                "y3",
+                "2011"
+            ],
+            40,
+            "yearcomp"
+        ],
+        [
+            [
+                "m1",
+                "Jan"
+            ],
+            [
+                "m2",
+                "Feb"
+            ],
+            [
+                "m3",
+                "Mar"
+            ],
+            [
+                "m4",
+                "Apr"
+            ],
+            [
+                "m5",
+                "May"
+            ],
+            [
+                "m6",
+                "Jun"
+            ],
+            [
+                "m7",
+                "Jul"
+            ],
+            60,
+            "monthcomp"
+        ]
+    ],
+    "name": "kony.ui.PickerView",
+    "parent": "flexDuration",
+    "pf": "frmRequestLockout",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkey": null,
+    "selectedkeys": null,
+    "selectedkeyvalue": null,
+    "selectedkeyvalues": [
+        "2009",
+        "Jan"
+    ],
+    "size": 18,
+    "spaan": {
+        "render": false
+    },
+    "spaandroidtablet": {
+        "render": false
+    },
+    "spabb": {
+        "render": false
+    },
+    "spaip": {
+        "render": false
+    },
+    "spaipad": {
+        "render": false
+    },
+    "spawindowstablet": {
+        "render": false
+    },
+    "spawinphone8": {
+        "render": false
+    },
+    "viewtype": 0,
+    "wType": "PickerView",
+    "watchos": {
+        "render": false
+    },
+    "windows8": {
+        "render": false
+    },
+    "zindex": 1
+}

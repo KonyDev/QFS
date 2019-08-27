@@ -1,0 +1,33 @@
+{
+    "AS_FlexContainer_c2c1fb77747e47b7bd1cfcfe36670315": {
+        "id": "AS_FlexContainer_c2c1fb77747e47b7bd1cfcfe36670315",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "tempIsolationProcedureSecHdr",
+            "type": "templates",
+            "KUID": "c119fea15d4d46369d0cb4ea610ac5dd"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___e809fba025864c39b8927bc463851c2a",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onSecClick",
+            "display": "onSecClick",
+            "inputparams": [{
+                "name": "param",
+                "value": " context"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "AS_Form_da7f1efa687842719f60c14b54d9d2f9": {
+        "id": "AS_Form_da7f1efa687842719f60c14b54d9d2f9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmRemoveHaspLockS2",
+            "type": "forms",
+            "platform": null,
+            "KUID": "h18b501455f44d94820e3753e7713ae3"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_preShow_b89192ebbbfe4524b094a4968fb036d4",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.preshow();",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,947 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "btnSeeDetails": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "See Details"
+            },
+            "img1": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "img2": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "img3": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "img4": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "imgCurrentlyWorking": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "imgProject": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lblAddress": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "123 Backer Street"
+            },
+            "lblAddressTag": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Address"
+            },
+            "lblCurrentlyWorkingTag": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "LO/TO Task"
+            },
+            "lblDueDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Due: 09/12/18"
+            },
+            "lblFacility": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "1st Floor, Room H12"
+            },
+            "lblFacilityTag": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Facility"
+            },
+            "lblLine1": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblLine2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblProjectTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Mechanical Power Press"
+            },
+            "lblStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Pending Lockout"
+            },
+            "lblTask": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "1st Floor, Room H12"
+            },
+            "lblTaskTag": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "LO/TO Task"
+            },
+            "lblTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2 Hours"
+            }
+        },
+        {
+            "btnSeeDetails": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "See Details"
+            },
+            "img1": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "img2": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "img3": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "img4": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "imgCurrentlyWorking": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "imgProject": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lblAddress": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "123 Backer Street"
+            },
+            "lblAddressTag": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Address"
+            },
+            "lblCurrentlyWorkingTag": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "LO/TO Task"
+            },
+            "lblDueDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Due: 09/12/18"
+            },
+            "lblFacility": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "1st Floor, Room H12"
+            },
+            "lblFacilityTag": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Facility"
+            },
+            "lblLine1": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblLine2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblProjectTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Mechanical Power Press"
+            },
+            "lblStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Pending Lockout"
+            },
+            "lblTask": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "1st Floor, Room H12"
+            },
+            "lblTaskTag": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "LO/TO Task"
+            },
+            "lblTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2 Hours"
+            }
+        },
+        {
+            "btnSeeDetails": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "See Details"
+            },
+            "img1": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "img2": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "img3": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "img4": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "imgCurrentlyWorking": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "imgProject": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lblAddress": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "123 Backer Street"
+            },
+            "lblAddressTag": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Address"
+            },
+            "lblCurrentlyWorkingTag": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "LO/TO Task"
+            },
+            "lblDueDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Due: 09/12/18"
+            },
+            "lblFacility": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "1st Floor, Room H12"
+            },
+            "lblFacilityTag": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Facility"
+            },
+            "lblLine1": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblLine2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblProjectTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Mechanical Power Press"
+            },
+            "lblStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Pending Lockout"
+            },
+            "lblTask": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "1st Floor, Room H12"
+            },
+            "lblTaskTag": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "LO/TO Task"
+            },
+            "lblTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2 Hours"
+            }
+        },
+        {
+            "btnSeeDetails": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "See Details"
+            },
+            "img1": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "img2": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "img3": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "img4": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "imgCurrentlyWorking": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "imgProject": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lblAddress": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "123 Backer Street"
+            },
+            "lblAddressTag": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Address"
+            },
+            "lblCurrentlyWorkingTag": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "LO/TO Task"
+            },
+            "lblDueDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Due: 09/12/18"
+            },
+            "lblFacility": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "1st Floor, Room H12"
+            },
+            "lblFacilityTag": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Facility"
+            },
+            "lblLine1": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblLine2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblProjectTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Mechanical Power Press"
+            },
+            "lblStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Pending Lockout"
+            },
+            "lblTask": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "1st Floor, Room H12"
+            },
+            "lblTaskTag": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "LO/TO Task"
+            },
+            "lblTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2 Hours"
+            }
+        },
+        {
+            "btnSeeDetails": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "See Details"
+            },
+            "img1": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "img2": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "img3": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "img4": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "imgCurrentlyWorking": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "imgProject": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lblAddress": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "123 Backer Street"
+            },
+            "lblAddressTag": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Address"
+            },
+            "lblCurrentlyWorkingTag": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "LO/TO Task"
+            },
+            "lblDueDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Due: 09/12/18"
+            },
+            "lblFacility": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "1st Floor, Room H12"
+            },
+            "lblFacilityTag": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Facility"
+            },
+            "lblLine1": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblLine2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblProjectTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Mechanical Power Press"
+            },
+            "lblStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Pending Lockout"
+            },
+            "lblTask": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "1st Floor, Room H12"
+            },
+            "lblTaskTag": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "LO/TO Task"
+            },
+            "lblTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2 Hours"
+            }
+        },
+        {
+            "btnSeeDetails": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "See Details"
+            },
+            "img1": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "img2": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "img3": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "img4": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "imgCurrentlyWorking": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "imgProject": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lblAddress": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "123 Backer Street"
+            },
+            "lblAddressTag": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Address"
+            },
+            "lblCurrentlyWorkingTag": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "LO/TO Task"
+            },
+            "lblDueDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Due: 09/12/18"
+            },
+            "lblFacility": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "1st Floor, Room H12"
+            },
+            "lblFacilityTag": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Facility"
+            },
+            "lblLine1": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblLine2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblProjectTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Mechanical Power Press"
+            },
+            "lblStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Pending Lockout"
+            },
+            "lblTask": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "1st Floor, Room H12"
+            },
+            "lblTaskTag": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "LO/TO Task"
+            },
+            "lblTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2 Hours"
+            }
+        },
+        {
+            "btnSeeDetails": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "See Details"
+            },
+            "img1": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "img2": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "img3": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "img4": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "imgCurrentlyWorking": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "imgProject": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lblAddress": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "123 Backer Street"
+            },
+            "lblAddressTag": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Address"
+            },
+            "lblCurrentlyWorkingTag": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "LO/TO Task"
+            },
+            "lblDueDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Due: 09/12/18"
+            },
+            "lblFacility": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "1st Floor, Room H12"
+            },
+            "lblFacilityTag": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Facility"
+            },
+            "lblLine1": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblLine2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblProjectTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Mechanical Power Press"
+            },
+            "lblStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Pending Lockout"
+            },
+            "lblTask": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "1st Floor, Room H12"
+            },
+            "lblTaskTag": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "LO/TO Task"
+            },
+            "lblTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2 Hours"
+            }
+        },
+        {
+            "btnSeeDetails": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "See Details"
+            },
+            "img1": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "img2": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "img3": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "img4": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "imgCurrentlyWorking": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "imgProject": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lblAddress": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "123 Backer Street"
+            },
+            "lblAddressTag": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Address"
+            },
+            "lblCurrentlyWorkingTag": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "LO/TO Task"
+            },
+            "lblDueDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Due: 09/12/18"
+            },
+            "lblFacility": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "1st Floor, Room H12"
+            },
+            "lblFacilityTag": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Facility"
+            },
+            "lblLine1": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblLine2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblProjectTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Mechanical Power Press"
+            },
+            "lblStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Pending Lockout"
+            },
+            "lblTask": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "1st Floor, Room H12"
+            },
+            "lblTaskTag": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "LO/TO Task"
+            },
+            "lblTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2 Hours"
+            }
+        },
+        {
+            "btnSeeDetails": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "See Details"
+            },
+            "img1": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "img2": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "img3": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "img4": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "imgCurrentlyWorking": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "imgProject": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lblAddress": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "123 Backer Street"
+            },
+            "lblAddressTag": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Address"
+            },
+            "lblCurrentlyWorkingTag": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "LO/TO Task"
+            },
+            "lblDueDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Due: 09/12/18"
+            },
+            "lblFacility": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "1st Floor, Room H12"
+            },
+            "lblFacilityTag": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Facility"
+            },
+            "lblLine1": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblLine2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblProjectTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Mechanical Power Press"
+            },
+            "lblStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Pending Lockout"
+            },
+            "lblTask": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "1st Floor, Room H12"
+            },
+            "lblTaskTag": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "LO/TO Task"
+            },
+            "lblTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2 Hours"
+            }
+        },
+        {
+            "btnSeeDetails": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "See Details"
+            },
+            "img1": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "img2": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "img3": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "img4": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "imgCurrentlyWorking": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "imgProject": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lblAddress": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "123 Backer Street"
+            },
+            "lblAddressTag": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Address"
+            },
+            "lblCurrentlyWorkingTag": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "LO/TO Task"
+            },
+            "lblDueDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Due: 09/12/18"
+            },
+            "lblFacility": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "1st Floor, Room H12"
+            },
+            "lblFacilityTag": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Facility"
+            },
+            "lblLine1": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblLine2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblProjectTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Mechanical Power Press"
+            },
+            "lblStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Pending Lockout"
+            },
+            "lblTask": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "1st Floor, Room H12"
+            },
+            "lblTaskTag": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "LO/TO Task"
+            },
+            "lblTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2 Hours"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "09",
+    "disabledSkins": {},
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segDashboard",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "i803f8c2e9994419a2b76d0f5da991a8",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxScrollContent",
+    "pf": "frmDashboard",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "h72ea3cbed314788b1c4a244cef9fc8f",
+    "rowcounter": 9,
+    "rowfocusskin": "saee5db2c030450a829cdd5438144046",
+    "rowskin": "saee5db2c030450a829cdd5438144046",
+    "rowtemplate": "flexRowProject",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "sc3598c2ee94470eb12e480357fa043d",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "FlexGroup0c9faddf66e3645": "FlexGroup0c9faddf66e3645",
+        "FlexGroup0ca2cf4dbba624a": "FlexGroup0ca2cf4dbba624a",
+        "btnSeeDetails": "btnSeeDetails",
+        "flexCurrentlyWorking": "flexCurrentlyWorking",
+        "flexImages": "flexImages",
+        "flexProject": "flexProject",
+        "flexProjectDetails": "flexProjectDetails",
+        "flexRowProject": "flexRowProject",
+        "flexStatus": "flexStatus",
+        "img1": "img1",
+        "img2": "img2",
+        "img3": "img3",
+        "img4": "img4",
+        "imgCurrentlyWorking": "imgCurrentlyWorking",
+        "imgProject": "imgProject",
+        "lblAddress": "lblAddress",
+        "lblAddressTag": "lblAddressTag",
+        "lblCurrentlyWorkingTag": "lblCurrentlyWorkingTag",
+        "lblDueDate": "lblDueDate",
+        "lblFacility": "lblFacility",
+        "lblFacilityTag": "lblFacilityTag",
+        "lblLine1": "lblLine1",
+        "lblLine2": "lblLine2",
+        "lblProjectTitle": "lblProjectTitle",
+        "lblStatus": "lblStatus",
+        "lblTask": "lblTask",
+        "lblTaskTag": "lblTaskTag",
+        "lblTime": "lblTime"
+    },
+    "widgetskin": "s451628510e244ebab834fb34e023326",
+    "zindex": 1
+}

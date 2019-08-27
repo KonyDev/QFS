@@ -1,0 +1,28 @@
+{
+    "AS_UWI_h16e8d3b8eb34aa7af749d88c80840c7": {
+        "id": "AS_UWI_h16e8d3b8eb34aa7af749d88c80840c7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmProjectDetail",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b3b0a15c0b9a4d53aac28fec24d9fc41"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___d8f589de81ff415ea9bba787792780ed",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "navBack",
+            "display": "navBack",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s04c100926534248be23e330c4284a31",
+    "_top_": {
+        "type": "string",
+        "value": "135dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "allowhorizontalbounce": false,
+    "allowverticalbounce": true,
+    "bounces": true,
+    "canUpdateUI": true,
+    "children": [
+        "CopyLabel0af21b0f1f3e541",
+        "CopyLabel0jcc8f748366540",
+        "FlexContainer0bfaa5f0196144f",
+        "flxComment",
+        "FlexContainer0a8682f072b9347",
+        "flxApplyLockTag",
+        "CopylblLineBottom0d56fcd83562949",
+        "CopyLabel0a4d43c53ef8b42",
+        "CopyLabel0ad3cfc92d09647",
+        "flxSupervisorName",
+        "flxDate",
+        "flxDurationDummy",
+        "flxDuration",
+        "flxCam",
+        "CopylblLineBottom0b56209b71fc343",
+        "flxBtns"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "decelerat": false,
+    "dragg": false,
+    "enablescrolling": true,
+    "horizontalscrollindicator": true,
+    "id": "flxScrllLockOut",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "cba49f3dcaaa4e11b7cf44b6fc53ea7b",
+    "layouttype": 4,
+    "name": "kony.ui.FlexScrollContainer",
+    "pagingenabled": false,
+    "parent": "frmAddLock",
+    "pf": "frmAddLock",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "scrolldirection": 2,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "track": false,
+    "verticalscrollindicator": true,
+    "wType": "FlexScrollContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

@@ -1,0 +1,24 @@
+{
+    "AS_UWI_ibe1edf48aed46dbb7ce34772786e723": {
+        "id": "AS_UWI_ibe1edf48aed46dbb7ce34772786e723",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmRequestLockout",
+            "type": "forms",
+            "platform": "",
+            "KUID": "af0db8f0ca704b38a345c091e5c4efba"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c50635faa0084829b4ff2558982e9543",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.navBack();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "AS_UWI_df491a21a70b423ba289a78ce02b0eac": {
+        "id": "AS_UWI_df491a21a70b423ba289a78ce02b0eac",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAddLock",
+            "type": "forms",
+            "platform": "",
+            "KUID": "j8f42e4a7dfd42e6896b6d6f33cad477"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__h21b94ed12824316a46ad3ea03e991ba",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onClickCheckBoxVerifyShutdown();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

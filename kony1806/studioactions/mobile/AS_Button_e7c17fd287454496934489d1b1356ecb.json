@@ -1,0 +1,23 @@
+{
+    "AS_Button_e7c17fd287454496934489d1b1356ecb": {
+        "id": "AS_Button_e7c17fd287454496934489d1b1356ecb",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmRemoveHaspLockS1",
+            "type": "forms",
+            "platform": null,
+            "KUID": "d42d986d698b411788fe180a6b1278ec"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_jda6ecdc97d9411da9f01b7a5892a8e3",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onDoneS1();",
+            "callbackType": null
+        }]
+    }
+}

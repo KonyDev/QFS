@@ -1,0 +1,276 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        [
+            {
+                "imgCheckBox": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "unlock_grey.png"
+                },
+                "lblChecklistHeader": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Isolation Procedure"
+                },
+                "lblInfo": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Complete each internal card by checking the checklist tasks."
+                },
+                "lblIsolationPoint": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Isolation Point 1"
+                },
+                "lblNumChecklist": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "0/1"
+                },
+                "lblTap": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Tap to view checklist"
+                }
+            },
+            [
+                {
+                    "imgCheckBox": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "unlock_grey.png"
+                    },
+                    "imgSource": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "power.png"
+                    },
+                    "lblChecklistHeader": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "E-1"
+                    },
+                    "lblNumChecklist": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "0/7"
+                    },
+                    "lblSource": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "480 VAC"
+                    },
+                    "lblTap": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Tap card to view checklist"
+                    }
+                },
+                {
+                    "imgCheckBox": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "unlock_grey.png"
+                    },
+                    "imgSource": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "wave.png"
+                    },
+                    "lblChecklistHeader": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "W-1"
+                    },
+                    "lblNumChecklist": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "0/7"
+                    },
+                    "lblSource": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "450 PSI Inlet"
+                    },
+                    "lblTap": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Tap card to view checklist"
+                    }
+                }
+            ]
+        ],
+        [
+            {
+                "imgCheckBox": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "unlock_grey.png"
+                },
+                "lblChecklistHeader": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Isolation Procedure"
+                },
+                "lblInfo": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Complete each internal card by checking the checklist tasks."
+                },
+                "lblIsolationPoint": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Isolation Point 2"
+                },
+                "lblNumChecklist": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "0/1"
+                },
+                "lblTap": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Tap to view checklist"
+                }
+            },
+            [
+                {
+                    "imgCheckBox": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "unlock_grey.png"
+                    },
+                    "imgSource": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "power.png"
+                    },
+                    "lblChecklistHeader": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "E-2"
+                    },
+                    "lblNumChecklist": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "0/7"
+                    },
+                    "lblSource": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "480 VAC"
+                    },
+                    "lblTap": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Tap card to view checklist"
+                    }
+                },
+                {
+                    "imgCheckBox": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "unlock_grey.png"
+                    },
+                    "imgSource": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "wave.png"
+                    },
+                    "lblChecklistHeader": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "W-2"
+                    },
+                    "lblNumChecklist": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "0/7"
+                    },
+                    "lblSource": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "450 PSI Inlet"
+                    },
+                    "lblTap": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Tap card to view checklist"
+                    }
+                }
+            ]
+        ]
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "11",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": true,
+    "id": "segIsolationProcedure",
+    "ide_onRowClick": "AS_Segment_b28c5f175a3b42c58f16d948c9a51c20",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "hb80cd62d65645bfbfedde0300280902",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxScrollContent",
+    "pf": "frmLockoutS2",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "e484bbf26ae344549b065ba35ac8d258",
+    "rowcounter": 1,
+    "rowfocusskin": "s1980f28216045ab861bae4ea86ff5da",
+    "rowskin": "sf4fcda8aae641559ff41a4df717d9c4",
+    "rowtemplate": "flexChecklist",
+    "screenlevelwidget": false,
+    "seccounter": 1,
+    "sectionHeaderTemplateId": "c119fea15d4d46369d0cb4ea610ac5dd",
+    "sectionheaderskin": "sc3598c2ee94470eb12e480357fa043d",
+    "sectionheadertemplate": "flexCheck",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flexCheck": "flexCheck",
+        "flexCheckList": "flexCheckList",
+        "flexChecklist": "flexChecklist",
+        "flexRow": "flexRow",
+        "imgCheckBox": "imgCheckBox",
+        "imgSource": "imgSource",
+        "lblChecklistHeader": "lblChecklistHeader",
+        "lblInfo": "lblInfo",
+        "lblIsolationPoint": "lblIsolationPoint",
+        "lblNumChecklist": "lblNumChecklist",
+        "lblSource": "lblSource",
+        "lblTap": "lblTap"
+    },
+    "zindex": 1
+}

@@ -1,0 +1,24 @@
+{
+    "AS_UWI_g07345dcc8e246fa8575e5bc176f8a8f": {
+        "id": "AS_UWI_g07345dcc8e246fa8575e5bc176f8a8f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmRemoveLockS1",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a63a2651ab2c4549bc80510457348e60"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d8f2783777274e439aaa04a5bd425c89",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.checkEnergySource()",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

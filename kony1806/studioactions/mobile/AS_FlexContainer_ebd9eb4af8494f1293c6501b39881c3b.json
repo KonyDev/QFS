@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_ebd9eb4af8494f1293c6501b39881c3b": {
+        "id": "AS_FlexContainer_ebd9eb4af8494f1293c6501b39881c3b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmStartLockout",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a5e576adfd254facab7fbffef961c44b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f6a83fb762894fc8ad797b64709c5114",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.toggleLockOut(1);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

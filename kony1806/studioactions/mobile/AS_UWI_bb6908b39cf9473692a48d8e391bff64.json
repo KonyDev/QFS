@@ -1,0 +1,30 @@
+{
+    "AS_UWI_bb6908b39cf9473692a48d8e391bff64": {
+        "id": "AS_UWI_bb6908b39cf9473692a48d8e391bff64",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmProjectDetail",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b3b0a15c0b9a4d53aac28fec24d9fc41"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d6d688453db14ba9807f98126dadc6fe",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onClickIsolationPoint.bind(this, i);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

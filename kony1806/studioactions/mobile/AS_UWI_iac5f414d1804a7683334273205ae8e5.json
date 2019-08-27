@@ -1,0 +1,24 @@
+{
+    "AS_UWI_iac5f414d1804a7683334273205ae8e5": {
+        "id": "AS_UWI_iac5f414d1804a7683334273205ae8e5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPendingUnlockS1",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ce65ac3a507240509a5ad58b2ca2bc17"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ica807beeec44a40ad11e1423d8d1a59",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.openHam();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

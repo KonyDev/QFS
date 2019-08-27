@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s626a678fc7c451ab32a3b6bf0c6a84e",
+    "_text_": "Go to Projects",
+    "_top_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s626a678fc7c451ab32a3b6bf0c6a84e",
+    "id": "btnSubmit",
+    "ide_onClick": "AS_Button_j33813beca8848e08730a8336ced4194",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ga374c0f86534bc7b5f9af2978e6e722",
+    "name": "kony.ui.Button",
+    "parent": "flxContent",
+    "pf": "frmProcedureCompleteSummary",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

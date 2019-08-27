@@ -1,0 +1,24 @@
+{
+    "AS_Button_h4d755275b5540e8a0a62fad8590823f": {
+        "id": "AS_Button_h4d755275b5540e8a0a62fad8590823f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmFilter",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b1f8f3a594924569b16f660c8a93a8e3"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f0022569edeb4cdd9e5c6cae4369d827",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.saveCalanderFilter();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

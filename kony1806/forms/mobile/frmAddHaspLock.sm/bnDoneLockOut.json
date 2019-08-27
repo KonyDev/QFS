@@ -1,0 +1,58 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "48dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s8a43cc1d5404be0b42856945507acd6",
+    "_text_": "Done",
+    "_width_": {
+        "type": "string",
+        "value": "95%"
+    },
+    "android": {
+        "psp": {
+            "pressedSkin": "sde456ca02914a51852652ccc9e01265"
+        }
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s8a43cc1d5404be0b42856945507acd6",
+    "id": "bnDoneLockOut",
+    "ide_onClick": "AS_Button_ac64af7c07c34e38ba4ae770ab5cab88",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "f42fe4c052c44c0ba923d21a46438983",
+    "name": "kony.ui.Button",
+    "parent": "flxLockOutDetails1",
+    "pf": "frmAddHaspLock",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

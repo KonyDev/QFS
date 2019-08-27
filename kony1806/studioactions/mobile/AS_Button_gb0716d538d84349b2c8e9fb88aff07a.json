@@ -1,0 +1,17 @@
+{
+    "AS_Button_gb0716d538d84349b2c8e9fb88aff07a": {
+        "id": "AS_Button_gb0716d538d84349b2c8e9fb88aff07a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_df8cb05925a5498e9ebf62fe84e071c4",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onDoneLockOut();",
+            "callbackType": null
+        }]
+    }
+}

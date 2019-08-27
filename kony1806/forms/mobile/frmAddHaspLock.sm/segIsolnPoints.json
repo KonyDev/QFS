@@ -1,0 +1,307 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        [
+            {
+                "imgCheck": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "unlock_grey.png"
+                },
+                "lblIsolationPoint": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                },
+                "lblNumberCheckList": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "0/7"
+                },
+                "lblVerifyCheckList": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Tap to view checklist"
+                },
+                "lblVerifyIsolation": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                }
+            },
+            [
+                {
+                    "imgCheck": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "unlock_grey.png"
+                    },
+                    "imgLock": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "lock_1.png"
+                    },
+                    "imgProfile": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "group2.png"
+                    },
+                    "imgType": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "power.png"
+                    },
+                    "lblLockCount": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "0/7"
+                    },
+                    "lblName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "E-1"
+                    },
+                    "lblNumberCheckList": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "0/7"
+                    },
+                    "lblTypeDet": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "480 VAC Single Feed"
+                    }
+                },
+                {
+                    "imgCheck": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "unlock_grey.png"
+                    },
+                    "imgLock": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "lock_1.png"
+                    },
+                    "imgProfile": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "group2.png"
+                    },
+                    "imgType": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "power.png"
+                    },
+                    "lblLockCount": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "0/7"
+                    },
+                    "lblName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "E-1"
+                    },
+                    "lblNumberCheckList": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "0/7"
+                    },
+                    "lblTypeDet": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "480 VAC Single Feed"
+                    }
+                }
+            ]
+        ],
+        [
+            {
+                "imgCheck": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "unlock_grey.png"
+                },
+                "lblIsolationPoint": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                },
+                "lblNumberCheckList": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "0/7"
+                },
+                "lblVerifyCheckList": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Tap to view checklist"
+                },
+                "lblVerifyIsolation": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                }
+            },
+            [
+                {
+                    "imgCheck": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "unlock_grey.png"
+                    },
+                    "imgLock": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "lock_1.png"
+                    },
+                    "imgProfile": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "group2.png"
+                    },
+                    "imgType": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "power.png"
+                    },
+                    "lblLockCount": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "0/7"
+                    },
+                    "lblName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "E-1"
+                    },
+                    "lblNumberCheckList": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "0/7"
+                    },
+                    "lblTypeDet": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "480 VAC Single Feed"
+                    }
+                },
+                {
+                    "imgCheck": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "unlock_grey.png"
+                    },
+                    "imgLock": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "lock_1.png"
+                    },
+                    "imgProfile": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "group2.png"
+                    },
+                    "imgType": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "power.png"
+                    },
+                    "lblLockCount": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "0/7"
+                    },
+                    "lblName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "E-1"
+                    },
+                    "lblNumberCheckList": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "0/7"
+                    },
+                    "lblTypeDet": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "480 VAC Single Feed"
+                    }
+                }
+            ]
+        ]
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "11",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": true,
+    "id": "segIsolnPoints",
+    "ide_onRowClick": "AS_Segment_jf605d54d07e46dcb71c952a3f9c8658",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "cacee264b2214ca1a669324a6f974d70",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxScrlIsolationPoints",
+    "pf": "frmAddHaspLock",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "b775af87dba54e289bc716ca08b0eaab",
+    "rowcounter": 1,
+    "rowfocusskin": "s1980f28216045ab861bae4ea86ff5da",
+    "rowskin": "sf4fcda8aae641559ff41a4df717d9c4",
+    "rowtemplate": "flxHaspLockSeg",
+    "screenlevelwidget": false,
+    "seccounter": 1,
+    "sectionHeaderTemplateId": "ga5f6dd5edbb4fe88ba716e1a730bb0b",
+    "sectionheaderskin": "s3c83299765c4084b9a8234592f7ddaa",
+    "sectionheadertemplate": "flxHaspLockSegSecHdr",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "FlexContainer0b81059fd752940": "FlexContainer0b81059fd752940",
+        "FlexContainer0eb7030aad1f443": "FlexContainer0eb7030aad1f443",
+        "flxBottom": "flxBottom",
+        "flxData": "flxData",
+        "flxHaspLockSeg": "flxHaspLockSeg",
+        "flxHaspLockSegSecHdr": "flxHaspLockSegSecHdr",
+        "flxParent": "flxParent",
+        "flxVerifyIsolation": "flxVerifyIsolation",
+        "imgCheck": "imgCheck",
+        "imgLock": "imgLock",
+        "imgProfile": "imgProfile",
+        "imgType": "imgType",
+        "lblIsolationPoint": "lblIsolationPoint",
+        "lblLockCount": "lblLockCount",
+        "lblName": "lblName",
+        "lblNumberCheckList": "lblNumberCheckList",
+        "lblTypeDet": "lblTypeDet",
+        "lblVerifyCheckList": "lblVerifyCheckList",
+        "lblVerifyIsolation": "lblVerifyIsolation"
+    },
+    "zindex": 1
+}

@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_hfa0260290b0441c8323fed20ab918e6": {
+        "id": "AS_FlexContainer_hfa0260290b0441c8323fed20ab918e6",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmProjectDetail",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b3b0a15c0b9a4d53aac28fec24d9fc41"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e72f6538c6a942238970a105a9ab2986",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.showpopupMessage();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

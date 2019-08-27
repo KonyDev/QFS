@@ -1,0 +1,81 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizDateField",
+    "DNDConfig": null,
+    "Image": "trans.png",
+    "__parentReadjusting__": false,
+    "_data_": null,
+    "_date_": "19/2/2019",
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sc9310999c7348699cc880952aadeb3b",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "advview": "default",
+    "calendaricon": "trans.png",
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "datecomponents": [
+        19,
+        2,
+        2019,
+        0,
+        0,
+        0
+    ],
+    "dateeditable": true,
+    "dateformat": "dd/MM/yyyy",
+    "day": 19,
+    "daytextalignmentincell": 5,
+    "focusskin": "s7b906f6182948d3b81bf85880da2e67",
+    "format": "dd/MM/yyyy",
+    "formatteddate": "19/02/2019",
+    "hidedaysheader": false,
+    "hidemonthsheader": false,
+    "hour": 0,
+    "id": "calLockTag",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "h7d7ff1c48254a669867e63c5d033264",
+    "minutes": 0,
+    "month": 2,
+    "name": "kony.ui.Calendar",
+    "noofmonths": 1,
+    "pagedate": "/2019",
+    "parent": "FlexContainer0e03cd3072cec46",
+    "pf": "frmAddHaspLock",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "seconds": 0,
+    "selectdate": "//2019",
+    "viewtype": "default",
+    "wType": "Calendar",
+    "widgetalignment": 5,
+    "year": 2019,
+    "zindex": 1
+}

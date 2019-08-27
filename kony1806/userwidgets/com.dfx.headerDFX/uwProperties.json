@@ -1,0 +1,191 @@
+{
+    "classname": "headerDFX",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "baec133ba4fc498aa9bfdf2b137d6187",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "onClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onClick",
+                        "srcWidget": "flexSubMenu",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "f87ace941d874a1280b0f5512b8c2e4d"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "acadc7a2adc4488fb201cb1aaf930fe1",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 2,
+                    "propertyKey": "onClickMenu",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onClickMenu",
+                        "srcWidget": "flexHamMenu",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "e13d6566aa1b4a4a9360d9ded9014d87"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d02460b412fc407f8936a958eb8b816d",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 1,
+                    "propertyKey": "srcSubMenu",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "srcSubMenu",
+                        "srcWidget": "imgSubMenu",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "d28fedd1163e4fd1a316c7d110bef77e"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "h6f926601c654aafbd5acb5ccb4e1fc8",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 2,
+                    "propertyKey": "isVisibleLogo",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "isVisibleLogo",
+                        "srcWidget": "imgHeaderLogo",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "hba62cf22fb449538652f0aa6b3ff743"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c6844bc518ff41ec87c61df8d8c7c075",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 3,
+                    "propertyKey": "isVisibleHeader",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "isVisibleHeader",
+                        "srcWidget": "lblHeader",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "d639a3378645435c9e8cb2e56329d3ed"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "h776ef67ee55435bbd0557c5b2ca700a",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 4,
+                    "propertyKey": "textHeader",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textHeader",
+                        "srcWidget": "lblHeader",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "d639a3378645435c9e8cb2e56329d3ed"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "jce866d9118e48c9a69e328b7a0156c8",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 5,
+                    "propertyKey": "src",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "src",
+                        "srcWidget": "imgMenu",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "f754cca935914fb6a3d034ad416a3946"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [
+                {
+                    "kuid": "c27f6dfd9d9b435ea8f6f93e814320e9",
+                    "propertyKey": "imgSubMenu",
+                    "srcWgtKUID": "d28fedd1163e4fd1a316c7d110bef77e"
+                },
+                {
+                    "kuid": "ifd357b7f3584712ad6aba995876c676",
+                    "propertyKey": "imgMenu",
+                    "srcWgtKUID": "f754cca935914fb6a3d034ad416a3946"
+                }
+            ],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.dfx",
+    "version": "1.0.0"
+}

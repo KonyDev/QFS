@@ -1,0 +1,24 @@
+{
+    "AS_UWI_gc78c4e5038241d3994646520c8c306a": {
+        "id": "AS_UWI_gc78c4e5038241d3994646520c8c306a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAddHaspLock",
+            "type": "forms",
+            "platform": "",
+            "KUID": "dda4308f7cc343bc9856d0806a1e2836"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a21f27fd186840c58504a7b577747e38",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxScrllLockOut.setVisibility(false);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

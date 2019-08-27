@@ -1,0 +1,152 @@
+{
+    "classname": "Checklist",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "hd4dd2f343664cc9bab239d6d411eb7c",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "onClickChecklist",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onClickChecklist",
+                        "srcWidget": "flexCheckList",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "b088a66b36d6419ca095469363becab7"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "g2f349acd9424b2398ff0f4ec9dd5e2b",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "textHeader",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textHeader",
+                        "srcWidget": "lblChecklistHeader",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "ec86305c9efb4c4cba6eeb5eb8ceac8a"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e4ce363628b14c26aa1b7390a5829adc",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 2,
+                    "propertyKey": "src",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "src",
+                        "srcWidget": "imgCheckBox",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "db5176cfde6e4858ac801cbb40f52aa5"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a69dcf191eb04fac9e59abac8051e1c0",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 3,
+                    "propertyKey": "textNumChecklist",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textNumChecklist",
+                        "srcWidget": "lblNumChecklist",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "b920665ea8f14e5a8789274cd8669a56"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e463df5c2889455bb1b456c3fd8d7442",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 4,
+                    "propertyKey": "textTap",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textTap",
+                        "srcWidget": "lblTap",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "e7520eaa483c4cce9400f757ccdbdff3"
+                },
+                {
+                    "access": "Enable",
+                    "defaultSkinKUID": "s40a487859e9436a9f1a0af552ee5b50",
+                    "group": "General",
+                    "kuid": "a45b6c8004b244dea85f78c3e28c9ac8",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 5,
+                    "propertyKey": "skin1",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "skin1",
+                        "srcWidget": "lblNumChecklist",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "b920665ea8f14e5a8789274cd8669a56"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.dfx",
+    "version": "1.0.0"
+}

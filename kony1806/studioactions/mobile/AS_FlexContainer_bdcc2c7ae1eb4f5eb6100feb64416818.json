@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_bdcc2c7ae1eb4f5eb6100feb64416818": {
+        "id": "AS_FlexContainer_bdcc2c7ae1eb4f5eb6100feb64416818",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_fb2f62c641a84c50b3d932d7b833d8f5",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.showPerformedLockOuts();",
+            "callbackType": null
+        }]
+    }
+}

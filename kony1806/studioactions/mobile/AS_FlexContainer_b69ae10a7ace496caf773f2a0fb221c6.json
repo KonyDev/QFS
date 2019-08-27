@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_b69ae10a7ace496caf773f2a0fb221c6": {
+        "id": "AS_FlexContainer_b69ae10a7ace496caf773f2a0fb221c6",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmProjectDetail",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b3b0a15c0b9a4d53aac28fec24d9fc41"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__h9deace22f1a472bb4c78fc20fc8c2e3",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.toggleTabs(0);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "60dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sd4ee38283574f49839ae7049a4b450c",
+    "_top_": {
+        "type": "string",
+        "value": "60dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "canUpdateUI": true,
+    "children": [
+        "lblLineStep1",
+        "lblLineStep2",
+        "lblLineBottom",
+        "lblS1",
+        "lblS2",
+        "lblS3",
+        "Label0e59d7c2f26d946",
+        "CopyLabel0gbce5e4a707d4a",
+        "CopyLabel0fcb2732cdf5e4e"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flexStep",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "hb73cb68117a4aeca700e56f6250f2b6",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "frmLockoutS3",
+    "pf": "frmLockoutS3",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "vizProps": {},
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

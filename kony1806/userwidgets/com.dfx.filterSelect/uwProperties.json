@@ -1,0 +1,135 @@
+{
+    "classname": "filterSelect",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "dc79e1d656b1499da734bfcf2966735f",
+                    "originalPropertyKey": "widgets",
+                    "propertyKey": "widgets",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "widgets",
+                        "srcWidget": "flexButton",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "be7f982582f84b30a433ceaa416ab8b9"
+                }
+            ]
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": {
+                        "data": [
+                            {
+                                "list": "Pending Lockout"
+                            },
+                            {
+                                "list": "Pending Unlock"
+                            },
+                            {
+                                "list": "Locked"
+                            },
+                            {
+                                "list": "Operational"
+                            }
+                        ],
+                        "schema": [
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "list",
+                                "columnHeaderType": "text",
+                                "columnID": "list",
+                                "columnOnClick": null,
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "g510888b15a946fc87b16d07128d261d"
+                            }
+                        ]
+                    },
+                    "group": "General",
+                    "kuid": "ba78fa46315d4f6b869df2459f9cb0ed",
+                    "originalPropertyKey": "arrayData",
+                    "propertyIndex": 5,
+                    "propertyKey": "arrayData",
+                    "pw": {
+                        "displayName": "arrayData",
+                        "uiRepresentation": "Label-DataGrid"
+                    },
+                    "srcWgtKUID": "e359c84b8d41488881b730ca78d6c19d",
+                    "type": "data grid",
+                    "value": 1
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": false,
+                    "group": "General",
+                    "kuid": "e0d1eb0b42d24efa9544b07ca440c49d",
+                    "originalPropertyKey": "isSelected",
+                    "propertyIndex": 7,
+                    "propertyKey": "isSelected",
+                    "pw": {
+                        "displayName": "isSelected",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "e359c84b8d41488881b730ca78d6c19d",
+                    "type": "boolean",
+                    "value": "true/false"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "h244b76e33de4c438e2b847df8e5e06e",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 6,
+                    "propertyKey": "text",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "text",
+                        "srcWidget": "lblFilterName",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "gd5c6bc76de1497ebecb7cf34e70a07a"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [
+                {
+                    "kuid": "ib15f8e43e834f3f88ce09f88b76d737",
+                    "propertyKey": "flexButton",
+                    "srcWgtKUID": "be7f982582f84b30a433ceaa416ab8b9"
+                }
+            ],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.dfx",
+    "version": "1.0.0"
+}

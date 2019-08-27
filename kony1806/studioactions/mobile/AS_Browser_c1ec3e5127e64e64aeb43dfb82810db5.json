@@ -1,0 +1,29 @@
+{
+    "AS_Browser_c1ec3e5127e64e64aeb43dfb82810db5": {
+        "id": "AS_Browser_c1ec3e5127e64e64aeb43dfb82810db5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmPendingUnlockSummary",
+            "type": "forms",
+            "platform": null,
+            "KUID": "be61b1d40a964d9dbbe9a6522e27b17f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onTouchStart_gdbd62eb63234c8e9e893ae9b93a6f1f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.enablebtnContinue();",
+            "callbackType": null
+        }]
+    }
+}

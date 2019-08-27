@@ -1,0 +1,29 @@
+{
+    "AS_Browser_d41bc7085d054ccb95c1b07f93393ce6": {
+        "id": "AS_Browser_d41bc7085d054ccb95c1b07f93393ce6",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmRemoveHaspLockSummary",
+            "type": "forms",
+            "platform": null,
+            "KUID": "f055e8e109684fdbbcb5fa0455660513"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onTouchStart_ebdc617d89164031823b0d73c63ff052",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.enablebtnContinue();",
+            "callbackType": null
+        }]
+    }
+}

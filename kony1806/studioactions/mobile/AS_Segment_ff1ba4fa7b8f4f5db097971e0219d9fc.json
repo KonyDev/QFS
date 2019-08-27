@@ -1,0 +1,29 @@
+{
+    "AS_Segment_ff1ba4fa7b8f4f5db097971e0219d9fc": {
+        "id": "AS_Segment_ff1ba4fa7b8f4f5db097971e0219d9fc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmRemoveHaspLockS2",
+            "type": "forms",
+            "platform": null,
+            "KUID": "h18b501455f44d94820e3753e7713ae3"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onRowClick_b9484237232d4f1dbcb1ce5a2d8fbbaf",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onSegRowClick();",
+            "callbackType": null
+        }]
+    }
+}

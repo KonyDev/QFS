@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s32c2d8e96ff4d85a21360740598948e",
+    "_text_": "Complete Procedure",
+    "_top_": {
+        "type": "string",
+        "value": "340dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s626a678fc7c451ab32a3b6bf0c6a84e",
+    "id": "btnComplete",
+    "ide_onClick": "AS_Button_b82e2ff7d4f4439ebb9fa4dd3868309e",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e8d6cd19dd5944098106d8d46a0f2322",
+    "name": "kony.ui.Button",
+    "parent": "flxScrollContent",
+    "pf": "frmPendingUnlockS3",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

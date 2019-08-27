@@ -1,0 +1,272 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "imgDate": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "calendar_grey.png"
+            },
+            "imgEstimatedTime": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "time.png"
+            },
+            "imgLock": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "lock.png"
+            },
+            "imgPhone": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "phone.png"
+            },
+            "imgTechnician": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "profile_2.png"
+            },
+            "imgTime": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "time.png"
+            },
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "23 Feb 2019"
+            },
+            "lblDateTag": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Date"
+            },
+            "lblEstimatedTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "5:36 PM"
+            },
+            "lblEstimatedTimeTag": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Estimated Time of Unlock"
+            },
+            "lblLine1": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblLockSNo": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2823 GYSK 9H3"
+            },
+            "lblLockSNoTag": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Lock Serial Number"
+            },
+            "lblLockout": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Lock Out 1"
+            },
+            "lblTechnician": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "An James"
+            },
+            "lblTechnicianTag": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Technician"
+            },
+            "lblTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "9:36 AM"
+            },
+            "lblTimeTag": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Time"
+            }
+        },
+        {
+            "imgDate": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "calendar_grey.png"
+            },
+            "imgEstimatedTime": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "time.png"
+            },
+            "imgLock": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "lock.png"
+            },
+            "imgPhone": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "phone.png"
+            },
+            "imgTechnician": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "profile_1.png"
+            },
+            "imgTime": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "time.png"
+            },
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "23 Feb 2019"
+            },
+            "lblDateTag": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Date"
+            },
+            "lblEstimatedTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4:21 PM"
+            },
+            "lblEstimatedTimeTag": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Estimated Time of Unlock"
+            },
+            "lblLine1": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblLockSNo": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2823 GYSK V45"
+            },
+            "lblLockSNoTag": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Lock Serial Number"
+            },
+            "lblLockout": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Lock Out 2"
+            },
+            "lblTechnician": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Blake Campbell"
+            },
+            "lblTechnicianTag": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Technician"
+            },
+            "lblTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "10:21 AM"
+            },
+            "lblTimeTag": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Time"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "01",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segLockout",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "i0e2a6efa97d4af79b87eacef50cecba",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxContent",
+    "pf": "frmPerformedLockouts",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "e8ebea6fa64f4bc5b49814933268295d",
+    "rowcounter": 1,
+    "rowfocusskin": "s1980f28216045ab861bae4ea86ff5da",
+    "rowskin": "sf4fcda8aae641559ff41a4df717d9c4",
+    "rowtemplate": "flexLockouts",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "sc3598c2ee94470eb12e480357fa043d",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "CopyFlexContainer0e5434d36ab9840": "CopyFlexContainer0e5434d36ab9840",
+        "FlexContainer0c6ba6987e12b46": "FlexContainer0c6ba6987e12b46",
+        "flexDate": "flexDate",
+        "flexEstimatedTime": "flexEstimatedTime",
+        "flexLockSNo": "flexLockSNo",
+        "flexLockouts": "flexLockouts",
+        "flexPhone": "flexPhone",
+        "flexTechnician": "flexTechnician",
+        "flexTime": "flexTime",
+        "imgDate": "imgDate",
+        "imgEstimatedTime": "imgEstimatedTime",
+        "imgLock": "imgLock",
+        "imgPhone": "imgPhone",
+        "imgTechnician": "imgTechnician",
+        "imgTime": "imgTime",
+        "lblDate": "lblDate",
+        "lblDateTag": "lblDateTag",
+        "lblEstimatedTime": "lblEstimatedTime",
+        "lblEstimatedTimeTag": "lblEstimatedTimeTag",
+        "lblLine1": "lblLine1",
+        "lblLockSNo": "lblLockSNo",
+        "lblLockSNoTag": "lblLockSNoTag",
+        "lblLockout": "lblLockout",
+        "lblTechnician": "lblTechnician",
+        "lblTechnicianTag": "lblTechnicianTag",
+        "lblTime": "lblTime",
+        "lblTimeTag": "lblTimeTag"
+    },
+    "zindex": 1
+}

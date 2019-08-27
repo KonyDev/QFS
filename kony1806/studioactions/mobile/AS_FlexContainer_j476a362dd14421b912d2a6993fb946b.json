@@ -1,0 +1,33 @@
+{
+    "AS_FlexContainer_j476a362dd14421b912d2a6993fb946b": {
+        "id": "AS_FlexContainer_j476a362dd14421b912d2a6993fb946b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "tempPendingUnlockIsolationPoint",
+            "type": "templates",
+            "platform": null,
+            "KUID": "b2e01052bbee493f8166b58c3b33d844"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_ba67904f0c554f7492e140911946148f",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onSecClick",
+            "display": "onSecClick",
+            "inputparams": [{
+                "name": "param",
+                "value": " context"
+            }],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

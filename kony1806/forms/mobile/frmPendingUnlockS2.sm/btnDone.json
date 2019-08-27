@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "4%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s32c2d8e96ff4d85a21360740598948e",
+    "_text_": "Done",
+    "_top_": {
+        "type": "string",
+        "value": "60dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "92%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s626a678fc7c451ab32a3b6bf0c6a84e",
+    "id": "btnDone",
+    "ide_onClick": "AS_Button_c76fc6158aa542d4afd5a4211d14e88c",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "aec042e6935b4a998a10d04b6260ea64",
+    "name": "kony.ui.Button",
+    "parent": "flxScrollContent",
+    "pf": "frmPendingUnlockS2",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

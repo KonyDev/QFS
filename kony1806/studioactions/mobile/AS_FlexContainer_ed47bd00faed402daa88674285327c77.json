@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_ed47bd00faed402daa88674285327c77": {
+        "id": "AS_FlexContainer_ed47bd00faed402daa88674285327c77",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmProjectDetail",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b3b0a15c0b9a4d53aac28fec24d9fc41"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__cac4af884c7d40c4a69c5e3289a60dc5",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.toggleTabs(1);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

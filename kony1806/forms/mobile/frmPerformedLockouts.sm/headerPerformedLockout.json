@@ -1,0 +1,64 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "60dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s028ccf5fb884ab98666884d68cf0d4c",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "data": {
+        "ide_onClickLeft": "AS_UWI_gca45c5e5ae24446a80d1b706bd8ff81",
+        "isVisible1": true,
+        "srcLeft": "back.png",
+        "text": "Performed Lock Outs"
+    },
+    "enablescrolling": true,
+    "id": "headerPerformedLockout",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "g8ea86c4d4e44623a96d04835a779f3d",
+    "layouttype": 2,
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "frmPerformedLockouts",
+    "pf": "frmPerformedLockouts",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "j4922c67ea3f422199e0c9ba5e4558cb",
+    "wType": "UserWidgetInstance"
+}

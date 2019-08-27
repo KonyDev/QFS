@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_i107173dc2eb45c5aa67c88bb655fe79": {
+        "id": "AS_FlexContainer_i107173dc2eb45c5aa67c88bb655fe79",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_c88f79d82cfb4bdd9f0dbf1ca8430019",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.openHam();",
+            "callbackType": null
+        }]
+    }
+}

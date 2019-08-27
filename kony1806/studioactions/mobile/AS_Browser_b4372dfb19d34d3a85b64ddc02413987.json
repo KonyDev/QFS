@@ -1,0 +1,29 @@
+{
+    "AS_Browser_b4372dfb19d34d3a85b64ddc02413987": {
+        "id": "AS_Browser_b4372dfb19d34d3a85b64ddc02413987",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmRemoveLockSummary",
+            "type": "forms",
+            "platform": null,
+            "KUID": "e3ed80581880475494ed869e040bea02"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onTouchStart_c0bf7f30eda744d89362164bb407c732",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.enablebtnContinue();",
+            "callbackType": null
+        }]
+    }
+}

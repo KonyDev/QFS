@@ -1,0 +1,33 @@
+{
+    "AS_FlexContainer_g5cd9d6be0254f73a89d29fa13e8ea7f": {
+        "id": "AS_FlexContainer_g5cd9d6be0254f73a89d29fa13e8ea7f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "tempHaspLockSegSecHdr",
+            "type": "templates",
+            "KUID": "ga5f6dd5edbb4fe88ba716e1a730bb0b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___d9355af4d7ef4a8d9e2f48ce67f6a117",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onClickSecHdr",
+            "display": "onClickSecHdr",
+            "inputparams": [{
+                "name": "params",
+                "value": " context"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

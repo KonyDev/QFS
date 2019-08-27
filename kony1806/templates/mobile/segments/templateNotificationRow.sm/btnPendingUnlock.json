@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s2915b74f26d42e284894e211657ce55",
+    "_text_": "Pending Unlock",
+    "_top_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100dp"
+    },
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s2915b74f26d42e284894e211657ce55",
+    "id": "btnPendingUnlock",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "i1815fc051a64268b522a746a87a5ee7",
+    "name": "kony.ui.Button",
+    "parent": "FlexGroup0ea6a5a1ea76740",
+    "pf": "templateNotificationRow",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

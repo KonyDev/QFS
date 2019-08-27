@@ -1,0 +1,235 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        [
+            {
+                "lblIsolationPoint": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Isolation Point 1"
+                }
+            },
+            [
+                {
+                    "imgLock": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "lock_1.png"
+                    },
+                    "imgSource": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "powern.png"
+                    },
+                    "imgTech": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "group2.png"
+                    },
+                    "lblChecklistHeader": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "E-1"
+                    },
+                    "lblNoLock": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "2"
+                    },
+                    "lblSource": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "480 VAC Single Feed"
+                    }
+                },
+                {
+                    "imgLock": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "lock_1.png"
+                    },
+                    "imgSource": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "waven.png"
+                    },
+                    "imgTech": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "group2.png"
+                    },
+                    "lblChecklistHeader": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "W-1"
+                    },
+                    "lblNoLock": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "2"
+                    },
+                    "lblSource": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "450 PSI Inlet"
+                    }
+                }
+            ]
+        ],
+        [
+            {
+                "lblIsolationPoint": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Isolation Point 2"
+                }
+            },
+            [
+                {
+                    "imgLock": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "lock_1.png"
+                    },
+                    "imgSource": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "powern.png"
+                    },
+                    "imgTech": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "group2.png"
+                    },
+                    "lblChecklistHeader": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "E-2"
+                    },
+                    "lblNoLock": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "2"
+                    },
+                    "lblSource": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "480 VAC Single Feed"
+                    }
+                },
+                {
+                    "imgLock": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "lock_1.png"
+                    },
+                    "imgSource": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "waven.png"
+                    },
+                    "imgTech": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "group2.png"
+                    },
+                    "lblChecklistHeader": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "W-2"
+                    },
+                    "lblNoLock": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "2"
+                    },
+                    "lblSource": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "450 PSI Inlet"
+                    }
+                }
+            ]
+        ]
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "11",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": true,
+    "id": "segIsolationPoint",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "bc87b7e42c40431d9a71a6bf9235c1c1",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxScrollContent",
+    "pf": "frmRemoveHaspLockSummary",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "c59b8a330c1d4c0582e75df3779ef615",
+    "rowcounter": 1,
+    "rowfocusskin": "s1980f28216045ab861bae4ea86ff5da",
+    "rowskin": "sf4fcda8aae641559ff41a4df717d9c4",
+    "rowtemplate": "CopyflxHaspLockIsolationProc0i1747bf73a0d44",
+    "screenlevelwidget": false,
+    "seccounter": 1,
+    "sectionHeaderTemplateId": "e91fb8467bc64bd295e613dcf9ebee5b",
+    "sectionheaderskin": "sc3598c2ee94470eb12e480357fa043d",
+    "sectionheadertemplate": "flxSummaryIsolation",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": null,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "separatorthickness": 0,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "CopyflxHaspLockIsolationProc0i1747bf73a0d44": "CopyflxHaspLockIsolationProc0i1747bf73a0d44",
+        "flexRow": "flexRow",
+        "flxLocks": "flxLocks",
+        "flxSummaryIsolation": "flxSummaryIsolation",
+        "imgLock": "imgLock",
+        "imgSource": "imgSource",
+        "imgTech": "imgTech",
+        "lblChecklistHeader": "lblChecklistHeader",
+        "lblIsolationPoint": "lblIsolationPoint",
+        "lblNoLock": "lblNoLock",
+        "lblSource": "lblSource"
+    },
+    "zindex": 1
+}

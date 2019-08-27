@@ -1,0 +1,30 @@
+{
+    "AS_PickerView_e7cfc33256ed47c18543b38e220a3f7a": {
+        "id": "AS_PickerView_e7cfc33256ed47c18543b38e220a3f7a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "component"
+        }, {
+            "datatype": "string",
+            "name": "keyselected"
+        }],
+        "contextObj": {
+            "name": "frmRequestLockout",
+            "type": "forms",
+            "platform": "",
+            "KUID": "af0db8f0ca704b38a345c091e5c4efba"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e96efb402548440581d8d64bb7a5c60f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.pickerSelection();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

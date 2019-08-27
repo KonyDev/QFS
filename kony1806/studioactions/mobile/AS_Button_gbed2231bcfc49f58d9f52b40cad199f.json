@@ -1,0 +1,23 @@
+{
+    "AS_Button_gbed2231bcfc49f58d9f52b40cad199f": {
+        "id": "AS_Button_gbed2231bcfc49f58d9f52b40cad199f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmRemoveLockSummary",
+            "type": "forms",
+            "platform": null,
+            "KUID": "e3ed80581880475494ed869e040bea02"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_cb47e68dcf92452f827c4215c2b97283",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onClickContinue();",
+            "callbackType": null
+        }]
+    }
+}

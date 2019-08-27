@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_e6cf5fda80524f5988132e85793287aa": {
+        "id": "AS_FlexContainer_e6cf5fda80524f5988132e85793287aa",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmRemoveLockSummary",
+            "type": "forms",
+            "platform": null,
+            "KUID": "e3ed80581880475494ed869e040bea02"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_a9caf973c4cf4f48968d56cc16c20bf0",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.logout();",
+            "callbackType": null
+        }]
+    }
+}

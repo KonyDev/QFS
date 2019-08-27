@@ -1,0 +1,17 @@
+{
+    "AS_Button_e3be523705d24d8da59e01a25afd1ff2": {
+        "id": "AS_Button_e3be523705d24d8da59e01a25afd1ff2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_a96b72046fa84788bf02b4159e103016",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onDoneShutdownProcedure();",
+            "callbackType": null
+        }]
+    }
+}

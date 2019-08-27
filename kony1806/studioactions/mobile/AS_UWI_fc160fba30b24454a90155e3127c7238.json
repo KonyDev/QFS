@@ -1,0 +1,24 @@
+{
+    "AS_UWI_fc160fba30b24454a90155e3127c7238": {
+        "id": "AS_UWI_fc160fba30b24454a90155e3127c7238",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAddLock",
+            "type": "forms",
+            "platform": "",
+            "KUID": "j8f42e4a7dfd42e6896b6d6f33cad477"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__b48548ac941f4d8c93b421274920fe51",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.toggleApplyLock();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

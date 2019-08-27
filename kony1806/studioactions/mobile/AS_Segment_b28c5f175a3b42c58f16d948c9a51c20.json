@@ -1,0 +1,30 @@
+{
+    "AS_Segment_b28c5f175a3b42c58f16d948c9a51c20": {
+        "id": "AS_Segment_b28c5f175a3b42c58f16d948c9a51c20",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmLockoutS2",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b8f6570f083e4140be32a9f2d8249615"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__jf92047753c44b209ced905ac561cee4",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onSegRowClick();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

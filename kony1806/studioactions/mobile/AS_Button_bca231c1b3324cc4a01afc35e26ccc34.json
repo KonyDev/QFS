@@ -1,0 +1,29 @@
+{
+    "AS_Button_bca231c1b3324cc4a01afc35e26ccc34": {
+        "id": "AS_Button_bca231c1b3324cc4a01afc35e26ccc34",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwu5e1054acdd3431facc6b3e7829b777a",
+            "type": "userwidgets",
+            "KUID": "u5e1054acdd3431facc6b3e7829b777a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___j6d0ba7ceb5942b189133a14292de2b1",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "toggleSelection",
+            "display": "toggleSelection",
+            "inputparams": [{
+                "name": "evOb",
+                "value": " eventobject"
+            }],
+            "parentId": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

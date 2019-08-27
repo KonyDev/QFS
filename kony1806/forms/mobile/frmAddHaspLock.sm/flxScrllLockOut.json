@@ -1,0 +1,81 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s04c100926534248be23e330c4284a31",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "allowhorizontalbounce": false,
+    "allowverticalbounce": true,
+    "bounces": true,
+    "canUpdateUI": true,
+    "children": [
+        "headerWithButtons3",
+        "FlexContainer0bca3b961b51a46",
+        "CopyLabel0jcc8f748366540",
+        "FlexContainer0bfaa5f0196144f",
+        "flxApplyLockTag",
+        "CopylblLineBottom0d56fcd83562949",
+        "CopyLabel0a4d43c53ef8b42",
+        "CopyLabel0ad3cfc92d09647",
+        "flxSupervisorName",
+        "CopyflxDate0d00d91eea4ec4e",
+        "flxCam",
+        "CopylblLineBottom0b56209b71fc343",
+        "flxBtns"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "decelerat": false,
+    "dragg": false,
+    "enablescrolling": true,
+    "horizontalscrollindicator": true,
+    "id": "flxScrllLockOut",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a19c9b958eef4c28a185432eee3ddf3c",
+    "layouttype": 4,
+    "name": "kony.ui.FlexScrollContainer",
+    "pagingenabled": false,
+    "parent": "frmAddHaspLock",
+    "pf": "frmAddHaspLock",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "scrolldirection": 2,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "track": false,
+    "verticalscrollindicator": true,
+    "wType": "FlexScrollContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

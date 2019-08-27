@@ -1,0 +1,297 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        [
+            {
+                "lblInfo": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Complete each internal card by checking the checklist tasks."
+                },
+                "lblIsolationPoint": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Unlock / Untag Isolation Point 1"
+                }
+            },
+            [
+                {
+                    "imgCheckBox": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "unlock.png"
+                    },
+                    "imgLock": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "lock_1.png"
+                    },
+                    "imgSource": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "power.png"
+                    },
+                    "imgTech": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "group3.png"
+                    },
+                    "lblChecklistHeader": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "E - 1"
+                    },
+                    "lblNoLock": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "3"
+                    },
+                    "lblNumChecklist": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "0/7"
+                    },
+                    "lblSource": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "480 VAC Single Fed"
+                    },
+                    "lblTap": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    }
+                },
+                {
+                    "imgCheckBox": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "unlock.png"
+                    },
+                    "imgLock": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "lock_1.png"
+                    },
+                    "imgSource": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "wave.png"
+                    },
+                    "imgTech": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "group3.png"
+                    },
+                    "lblChecklistHeader": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "W - 1"
+                    },
+                    "lblNoLock": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "3"
+                    },
+                    "lblNumChecklist": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "0/7"
+                    },
+                    "lblSource": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "450 PSI Inlet"
+                    },
+                    "lblTap": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    }
+                }
+            ]
+        ],
+        [
+            {
+                "lblInfo": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Complete each internal card by checking the checklist tasks."
+                },
+                "lblIsolationPoint": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Unlock / Untag Isolation Point 2"
+                }
+            },
+            [
+                {
+                    "imgCheckBox": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "unlock.png"
+                    },
+                    "imgLock": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "lock_1.png"
+                    },
+                    "imgSource": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "imagedrag.png"
+                    },
+                    "imgTech": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "group2.png"
+                    },
+                    "lblChecklistHeader": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Project Details"
+                    },
+                    "lblNoLock": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "2"
+                    },
+                    "lblNumChecklist": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "2/3"
+                    },
+                    "lblSource": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "2/3"
+                    },
+                    "lblTap": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Tap to view checklist"
+                    }
+                },
+                {
+                    "imgCheckBox": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "unlock.png"
+                    },
+                    "imgLock": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "lock_1.png"
+                    },
+                    "imgSource": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "imagedrag.png"
+                    },
+                    "imgTech": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "group2.png"
+                    },
+                    "lblChecklistHeader": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Project Details"
+                    },
+                    "lblNoLock": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "2"
+                    },
+                    "lblNumChecklist": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "2/3"
+                    },
+                    "lblSource": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "2/3"
+                    },
+                    "lblTap": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Tap to view checklist"
+                    }
+                }
+            ]
+        ]
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "4%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "92%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "11",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": true,
+    "id": "segIsolationProcedure",
+    "ide_onRowClick": "AS_Segment_ff1ba4fa7b8f4f5db097971e0219d9fc",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none",
+            "showProgressIndicator": false
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "hb215ce2eefe4c7fa901af9e2ddac7fb",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxScrollContent",
+    "pf": "frmRemoveHaspLockS2",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "gd6ff57caff143648c81bd22392f604c",
+    "rowcounter": 1,
+    "rowfocusskin": "s1980f28216045ab861bae4ea86ff5da",
+    "rowskin": "sf4fcda8aae641559ff41a4df717d9c4",
+    "rowtemplate": "flxHaspLockIsolationProc",
+    "screenlevelwidget": false,
+    "seccounter": 1,
+    "sectionHeaderTemplateId": "b2e01052bbee493f8166b58c3b33d844",
+    "sectionheaderskin": "sc3598c2ee94470eb12e480357fa043d",
+    "sectionheadertemplate": "flexIsolationPoint",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showprogressindicator": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flexIsolationPoint": "flexIsolationPoint",
+        "flexRow": "flexRow",
+        "flxHaspLockIsolationProc": "flxHaspLockIsolationProc",
+        "flxLocks": "flxLocks",
+        "imgCheckBox": "imgCheckBox",
+        "imgLock": "imgLock",
+        "imgSource": "imgSource",
+        "imgTech": "imgTech",
+        "lblChecklistHeader": "lblChecklistHeader",
+        "lblInfo": "lblInfo",
+        "lblIsolationPoint": "lblIsolationPoint",
+        "lblNoLock": "lblNoLock",
+        "lblNumChecklist": "lblNumChecklist",
+        "lblSource": "lblSource",
+        "lblTap": "lblTap"
+    },
+    "zindex": 1
+}

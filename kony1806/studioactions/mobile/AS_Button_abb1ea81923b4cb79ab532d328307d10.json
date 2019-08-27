@@ -1,0 +1,24 @@
+{
+    "AS_Button_abb1ea81923b4cb79ab532d328307d10": {
+        "id": "AS_Button_abb1ea81923b4cb79ab532d328307d10",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLockoutS2",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b8f6570f083e4140be32a9f2d8249615"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ce2fd79b3a10478985f8dba0271e5a0a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onDoneIsolationProcedure();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

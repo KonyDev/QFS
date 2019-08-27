@@ -1,0 +1,30 @@
+{
+    "AS_Segment_jf605d54d07e46dcb71c952a3f9c8658": {
+        "id": "AS_Segment_jf605d54d07e46dcb71c952a3f9c8658",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmAddHaspLock",
+            "type": "forms",
+            "platform": "",
+            "KUID": "dda4308f7cc343bc9856d0806a1e2836"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__gb7cc39e11ec43a8baff525f752278f6",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onSegClick();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

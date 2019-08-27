@@ -1,0 +1,17 @@
+{
+    "AS_Button_c351d922d3fd4f578b2c5a2c94e9dc59": {
+        "id": "AS_Button_c351d922d3fd4f578b2c5a2c94e9dc59",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_c11ef73f5f5b4dc1a344e4ec653fef55",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.toggleSelection();",
+            "callbackType": null
+        }]
+    }
+}
