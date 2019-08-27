@@ -1,0 +1,75 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "update" : "updateMapping",
+    "create" : "createMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "UpdateTimeStampField" : {
+      "DateFormat" : "",
+      "Name" : "lastupdateddatetime"
+    },
+    "SoftDeleteFlagField" : {
+      "ActiveValue" : "false",
+      "InactiveValue" : "true",
+      "Name" : "softdeleteflag"
+    },
+    "backendMeta" : {
+      "backendObjectName" : "user_answers_tbl",
+      "qualifiedName" : "journey_db_dev.user_answers_tbl",
+      "metadataformatterobject" : "{\"displayName\":\"user_answers_tbl\",\"qualifiedName\":\"journey_db_dev.user_answers_tbl\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"user_answers_tbl\",\"schemaName\":\"journey_db_dev\",\"tableName\":\"user_answers_tbl\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "user_answers_tbl",
+      "qualifiedName" : "journey_db_dev.user_answers_tbl",
+      "metadataformatterobject" : "{\"displayName\":\"user_answers_tbl\",\"qualifiedName\":\"journey_db_dev.user_answers_tbl\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"user_answers_tbl\",\"schemaName\":\"journey_db_dev\",\"tableName\":\"user_answers_tbl\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "createdby",
+    "targetField" : "createdby",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "question_id_fk",
+    "targetField" : "question_id_fk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "lastupdatedby",
+    "targetField" : "lastupdatedby",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "question_options_row_id_fk",
+    "targetField" : "question_options_row_id_fk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "user_answer_plain_text",
+    "targetField" : "user_answer_plain_text",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "user_answer_row_id",
+    "targetField" : "user_answer_row_id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "lastupdateddatetime",
+    "targetField" : "lastupdateddatetime",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "createddatetime",
+    "targetField" : "createddatetime",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "journey_id_fk",
+    "targetField" : "journey_id_fk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "softdeleteflag",
+    "targetField" : "softdeleteflag",
+    "type" : "request_response"
+  } ]
+}

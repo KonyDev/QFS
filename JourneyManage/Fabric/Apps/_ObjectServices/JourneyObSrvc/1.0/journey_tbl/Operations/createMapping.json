@@ -1,0 +1,312 @@
+{
+  "operationConfig" : {
+    "name" : "createjourneytbl3486",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "referencingEndpoint" : "default",
+    "inputs" : [ {
+      "id" : "journey_uf_id",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "user_emp_id_fk",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "journey_emp_phone_num",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "journeystatus_code_fk",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "journey_expected_departure_lat",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "journey_expected_departure_lon",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "journey_expected_departure_address",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "journey_actual_departure_lat",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "journey_actual_departure_lon",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "journey_actual_departure_address",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "journey_expected_departure_datetime",
+      "scope" : "request",
+      "dataType" : "date",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "journey_expected_arrival_datetime",
+      "scope" : "request",
+      "dataType" : "date",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "journey_actual_departure_datetime",
+      "scope" : "request",
+      "dataType" : "date",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "journey_actual_arrival_datetime",
+      "scope" : "request",
+      "dataType" : "date",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "journey_tracking_point_id_fk",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "journey_selected_vehicle_id_fk",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "journey_created_by_fk",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "journey_last_updated_by",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "journey_reason_id_fk",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "journey_supervisor_emp_id",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "journey_supervisor_name",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "journey_supervisor_phone",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "journey_supervisor_camp_room_num",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "checkin_type_id_fk",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "checkin_interval_row_id_fk",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "journey_onward_journey_id",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "journey_satellite",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "journey_radio",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "createddatetime",
+      "scope" : "request",
+      "dataType" : "date",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "lastupdateddatetime",
+      "scope" : "request",
+      "dataType" : "date",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "softdeleteflag",
+      "scope" : "request",
+      "dataType" : "boolean",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "journey_expected_arrivalpoint_lat",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "journey_expected_arrivalpoint_lon",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "journey_expected_arrivalpoint_address",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "journey_actual_arrivalpoint_lat",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "journey_actual_arrivalpoint_lon",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "journey_actual_arrivalpoint_address",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    } ],
+    "applyCommonMapping" : true,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : true,
+    "entityMetadata" : "{\"entityAttributeTypeList\":[{\"name\":\"journey_id_pk\",\"jdbcType\":4,\"columnTypeName\":\"INT\",\"columnDecimalDigits\":0,\"autoGenerated\":true,\"creatable\":false,\"updatable\":false,\"primary\":true,\"softDelete\":false,\"lastModified\":false},{\"name\":\"journey_uf_id\",\"jdbcType\":1,\"columnTypeName\":\"CHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"user_emp_id_fk\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"journey_emp_phone_num\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"journeystatus_code_fk\",\"jdbcType\":4,\"columnTypeName\":\"INT\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"journey_expected_departure_lat\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"journey_expected_departure_lon\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"journey_expected_departure_address\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"journey_actual_departure_lat\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"journey_actual_departure_lon\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"journey_actual_departure_address\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"journey_expected_departure_datetime\",\"jdbcType\":93,\"columnTypeName\":\"TIMESTAMP\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"journey_expected_arrival_datetime\",\"jdbcType\":93,\"columnTypeName\":\"TIMESTAMP\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"journey_actual_departure_datetime\",\"jdbcType\":93,\"columnTypeName\":\"TIMESTAMP\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"journey_actual_arrival_datetime\",\"jdbcType\":93,\"columnTypeName\":\"TIMESTAMP\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"journey_tracking_point_id_fk\",\"jdbcType\":4,\"columnTypeName\":\"INT\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"journey_selected_vehicle_id_fk\",\"jdbcType\":4,\"columnTypeName\":\"INT\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"journey_created_by_fk\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"journey_last_updated_by\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"journey_reason_id_fk\",\"jdbcType\":4,\"columnTypeName\":\"INT\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"journey_supervisor_emp_id\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"journey_supervisor_name\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"journey_supervisor_phone\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"journey_supervisor_camp_room_num\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"checkin_type_id_fk\",\"jdbcType\":4,\"columnTypeName\":\"INT\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"checkin_interval_row_id_fk\",\"jdbcType\":4,\"columnTypeName\":\"INT\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"journey_onward_journey_id\",\"jdbcType\":1,\"columnTypeName\":\"CHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"journey_satellite\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"journey_radio\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"createddatetime\",\"jdbcType\":93,\"columnTypeName\":\"TIMESTAMP\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"lastupdateddatetime\",\"jdbcType\":93,\"columnTypeName\":\"TIMESTAMP\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"softdeleteflag\",\"jdbcType\":-7,\"columnTypeName\":\"BIT\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":true,\"lastModified\":false},{\"name\":\"journey_expected_arrivalpoint_lat\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"journey_expected_arrivalpoint_lon\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"journey_expected_arrivalpoint_address\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"journey_actual_arrivalpoint_lat\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"journey_actual_arrivalpoint_lon\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"journey_actual_arrivalpoint_address\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false}],\"relationshipTypeList\":[{\"targetEntityType\":{\"name\":\"checkpoints_tbl\",\"schemaName\":\"journey_db_dev\"},\"relationshipAttributeTypeList\":[{\"sourceEntityAttributeType\":{\"name\":\"journey_id_pk\",\"jdbcType\":0,\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":false,\"updatable\":false,\"primary\":false,\"softDelete\":false,\"lastModified\":false},\"targetEntityAttributeType\":{\"name\":\"journey_id_fk\",\"jdbcType\":0,\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":false,\"updatable\":false,\"primary\":false,\"softDelete\":false,\"lastModified\":false}}],\"cascadeDelete\":false,\"relationshipType\":\"ONE_TO_MANY\"},{\"targetEntityType\":{\"name\":\"incident_notification_tbl\",\"schemaName\":\"journey_db_dev\"},\"relationshipAttributeTypeList\":[{\"sourceEntityAttributeType\":{\"name\":\"journey_id_pk\",\"jdbcType\":0,\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":false,\"updatable\":false,\"primary\":false,\"softDelete\":false,\"lastModified\":false},\"targetEntityAttributeType\":{\"name\":\"journey_id_fk\",\"jdbcType\":0,\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":false,\"updatable\":false,\"primary\":false,\"softDelete\":false,\"lastModified\":false}}],\"cascadeDelete\":false,\"relationshipType\":\"ONE_TO_MANY\"},{\"targetEntityType\":{\"name\":\"journey_notif_map_tbl\",\"schemaName\":\"journey_db_dev\"},\"relationshipAttributeTypeList\":[{\"sourceEntityAttributeType\":{\"name\":\"journey_id_pk\",\"jdbcType\":0,\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":false,\"updatable\":false,\"primary\":false,\"softDelete\":false,\"lastModified\":false},\"targetEntityAttributeType\":{\"name\":\"journey_id_fk\",\"jdbcType\":0,\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":false,\"updatable\":false,\"primary\":false,\"softDelete\":false,\"lastModified\":false}}],\"cascadeDelete\":false,\"relationshipType\":\"ONE_TO_MANY\"},{\"targetEntityType\":{\"name\":\"journey_passengers_tbl\",\"schemaName\":\"journey_db_dev\"},\"relationshipAttributeTypeList\":[{\"sourceEntityAttributeType\":{\"name\":\"journey_id_pk\",\"jdbcType\":0,\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":false,\"updatable\":false,\"primary\":false,\"softDelete\":false,\"lastModified\":false},\"targetEntityAttributeType\":{\"name\":\"journey_id_fk\",\"jdbcType\":0,\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":false,\"updatable\":false,\"primary\":false,\"softDelete\":false,\"lastModified\":false}}],\"cascadeDelete\":false,\"relationshipType\":\"ONE_TO_MANY\"},{\"targetEntityType\":{\"name\":\"journey_signature_tbl\",\"schemaName\":\"journey_db_dev\"},\"relationshipAttributeTypeList\":[{\"sourceEntityAttributeType\":{\"name\":\"journey_id_pk\",\"jdbcType\":0,\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":false,\"updatable\":false,\"primary\":false,\"softDelete\":false,\"lastModified\":false},\"targetEntityAttributeType\":{\"name\":\"journey_id_fk\",\"jdbcType\":0,\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":false,\"updatable\":false,\"primary\":false,\"softDelete\":false,\"lastModified\":false}}],\"cascadeDelete\":false,\"relationshipType\":\"ONE_TO_MANY\"},{\"targetEntityType\":{\"name\":\"journey_tracepoints_tbl\",\"schemaName\":\"journey_db_dev\"},\"relationshipAttributeTypeList\":[{\"sourceEntityAttributeType\":{\"name\":\"journey_id_pk\",\"jdbcType\":0,\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":false,\"updatable\":false,\"primary\":false,\"softDelete\":false,\"lastModified\":false},\"targetEntityAttributeType\":{\"name\":\"journey_id_fk\",\"jdbcType\":0,\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":false,\"updatable\":false,\"primary\":false,\"softDelete\":false,\"lastModified\":false}}],\"cascadeDelete\":false,\"relationshipType\":\"ONE_TO_MANY\"},{\"targetEntityType\":{\"name\":\"user_answers_tbl\",\"schemaName\":\"journey_db_dev\"},\"relationshipAttributeTypeList\":[{\"sourceEntityAttributeType\":{\"name\":\"journey_id_pk\",\"jdbcType\":0,\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":false,\"updatable\":false,\"primary\":false,\"softDelete\":false,\"lastModified\":false},\"targetEntityAttributeType\":{\"name\":\"journey_id_fk\",\"jdbcType\":0,\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":false,\"updatable\":false,\"primary\":false,\"softDelete\":false,\"lastModified\":false}}],\"cascadeDelete\":false,\"relationshipType\":\"ONE_TO_MANY\"}],\"name\":\"journey_tbl\",\"schemaName\":\"journey_db_dev\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\"}",
+    "opcode" : "create",
+    "backendMeta" : {
+      "qualifiedObjectName" : "journey_db_dev.journey_tbl",
+      "backendObjectName" : "journey_tbl"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ {
+        "children" : [ ],
+        "name" : "checkpoints_tbl",
+        "actions" : {
+          "create" : true,
+          "update" : true
+        },
+        "selected" : true
+      }, {
+        "children" : [ ],
+        "name" : "incident_notification_tbl",
+        "actions" : {
+          "create" : true,
+          "update" : true
+        },
+        "selected" : true
+      }, {
+        "children" : [ ],
+        "name" : "journey_notif_map_tbl",
+        "actions" : {
+          "create" : true,
+          "update" : true
+        },
+        "selected" : true
+      }, {
+        "children" : [ ],
+        "name" : "journey_passengers_tbl",
+        "actions" : {
+          "create" : true,
+          "update" : true
+        },
+        "selected" : true
+      }, {
+        "children" : [ ],
+        "name" : "journey_signature_tbl",
+        "actions" : {
+          "create" : true,
+          "update" : true
+        },
+        "selected" : true
+      }, {
+        "children" : [ ],
+        "name" : "journey_tracepoints_tbl",
+        "actions" : {
+          "create" : true,
+          "update" : true
+        },
+        "selected" : true
+      }, {
+        "children" : [ ],
+        "name" : "user_answers_tbl",
+        "actions" : {
+          "create" : true,
+          "update" : true
+        },
+        "selected" : true
+      } ],
+      "name" : "journey_tbl",
+      "actions" : {
+        "create" : true,
+        "update" : true
+      },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false
+  }
+}

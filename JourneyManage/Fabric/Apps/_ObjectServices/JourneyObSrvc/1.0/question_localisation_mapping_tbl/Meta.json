@@ -1,0 +1,75 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "update" : "updateMapping",
+    "create" : "createMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "UpdateTimeStampField" : {
+      "DateFormat" : "",
+      "Name" : "lastupdateddatetime"
+    },
+    "SoftDeleteFlagField" : {
+      "ActiveValue" : "false",
+      "InactiveValue" : "true",
+      "Name" : "softdeleteflag"
+    },
+    "backendMeta" : {
+      "backendObjectName" : "question_localisation_mapping_tbl",
+      "qualifiedName" : "journey_db_dev.question_localisation_mapping_tbl",
+      "metadataformatterobject" : "{\"displayName\":\"question_localisation_mapping_tbl\",\"qualifiedName\":\"journey_db_dev.question_localisation_mapping_tbl\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"question_localisation_mapping_tbl\",\"schemaName\":\"journey_db_dev\",\"tableName\":\"question_localisation_mapping_tbl\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "question_localisation_mapping_tbl",
+      "qualifiedName" : "journey_db_dev.question_localisation_mapping_tbl",
+      "metadataformatterobject" : "{\"displayName\":\"question_localisation_mapping_tbl\",\"qualifiedName\":\"journey_db_dev.question_localisation_mapping_tbl\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"question_localisation_mapping_tbl\",\"schemaName\":\"journey_db_dev\",\"tableName\":\"question_localisation_mapping_tbl\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "country_id_fk",
+    "targetField" : "country_id_fk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "createdby",
+    "targetField" : "createdby",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "question_id_fk",
+    "targetField" : "question_id_fk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "lastupdatedby",
+    "targetField" : "lastupdatedby",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "region_id_fk",
+    "targetField" : "region_id_fk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "lastupdateddatetime",
+    "targetField" : "lastupdateddatetime",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "language_id_fk",
+    "targetField" : "language_id_fk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "createddatetime",
+    "targetField" : "createddatetime",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "question_localisation_row_id",
+    "targetField" : "question_localisation_row_id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "softdeleteflag",
+    "targetField" : "softdeleteflag",
+    "type" : "request_response"
+  } ]
+}

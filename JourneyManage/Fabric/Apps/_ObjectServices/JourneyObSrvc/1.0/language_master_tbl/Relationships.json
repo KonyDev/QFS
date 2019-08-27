@@ -1,0 +1,25 @@
+[ {
+  "sourceObject" : "language_master_tbl",
+  "targetObject" : "guides_manuals_tbl",
+  "relationshipKeys" : [ {
+    "sourceField" : "language_id_pk",
+    "targetField" : "language_id_fk",
+    "etag" : "adcae6d2-9649-4112-949f-a8cd13471328"
+  } ],
+  "name" : "language_master_tbl_guides_manuals_tbl",
+  "type" : "OneToMany",
+  "custom" : false,
+  "cascadeDelete" : false
+}, {
+  "sourceObject" : "language_master_tbl",
+  "targetObject" : "question_localisation_mapping_tbl",
+  "relationshipKeys" : [ {
+    "sourceField" : "language_id_pk",
+    "targetField" : "language_id_fk",
+    "etag" : "8e227d0e-04bc-4169-84e5-868b060c3f07"
+  } ],
+  "name" : "language_master_tbl_question_localisation_mapping_tbl",
+  "type" : "OneToMany",
+  "custom" : false,
+  "cascadeDelete" : false
+} ]

@@ -1,0 +1,13 @@
+[ {
+  "sourceObject" : "journeystatus_codes_master_tbl",
+  "targetObject" : "journey_tbl",
+  "relationshipKeys" : [ {
+    "sourceField" : "journeystatus_code_pk",
+    "targetField" : "journeystatus_code_fk",
+    "etag" : "28fbd57d-9073-4193-bdf7-7113b34344e6"
+  } ],
+  "name" : "journeystatus_codes_master_tbl_journey_tbl",
+  "type" : "OneToMany",
+  "custom" : false,
+  "cascadeDelete" : false
+} ]

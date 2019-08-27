@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service serviceGroup="" cachable="false" cacheduration="" description="" endpoint="default" groupType="" id="getResponse" passwordencrypted="false" security="authorized_app_user" type="javaConnector" smscode="" smsenabled="false">
+    <service-config>
+        <config-param api-version="" appid="" name="preprocessorname" value=""/>
+        <config-param api-version="" appid="" name="postprocessorname" value=""/>
+        <config-param api-version="" appid="" name="preprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="postprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="preprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="postprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="kony_http_supported_methods" value="POST"/>
+        <config-param api-version="" appid="" name="className" value="com.fmg.testNTLM.NtlmTest0"/>
+        <config-param api-version="" appid="" name="methodName" value="getResponse"/>
+        <config-param api-version="" appid="" name="sockettimeout" value=""/>
+    </service-config>
+    <service-input passthrough="false">
+        <param datatype="string" defaultvalue="https://fortescuemaps.fmgl.com.au/arcgis/rest/services/Geology/FMG_Mines_and_Prospects/FeatureServer/1/query?where=1=1&amp;objectIds=&amp;time=&amp;geometry=&amp;geometryType=esriGeometryEnvelope&amp;inSR=&amp;spatialRel=esriSpatialRelIntersects&amp;distance=&amp;units=esriSRUnit_Foot&amp;relationParam=&amp;outFields=&amp;returnGeometry=true&amp;maxAllowableOffset=&amp;geometryPrecision=&amp;outSR=4326&amp;gdbVersion=&amp;returnDistinctValues=false&amp;returnIdsOnly=false&amp;returnCountOnly=false&amp;returnExtentOnly=false&amp;orderByFields=&amp;groupByFieldsForStatistics=&amp;outStatistics=&amp;returnZ=false&amp;returnM=false&amp;multipatchOption=&amp;resultOffset=&amp;resultRecordCount=&amp;f=pjson" description="" encode="true" format="None" formatvalue="" name="url" order="" paramOrder="1" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="" value="https://fortescuemaps.fmgl.com.au/arcgis/rest/services/Geology/FMG_Mines_and_Prospects/FeatureServer/1/query?where=1=1&amp;objectIds=&amp;time=&amp;geometry=&amp;geometryType=esriGeometryEnvelope&amp;inSR=&amp;spatialRel=esriSpatialRelIntersects&amp;distance=&amp;units=esriSRUnit_Foot&amp;relationParam=&amp;outFields=&amp;returnGeometry=true&amp;maxAllowableOffset=&amp;geometryPrecision=&amp;outSR=4326&amp;gdbVersion=&amp;returnDistinctValues=false&amp;returnIdsOnly=false&amp;returnCountOnly=false&amp;returnExtentOnly=false&amp;orderByFields=&amp;groupByFieldsForStatistics=&amp;outStatistics=&amp;returnZ=false&amp;returnM=false&amp;multipatchOption=&amp;resultOffset=&amp;resultRecordCount=&amp;f=pjson">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="domain" order="" paramOrder="2" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="svc.kony" description="" encode="true" format="None" formatvalue="" name="userName" order="" paramOrder="3" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="" value="svc.kony">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="2mt`eu;QG[~kP/QF@XTuvGJ`.&lt;8}@N2?(~VeM.*t" description="" encode="true" format="None" formatvalue="" name="password" order="" paramOrder="4" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="" value="2mt`eu;QG[~kP/QF@XTuvGJ`.&lt;8}@N2?(~VeM.*t">
+            <accessType></accessType>
+        </param>
+    </service-input>
+    <service-output passthrough="false"/>
+</service>

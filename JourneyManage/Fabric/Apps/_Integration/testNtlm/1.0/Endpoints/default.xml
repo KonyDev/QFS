@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<endpoint name="default" type="JSON" url="https://fortescuemaps.fmgl.com.au/arcgis/rest/services/Geology/FMG_Mines_and_Prospects/FeatureServer/2/query?where=1%3D1&amp;objectIds=&amp;time=&amp;geometry=&amp;geometryType=esriGeometryEnvelope&amp;inSR=&amp;spatialRel=esriSpatialRelIntersects&amp;distance=&amp;units=esriSRUnit_Foot&amp;relationParam=&amp;outFields=&amp;returnGeometry=true&amp;maxAllowableOffset=&amp;geometryPrecision=&amp;outSR=&amp;gdbVersion=&amp;returnDistinctValues=false&amp;returnIdsOnly=false&amp;returnCountOnly=false&amp;returnExtentOnly=false&amp;orderByFields=&amp;groupByFieldsForStatistics=&amp;outStatistics=&amp;returnZ=false&amp;returnM=false&amp;multipatchOption=&amp;resultOffset=&amp;resultRecordCount=&amp;f=pjson" encryptSecureInfo="false">
+    <config>
+        <entry>
+            <key>server.auth.mode</key>
+            <value>ntlm</value>
+        </entry>
+        <entry>
+            <key>ignorehttpproxy</key>
+            <value>true</value>
+        </entry>
+        <entry>
+            <key>server.auth.ntlm.domain</key>
+            <value>FMG</value>
+        </entry>
+        <entry>
+            <key>pwd</key>
+            <value> 2mt`eu;QG[~kP/QF@XTuvGJ`.&lt;8}@N2?(~VeM.*t</value>
+        </entry>
+        <entry>
+            <key>userid</key>
+            <value>svc.kony</value>
+        </entry>
+        <entry>
+            <key>server.auth.host</key>
+            <value>fortescuemaps.fmgl.com.au</value>
+        </entry>
+    </config>
+    <apiThrottling/>
+    <jsonpath>true</jsonpath>
+</endpoint>

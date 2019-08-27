@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service serviceGroup="" cachable="false" cacheduration="" description="" endpoint="default" groupType="" id="getRes" passwordencrypted="false" security="authorized_app_user" type="jsonConnector" smscode="" smsenabled="false">
+    <service-config>
+        <config-param api-version="" appid="" name="preprocessorname" value=""/>
+        <config-param api-version="" appid="" name="postprocessorname" value=""/>
+        <config-param api-version="" appid="" name="preprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="postprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="preprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="postprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="kony_http_supported_methods" value="POST"/>
+        <config-param api-version="" appid="" name="endpointUrl" value="https://fortescuemaps.fmgl.com.au/arcgis/rest/services/Geology/FMG_Mines_and_Prospects/FeatureServer/2/query?where=1%3D1&amp;objectIds=&amp;time=&amp;geometry=&amp;geometryType=esriGeometryEnvelope&amp;inSR=&amp;spatialRel=esriSpatialRelIntersects&amp;distance=&amp;units=esriSRUnit_Foot&amp;relationParam=&amp;outFields=&amp;returnGeometry=true&amp;maxAllowableOffset=&amp;geometryPrecision=&amp;outSR=&amp;gdbVersion=&amp;returnDistinctValues=false&amp;returnIdsOnly=false&amp;returnCountOnly=false&amp;returnExtentOnly=false&amp;orderByFields=&amp;groupByFieldsForStatistics=&amp;outStatistics=&amp;returnZ=false&amp;returnM=false&amp;multipatchOption=&amp;resultOffset=&amp;resultRecordCount=&amp;f=pjson"/>
+        <config-param api-version="" appid="" name="ignorehttpproxy" value="true"/>
+        <config-param api-version="" appid="" name="http.method" value="GET"/>
+        <config-param api-version="" appid="" name="dataObjectName" value=""/>
+        <config-param api-version="" appid="" name="sockettimeout" value=""/>
+        <config-param api-version="" appid="" name="responseEncoding" value="UTF-8"/>
+        <config-param api-version="" appid="" name="isembedxmlpresent" value="false"/>
+        <config-param api-version="" appid="" name="retrycount" value="0"/>
+        <config-param api-version="" appid="" name="server.auth.mode" value="ntlm"/>
+        <config-param api-version="" appid="" name="userid" value="svc.kony"/>
+        <config-param api-version="" appid="" name="pwd" value=" 2mt`eu;QG[~kP/QF@XTuvGJ`.&lt;8}@N2?(~VeM.*t"/>
+        <config-param api-version="" appid="" name="server.auth.host" value="fortescuemaps.fmgl.com.au"/>
+        <config-param api-version="" appid="" name="server.auth.ntlm.domain" value="FMG"/>
+        <config-param api-version="" appid="" name="jsonpath" value="true"/>
+    </service-config>
+    <service-input passthrough="false">
+        <header datatype="" name="" passthrough="false"/>
+        <stub-param value=""/>
+    </service-input>
+    <service-output passthrough="false"/>
+</service>

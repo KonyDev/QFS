@@ -1,0 +1,71 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "update" : "updateMapping",
+    "create" : "createMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "UpdateTimeStampField" : {
+      "DateFormat" : "",
+      "Name" : "lastupdateddatetime"
+    },
+    "SoftDeleteFlagField" : {
+      "ActiveValue" : "false",
+      "InactiveValue" : "true",
+      "Name" : "softdeleteflag"
+    },
+    "backendMeta" : {
+      "backendObjectName" : "question_options_tbl",
+      "qualifiedName" : "journey_db_dev.question_options_tbl",
+      "metadataformatterobject" : "{\"displayName\":\"question_options_tbl\",\"qualifiedName\":\"journey_db_dev.question_options_tbl\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"question_options_tbl\",\"schemaName\":\"journey_db_dev\",\"tableName\":\"question_options_tbl\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "question_options_tbl",
+      "qualifiedName" : "journey_db_dev.question_options_tbl",
+      "metadataformatterobject" : "{\"displayName\":\"question_options_tbl\",\"qualifiedName\":\"journey_db_dev.question_options_tbl\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"question_options_tbl\",\"schemaName\":\"journey_db_dev\",\"tableName\":\"question_options_tbl\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "question_options_row_id_pk",
+    "targetField" : "question_options_row_id_pk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "question_option_to_choose",
+    "targetField" : "question_option_to_choose",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "createdby",
+    "targetField" : "createdby",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "question_id_fk",
+    "targetField" : "question_id_fk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "lastupdatedby",
+    "targetField" : "lastupdatedby",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "lastupdateddatetime",
+    "targetField" : "lastupdateddatetime",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "createddatetime",
+    "targetField" : "createddatetime",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "is_option_to_be_selected_mandatory",
+    "targetField" : "is_option_to_be_selected_mandatory",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "softdeleteflag",
+    "targetField" : "softdeleteflag",
+    "type" : "request_response"
+  } ]
+}

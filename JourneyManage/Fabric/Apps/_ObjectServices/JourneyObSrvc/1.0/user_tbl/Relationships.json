@@ -1,0 +1,85 @@
+[ {
+  "sourceObject" : "user_tbl",
+  "targetObject" : "checkpoints_tbl",
+  "relationshipKeys" : [ {
+    "sourceField" : "user_emp_id_pk",
+    "targetField" : "checkpoint_reported_by_fk",
+    "etag" : "8853c077-04b5-42bc-8b23-bcb74c6fcad2"
+  } ],
+  "name" : "user_tbl_checkpoints_tbl",
+  "type" : "OneToMany",
+  "custom" : false,
+  "cascadeDelete" : false
+}, {
+  "sourceObject" : "user_tbl",
+  "targetObject" : "incident_notification_tbl",
+  "relationshipKeys" : [ {
+    "sourceField" : "user_emp_id_pk",
+    "targetField" : "admin_emp_id_responded_fk",
+    "etag" : "241ef6f4-dbda-431f-874c-895eaec4ac9e"
+  } ],
+  "name" : "user_tbl_incident_notification_tbl",
+  "type" : "OneToMany",
+  "custom" : false,
+  "cascadeDelete" : false
+}, {
+  "sourceObject" : "user_tbl",
+  "targetObject" : "journey_tbl",
+  "relationshipKeys" : [ {
+    "sourceField" : "user_emp_id_pk",
+    "targetField" : "user_emp_id_fk",
+    "etag" : "3dcb7094-87dd-4623-acf0-188c88fe91fc"
+  } ],
+  "name" : "user_tbl_journey_tbl",
+  "type" : "OneToMany",
+  "custom" : false,
+  "cascadeDelete" : false
+}, {
+  "sourceObject" : "user_tbl",
+  "targetObject" : "journey_tbl",
+  "relationshipKeys" : [ {
+    "sourceField" : "user_emp_id_pk",
+    "targetField" : "journey_created_by_fk",
+    "etag" : "babe55bd-508e-4fba-869b-495abe8d4bb5"
+  } ],
+  "name" : "user_tbl_journey_tbl_1",
+  "type" : "OneToMany",
+  "custom" : false,
+  "cascadeDelete" : false
+}, {
+  "sourceObject" : "user_tbl",
+  "targetObject" : "journey_tbl",
+  "relationshipKeys" : [ {
+    "sourceField" : "user_emp_id_pk",
+    "targetField" : "journey_last_updated_by",
+    "etag" : "bd524ee6-45b2-4ace-926c-c06ab0ec7f30"
+  } ],
+  "name" : "user_tbl_journey_tbl_2",
+  "type" : "OneToMany",
+  "custom" : false,
+  "cascadeDelete" : false
+}, {
+  "sourceObject" : "user_tbl",
+  "targetObject" : "notifications_tbl",
+  "relationshipKeys" : [ {
+    "sourceField" : "user_emp_id_pk",
+    "targetField" : "notification_sent_by_fk",
+    "etag" : "b498ff4a-630d-479d-9974-310ddcd0d468"
+  } ],
+  "name" : "user_tbl_notifications_tbl",
+  "type" : "OneToMany",
+  "custom" : false,
+  "cascadeDelete" : false
+}, {
+  "sourceObject" : "user_tbl",
+  "targetObject" : "vehicle_tbl",
+  "relationshipKeys" : [ {
+    "sourceField" : "user_emp_id_pk",
+    "targetField" : "user_emp_id_fk",
+    "etag" : "1ec3563a-c359-4b62-b378-89e5e7b6a7c5"
+  } ],
+  "name" : "user_tbl_vehicle_tbl",
+  "type" : "OneToMany",
+  "custom" : false,
+  "cascadeDelete" : false
+} ]

@@ -1019,5 +1019,6 @@
     "wp8textnotificationkey": "false",
     "wp8tilestemplatekey": "FLIP_TILE",
     "wp8tilestitlekey": "",
-    "xhtmlfavicokey": ""
+    "xhtmlfavicokey": "",
+    "export.type": "studioviz"
 }

@@ -1,0 +1,13 @@
+{
+  "appleprodmode" : "true",
+  "android" : {
+    "key" : "AAAAZCMEIPo:APA91bFKOi7zAdcN1OmqzByWBtqoh8j5y-PRmi7FWc9OyP-EA6VwXFcCmIgpqZ7uU_RpYo4AGdaJHBwiaydGqHHQlj02fRdCvWWdBboUUBl2jfFR6OSw8_ub4dZVVaFoslSCLOULTSF6"
+  },
+  "web" : {
+    "key" : "AAAAYy8qhwk:APA91bGQkTAQ-r-nHAL1pbCRpXtOPKpnq2eyKEtiweVmi_J46rjiFgafziWd0nObe2XyNJOEJcLTz7SO8OEBH0ut83DOKyj6Csr-D2rP19cIaBjJw4s_f8_pj6nmTysb9RbOf4Y9LcLR"
+  },
+  "ipadDevCertNameModified" : false,
+  "ipadProdCertNameModified" : false,
+  "iphoneDevCertNameModified" : false,
+  "iphoneProdCertNameModified" : false
+}

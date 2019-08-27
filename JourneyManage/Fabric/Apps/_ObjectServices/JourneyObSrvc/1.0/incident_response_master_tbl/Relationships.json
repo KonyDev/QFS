@@ -1,0 +1,25 @@
+[ {
+  "sourceObject" : "incident_response_master_tbl",
+  "targetObject" : "checkpoints_tbl",
+  "relationshipKeys" : [ {
+    "sourceField" : "incident_response_id_pk",
+    "targetField" : "admin_action_id_for_delay_fk",
+    "etag" : "701af850-579d-4aa0-bb20-25e14fa4411e"
+  } ],
+  "name" : "incident_response_master_tbl_checkpoints_tbl",
+  "type" : "OneToMany",
+  "custom" : false,
+  "cascadeDelete" : false
+}, {
+  "sourceObject" : "incident_response_master_tbl",
+  "targetObject" : "incident_notification_tbl",
+  "relationshipKeys" : [ {
+    "sourceField" : "incident_response_id_pk",
+    "targetField" : "incident_response_id_fk",
+    "etag" : "a9b70059-6bf3-4c9a-99e4-601a072c3f6b"
+  } ],
+  "name" : "incident_response_master_tbl_incident_notification_tbl",
+  "type" : "OneToMany",
+  "custom" : false,
+  "cascadeDelete" : false
+} ]

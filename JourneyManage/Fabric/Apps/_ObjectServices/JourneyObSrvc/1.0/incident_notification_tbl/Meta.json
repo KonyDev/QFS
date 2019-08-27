@@ -1,0 +1,91 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "update" : "updateMapping",
+    "create" : "createMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "UpdateTimeStampField" : {
+      "DateFormat" : "",
+      "Name" : "lastupdateddatetime"
+    },
+    "SoftDeleteFlagField" : {
+      "ActiveValue" : "false",
+      "InactiveValue" : "true",
+      "Name" : "softdeleteflag"
+    },
+    "backendMeta" : {
+      "backendObjectName" : "incident_notification_tbl",
+      "qualifiedName" : "journey_db_dev.incident_notification_tbl",
+      "metadataformatterobject" : "{\"displayName\":\"incident_notification_tbl\",\"qualifiedName\":\"journey_db_dev.incident_notification_tbl\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"incident_notification_tbl\",\"schemaName\":\"journey_db_dev\",\"tableName\":\"incident_notification_tbl\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "incident_notification_tbl",
+      "qualifiedName" : "journey_db_dev.incident_notification_tbl",
+      "metadataformatterobject" : "{\"displayName\":\"incident_notification_tbl\",\"qualifiedName\":\"journey_db_dev.incident_notification_tbl\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"incident_notification_tbl\",\"schemaName\":\"journey_db_dev\",\"tableName\":\"incident_notification_tbl\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "admin_emp_id_responded_fk",
+    "targetField" : "admin_emp_id_responded_fk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "incident_id_pk",
+    "targetField" : "incident_id_pk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "incident_assistance_required",
+    "targetField" : "incident_assistance_required",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "incident_response_id_fk",
+    "targetField" : "incident_response_id_fk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "journey_id_fk",
+    "targetField" : "journey_id_fk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "softdeleteflag",
+    "targetField" : "softdeleteflag",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "incident_type_id_fk",
+    "targetField" : "incident_type_id_fk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "incident_status_id_fk",
+    "targetField" : "incident_status_id_fk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "createdby",
+    "targetField" : "createdby",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "lastupdatedby",
+    "targetField" : "lastupdatedby",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "incident_response_text",
+    "targetField" : "incident_response_text",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "incident_desciption",
+    "targetField" : "incident_desciption",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "lastupdateddatetime",
+    "targetField" : "lastupdateddatetime",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "createddatetime",
+    "targetField" : "createddatetime",
+    "type" : "request_response"
+  } ]
+}

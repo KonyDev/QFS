@@ -1,0 +1,13 @@
+[ {
+  "sourceObject" : "incident_status_master_tbl",
+  "targetObject" : "incident_notification_tbl",
+  "relationshipKeys" : [ {
+    "sourceField" : "incident_status_id_pk",
+    "targetField" : "incident_status_id_fk",
+    "etag" : "8dc124bb-7c49-42d4-9f82-af1676574817"
+  } ],
+  "name" : "incident_status_master_tbl_incident_notification_tbl",
+  "type" : "OneToMany",
+  "custom" : false,
+  "cascadeDelete" : false
+} ]

@@ -1,0 +1,79 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "update" : "updateMapping",
+    "create" : "createMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "UpdateTimeStampField" : {
+      "DateFormat" : "",
+      "Name" : "lastupdateddatetime"
+    },
+    "SoftDeleteFlagField" : {
+      "ActiveValue" : "false",
+      "InactiveValue" : "true",
+      "Name" : "softdeleteflag"
+    },
+    "backendMeta" : {
+      "backendObjectName" : "guides_manuals_tbl",
+      "qualifiedName" : "journey_db_dev.guides_manuals_tbl",
+      "metadataformatterobject" : "{\"displayName\":\"guides_manuals_tbl\",\"qualifiedName\":\"journey_db_dev.guides_manuals_tbl\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"guides_manuals_tbl\",\"schemaName\":\"journey_db_dev\",\"tableName\":\"guides_manuals_tbl\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "guides_manuals_tbl",
+      "qualifiedName" : "journey_db_dev.guides_manuals_tbl",
+      "metadataformatterobject" : "{\"displayName\":\"guides_manuals_tbl\",\"qualifiedName\":\"journey_db_dev.guides_manuals_tbl\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"guides_manuals_tbl\",\"schemaName\":\"journey_db_dev\",\"tableName\":\"guides_manuals_tbl\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "guides_manuals_row_id_pk",
+    "targetField" : "guides_manuals_row_id_pk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "guide_manual_title",
+    "targetField" : "guide_manual_title",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "country_id_fk",
+    "targetField" : "country_id_fk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "createdby",
+    "targetField" : "createdby",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "lastupdatedby",
+    "targetField" : "lastupdatedby",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "region_id_fk",
+    "targetField" : "region_id_fk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "guide_manual_url",
+    "targetField" : "guide_manual_url",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "lastupdateddatetime",
+    "targetField" : "lastupdateddatetime",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "language_id_fk",
+    "targetField" : "language_id_fk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "createddatetime",
+    "targetField" : "createddatetime",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "softdeleteflag",
+    "targetField" : "softdeleteflag",
+    "type" : "request_response"
+  } ]
+}

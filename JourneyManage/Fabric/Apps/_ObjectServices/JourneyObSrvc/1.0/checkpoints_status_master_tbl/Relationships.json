@@ -1,0 +1,13 @@
+[ {
+  "sourceObject" : "checkpoints_status_master_tbl",
+  "targetObject" : "checkpoints_tbl",
+  "relationshipKeys" : [ {
+    "sourceField" : "checkpoint_status_id_pk",
+    "targetField" : "checkpoint_status_id_fk",
+    "etag" : "bb5877d7-8ec5-493b-8689-e51712786a7f"
+  } ],
+  "name" : "checkpoints_status_master_tbl_checkpoints_tbl",
+  "type" : "OneToMany",
+  "custom" : false,
+  "cascadeDelete" : false
+} ]

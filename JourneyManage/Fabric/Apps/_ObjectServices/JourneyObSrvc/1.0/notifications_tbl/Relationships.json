@@ -1,0 +1,13 @@
+[ {
+  "sourceObject" : "notifications_tbl",
+  "targetObject" : "journey_notif_map_tbl",
+  "relationshipKeys" : [ {
+    "sourceField" : "notification_id_pk",
+    "targetField" : "notification_id_fk",
+    "etag" : "fa4f1a9c-7dde-4319-88ce-b4124e72f0a7"
+  } ],
+  "name" : "notifications_tbl_journey_notif_map_tbl",
+  "type" : "OneToMany",
+  "custom" : false,
+  "cascadeDelete" : false
+} ]

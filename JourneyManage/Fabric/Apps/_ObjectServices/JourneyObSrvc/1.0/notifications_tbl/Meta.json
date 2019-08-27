@@ -1,0 +1,67 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "update" : "updateMapping",
+    "create" : "createMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "UpdateTimeStampField" : {
+      "DateFormat" : "",
+      "Name" : "lastupdateddatetime"
+    },
+    "SoftDeleteFlagField" : {
+      "ActiveValue" : "false",
+      "InactiveValue" : "true",
+      "Name" : "softdeleteflag"
+    },
+    "backendMeta" : {
+      "backendObjectName" : "notifications_tbl",
+      "qualifiedName" : "journey_db_dev.notifications_tbl",
+      "metadataformatterobject" : "{\"displayName\":\"notifications_tbl\",\"qualifiedName\":\"journey_db_dev.notifications_tbl\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"notifications_tbl\",\"schemaName\":\"journey_db_dev\",\"tableName\":\"notifications_tbl\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "notifications_tbl",
+      "qualifiedName" : "journey_db_dev.notifications_tbl",
+      "metadataformatterobject" : "{\"displayName\":\"notifications_tbl\",\"qualifiedName\":\"journey_db_dev.notifications_tbl\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"notifications_tbl\",\"schemaName\":\"journey_db_dev\",\"tableName\":\"notifications_tbl\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "notification_id_pk",
+    "targetField" : "notification_id_pk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "createdby",
+    "targetField" : "createdby",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "notification_sent_by_fk",
+    "targetField" : "notification_sent_by_fk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "lastupdatedby",
+    "targetField" : "lastupdatedby",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "notification_message",
+    "targetField" : "notification_message",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "lastupdateddatetime",
+    "targetField" : "lastupdateddatetime",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "createddatetime",
+    "targetField" : "createddatetime",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "softdeleteflag",
+    "targetField" : "softdeleteflag",
+    "type" : "request_response"
+  } ]
+}

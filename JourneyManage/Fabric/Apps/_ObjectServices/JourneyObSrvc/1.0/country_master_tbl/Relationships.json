@@ -1,0 +1,37 @@
+[ {
+  "sourceObject" : "country_master_tbl",
+  "targetObject" : "guides_manuals_tbl",
+  "relationshipKeys" : [ {
+    "sourceField" : "country_id_pk",
+    "targetField" : "country_id_fk",
+    "etag" : "a51780fe-ba6e-4c4b-8508-b524fd8364d3"
+  } ],
+  "name" : "country_master_tbl_guides_manuals_tbl",
+  "type" : "OneToMany",
+  "custom" : false,
+  "cascadeDelete" : false
+}, {
+  "sourceObject" : "country_master_tbl",
+  "targetObject" : "question_localisation_mapping_tbl",
+  "relationshipKeys" : [ {
+    "sourceField" : "country_id_pk",
+    "targetField" : "country_id_fk",
+    "etag" : "f1dd22e1-84b9-418f-b1d1-ae8931b2288a"
+  } ],
+  "name" : "country_master_tbl_question_localisation_mapping_tbl",
+  "type" : "OneToMany",
+  "custom" : false,
+  "cascadeDelete" : false
+}, {
+  "sourceObject" : "country_master_tbl",
+  "targetObject" : "region_master_tbl",
+  "relationshipKeys" : [ {
+    "sourceField" : "country_id_pk",
+    "targetField" : "country_id_fk",
+    "etag" : "652037f5-1f9f-4fb9-b775-66dd50b727d9"
+  } ],
+  "name" : "country_master_tbl_region_master_tbl",
+  "type" : "OneToMany",
+  "custom" : false,
+  "cascadeDelete" : false
+} ]

@@ -1,0 +1,70 @@
+{
+  "icon" : "icon.png",
+  "subType" : "customapp",
+  "description" : "JourneyFabricApp",
+  "version" : "1.0",
+  "intSvcs" : [ {
+    "name" : "DistanceMatrix",
+    "version" : "1.0",
+    "etag" : "7027682c-a9ff-4f1a-946e-c08ee7c40df0"
+  }, {
+    "name" : "fmgKMSService",
+    "version" : "1.0",
+    "etag" : "38f199e5-f894-42b0-9117-e98ae629c77a"
+  }, {
+    "name" : "fmgPushAccLogin",
+    "version" : "1.0",
+    "etag" : "18697852-e57e-4097-b0cc-415ea844a2ae"
+  }, {
+    "name" : "GetDataForMessage",
+    "version" : "1.0",
+    "etag" : "1fe51019-786b-4792-9562-5d1a76216efc"
+  }, {
+    "name" : "getPushMessageData",
+    "version" : "1.0",
+    "etag" : "2221214e-a860-42af-b2d0-565f1742728c"
+  }, {
+    "name" : "LoginSvc",
+    "version" : "1.0",
+    "etag" : "836e07c2-d56a-4129-8ce1-7be417320d2a"
+  }, {
+    "name" : "PlaceAutocomplete",
+    "version" : "1.0",
+    "etag" : "fdbd742d-30b7-4033-bcc4-c339160917f5"
+  }, {
+    "name" : "PlaceDetail",
+    "version" : "1.0",
+    "etag" : "fc7e6e58-6fd3-47f0-b23a-488304817323"
+  }, {
+    "name" : "placeSearchAutoComplete",
+    "version" : "1.0",
+    "etag" : "bfa12365-9eca-45f7-b194-53d77f89e108"
+  }, {
+    "name" : "ReverseGeoCode",
+    "version" : "1.0",
+    "etag" : "bcf41113-ae2b-46af-b371-42b1dcecea2c"
+  }, {
+    "name" : "sampleNTLMSvc",
+    "version" : "1.0",
+    "etag" : "9bb407c8-5635-413c-b63d-3a3e105a5e90"
+  }, {
+    "name" : "testNtlm",
+    "version" : "1.0",
+    "etag" : "c0c3612d-564e-45cd-971e-d6ff837e5955"
+  }, {
+    "name" : "testNTLMSVC",
+    "version" : "1.0",
+    "etag" : "5658e6a6-0c55-47e9-8dda-1043bfdc5e21"
+  } ],
+  "orchSvcs" : [ {
+    "name" : "fmgOrchSvcForPush",
+    "version" : "1.0",
+    "etag" : "7c4449bf-c3b5-43e3-9ece-ba4592f122fd"
+  } ],
+  "objectSvcs" : [ {
+    "name" : "JourneyObSrvc",
+    "version" : "1.0",
+    "etag" : "d51b80d2-5b21-4a06-b92d-7503eeebeed1"
+  } ],
+  "identity" : [ "InspCustomLogin" ]
+}

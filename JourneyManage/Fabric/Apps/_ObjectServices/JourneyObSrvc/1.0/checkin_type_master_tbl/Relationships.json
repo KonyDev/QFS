@@ -1,0 +1,13 @@
+[ {
+  "sourceObject" : "checkin_type_master_tbl",
+  "targetObject" : "journey_tbl",
+  "relationshipKeys" : [ {
+    "sourceField" : "checkin_type_id_pk",
+    "targetField" : "checkin_type_id_fk",
+    "etag" : "e321a3c1-259e-4e2c-8899-30120f72a9ac"
+  } ],
+  "name" : "checkin_type_master_tbl_journey_tbl",
+  "type" : "OneToMany",
+  "custom" : false,
+  "cascadeDelete" : false
+} ]

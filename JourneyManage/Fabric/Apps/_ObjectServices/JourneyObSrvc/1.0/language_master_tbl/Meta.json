@@ -1,0 +1,63 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "update" : "updateMapping",
+    "create" : "createMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "UpdateTimeStampField" : {
+      "DateFormat" : "",
+      "Name" : "lastupdateddatetime"
+    },
+    "SoftDeleteFlagField" : {
+      "ActiveValue" : "false",
+      "InactiveValue" : "true",
+      "Name" : "softdeleteflag"
+    },
+    "backendMeta" : {
+      "backendObjectName" : "language_master_tbl",
+      "qualifiedName" : "journey_db_dev.language_master_tbl",
+      "metadataformatterobject" : "{\"displayName\":\"language_master_tbl\",\"qualifiedName\":\"journey_db_dev.language_master_tbl\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"language_master_tbl\",\"schemaName\":\"journey_db_dev\",\"tableName\":\"language_master_tbl\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "language_master_tbl",
+      "qualifiedName" : "journey_db_dev.language_master_tbl",
+      "metadataformatterobject" : "{\"displayName\":\"language_master_tbl\",\"qualifiedName\":\"journey_db_dev.language_master_tbl\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"language_master_tbl\",\"schemaName\":\"journey_db_dev\",\"tableName\":\"language_master_tbl\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "createdby",
+    "targetField" : "createdby",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "language_id_pk",
+    "targetField" : "language_id_pk",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "lastupdatedby",
+    "targetField" : "lastupdatedby",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "language_name",
+    "targetField" : "language_name",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "lastupdateddatetime",
+    "targetField" : "lastupdateddatetime",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "createddatetime",
+    "targetField" : "createddatetime",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "softdeleteflag",
+    "targetField" : "softdeleteflag",
+    "type" : "request_response"
+  } ]
+}
