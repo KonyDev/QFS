@@ -1,0 +1,162 @@
+{
+    "classname": "summarytasks",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "cbe3dcbb24bc4605bb1dcb9262b35f35",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "textStepNo",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textStepNo",
+                        "srcWidget": "lblStepInfoNum",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "aca4b4b6d19c4610bc06bdd5ceae2ec3"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "if76b41014e24d05ad33f43b2fe5da61",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "textDetail",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textDetail",
+                        "srcWidget": "rtxtInfo",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textarea",
+                        "wType": "RichText"
+                    },
+                    "srcWgtKUID": "d3ac290e9d84484188bd17ee8fdbc4d6"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ic7ad2a8adb144c7a993c77120d51c6b",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 3,
+                    "propertyKey": "srcClock",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "srcClock",
+                        "srcWidget": "imgClock",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "e634488410c047ac945f175e1f4c71b8"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "jfd9a0369fb243baaca0aa1f6fe15353",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 4,
+                    "propertyKey": "textTime",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textTime",
+                        "srcWidget": "lblTime",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "j33ed1aaf7ce49ac94ca3169db0759b1"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "bd2c77b0bb0844e58e2e8d2d7ac4cf90",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 5,
+                    "propertyKey": "srcTool",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "srcTool",
+                        "srcWidget": "imgTool",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "e61667f289f9499a85d6e5a38b3efc5a"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "gf9e8ce8bc2e43219d03cdf03f8335db",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 6,
+                    "propertyKey": "textTool",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textTool",
+                        "srcWidget": "lblTool",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "a375b641b42f44dd99ecaf084b1eb9e7"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.workorder",
+    "version": "1.0.0"
+}

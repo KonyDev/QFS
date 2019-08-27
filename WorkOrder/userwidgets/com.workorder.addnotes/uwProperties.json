@@ -1,0 +1,87 @@
+{
+    "classname": "addnotes",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f9cd98bc29514f90b30fa92f8c29b60b",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "textQ",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textQ",
+                        "srcWidget": "lblQ3",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "ddbca147253b4ed894772228aac3554a"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ic0336446dac4c2fa7d59d5af74e150b",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "textA",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textA",
+                        "srcWidget": "txtAreaNotes",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textarea",
+                        "wType": "TextArea"
+                    },
+                    "srcWgtKUID": "afbe4af7e8a14e25961de40f17b490b1"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "b7a4d27675ed40ab9d5513f08b031c77",
+                    "originalPropertyKey": "placeholder",
+                    "propertyIndex": 3,
+                    "propertyKey": "placeholder",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "placeholder",
+                        "srcWidget": "txtAreaNotes",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextArea"
+                    },
+                    "srcWgtKUID": "afbe4af7e8a14e25961de40f17b490b1"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.workorder",
+    "version": "1.0.0"
+}

@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_b9acd80e2622403f9d1a040b142e9921": {
+        "id": "AS_FlexContainer_b9acd80e2622403f9d1a040b142e9921",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSafetyCheckList",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b91244bebd044a4f8fe5a1ff0c7e97f1"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_h147a339f3e844f09035d1a7adeee352",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.logout();",
+            "callbackType": null
+        }]
+    }
+}

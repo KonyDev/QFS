@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "45dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_skin_": "s20718575db04fe19c9abe2580a05b1d",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "35dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "45dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": false,
+    "focusskin": "s20718575db04fe19c9abe2580a05b1d",
+    "id": "btnStart",
+    "ide_onClick": "AS_Button_c7fbdaee72464b7796d1c39c61b6e0a3",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "af8a17ec51c14a6bbaf077f457893619",
+    "name": "kony.ui.Button",
+    "parent": "flexCheckIn",
+    "pf": "frmCheckIn",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

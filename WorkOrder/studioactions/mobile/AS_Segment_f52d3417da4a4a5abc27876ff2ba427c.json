@@ -1,0 +1,29 @@
+{
+    "AS_Segment_f52d3417da4a4a5abc27876ff2ba427c": {
+        "id": "AS_Segment_f52d3417da4a4a5abc27876ff2ba427c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmDocuments",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b61bafc1e42640f2acdad2228f78a039"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onRowClick_g597992fac3941f78ddfa3fedc4cb407",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.SegInspectionDetails.pressedSkin = \"segRowFocusSkin\";\nthis.onSegRowClick(eventobject, sectionNumber, rowNumber);",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "number",
+        "value": "10"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "70%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s3dfe5ed989c40228a404d4e5bf0d270",
+    "_text_": "Done",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "30%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "desktopweb": {
+        "psp": {
+            "hoverSkin": "s3dfe5ed989c40228a404d4e5bf0d270"
+        }
+    },
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "s3dfe5ed989c40228a404d4e5bf0d270",
+    "id": "btnDoneTaskDetails",
+    "ide_onClick": "AS_Button_cbb8da7344724f1d86c8ab9fa23e51c5",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c8b612ede311420b870c612aed067db6",
+    "name": "kony.ui.Button",
+    "parent": "flxDetailsBegining",
+    "pf": "frmWorkOrderDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

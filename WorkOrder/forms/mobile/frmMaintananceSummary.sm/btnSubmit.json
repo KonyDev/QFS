@@ -1,0 +1,54 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s3f7bac45ae34e8a8bd2b4b8ef2d1416",
+    "_text_": "Submit",
+    "_top_": {
+        "type": "string",
+        "value": "80dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s3f7bac45ae34e8a8bd2b4b8ef2d1416",
+    "id": "btnSubmit",
+    "ide_onClick": "AS_Button_dde07c3739c1477787c629d103e2971d",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ddd428bf04b44697a0efe219746cb9a5",
+    "name": "kony.ui.Button",
+    "paddinginpixel": false,
+    "parent": "flxSurvey",
+    "pf": "frmMaintananceSummary",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

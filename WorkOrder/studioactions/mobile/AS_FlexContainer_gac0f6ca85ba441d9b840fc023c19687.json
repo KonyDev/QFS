@@ -1,0 +1,28 @@
+{
+    "AS_FlexContainer_gac0f6ca85ba441d9b840fc023c19687": {
+        "id": "AS_FlexContainer_gac0f6ca85ba441d9b840fc023c19687",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteTaskS2",
+            "type": "forms",
+            "platform": "",
+            "KUID": "dcc84bfcc7714aa082da30d9d0ac1908"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___i70128c7736445aea9e41cf73e5e6968",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "show_TaskDetails",
+            "display": "show_TaskDetails",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

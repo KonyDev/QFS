@@ -1,0 +1,28 @@
+{
+    "AS_UWI_bcea9bfc66de49749d6c2f82c80cf150": {
+        "id": "AS_UWI_bcea9bfc66de49749d6c2f82c80cf150",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteTaskS2",
+            "type": "forms",
+            "platform": "",
+            "KUID": "dcc84bfcc7714aa082da30d9d0ac1908"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___bd71d2ac9eaf488e92e6f52ab0478bca",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "closeHam",
+            "display": "closeHam",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

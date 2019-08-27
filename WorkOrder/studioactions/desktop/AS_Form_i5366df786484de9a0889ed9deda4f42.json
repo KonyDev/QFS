@@ -1,0 +1,31 @@
+{
+    "AS_Form_i5366df786484de9a0889ed9deda4f42": {
+        "id": "AS_Form_i5366df786484de9a0889ed9deda4f42",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "breakpoint"
+        }],
+        "contextObj": {
+            "name": "frmWorkOrder",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f0a99fbc23204287abd117949d8b3440"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___c9be877b0b844f2babb2cdd417d69c8d",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "BrekPiontChange",
+            "display": "BrekPiontChange",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

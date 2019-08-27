@@ -1,0 +1,31 @@
+{
+    "AS_Button_fbfd2b5b145e40cd838884db70244916": {
+        "id": "AS_Button_fbfd2b5b145e40cd838884db70244916",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTaskReAssign",
+            "type": "forms",
+            "platform": "",
+            "KUID": "dff7ef72b538474e88520e234dbca0d1"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___b607ef9e15954033bf7b2531a06e65a7",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmCompleteTaskS1",
+            "formKUID": "d4c9c2745ce34c518878820f0dcd0a21",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n    \"_meta_\": {\n        \"eventName\": \"onClick\",\n        \"widgetId\": \"CopybtnSubmit0i3cccbc734c94a\"\n    }\n}",
+            "isCustomInput": false
+        }]
+    }
+}

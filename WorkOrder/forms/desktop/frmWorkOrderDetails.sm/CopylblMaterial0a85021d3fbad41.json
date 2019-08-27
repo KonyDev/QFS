@@ -1,0 +1,89 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "44dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Please Select",
+    "_skin_": "s1bb222dcb7f4617b7edb3c075e18aba",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "55%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "desktopweb": {
+        "psp": {
+            "hoverSkin": "s1bb222dcb7f4617b7edb3c075e18aba"
+        }
+    },
+    "disabledSkins": {},
+    "focusskin": "s1bb222dcb7f4617b7edb3c075e18aba",
+    "groupcells": false,
+    "id": "CopylblMaterial0a85021d3fbad41",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "d9bafba848484176b90eeba29f48abf5",
+    "masterdata": [
+        [
+            "Cables",
+            "Cables"
+        ],
+        [
+            "Power Wizard",
+            "Power Wizard"
+        ],
+        [
+            "Connector",
+            "Connector"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "parent": "flxMaterial2",
+    "pf": "frmWorkOrderDetails",
+    "responsiveData": {
+        "b1": {}
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkey": "Power Wizard",
+    "selectedkeys": null,
+    "selectedkeyvalue": [
+        "Power Wizard",
+        "Power Wizard"
+    ],
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox",
+    "zindex": 1
+}

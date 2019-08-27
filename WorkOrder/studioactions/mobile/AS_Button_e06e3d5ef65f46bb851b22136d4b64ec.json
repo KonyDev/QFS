@@ -1,0 +1,28 @@
+{
+    "AS_Button_e06e3d5ef65f46bb851b22136d4b64ec": {
+        "id": "AS_Button_e06e3d5ef65f46bb851b22136d4b64ec",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmFilter",
+            "type": "forms",
+            "platform": "",
+            "KUID": "bff5417874b742a6ba61f03d016c7762"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___b5de1970c98e4848a37a7a7ed44ab972",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "showCalander",
+            "display": "showCalander",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

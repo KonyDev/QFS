@@ -1,0 +1,89 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sd4ee38283574f49839ae7049a4b450c",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "data": {
+        "arrayData": {
+            "data": [
+                {
+                    "list": "Assigned"
+                },
+                {
+                    "list": "Pending"
+                },
+                {
+                    "list": "Cancelled"
+                },
+                {
+                    "list": "Completed"
+                }
+            ],
+            "schema": [
+                {
+                    "columnHeaderTemplate": null,
+                    "columnHeaderText": "list",
+                    "columnHeaderType": "text",
+                    "columnID": "list",
+                    "columnOnClick": null,
+                    "columnText": "Not Defined",
+                    "columnType": "text",
+                    "kuid": "g510888b15a946fc87b16d07128d261d"
+                }
+            ]
+        },
+        "text": "Status"
+    },
+    "enablescrolling": true,
+    "id": "filterStatus",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "b89457d83f1848c0a5d3254126309a5f",
+    "layouttype": 4,
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flexScrollFilter",
+    "pf": "frmFilter",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "e359c84b8d41488881b730ca78d6c19d",
+    "wType": "UserWidgetInstance"
+}

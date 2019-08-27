@@ -1,0 +1,57 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "26dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s3f7bac45ae34e8a8bd2b4b8ef2d1416",
+    "_text_": "Return to My Workorders",
+    "_top_": {
+        "type": "string",
+        "value": "70%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s3f7bac45ae34e8a8bd2b4b8ef2d1416",
+    "id": "btnReturn",
+    "ide_onClick": "AS_Button_eac2f3ae37aa4e018b3e2325699dca1c",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ee3c4163579549318221cacd50ed2130",
+    "name": "kony.ui.Button",
+    "parent": "flxPopup",
+    "pf": "frmMaintananceSummary",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

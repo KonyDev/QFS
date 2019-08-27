@@ -1,0 +1,376 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "btnDetails": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "See Details"
+            },
+            "imgAsset": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "transformer_1.png"
+            },
+            "lblAssetTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Asset 5AS745"
+            },
+            "lblAssetValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Godwn Generator"
+            },
+            "lblAssign": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Assigned"
+            },
+            "lblDueKey": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Due"
+            },
+            "lblDueValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Today 10:10 AM"
+            },
+            "lblLocationKey": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Location"
+            },
+            "lblLocationValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "231 Wellington Drive Suite 717"
+            },
+            "lblMaintain": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Maintained"
+            },
+            "lblMiles": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2.2 Mi"
+            },
+            "lblSeparator": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblSeperator0": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": " "
+            },
+            "lblTimeStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "3 Hours"
+            },
+            "lblWorkOrderName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "100-FR-EM-0048_22"
+            }
+        },
+        {
+            "btnDetails": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "See Details"
+            },
+            "imgAsset": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "transformer_1.png"
+            },
+            "lblAssetTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Asset 5AS745"
+            },
+            "lblAssetValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Godwn Generator"
+            },
+            "lblAssign": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Assigned"
+            },
+            "lblDueKey": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Due"
+            },
+            "lblDueValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Today 10:10 AM"
+            },
+            "lblLocationKey": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Location"
+            },
+            "lblLocationValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "231 Wellington Drive Suite 717"
+            },
+            "lblMaintain": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Maintained"
+            },
+            "lblMiles": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2.2 Mi"
+            },
+            "lblSeparator": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblSeperator0": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": " "
+            },
+            "lblTimeStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "3 Hours"
+            },
+            "lblWorkOrderName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "100-FR-EM-0048_22"
+            }
+        },
+        {
+            "btnDetails": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "See Details"
+            },
+            "imgAsset": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "transformer_1.png"
+            },
+            "lblAssetTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Asset 5AS745"
+            },
+            "lblAssetValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Godwn Generator"
+            },
+            "lblAssign": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Assigned"
+            },
+            "lblDueKey": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Due"
+            },
+            "lblDueValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Today 10:10 AM"
+            },
+            "lblLocationKey": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Location"
+            },
+            "lblLocationValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "231 Wellington Drive Suite 717"
+            },
+            "lblMaintain": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Maintained"
+            },
+            "lblMiles": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2.2 Mi"
+            },
+            "lblSeparator": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblSeperator0": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": " "
+            },
+            "lblTimeStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "3 Hours"
+            },
+            "lblWorkOrderName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "100-FR-EM-0048_22"
+            }
+        },
+        {
+            "btnDetails": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "See Details"
+            },
+            "imgAsset": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "transformer_1.png"
+            },
+            "lblAssetTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Asset 5AS745"
+            },
+            "lblAssetValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Godwn Generator"
+            },
+            "lblAssign": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Assigned"
+            },
+            "lblDueKey": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Due"
+            },
+            "lblDueValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Today 10:10 AM"
+            },
+            "lblLocationKey": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Location"
+            },
+            "lblLocationValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "231 Wellington Drive Suite 717"
+            },
+            "lblMaintain": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Maintained"
+            },
+            "lblMiles": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2.2 Mi"
+            },
+            "lblSeparator": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblSeperator0": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": " "
+            },
+            "lblTimeStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "3 Hours"
+            },
+            "lblWorkOrderName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "100-FR-EM-0048_22"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "75%"
+    },
+    "_indicator_": "none",
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "92%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "counter": "03",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "SegInspectionDetails",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "bounces": false,
+            "indicator": "none",
+            "showProgressIndicator": false
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "g2bee7c31091400f8471eea175ff4a18",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "paddinginpixel": false,
+    "pageoffdotimage": "pageoffdot_1.png",
+    "pageondotimage": "pageondot_1.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxMainBody",
+    "pf": "frmInspectionsList",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": true,
+    "rowTemplateId": "h4b02257d7e44b9cab789059a04edcfb",
+    "rowcounter": 3,
+    "rowfocusskin": "s6d3ef0acb844765ae948636bc00fcfe",
+    "rowskin": "s6d3ef0acb844765ae948636bc00fcfe",
+    "rowtemplate": "flxInspection",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "s8b6b829dc7142ea917a9fb114496a32",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "5c295c64",
+    "separatorrequired": true,
+    "separatorthickness": 10,
+    "showprogressindicator": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "CopyFlexContainer0a413991ea2e249": "CopyFlexContainer0a413991ea2e249",
+        "FlexContainer0a82758305f2149": "FlexContainer0a82758305f2149",
+        "FlexContainer0b194acefbf924f": "FlexContainer0b194acefbf924f",
+        "btnDetails": "btnDetails",
+        "flxAssetImageContainer": "flxAssetImageContainer",
+        "flxInspection": "flxInspection",
+        "flxInspectionDetail1": "flxInspectionDetail1",
+        "flxLocations": "flxLocations",
+        "flxMain": "flxMain",
+        "flxTop1": "flxTop1",
+        "imgAsset": "imgAsset",
+        "lblAssetTitle": "lblAssetTitle",
+        "lblAssetValue": "lblAssetValue",
+        "lblAssign": "lblAssign",
+        "lblDueKey": "lblDueKey",
+        "lblDueValue": "lblDueValue",
+        "lblLocationKey": "lblLocationKey",
+        "lblLocationValue": "lblLocationValue",
+        "lblMaintain": "lblMaintain",
+        "lblMiles": "lblMiles",
+        "lblSeparator": "lblSeparator",
+        "lblSeperator0": "lblSeperator0",
+        "lblTimeStatus": "lblTimeStatus",
+        "lblWorkOrderName": "lblWorkOrderName"
+    },
+    "zindex": 1
+}

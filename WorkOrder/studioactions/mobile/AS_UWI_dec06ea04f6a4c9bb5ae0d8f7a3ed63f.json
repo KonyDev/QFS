@@ -1,0 +1,30 @@
+{
+    "AS_UWI_dec06ea04f6a4c9bb5ae0d8f7a3ed63f": {
+        "id": "AS_UWI_dec06ea04f6a4c9bb5ae0d8f7a3ed63f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSafetyCheckList",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b91244bebd044a4f8fe5a1ff0c7e97f1"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___b6af26af3645488fb5907a1daf8dd879",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onClickToggleSignOff",
+            "display": "onClickToggleSignOff",
+            "inputparams": [{
+                "name": "ind",
+                "value": "1"
+            }],
+            "parentId": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

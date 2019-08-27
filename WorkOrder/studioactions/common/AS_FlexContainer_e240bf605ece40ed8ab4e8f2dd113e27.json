@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_e240bf605ece40ed8ab4e8f2dd113e27": {
+        "id": "AS_FlexContainer_e240bf605ece40ed8ab4e8f2dd113e27",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "KUID": "u3b2f95021e046cbb4b8be1efa7d264e",
+            "name": "uwu3b2f95021e046cbb4b8be1efa7d264e",
+            "type": "userwidgets"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__i6733f5637ba49488d5371bff8fc6858",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onTouchAnimate();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

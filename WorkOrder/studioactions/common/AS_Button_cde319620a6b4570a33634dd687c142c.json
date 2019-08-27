@@ -1,0 +1,27 @@
+{
+    "AS_Button_cde319620a6b4570a33634dd687c142c": {
+        "id": "AS_Button_cde319620a6b4570a33634dd687c142c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwu0a46a7a2c4944e1966f0eb670ee1c4e",
+            "type": "userwidgets",
+            "KUID": "u0a46a7a2c4944e1966f0eb670ee1c4e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___b631e3557e0b436882d943dc2f4085bd",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "preshow",
+            "display": "preshow",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

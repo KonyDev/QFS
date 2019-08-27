@@ -1,0 +1,75 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sd4ee38283574f49839ae7049a4b450c",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "children": [
+        "CopylblSepHeadVA0e8150bd90b2f49",
+        "CopylblExecutionHeaderVA0b8fa408567bd49",
+        "CopylblStepInfoVA0a9f5910dcadc40",
+        "CopylblNotMandatoryVA0d3d10297c1144a",
+        "flxCheckListAsset",
+        "CopylblSepCheckListVA0j04dfba0bee547",
+        "CopyflxAdditionalMaterialVA0ja10b01d8fe845",
+        "CopylblSepAdditionalMaterial0a5bc6c6c0ce943",
+        "CopyflxDurationVA0c22a838dff834a",
+        "CopylblSepDurationVA0bcfb6e21ef9e4c",
+        "CopyflxReferenceVA0a0bac19d58da41",
+        "CopylblSepAddDesc0db54c79fb2d244",
+        "CopyflxAddDescVA0b0053db38c8245",
+        "CopylblSepDesc0ee00a1d5a0ec41",
+        "CopyflxRequirementVA0fb4b432b295344"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxAssetExecutionSteps",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "j87a5b017fa1448dbed7e2632fa497b3",
+    "layouttype": 4,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxTaskAsset",
+    "pf": "frmWorkOrderDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

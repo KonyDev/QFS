@@ -1,0 +1,30 @@
+{
+    "AS_UWI_g2328f20c3a144a28c8f0f8be6357633": {
+        "id": "AS_UWI_g2328f20c3a144a28c8f0f8be6357633",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "uwuf6fb999291e4f13944fcfb10b0e781a",
+            "type": "userwidgets",
+            "KUID": "uf6fb999291e4f13944fcfb10b0e781a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___cd129fdc016445089b96d7fca3602c40",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "validateText",
+            "display": "validateText",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

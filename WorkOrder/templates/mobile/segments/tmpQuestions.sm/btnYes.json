@@ -1,0 +1,54 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s5c6ebba2327452080b330ebc0c0bf48",
+    "_text_": "Yes",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s5c6ebba2327452080b330ebc0c0bf48",
+    "id": "btnYes",
+    "ide_onClick": "AS_Button_i426f58cb7b847e7a12534351b08eebf",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ec83bd7515f045518b26e0b6bce7a54b",
+    "name": "kony.ui.Button",
+    "parent": "flexRadioButton",
+    "pf": "tmpQuestions",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

@@ -1,0 +1,28 @@
+{
+    "AS_FlexContainer_f13f899e8b9e4f5aa076869d68fc654b": {
+        "id": "AS_FlexContainer_f13f899e8b9e4f5aa076869d68fc654b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmWorkOrderDetails",
+            "type": "forms",
+            "platform": "",
+            "KUID": "abf22dfd535a4106b59c67c3ae5f6665"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___a525ea0733ec4f2da3f6d0aa0c69f9ee",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "show_Material",
+            "display": "show_Material",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

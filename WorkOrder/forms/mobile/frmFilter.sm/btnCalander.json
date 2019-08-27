@@ -1,0 +1,54 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "4%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s0a8710e7d2d4dc3a8de3aa761f9e943",
+    "_text_": "Select Date Range",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "92%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "displaytext": true,
+    "focusskin": "s0a8710e7d2d4dc3a8de3aa761f9e943",
+    "id": "btnCalander",
+    "ide_onClick": "AS_Button_e06e3d5ef65f46bb851b22136d4b64ec",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "h66d49bec0724c54acfb7c9484b418d0",
+    "masterType": 1,
+    "name": "kony.ui.Button",
+    "parent": "flexCalander",
+    "pf": "frmFilter",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

@@ -1,0 +1,27 @@
+{
+    "AS_Form_jdd08957c59646ddaf2d963fd8e947bc": {
+        "id": "AS_Form_jdd08957c59646ddaf2d963fd8e947bc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "breakpoint"
+        }],
+        "contextObj": {
+            "name": "frmWorkOrder",
+            "type": "forms",
+            "platform": null,
+            "KUID": "f0a99fbc23204287abd117949d8b3440"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__hb927b1b39d94dcb8c8608e2f614af80",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "alert(\"Testing in progress\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

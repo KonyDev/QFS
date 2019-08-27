@@ -1,0 +1,28 @@
+{
+    "AS_Button_e27b195daa0442c7a9087c5b6dc3777f": {
+        "id": "AS_Button_e27b195daa0442c7a9087c5b6dc3777f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMaintananceSummary",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f6976b8aad024468aca0a2b875fec08f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___f1a383ca5b6e430dbc44f3b09e2b4b83",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "show_popup",
+            "display": "show_popup",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

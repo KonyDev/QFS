@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "15%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s0f544862d664fcd97bb6bd15cff8599",
+    "_text_": "Substitute part <b>GSP05 </b> with <b>GSP06</b>.",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 1,
+    "id": "rtxtask4",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "b65fa8aa39bb4c23b2b8b190621a140b",
+    "linkskin": "s71d07087af24320be347b93e2de68d7",
+    "name": "kony.ui.RichText",
+    "parent": "taskDetail4",
+    "pf": "frmMaintananceSummary",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

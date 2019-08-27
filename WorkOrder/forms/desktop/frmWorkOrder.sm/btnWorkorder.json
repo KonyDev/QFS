@@ -1,0 +1,65 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s1235c3482a342c293af6ff206e8f24f",
+    "_text_": "Workorders",
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "desktopweb": {
+        "psp": {
+            "hoverSkin": "s1235c3482a342c293af6ff206e8f24f"
+        }
+    },
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "s1235c3482a342c293af6ff206e8f24f",
+    "id": "btnWorkorder",
+    "ide_onClick": "AS_Button_h463fda0dab346f4962512d7caf83b76",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "cc6422d517fd4ca09de1e72abc1b85ef",
+    "name": "kony.ui.Button",
+    "parent": "flexTabs",
+    "pf": "frmWorkOrder",
+    "responsiveData": {
+        "b1": {
+            "skin": "s365c98cf8d242c7a055b108f835924e"
+        },
+        "b2": {}
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

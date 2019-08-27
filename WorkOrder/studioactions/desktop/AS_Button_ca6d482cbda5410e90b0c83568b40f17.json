@@ -1,0 +1,28 @@
+{
+    "AS_Button_ca6d482cbda5410e90b0c83568b40f17": {
+        "id": "AS_Button_ca6d482cbda5410e90b0c83568b40f17",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmWorkOrderDetails",
+            "type": "forms",
+            "platform": "",
+            "KUID": "abf22dfd535a4106b59c67c3ae5f6665"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___j1786222d7d3408baeee0206412c84b8",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "showCompletionDetail",
+            "display": "showCompletionDetail",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

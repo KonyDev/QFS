@@ -1,0 +1,161 @@
+//Type your code here
+ var WorkData=[
+   {
+        "lblStatus": {text:"In-Progress",skin:"sknLblInProgress"},//"In-Progress",
+        "lblReplace":"Replacement",//{text:"Assigned",skin:"sknlblBold"},
+        "lblAsset":{text:"Asset 7BVA42",skin:"sknlblBold"},
+       "img1":"profile1.png",
+        "imgCheckImage":"imagedrag.png",
+        "lblTrans":"Trans",
+        "lblTransformer":"Transformer",
+        "lblTimeAway":{text:"1H 15M away",skin:"sknLblTimeAwayNormal"},//"1H 20M away",
+        "lblAddress":{text:"Memphis City, 38118",skin:"CopydefLabel0a4da3d82e61d42"},
+        "btnDetails":"Details",
+        "imgMenu":"greydots.png",
+          "lblDistance":{text:"3.5 miles away",skin:"skinlblNormal"},//"3.5 miles away",
+      },
+       {
+        "lblStatus": {text:"In-Progress",skin:"sknLblInProgress"},
+        "lblReplace":"Inspection",//{text:"Assigned",skin:"sknlblBold"},
+        "lblAsset":{text:"Asset 7BVA43",skin:"sknlblBold"},
+       "img1":"profile1.png",
+        "imgCheckImage":"imagedrag.png",
+        "lblTrans":"Trans",
+        "lblTransformer":"Transformer",
+        "lblTimeAway":{text:"1H 10M away",skin:"sknLblTimeAwayNormal"},//"1H 20M away",
+        "lblAddress":{text:"Memphis City, 38118",skin:"CopydefLabel0a4da3d82e61d42"},
+        "btnDetails":"Details",
+        "imgMenu":"greydots.png",
+          "lblDistance":{text:"3.0 miles away",skin:"skinlblNormal"},
+      },
+       {
+      "lblStatus": {text:"Completed",skin:"CopysknLblComplete0j60a02f9636142"},
+        "lblReplace":"Repair",//{text:"Assigned",skin:"sknlblBold"},
+        "lblAsset":{text:"Asset 7BVA39",skin:"sknlblBold"},
+       "img1":"profile2.png",
+        "imgCheckImage":"imagedrag.png",
+        "lblTrans":"Trans",
+        "lblTransformer":"Transformer",
+        "lblTimeAway":{text:"1H 05M away",skin:"sknLblTimeAwayNormal"},//"1H 20M away",
+        "lblAddress":{text:"Memphis City, 38118",skin:"CopydefLabel0a4da3d82e61d42"},
+        "btnDetails":"Details",
+        "imgMenu":"greydots.png",
+          "lblDistance":{text:"3.3 miles away",skin:"skinlblNormal"},
+      },
+       {
+       "lblStatus": {text:"Completed",skin:"CopysknLblComplete0j60a02f9636142"},
+        "lblReplace":"Replacement",//{text:"Assigned",skin:"sknlblBold"},
+        "lblAsset":{text:"Asset 7BVA45",skin:"sknlblBold"},
+       "img1":"profile2.png",
+        "imgCheckImage":"imagedrag.png",
+        "lblTrans":"Trans",
+        "lblTransformer":"Transformer",
+        "lblTimeAway":{text:"1H 30M away",skin:"sknLblTimeAwayNormal"},//"1H 20M away",
+        "lblAddress":{text:"Memphis City, 38118",skin:"CopydefLabel0a4da3d82e61d42"},
+        "btnDetails":"Details",
+        "imgMenu":"greydots.png",
+          "lblDistance":{text:"3.4 miles away",skin:"skinlblNormal"},
+      },
+       {
+       "lblStatus": {text:"In-Progress",skin:"sknLblInProgress"},
+        "lblReplace":"Repair",//{text:"Assigned",skin:"sknlblBold"},
+        "lblAsset":{text:"Asset 7BVA47",skin:"sknlblBold"},
+       "img1":"profile3.png",
+        "imgCheckImage":"imagedrag.png",
+        "lblTrans":"Trans",
+        "lblTransformer":"Transformer",
+        "lblTimeAway":{text:"1H 23M away",skin:"sknLblTimeAwayNormal"},//"1H 20M away",
+        "lblAddress":{text:"Memphis City, 38118",skin:"CopydefLabel0a4da3d82e61d42"},
+        "btnDetails":"Details",
+        "imgMenu":"greydots.png",
+          "lblDistance":{text:"3.8 miles away",skin:"skinlblNormal"},
+      },
+       {
+       "lblStatus": {text:"Completed",skin:"CopysknLblComplete0j60a02f9636142"},
+        "lblReplace":"Inspection",//{text:"Assigned",skin:"sknlblBold"},
+        "lblAsset":{text:"Asset 7BVA50",skin:"sknlblBold"},
+       "img1":"profile3.png",
+        "imgCheckImage":"imagedrag.png",
+        "lblTrans":"Trans",
+        "lblTransformer":"Transformer",
+        "lblTimeAway":{text:"0H 20M away",skin:"sknLblTimeAwayNormal"},//"1H 20M away",
+        "lblAddress":{text:"Memphis City, 38118",skin:"CopydefLabel0a4da3d82e61d42"},
+        "btnDetails":"Details",
+        "imgMenu":"greydots.png",
+          "lblDistance":{text:"2.5 miles away",skin:"skinlblNormal"},
+      },
+       {
+       "lblStatus": {text:"Pending",skin:"sknlblPending"},
+        "lblReplace":"Replacement",//{text:"Assigned",skin:"sknlblBold"},
+        "lblAsset":{text:"Asset 7BVA41",skin:"sknlblBold"},
+       "img1":"profile1.png",
+        "imgCheckImage":"imagedrag.png",
+        "lblTrans":"Trans",
+        "lblTransformer":"Transformer",
+        "lblTimeAway":{text:"2H 20M away",skin:"sknLblTimeAwayNormal"},//"1H 20M away",
+        "lblAddress":{text:"Memphis City, 38118",skin:"CopydefLabel0a4da3d82e61d42"},
+        "btnDetails":"Details",
+        "imgMenu":"greydots.png",
+          "lblDistance":{text:"2.7 miles away",skin:"skinlblNormal"},
+      },
+       {
+     "lblStatus": {text:"Pending",skin:"sknlblPending"},
+        "lblReplace":"Inspection",//{text:"Assigned",skin:"sknlblBold"},
+        "lblAsset":{text:"Asset 7BVA40",skin:"sknlblBold"},
+       "img1":"profile3.png",
+        "imgCheckImage":"imagedrag.png",
+        "lblTrans":"Trans",
+        "lblTransformer":"Transformer",
+        "lblTimeAway":{text:"1H 40M away",skin:"sknLblTimeAwayNormal"},//"1H 20M away",
+        "lblAddress":{text:"Memphis City, 38118",skin:"CopydefLabel0a4da3d82e61d42"},
+        "btnDetails":"Details",
+        "imgMenu":"greydots.png",
+          "lblDistance":{text:"2.9 miles away",skin:"skinlblNormal"},
+      }
+      
+ ];
+
+
+var HeaderData=[
+  {
+    "lblByName":"ByName",
+    "imgUpArrow1":"uparrw1.png",
+    "imgUpArrow2":"uparrw1.png",
+    "imgUpArrow3":"uparrw1.png",
+    //"imgUpArrow1":"uparrw1.png",
+    "lblByType":"Type",
+    "lblByDistance":"Distance",
+    "lblLocation":"Location",
+    "imgDownArrow1":"downarrow1.png",
+    "imgDownArrow2":"downarrow1.png",
+    "imgDownArrow3":"downarrow1.png",
+    "imgDownArrow4":"downarrow1.png",
+  }
+];
+
+var usersData=[
+  {
+    "imgUser":"profile3.png",
+    "lblUserName":"Adam Smith",
+    "imgAdd":"addgrey.png",
+  },
+  
+  {
+     "imgUser":"profile3.png",
+    "lblUserName":"Boris Jameson",
+    "imgAdd":"addgrey.png",
+  },
+  
+  {
+     "imgUser":"profile3.png",
+    "lblUserName":"Claudia Keith",
+    "imgAdd":"addgrey.png",
+  },
+  
+  {
+     "imgUser":"profile3.png",
+    "lblUserName":"Kevin Hart",
+    "imgAdd":"addgrey.png",
+  }
+  
+];

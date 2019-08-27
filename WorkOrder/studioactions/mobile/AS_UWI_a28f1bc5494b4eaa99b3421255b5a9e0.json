@@ -1,0 +1,27 @@
+{
+    "AS_UWI_a28f1bc5494b4eaa99b3421255b5a9e0": {
+        "id": "AS_UWI_a28f1bc5494b4eaa99b3421255b5a9e0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmWorkOrderSummary",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d48ece306e934635a35edac6ea514b98"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___fc6c8b35678e4379bf3357e6c02ceb7d",
+            "type": "INVOKE_FUNCTION",
+            "display": "<>",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

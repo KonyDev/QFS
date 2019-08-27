@@ -1,0 +1,26 @@
+{
+    "AS_UWI_b1d25f7703624a178f45788380bbd297": {
+        "id": "AS_UWI_b1d25f7703624a178f45788380bbd297",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwu0e0548d754d4fa8a3d9ac62b7ee65ed",
+            "type": "userwidgets",
+            "KUID": "u0e0548d754d4fa8a3d9ac62b7ee65ed"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___ffbfe4e1969142579b59ed947a35b660",
+            "type": "INVOKE_FUNCTION",
+            "display": "<>",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

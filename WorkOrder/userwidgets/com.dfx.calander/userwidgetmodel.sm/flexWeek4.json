@@ -1,0 +1,65 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "52dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sb53b8e542024345848edac4b43e0cb2",
+    "_top_": {
+        "type": "string",
+        "value": "350dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "lblSUW4",
+        "lblMW4",
+        "lblTUW4",
+        "lblWW4",
+        "lblTHW4",
+        "lblFW4",
+        "lblSAW4"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flexWeek4",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "d69a12ffa0c344e4aa26d2069cbd8637",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flexCalander",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1
+}

@@ -1,0 +1,29 @@
+{
+    "AS_UWI_ab72766cbe9649008f6193a0eaa7dca8": {
+        "id": "AS_UWI_ab72766cbe9649008f6193a0eaa7dca8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "uwuf6fb999291e4f13944fcfb10b0e781a",
+            "type": "userwidgets",
+            "KUID": "uf6fb999291e4f13944fcfb10b0e781a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___bd452dee98284789ad2875a99bcda1fd",
+            "type": "INVOKE_FUNCTION",
+            "display": "<>",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

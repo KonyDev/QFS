@@ -1,0 +1,28 @@
+{
+    "AS_FlexContainer_e27640d1eb3c45d3bb696a92f0496fa7": {
+        "id": "AS_FlexContainer_e27640d1eb3c45d3bb696a92f0496fa7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmWorkOrderDetails",
+            "type": "forms",
+            "platform": "",
+            "KUID": "abf22dfd535a4106b59c67c3ae5f6665"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___a1019e690a5042ff86e110f1e19e0369",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "addCheckList",
+            "display": "addCheckList",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

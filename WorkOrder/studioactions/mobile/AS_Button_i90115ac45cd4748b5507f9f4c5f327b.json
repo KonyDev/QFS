@@ -1,0 +1,28 @@
+{
+    "AS_Button_i90115ac45cd4748b5507f9f4c5f327b": {
+        "id": "AS_Button_i90115ac45cd4748b5507f9f4c5f327b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSafetyCheckList",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b91244bebd044a4f8fe5a1ff0c7e97f1"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___ed26f10fe194483b8aad8dacab7663cc",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "completeSafetyCheckList",
+            "display": "completeSafetyCheckList",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

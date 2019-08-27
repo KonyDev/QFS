@@ -1,0 +1,24 @@
+{
+    "AS_UWI_f4742c64a2ac4346b806903e83d28bc0": {
+        "id": "AS_UWI_f4742c64a2ac4346b806903e83d28bc0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmMaintananceSummary",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f6976b8aad024468aca0a2b875fec08f"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

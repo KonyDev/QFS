@@ -1,0 +1,128 @@
+{
+    "classname": "filterSlider",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e6e9e33a6f034a65b52ecf27322dda46",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "textFilter",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textFilter",
+                        "srcWidget": "lblFilterName",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "c850e411882f45ee93c375b2c1878a69"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ac938ba91f9a42c9b2c22cfe679325b1",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "textRange",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textRange",
+                        "srcWidget": "lblRange",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "d1ede4ead9ec4367acdfeab5944e8a07"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "g60500b248aa4a76bdf5b659c69b226d",
+                    "originalPropertyKey": "max",
+                    "propertyIndex": 3,
+                    "propertyKey": "maxVal",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "maxVal",
+                        "srcWidget": "sliderFilter",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "(^[1-9][0-9]*$)|(^0$)",
+                        "wType": "Slider"
+                    },
+                    "srcWgtKUID": "f5a6b4dc2e40466f98a2a5330baa822a"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c7ee2b3e8f0c4c01ba81d0dd54ed2ce1",
+                    "originalPropertyKey": "min",
+                    "propertyIndex": 4,
+                    "propertyKey": "minVal",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "minVal",
+                        "srcWidget": "sliderFilter",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "(^[1-9][0-9]*$)|(^0$)",
+                        "wType": "Slider"
+                    },
+                    "srcWgtKUID": "f5a6b4dc2e40466f98a2a5330baa822a"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e31da5cc8c40407c9cf33ba8dc70bd10",
+                    "originalPropertyKey": "selectedValue",
+                    "propertyIndex": 5,
+                    "propertyKey": "selectedValue",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "selectedValue",
+                        "srcWidget": "sliderFilter",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "(^[1-9][0-9]*$)|(^0$)",
+                        "wType": "Slider"
+                    },
+                    "srcWgtKUID": "f5a6b4dc2e40466f98a2a5330baa822a"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.workorder",
+    "version": "1.0.0"
+}

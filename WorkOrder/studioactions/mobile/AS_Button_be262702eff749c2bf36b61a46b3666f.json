@@ -1,0 +1,31 @@
+{
+    "AS_Button_be262702eff749c2bf36b61a46b3666f": {
+        "id": "AS_Button_be262702eff749c2bf36b61a46b3666f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteTaskS1",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d4c9c2745ce34c518878820f0dcd0a21"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___d6f351a5becb4868b5ae1fe75b30773f",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmTaskReAssign",
+            "formKUID": "dff7ef72b538474e88520e234dbca0d1",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n    \"_meta_\": {\n        \"eventName\": \"onClick\",\n        \"widgetId\": \"btnReAssign\"\n    }\n}",
+            "isCustomInput": false
+        }]
+    }
+}

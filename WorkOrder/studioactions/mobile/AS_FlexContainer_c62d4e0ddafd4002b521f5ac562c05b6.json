@@ -1,0 +1,22 @@
+{
+    "AS_FlexContainer_c62d4e0ddafd4002b521f5ac562c05b6": {
+        "id": "AS_FlexContainer_c62d4e0ddafd4002b521f5ac562c05b6",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___bc9ff9ee27f0443e8d24cb0bab133c3f",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "openHam",
+            "display": "openHam",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

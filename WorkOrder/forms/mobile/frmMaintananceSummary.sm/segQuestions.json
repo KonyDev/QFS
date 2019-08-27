@@ -1,0 +1,183 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bounces_": false,
+    "_data_": [
+        {
+            "btnNo": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "No"
+            },
+            "btnYes": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Yes"
+            },
+            "lblQuestion": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Question"
+            },
+            "lblSepRadio": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            }
+        },
+        {
+            "btnNo": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "No"
+            },
+            "btnYes": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Yes"
+            },
+            "lblQuestion": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Question"
+            },
+            "lblSepRadio": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            }
+        },
+        {
+            "btnNo": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "No"
+            },
+            "btnYes": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Yes"
+            },
+            "lblQuestion": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Question"
+            },
+            "lblSepRadio": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            }
+        },
+        {
+            "btnNo": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "No"
+            },
+            "btnYes": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Yes"
+            },
+            "lblQuestion": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Question"
+            },
+            "lblSepRadio": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "56%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "-100%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "29%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "03",
+    "editstyle": "none",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segQuestions",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "bounces": false,
+            "editStyle": "none",
+            "indicator": "none",
+            "showProgressIndicator": false
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "h9a350f2b0fe445faa3d6892082b889e",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxSurvey",
+    "pf": "frmMaintananceSummary",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "c73333e0ff904cc9b069dd1cbfc485b9",
+    "rowcounter": 3,
+    "rowfocusskin": "s5b76ab67dce4a19a035fa7e27c7c1ce",
+    "rowskin": "s414b8929bbf4923818d3f86938b0801",
+    "rowtemplate": "flxQuestion",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "sd63fb0efed6433895d1b57ab78ab4e4",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "separatorthickness": 0,
+    "showprogressindicator": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "btnNo": "btnNo",
+        "btnYes": "btnYes",
+        "flexRadioButton": "flexRadioButton",
+        "flxButtons": "flxButtons",
+        "flxQuestion": "flxQuestion",
+        "lblQuestion": "lblQuestion",
+        "lblSepRadio": "lblSepRadio"
+    },
+    "zindex": 1
+}

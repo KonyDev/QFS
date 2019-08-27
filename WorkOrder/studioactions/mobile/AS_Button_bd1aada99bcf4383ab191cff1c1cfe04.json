@@ -1,0 +1,28 @@
+{
+    "AS_Button_bd1aada99bcf4383ab191cff1c1cfe04": {
+        "id": "AS_Button_bd1aada99bcf4383ab191cff1c1cfe04",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCheckIn",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ge18d252b5e74dd99e54d193f6dc7638"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___j4277fac23eb4695be36d7f1eedb2ad6",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "checkIn",
+            "display": "checkIn",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "45dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "220dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s3dfe5ed989c40228a404d4e5bf0d270",
+    "_text_": "Create Workorder",
+    "_top_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "175dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "desktopweb": {
+        "psp": {
+            "hoverSkin": "s3dfe5ed989c40228a404d4e5bf0d270"
+        }
+    },
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "s3dfe5ed989c40228a404d4e5bf0d270",
+    "hoverskin": "",
+    "id": "btnGoToWorkOrder",
+    "ide_onClick": "AS_Button_f194ca24f5fa419096922b24d53ded91",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "iadfee28530e405c8efbdab13e1749d4",
+    "name": "kony.ui.Button",
+    "parent": "FlexGroup0i389f95620ed4a",
+    "pf": "frmWorkOrderDetails",
+    "responsiveData": {
+        "b1": {
+            "desktopweb": {
+                "psp": {}
+            },
+            "disabledSkins": {}
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

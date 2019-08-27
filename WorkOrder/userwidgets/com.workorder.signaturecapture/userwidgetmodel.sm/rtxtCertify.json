@@ -1,0 +1,54 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s4be70eee1f64ab3ac2b0c9d3b4682de",
+    "_text_": "I, John Green, certify that I have completed workorder <b>100-FR-EM-0048_22.</b>",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 1,
+    "id": "rtxtCertify",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "db72a05acd924f67bdfd29905db5fb9b",
+    "linkskin": "se729a2ae8234ba9aefff22ed25bb3ea",
+    "masterType": 1,
+    "name": "kony.ui.RichText",
+    "parent": "flexSignature",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

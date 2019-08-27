@@ -1,0 +1,258 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "CopylblWrkOrderType0e2e04114360e42": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Required"
+            },
+            "imgEdit": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "edit.png"
+            },
+            "lblAdditionalMAterialValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "15*Material 1,2*Material 2, 2*Material 3, 1*Tool 1"
+            },
+            "lblAdditionalMaterial": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Additional Material"
+            },
+            "lblAsset": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Asset"
+            },
+            "lblAssetValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Asset BVA321AW"
+            },
+            "lblPreperationSurvey": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Preparation Survey"
+            },
+            "lblTypeOfWorkorder": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Type Workorder"
+            },
+            "lblWorkOrderDetrails": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Workorder Details"
+            },
+            "lblWrkOrderType": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Inspection"
+            }
+        },
+        {
+            "CopylblWrkOrderType0e2e04114360e42": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Use Chemical XL to clean the bottom and top of the asset , also provide the temperature of the asset machinery."
+            },
+            "imgEdit": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "edit.png"
+            },
+            "lblAdditionalMAterialValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Open the Asset and review the hardware"
+            },
+            "lblAdditionalMaterial": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Task 2"
+            },
+            "lblAsset": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblAssetValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblPreperationSurvey": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Task 3"
+            },
+            "lblTypeOfWorkorder": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Task 1"
+            },
+            "lblWorkOrderDetrails": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Task Details"
+            },
+            "lblWrkOrderType": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Review the Visual Appearance of the Asset"
+            }
+        },
+        {
+            "CopylblWrkOrderType0e2e04114360e42": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Required"
+            },
+            "imgEdit": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "edit.png"
+            },
+            "lblAdditionalMAterialValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Required"
+            },
+            "lblAdditionalMaterial": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Completion Survey"
+            },
+            "lblAsset": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblAssetValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblPreperationSurvey": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Location for execution"
+            },
+            "lblTypeOfWorkorder": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Assigned Technicians"
+            },
+            "lblWorkOrderDetrails": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Completion Details"
+            },
+            "lblWrkOrderType": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "John Green"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "680dp"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "599dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "400dp"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "number",
+        "value": ""
+    },
+    "containerweight": 100,
+    "counter": "02",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segReview",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "fbea89ebb97341eeb3fd2c0706709c39",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "FlexGroup0i389f95620ed4a",
+    "pf": "frmWorkOrderDetails",
+    "responsiveData": {
+        "b1": {
+            "centerX": {
+                "type": "string",
+                "value": ""
+            },
+            "left": {
+                "type": "string",
+                "value": "0dp"
+            }
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "e3a5939ae94d4bd085d4acc1f35ea883",
+    "rowcounter": 2,
+    "rowfocusskin": "s5b76ab67dce4a19a035fa7e27c7c1ce",
+    "rowskin": "s414b8929bbf4923818d3f86938b0801",
+    "rowtemplate": "flxReview",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "sd63fb0efed6433895d1b57ab78ab4e4",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "separatorthickness": 0,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "CopyflxAsset0ae9300a1724340": "CopyflxAsset0ae9300a1724340",
+        "CopyflxAsset0d200e12ad02e4f": "CopyflxAsset0d200e12ad02e4f",
+        "CopylblWrkOrderType0e2e04114360e42": "CopylblWrkOrderType0e2e04114360e42",
+        "FlexGroup0bef352e485fc40": "FlexGroup0bef352e485fc40",
+        "flx": "flx",
+        "flxAsset": "flxAsset",
+        "flxEditImg": "flxEditImg",
+        "flxReview": "flxReview",
+        "flxReviewMain": "flxReviewMain",
+        "imgEdit": "imgEdit",
+        "lblAdditionalMAterialValue": "lblAdditionalMAterialValue",
+        "lblAdditionalMaterial": "lblAdditionalMaterial",
+        "lblAsset": "lblAsset",
+        "lblAssetValue": "lblAssetValue",
+        "lblPreperationSurvey": "lblPreperationSurvey",
+        "lblTypeOfWorkorder": "lblTypeOfWorkorder",
+        "lblWorkOrderDetrails": "lblWorkOrderDetrails",
+        "lblWrkOrderType": "lblWrkOrderType"
+    },
+    "zindex": 1
+}

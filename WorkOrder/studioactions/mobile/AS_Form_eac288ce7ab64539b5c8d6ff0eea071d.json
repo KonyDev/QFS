@@ -1,0 +1,27 @@
+{
+    "AS_Form_eac288ce7ab64539b5c8d6ff0eea071d": {
+        "id": "AS_Form_eac288ce7ab64539b5c8d6ff0eea071d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMaintananceSummary",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f6976b8aad024468aca0a2b875fec08f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___ac7d148818b748dabb6270eb51a5347b",
+            "type": "INVOKE_FUNCTION",
+            "display": "<>",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

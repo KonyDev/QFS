@@ -1,0 +1,31 @@
+{
+    "AS_Button_fe64cf76f0b842e5bc11392c438e77d2": {
+        "id": "AS_Button_fe64cf76f0b842e5bc11392c438e77d2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMaintananceSummary",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f6976b8aad024468aca0a2b875fec08f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___b1c97d363f954f7b9833f99202f441a7",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmInspectionsList",
+            "formKUID": "c7d88b8328a849c7bf9461d8436805ca",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n    \"_meta_\": {\n        \"eventName\": \"\",\n        \"widgetId\": \"\"\n    }\n}",
+            "isCustomInput": false
+        }]
+    }
+}

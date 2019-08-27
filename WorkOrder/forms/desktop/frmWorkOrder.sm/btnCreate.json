@@ -1,0 +1,59 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "85%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s3dfe5ed989c40228a404d4e5bf0d270",
+    "_text_": "Create",
+    "_width_": {
+        "type": "string",
+        "value": "15%"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "desktopweb": {
+        "psp": {
+            "hoverSkin": "s029e30d1f774d32a56139f57b62222b"
+        }
+    },
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "s029e30d1f774d32a56139f57b62222b",
+    "id": "btnCreate",
+    "ide_onClick": "AS_Button_b8c4a5f61fa3434b898f8c7a0d240287",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "db446b0580e24bdf859cebdd85281bc0",
+    "name": "kony.ui.Button",
+    "parent": "flexButtons",
+    "pf": "frmWorkOrder",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

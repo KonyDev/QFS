@@ -1,0 +1,31 @@
+{
+    "AS_Button_i726d889c6ad4272baf630fcf52ded49": {
+        "id": "AS_Button_i726d889c6ad4272baf630fcf52ded49",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMaintananceSummary",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f6976b8aad024468aca0a2b875fec08f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___b6b9deb69dae47eeb5a9f3fba53141b1",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmCheckIn",
+            "formKUID": "ge18d252b5e74dd99e54d193f6dc7638",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n    \"_meta_\": {\n        \"eventName\": \"onClick\",\n        \"widgetId\": \"btnNavigateToLocation\"\n    }\n}",
+            "isCustomInput": false
+        }]
+    }
+}

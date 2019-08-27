@@ -1,0 +1,27 @@
+{
+    "AS_Button_fdf1ecf541704094b892eebf9f0e103e": {
+        "id": "AS_Button_fdf1ecf541704094b892eebf9f0e103e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmWorkOrderDetails",
+            "type": "forms",
+            "platform": "",
+            "KUID": "abf22dfd535a4106b59c67c3ae5f6665"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_c686f8f9a5c74a8786764366830c67ec",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "showReview",
+            "display": "showReview",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

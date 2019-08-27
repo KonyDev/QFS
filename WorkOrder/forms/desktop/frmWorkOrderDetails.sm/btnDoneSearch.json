@@ -1,0 +1,79 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_skin_": "s3dfe5ed989c40228a404d4e5bf0d270",
+    "_text_": "Done",
+    "_top_": {
+        "type": "string",
+        "value": "19dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "40%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "number",
+        "value": ""
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "desktopweb": {
+        "psp": {
+            "hoverSkin": "s3dfe5ed989c40228a404d4e5bf0d270"
+        }
+    },
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "s3dfe5ed989c40228a404d4e5bf0d270",
+    "id": "btnDoneSearch",
+    "ide_onClick": "AS_Button_be0e57ca8ce84eb9b80317398a449c7f",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "da7b9a61b3ba408ba50fdaf30d30c447",
+    "name": "kony.ui.Button",
+    "parent": "flxButtons",
+    "pf": "frmWorkOrderDetails",
+    "responsiveData": {
+        "b1": {
+            "centerX": {
+                "type": "string",
+                "value": "75%"
+            },
+            "height": {
+                "type": "string",
+                "value": "45dp"
+            },
+            "right": {
+                "type": "string",
+                "value": ""
+            }
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

@@ -1,0 +1,93 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizSlider",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "4%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_max_": 80,
+    "_min_": 10,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_step_": 1,
+    "_thickness_": 3,
+    "_top_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "92%"
+    },
+    "android": {
+        "thumbImage": "adjester.png"
+    },
+    "androidwearos": {
+        "thumbImage": "slider_android.png"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "desktopweb": {
+        "psp": {
+            "orientation": "horizontal",
+            "viewType": "default"
+        }
+    },
+    "id": "sliderFilter",
+    "imgwt": 68,
+    "info": null,
+    "ipad": {
+        "psp": {
+            "enableThumbTintColor": true,
+            "thumbTintColor": "ffffff00"
+        },
+        "thumbImage": "slider_ios7.png"
+    },
+    "iphone": {
+        "psp": {
+            "enableThumbTintColor": false
+        },
+        "thumbImage": "adjester.png"
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "f5a6b4dc2e40466f98a2a5330baa822a",
+    "leftskin": "s21267e3cf7048f48da7148e5e66471a",
+    "name": "kony.ui.Slider",
+    "noofsteps": 70,
+    "osPlatform": "iphone",
+    "osVersion": "iOS7",
+    "parent": "filterSlider",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "rightskin": "s2b99e4352e34c8ab636dee3700dcaa4",
+    "selectedvalue": 50,
+    "stepwidth": 14.2,
+    "tabrcandroid": {
+        "thumbImage": "slider_android.png"
+    },
+    "thumbimage": "adjester.png",
+    "wType": "Slider",
+    "widgetalignment": 5,
+    "zindex": 1
+}

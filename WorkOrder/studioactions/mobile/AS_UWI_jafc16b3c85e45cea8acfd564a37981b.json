@@ -1,0 +1,31 @@
+{
+    "AS_UWI_jafc16b3c85e45cea8acfd564a37981b": {
+        "id": "AS_UWI_jafc16b3c85e45cea8acfd564a37981b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSafetyCheckList",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b91244bebd044a4f8fe5a1ff0c7e97f1"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___c02a0eeb3e2649d0a8ddb707a82e32c8",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onClickToggleWorkStandard",
+            "display": "onClickToggleWorkStandard",
+            "inputparams": [{
+                "name": "ind",
+                "value": "0"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

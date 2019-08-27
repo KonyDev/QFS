@@ -1,0 +1,29 @@
+{
+    "AS_Image_bb86b23840a841259d30df8a76abd385": {
+        "id": "AS_Image_bb86b23840a841259d30df8a76abd385",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmDocuments",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b61bafc1e42640f2acdad2228f78a039"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onTouchEnd_h4efbb44a14f476a91a127aca6a1b58b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.resetInspectionSearch();",
+            "callbackType": null
+        }]
+    }
+}

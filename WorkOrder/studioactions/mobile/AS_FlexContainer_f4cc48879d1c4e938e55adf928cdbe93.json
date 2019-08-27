@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_f4cc48879d1c4e938e55adf928cdbe93": {
+        "id": "AS_FlexContainer_f4cc48879d1c4e938e55adf928cdbe93",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMaintananceSummary",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f6976b8aad024468aca0a2b875fec08f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__da444667292d41fb9fe84f4d178efa56",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.imgCheckBox2.src=\"check_box_active.png\";",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

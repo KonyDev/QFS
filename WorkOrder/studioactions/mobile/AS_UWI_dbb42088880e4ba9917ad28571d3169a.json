@@ -1,0 +1,31 @@
+{
+    "AS_UWI_dbb42088880e4ba9917ad28571d3169a": {
+        "id": "AS_UWI_dbb42088880e4ba9917ad28571d3169a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteTaskS1",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d4c9c2745ce34c518878820f0dcd0a21"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___h2d09c71822846b7a4bd58070cf18225",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onClickToggleButton",
+            "display": "onClickToggleButton",
+            "inputparams": [{
+                "name": "ind",
+                "value": "1"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

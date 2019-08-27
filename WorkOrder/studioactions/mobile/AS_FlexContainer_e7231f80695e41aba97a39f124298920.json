@@ -1,0 +1,18 @@
+{
+    "AS_FlexContainer_e7231f80695e41aba97a39f124298920": {
+        "id": "AS_FlexContainer_e7231f80695e41aba97a39f124298920",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteTaskS2",
+            "type": "forms",
+            "platform": "",
+            "KUID": "dcc84bfcc7714aa082da30d9d0ac1908"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

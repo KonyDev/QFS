@@ -1,0 +1,120 @@
+{
+    "classname": "filldetails",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ebfcb9da1e9341f3907b187cc9790bff",
+                    "originalPropertyKey": "onTextChange",
+                    "propertyIndex": 1,
+                    "propertyKey": "onTextChange",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onTextChange",
+                        "srcWidget": "tbxValue",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "ffd247e7174948e99185f29b4ce07f27"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ada94bf4d8ff470fb6d992bc700f41c6",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "textQuestion",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textQuestion",
+                        "srcWidget": "lblQ3",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "d133077d578f47a7a53f76ee7e52ce1a"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "if63f83cb8584ab380dc5d0ee6ed64e0",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "textAnswer",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textAnswer",
+                        "srcWidget": "tbxValue",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "ffd247e7174948e99185f29b4ce07f27"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "af2b75e561ab44b6a0c91fd8e1146f94",
+                    "originalPropertyKey": "placeholder",
+                    "propertyIndex": 3,
+                    "propertyKey": "placeholder",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "placeholder",
+                        "srcWidget": "tbxValue",
+                        "supportedPlatforms": {
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spa"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spa"
+                            ]
+                        },
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "ffd247e7174948e99185f29b4ce07f27"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.workorder",
+    "version": "1.0.0"
+}

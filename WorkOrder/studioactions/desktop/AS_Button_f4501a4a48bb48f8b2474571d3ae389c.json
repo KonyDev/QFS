@@ -1,0 +1,18 @@
+{
+    "AS_Button_f4501a4a48bb48f8b2474571d3ae389c": {
+        "id": "AS_Button_f4501a4a48bb48f8b2474571d3ae389c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmWorkOrder",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f0a99fbc23204287abd117949d8b3440"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

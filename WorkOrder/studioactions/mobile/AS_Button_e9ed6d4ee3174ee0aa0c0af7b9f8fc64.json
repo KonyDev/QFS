@@ -1,0 +1,37 @@
+{
+    "AS_Button_e9ed6d4ee3174ee0aa0c0af7b9f8fc64": {
+        "id": "AS_Button_e9ed6d4ee3174ee0aa0c0af7b9f8fc64",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmFilter",
+            "type": "forms",
+            "platform": "",
+            "KUID": "bff5417874b742a6ba61f03d016c7762"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f083599733204bfa8224b6550a867f20",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "filterTable = [];",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "INVOKE_FUNCTION___gd9c1486bc2948ee990885d26a31dd69",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "navForm",
+            "display": "navForm",
+            "inputparams": [{
+                "name": "frmName",
+                "value": "\"frmFilter\""
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

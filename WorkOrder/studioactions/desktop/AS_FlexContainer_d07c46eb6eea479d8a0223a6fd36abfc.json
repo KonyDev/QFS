@@ -1,0 +1,31 @@
+{
+    "AS_FlexContainer_d07c46eb6eea479d8a0223a6fd36abfc": {
+        "id": "AS_FlexContainer_d07c46eb6eea479d8a0223a6fd36abfc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmWorkOrder",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f0a99fbc23204287abd117949d8b3440"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___ab64197a4f314324afd54a6a084ed072",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmLogin",
+            "formKUID": "b4fd683f44b246a8b7483891f54d0098",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n    \"_meta_\": {\n        \"eventName\": \"onClick\",\n        \"widgetId\": \"flxLogout\"\n    }\n}",
+            "isCustomInput": false
+        }]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "AS_FlexContainer_aba682353bb147e997fdba4ec0eed78d": {
+        "id": "AS_FlexContainer_aba682353bb147e997fdba4ec0eed78d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCheckIn",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ge18d252b5e74dd99e54d193f6dc7638"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___bad5344111c2469c891f3bc6a10167ce",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "navToForm",
+            "display": "navToForm",
+            "inputparams": [{
+                "name": "frmName",
+                "value": "\"frmCompleteTaskS1\""
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

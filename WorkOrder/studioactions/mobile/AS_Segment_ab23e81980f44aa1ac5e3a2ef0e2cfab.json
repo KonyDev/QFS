@@ -1,0 +1,34 @@
+{
+    "AS_Segment_ab23e81980f44aa1ac5e3a2ef0e2cfab": {
+        "id": "AS_Segment_ab23e81980f44aa1ac5e3a2ef0e2cfab",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmMaintananceSummary",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f6976b8aad024468aca0a2b875fec08f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___g48940124b814397a2288413844764aa",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "show_taskDetails",
+            "display": "show_taskDetails",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

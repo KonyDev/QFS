@@ -1,0 +1,28 @@
+{
+    "AS_FlexContainer_a0cb3a7f5d15469692ac87c7d98763a5": {
+        "id": "AS_FlexContainer_a0cb3a7f5d15469692ac87c7d98763a5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSafetyCheckList",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b91244bebd044a4f8fe5a1ff0c7e97f1"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___b95c11f36ee74697b4a13e06cc612735",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "openHam",
+            "display": "openHam",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

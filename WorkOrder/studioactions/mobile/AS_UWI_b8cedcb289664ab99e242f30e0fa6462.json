@@ -1,0 +1,28 @@
+{
+    "AS_UWI_b8cedcb289664ab99e242f30e0fa6462": {
+        "id": "AS_UWI_b8cedcb289664ab99e242f30e0fa6462",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTaskReAssign",
+            "type": "forms",
+            "platform": "",
+            "KUID": "dff7ef72b538474e88520e234dbca0d1"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___ib428711dde34349b9de821347a6faeb",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "navBack",
+            "display": "navBack",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

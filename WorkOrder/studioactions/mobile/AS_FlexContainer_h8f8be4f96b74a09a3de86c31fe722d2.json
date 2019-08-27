@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_h8f8be4f96b74a09a3de86c31fe722d2": {
+        "id": "AS_FlexContainer_h8f8be4f96b74a09a3de86c31fe722d2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmWorkOrderComplete",
+            "type": "forms",
+            "platform": null,
+            "KUID": "fd033b8746914c56a1e2b217d1085a42"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_e4ca301fce8b47488081cc15044446a8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.navigateToForm(\"frmDashboard\");",
+            "callbackType": null
+        }]
+    }
+}

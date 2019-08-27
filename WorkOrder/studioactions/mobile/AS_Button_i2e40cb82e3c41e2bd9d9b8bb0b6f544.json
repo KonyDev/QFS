@@ -1,0 +1,28 @@
+{
+    "AS_Button_i2e40cb82e3c41e2bd9d9b8bb0b6f544": {
+        "id": "AS_Button_i2e40cb82e3c41e2bd9d9b8bb0b6f544",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteTaskS1",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d4c9c2745ce34c518878820f0dcd0a21"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___ac45f8c47b534981a20fb827967423bd",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "completeS1",
+            "display": "completeS1",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

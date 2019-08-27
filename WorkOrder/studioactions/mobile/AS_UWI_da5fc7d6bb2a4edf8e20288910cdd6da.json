@@ -1,0 +1,31 @@
+{
+    "AS_UWI_da5fc7d6bb2a4edf8e20288910cdd6da": {
+        "id": "AS_UWI_da5fc7d6bb2a4edf8e20288910cdd6da",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCheckIn",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ge18d252b5e74dd99e54d193f6dc7638"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___b83299e062bf4c52a0f8ae5ed5039d30",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "navToForm",
+            "display": "navToForm",
+            "inputparams": [{
+                "name": "frmName",
+                "value": "\"frmMaintananceSummary\""
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

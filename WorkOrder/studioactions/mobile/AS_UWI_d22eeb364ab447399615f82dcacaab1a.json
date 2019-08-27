@@ -1,0 +1,30 @@
+{
+    "AS_UWI_d22eeb364ab447399615f82dcacaab1a": {
+        "id": "AS_UWI_d22eeb364ab447399615f82dcacaab1a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSafetyCheckList",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b91244bebd044a4f8fe5a1ff0c7e97f1"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___c4b55f3ffca043628cae0ef5dde946fe",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onClickToggleTaskDifficulty",
+            "display": "onClickToggleTaskDifficulty",
+            "inputparams": [{
+                "name": "ind",
+                "value": "1"
+            }],
+            "parentId": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

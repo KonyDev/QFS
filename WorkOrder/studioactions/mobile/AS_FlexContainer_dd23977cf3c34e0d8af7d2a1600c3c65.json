@@ -1,0 +1,28 @@
+{
+    "AS_FlexContainer_dd23977cf3c34e0d8af7d2a1600c3c65": {
+        "id": "AS_FlexContainer_dd23977cf3c34e0d8af7d2a1600c3c65",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmWorkOrderComplete",
+            "type": "forms",
+            "platform": "",
+            "KUID": "fd033b8746914c56a1e2b217d1085a42"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___j371e3bd9f814165bfd6ba1c72d776a6",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "openHam",
+            "display": "openHam",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

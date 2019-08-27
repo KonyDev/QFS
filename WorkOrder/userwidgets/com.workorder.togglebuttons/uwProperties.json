@@ -1,0 +1,154 @@
+{
+    "classname": "togglebuttons",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "eab226848a044d76859c04033ec928e8",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "onClickNo",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onClickNo",
+                        "srcWidget": "btnNo",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "fdeb32d0bb174cacb28c0f4879a1d87d"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e7ff0cec833746309a1e2502ea718baf",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 2,
+                    "propertyKey": "onClickYes",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onClickYes",
+                        "srcWidget": "btnYes",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "cf33420cc4b4404cb9c4673dd03deaa2"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "bad24e88b3b0494085be6db5a157cc7d",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "textQuestion",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textQuestion",
+                        "srcWidget": "lblQ1",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "a18f4eea1f104bb0bba214161777a91b"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ef47a2b41830463f963904b2a45be049",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 2,
+                    "propertyKey": "skinNo",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "skinNo",
+                        "srcWidget": "btnNo",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "fdeb32d0bb174cacb28c0f4879a1d87d"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f438520d869e4ee39ec46b0c54b96bda",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 3,
+                    "propertyKey": "skinYes",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "skinYes",
+                        "srcWidget": "btnYes",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "cf33420cc4b4404cb9c4673dd03deaa2"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f893f26942664a458c70bcedd71bbaf1",
+                    "originalPropertyKey": "focusSkin",
+                    "propertyIndex": 4,
+                    "propertyKey": "skinNoFocus",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "skinNoFocus",
+                        "srcWidget": "btnNo",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "fdeb32d0bb174cacb28c0f4879a1d87d"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "g5ce968c80f944a89bc9e2ee16b6c67d",
+                    "originalPropertyKey": "focusSkin",
+                    "propertyIndex": 5,
+                    "propertyKey": "skinYesFocus",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "skinYesFocus",
+                        "srcWidget": "btnYes",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "cf33420cc4b4404cb9c4673dd03deaa2"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.workorder",
+    "version": "1.0.0"
+}

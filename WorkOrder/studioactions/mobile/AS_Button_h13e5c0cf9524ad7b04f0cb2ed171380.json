@@ -1,0 +1,31 @@
+{
+    "AS_Button_h13e5c0cf9524ad7b04f0cb2ed171380": {
+        "id": "AS_Button_h13e5c0cf9524ad7b04f0cb2ed171380",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteTaskS2",
+            "type": "forms",
+            "platform": "",
+            "KUID": "dcc84bfcc7714aa082da30d9d0ac1908"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___b2f8447ed12e4a92b95474afcac7c9c9",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmCompleteTaskS3",
+            "formKUID": "ca403ed2deca40d68e0e8905583d38cb",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n    \"_meta_\": {\n        \"eventName\": \"onClick\",\n        \"widgetId\": \"btnCompleteTask\"\n    }\n}",
+            "isCustomInput": false
+        }]
+    }
+}

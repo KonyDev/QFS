@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_j4f4603b34334b5894a31a408d769be7": {
+        "id": "AS_FlexContainer_j4f4603b34334b5894a31a408d769be7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDocuments",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b61bafc1e42640f2acdad2228f78a039"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_e084d10fb73a479ea6d0c97bbc9894ea",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.hideFilterContainer();",
+            "callbackType": null
+        }]
+    }
+}

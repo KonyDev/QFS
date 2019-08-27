@@ -1,0 +1,176 @@
+{
+    "classname": "textboxComponent",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ed434d9befb14146afe9178c812d50b1",
+                    "originalPropertyKey": "onTextChange",
+                    "propertyIndex": 1,
+                    "propertyKey": "onTextChange",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onTextChange",
+                        "srcWidget": "tbxTextbox",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "d257b4674ee142ebb5d41d63e473df82"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e454a56fa85c4f698c3d824919ad701e",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "textTextbox",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textTextbox",
+                        "srcWidget": "tbxTextbox",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "d257b4674ee142ebb5d41d63e473df82"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "addae08ce5814bf0a84af85f1cd40b3a",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 3,
+                    "propertyKey": "textLabel",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textLabel",
+                        "srcWidget": "lblTag",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "g9f77ce2c5a1497c9031bec6e99c21ac"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a4a0e783fc704c0bbc304d79fec784d1",
+                    "originalPropertyKey": "top",
+                    "propertyIndex": 5,
+                    "propertyKey": "topLabel",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "defaultValue": {
+                            "type": "string",
+                            "value": ""
+                        },
+                        "dependentKeysKUIDs": null,
+                        "displayName": "topLabel",
+                        "forkablePlatforms": {
+                            "desktop": [
+                                "desktopweb",
+                                "kiosk"
+                            ],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spaip",
+                                "spaan",
+                                "spawinphone8",
+                                "spabb"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
+                            ]
+                        },
+                        "srcWidget": "lblTag",
+                        "type": "object",
+                        "uiConfig": {
+                            "Combobox": {
+                                "masterData": [
+                                    [
+                                        "Dp",
+                                        "dp"
+                                    ],
+                                    [
+                                        "Px",
+                                        "px"
+                                    ],
+                                    [
+                                        "%",
+                                        "%"
+                                    ],
+                                    [
+                                        "Default",
+                                        "Default"
+                                    ]
+                                ]
+                            },
+                            "Label": {},
+                            "Textbox": {}
+                        },
+                        "uiRepresentation": "Label-Textbox-Combobox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "g9f77ce2c5a1497c9031bec6e99c21ac"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a4a79293a52a4a56915fea4b1ae3144c",
+                    "originalPropertyKey": "secureTextEntry",
+                    "propertyIndex": 6,
+                    "propertyKey": "secureTextEntry",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "secureTextEntry",
+                        "srcWidget": "tbxTextbox",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "d257b4674ee142ebb5d41d63e473df82"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.dfx",
+    "version": "1.0.0"
+}

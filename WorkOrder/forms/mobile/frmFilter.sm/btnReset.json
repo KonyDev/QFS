@@ -1,0 +1,55 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        3,
+        0,
+        3,
+        0
+    ],
+    "_skin_": "sbb073ac9017414b9a82964d735c225a",
+    "_text_": "Reset",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sbb073ac9017414b9a82964d735c225a",
+    "id": "btnReset",
+    "ide_onClick": "AS_Button_e9ed6d4ee3174ee0aa0c0af7b9f8fc64",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "da84071ed969445aa77ae6c4df03e340",
+    "masterType": 1,
+    "name": "kony.ui.Button",
+    "paddinginpixel": false,
+    "parent": "flexHeader",
+    "pf": "frmFilter",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

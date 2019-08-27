@@ -1,0 +1,99 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Please Select",
+    "_skin_": "se0f642c6bae470cb884ba4b076e707e",
+    "_top_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "desktopweb": {
+        "psp": {
+            "hoverSkin": "sddc7ee724e840dbb4cf5848c3ceaf91"
+        }
+    },
+    "disabledSkins": {},
+    "focusskin": "sddc7ee724e840dbb4cf5848c3ceaf91",
+    "groupcells": false,
+    "hoverskin": "",
+    "id": "lbxAssetType",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ha6a6f2689af4edb988d68c26ab1265d",
+    "masterdata": [
+        [
+            "lb1",
+            "ASSET BVA321AW"
+        ],
+        [
+            "lb2",
+            "Placeholder Two"
+        ],
+        [
+            "lb3",
+            "Placeholder Three"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "paddinginpixel": false,
+    "parent": "flxAsseType",
+    "pf": "frmWorkOrderDetails",
+    "responsiveData": {
+        "b1": {
+            "desktopweb": {
+                "psp": {
+                    "hoverSkin": "se0f642c6bae470cb884ba4b076e707e"
+                }
+            },
+            "focusSkin": "se0f642c6bae470cb884ba4b076e707e",
+            "height": {
+                "type": "string",
+                "value": "50dp"
+            },
+            "skin": "se0f642c6bae470cb884ba4b076e707e"
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkeys": null,
+    "selectedkeyvalue": null,
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox",
+    "zindex": 1
+}

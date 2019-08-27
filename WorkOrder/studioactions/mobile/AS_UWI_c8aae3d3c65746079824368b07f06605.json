@@ -1,0 +1,34 @@
+{
+    "AS_UWI_c8aae3d3c65746079824368b07f06605": {
+        "id": "AS_UWI_c8aae3d3c65746079824368b07f06605",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "frmCompleteTaskS3",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ca403ed2deca40d68e0e8905583d38cb"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___ccefa88363174cedbf3ea573c3395be2",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "ontextChange",
+            "display": "ontextChange",
+            "inputparams": [{
+                "name": "ind",
+                "value": "2"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

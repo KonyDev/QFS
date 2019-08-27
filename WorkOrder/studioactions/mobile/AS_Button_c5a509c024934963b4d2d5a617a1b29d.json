@@ -1,0 +1,21 @@
+{
+    "AS_Button_c5a509c024934963b4d2d5a617a1b29d": {
+        "id": "AS_Button_c5a509c024934963b4d2d5a617a1b29d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_e0bc00dfeaaf42e89b471a2998bc44c8",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "startGPS",
+            "display": "startGPS",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

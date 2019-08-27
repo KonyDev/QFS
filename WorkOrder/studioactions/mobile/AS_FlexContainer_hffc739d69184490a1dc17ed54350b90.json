@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_hffc739d69184490a1dc17ed54350b90": {
+        "id": "AS_FlexContainer_hffc739d69184490a1dc17ed54350b90",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDocuments",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b61bafc1e42640f2acdad2228f78a039"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_d03847f3793048cfb49519f1eb9462d8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this._onClickProfile();\nthis.changeFocusSkin(\"flxMyAccount\");",
+            "callbackType": null
+        }]
+    }
+}

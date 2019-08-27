@@ -1,0 +1,28 @@
+{
+    "AS_Button_ab278fba1cb04d56a2bee283770c13ed": {
+        "id": "AS_Button_ab278fba1cb04d56a2bee283770c13ed",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTaskReAssign",
+            "type": "forms",
+            "platform": "",
+            "KUID": "dff7ef72b538474e88520e234dbca0d1"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___d7922544b6fe4ea2a262ab25063d6f52",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onSubmit",
+            "display": "onSubmit",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

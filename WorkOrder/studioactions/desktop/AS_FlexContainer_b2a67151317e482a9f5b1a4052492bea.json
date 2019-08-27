@@ -1,0 +1,33 @@
+{
+    "AS_FlexContainer_b2a67151317e482a9f5b1a4052492bea": {
+        "id": "AS_FlexContainer_b2a67151317e482a9f5b1a4052492bea",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "frmWorkOrder",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f0a99fbc23204287abd117949d8b3440"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___ff0cf1712e314f96b2e38027b0991184",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "selectWorkOrderType",
+            "display": "selectWorkOrderType",
+            "inputparams": [{
+                "name": "ind",
+                "value": "3"
+            }],
+            "parentId": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

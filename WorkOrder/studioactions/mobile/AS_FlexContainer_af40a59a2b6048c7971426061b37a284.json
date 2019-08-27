@@ -1,0 +1,31 @@
+{
+    "AS_FlexContainer_af40a59a2b6048c7971426061b37a284": {
+        "id": "AS_FlexContainer_af40a59a2b6048c7971426061b37a284",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteTaskS3",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ca403ed2deca40d68e0e8905583d38cb"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___f19f4515dc2246bab808da0cc77976e7",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "navForm",
+            "display": "navForm",
+            "inputparams": [{
+                "name": "frmName",
+                "value": "\"frmDocuments\""
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

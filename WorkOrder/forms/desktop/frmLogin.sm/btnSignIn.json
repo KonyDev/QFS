@@ -1,0 +1,65 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "45dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s5a69aa2789e4e189799504578ba3ee0",
+    "_text_": "Sign In",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "desktopweb": {
+        "blockedUISkin": "s0c69806f6be4e8b8fed38b3ab8cd5cc",
+        "psp": {
+            "hoverSkin": "s5a69aa2789e4e189799504578ba3ee0"
+        }
+    },
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "s5a69aa2789e4e189799504578ba3ee0",
+    "id": "btnSignIn",
+    "ide_onClick": "AS_Button_a64975da00904ae2b4a8feb4146d52ce",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "b4cbf3a2ebc145aab0f79b0f1733b00e",
+    "name": "kony.ui.Button",
+    "parent": "flxLogin",
+    "pf": "frmLogin",
+    "responsiveData": {
+        "b1": {},
+        "b2": {},
+        "b3": {}
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

@@ -1,0 +1,28 @@
+{
+    "AS_Button_a2ce83472b6241258a5bc8da5ced71da": {
+        "id": "AS_Button_a2ce83472b6241258a5bc8da5ced71da",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmWorkOrderDetails",
+            "type": "forms",
+            "platform": "",
+            "KUID": "abf22dfd535a4106b59c67c3ae5f6665"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___b2c9455f7a2341ce850e96f891f527d6",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "show_SurveyDetails",
+            "display": "show_SurveyDetails",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

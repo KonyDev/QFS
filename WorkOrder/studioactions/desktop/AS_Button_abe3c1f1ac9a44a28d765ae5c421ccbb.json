@@ -1,0 +1,35 @@
+{
+    "AS_Button_abe3c1f1ac9a44a28d765ae5c421ccbb": {
+        "id": "AS_Button_abe3c1f1ac9a44a28d765ae5c421ccbb",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmWorkOrder",
+            "type": "forms",
+            "platform": null,
+            "KUID": "f0a99fbc23204287abd117949d8b3440"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a4424409aed24cdcac3763b843462af9",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.segWorkOrder.setVisibility(false);\nthis.view.segAssetDetails.setVisibility(true);",
+            "parentId": null,
+            "callbackType": null,
+            "disabled": true
+        }, {
+            "id": "INVOKE_FUNCTION___hf8f3d8e58bf4f8b8d15fccb596d95c0",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "btnAssets_onClick",
+            "display": "btnAssets_onClick",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

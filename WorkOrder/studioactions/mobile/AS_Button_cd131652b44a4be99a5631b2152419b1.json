@@ -1,0 +1,21 @@
+{
+    "AS_Button_cd131652b44a4be99a5631b2152419b1": {
+        "id": "AS_Button_cd131652b44a4be99a5631b2152419b1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_ddb849635672468eac35895819f30281",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "showCalander",
+            "display": "showCalander",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

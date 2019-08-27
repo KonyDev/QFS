@@ -1,0 +1,63 @@
+{
+    "classname": "loadingScreen",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "c8b7390764a24f428f161aad2ca22830",
+                    "paramList": [
+                        {
+                            "name": "message"
+                        },
+                        {
+                            "name": "type"
+                        }
+                    ],
+                    "propertyKey": "show",
+                    "pw": {
+                        "displayName": "show",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "i81f9bfcd41540378a00069abab440dd",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "f0a96b823f284973833b99dd61dbca1c",
+                    "paramList": [],
+                    "propertyKey": "hide",
+                    "pw": {
+                        "displayName": "hide",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "i81f9bfcd41540378a00069abab440dd",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konysa",
+    "version": "1.0.0"
+}

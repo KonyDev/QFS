@@ -1,0 +1,70 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_skin_": "s2004f1ddbd74c1fb07da6cb98ac241b",
+    "_text_": "Assign all ",
+    "_top_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "desktopweb": {
+        "psp": {
+            "hoverSkin": "s2004f1ddbd74c1fb07da6cb98ac241b"
+        }
+    },
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "s2004f1ddbd74c1fb07da6cb98ac241b",
+    "hoverskin": "",
+    "id": "CopybtnAssignAll0eb6f9a80564748",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c78b9ff0d0a848c2bb630979b2e4b9d8",
+    "name": "kony.ui.Button",
+    "parent": "flxAssignUser2",
+    "pf": "frmWorkOrderDetails",
+    "responsiveData": {
+        "b1": {
+            "contentAlignment": 6,
+            "desktopweb": {
+                "psp": {
+                    "hoverSkin": "s2004f1ddbd74c1fb07da6cb98ac241b"
+                }
+            },
+            "focusSkin": "s2004f1ddbd74c1fb07da6cb98ac241b"
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

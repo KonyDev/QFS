@@ -1,0 +1,28 @@
+{
+    "AS_Button_b7bd2b4f4e0a4563bae8c7739d9a7c64": {
+        "id": "AS_Button_b7bd2b4f4e0a4563bae8c7739d9a7c64",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmWorkOrder",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f0a99fbc23204287abd117949d8b3440"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___d1f7988e302d4bbca826fdf5fee719c2",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "cancelPopup",
+            "display": "cancelPopup",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

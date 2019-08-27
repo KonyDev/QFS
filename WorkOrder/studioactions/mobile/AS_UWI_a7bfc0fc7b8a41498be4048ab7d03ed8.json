@@ -1,0 +1,28 @@
+{
+    "AS_UWI_a7bfc0fc7b8a41498be4048ab7d03ed8": {
+        "id": "AS_UWI_a7bfc0fc7b8a41498be4048ab7d03ed8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmWorkOrderComplete",
+            "type": "forms",
+            "platform": "",
+            "KUID": "fd033b8746914c56a1e2b217d1085a42"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___fac39d9db4534826906c9302d1077cfd",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "closeHam",
+            "display": "closeHam",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

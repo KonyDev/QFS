@@ -1,0 +1,57 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "60%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_skin_": "s7c37d29df2c4d2a99b0d8fd835cd4b5",
+    "_text_": "Survey",
+    "_top_": {
+        "type": "string",
+        "value": "20%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "33%"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s7c37d29df2c4d2a99b0d8fd835cd4b5",
+    "id": "btnSurvey",
+    "ide_onClick": "AS_Button_cfd68cd7fa17433baf952e1dc1316c08",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "j22dda77aed4403099c7137227487741",
+    "name": "kony.ui.Button",
+    "parent": "flxTabs",
+    "pf": "frmMaintananceSummary",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

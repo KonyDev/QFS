@@ -1,0 +1,28 @@
+{
+    "AS_Button_feca20507aeb43f9ae2062931c0b08fe": {
+        "id": "AS_Button_feca20507aeb43f9ae2062931c0b08fe",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteTaskS2",
+            "type": "forms",
+            "platform": "",
+            "KUID": "dcc84bfcc7714aa082da30d9d0ac1908"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___a91f1fddb5cf42d3a323d6cd8ce33e0b",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "frm_preshow",
+            "display": "frm_preshow",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

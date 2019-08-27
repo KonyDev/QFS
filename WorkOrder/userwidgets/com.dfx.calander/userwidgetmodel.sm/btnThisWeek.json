@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s2273c8f48174b049e2ccef29c269435",
+    "_text_": "This Week",
+    "_top_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "43%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s2273c8f48174b049e2ccef29c269435",
+    "id": "btnThisWeek",
+    "ide_onClick": "AS_Button_f76056c899a2451082ba31905fd2d8e0",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "cca8dc4523d947b9b85847d0b4f4d538",
+    "name": "kony.ui.Button",
+    "parent": "flexCalander",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

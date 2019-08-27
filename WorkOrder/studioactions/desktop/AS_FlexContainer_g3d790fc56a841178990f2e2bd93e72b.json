@@ -1,0 +1,28 @@
+{
+    "AS_FlexContainer_g3d790fc56a841178990f2e2bd93e72b": {
+        "id": "AS_FlexContainer_g3d790fc56a841178990f2e2bd93e72b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmWorkOrderDetails",
+            "type": "forms",
+            "platform": "",
+            "KUID": "abf22dfd535a4106b59c67c3ae5f6665"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___aafb5ad68bfc43d6a766d6efebd19e14",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "SurveyDetais_Completion_img_Toggle",
+            "display": "SurveyDetais_Completion_img_Toggle",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

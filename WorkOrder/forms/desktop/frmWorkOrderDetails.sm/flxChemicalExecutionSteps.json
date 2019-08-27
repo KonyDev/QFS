@@ -1,0 +1,75 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sd4ee38283574f49839ae7049a4b450c",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "children": [
+        "CopylblSepHeadVA0fc5a516297b54c",
+        "CopylblExecutionHeaderVA0d61cc3f1d7fe49",
+        "CopylblStepInfoVA0iefb6ebd80344f",
+        "CopylblNotMandatoryVA0a041cb38194943",
+        "CopyflxCheckListAsset0fa95721b16c049",
+        "CopylblSepCheckListVA0h88870cc60a84d",
+        "CopyflxAdditionalMaterialVA0gccbb576cae74b",
+        "CopylblSepAdditionalMaterial0aac021c1934041",
+        "CopyflxDurationVA0d6777510152f4f",
+        "CopylblSepDurationVA0bf724274ee7f47",
+        "CopyflxReferenceVA0j910dffd3c7440",
+        "CopylblSepAddDesc0f6bbb84c973d46",
+        "CopyflxAddDescVA0ifb6384ed68d47",
+        "CopylblSepDesc0b5d7e7285aa149",
+        "CopyflxRequirementVA0ed4b172f2d424e"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxChemicalExecutionSteps",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ae67c1928f0344d08b458a4e1dd019e5",
+    "layouttype": 4,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxChemical",
+    "pf": "frmWorkOrderDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

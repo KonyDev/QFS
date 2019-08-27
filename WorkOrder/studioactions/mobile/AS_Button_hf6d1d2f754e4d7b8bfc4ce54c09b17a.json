@@ -1,0 +1,28 @@
+{
+    "AS_Button_hf6d1d2f754e4d7b8bfc4ce54c09b17a": {
+        "id": "AS_Button_hf6d1d2f754e4d7b8bfc4ce54c09b17a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmFilter",
+            "type": "forms",
+            "platform": "",
+            "KUID": "bff5417874b742a6ba61f03d016c7762"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___ac4f10cfb9c74d319b360d56aa950f7d",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "dismissCalanderFilter",
+            "display": "dismissCalanderFilter",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

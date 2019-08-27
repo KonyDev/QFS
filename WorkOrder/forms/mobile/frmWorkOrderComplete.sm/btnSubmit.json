@@ -1,0 +1,58 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s423dfabd67e4bd19d41d8e0b00241f9",
+    "_text_": "Go to My Workorders",
+    "_top_": {
+        "type": "string",
+        "value": "160dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s423dfabd67e4bd19d41d8e0b00241f9",
+    "id": "btnSubmit",
+    "ide_onClick": "AS_Button_c85601c652484e4fa3b7a77625672e47",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "b187cc9b014e41bd80f3aaa1421d28b6",
+    "masterType": 1,
+    "name": "kony.ui.Button",
+    "parent": "flxContent",
+    "pf": "frmWorkOrderComplete",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

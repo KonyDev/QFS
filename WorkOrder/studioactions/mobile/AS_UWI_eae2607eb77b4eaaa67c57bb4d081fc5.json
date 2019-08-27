@@ -1,0 +1,27 @@
+{
+    "AS_UWI_eae2607eb77b4eaaa67c57bb4d081fc5": {
+        "id": "AS_UWI_eae2607eb77b4eaaa67c57bb4d081fc5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMaintananceSummary",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f6976b8aad024468aca0a2b875fec08f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___ce66b2c78b5d44bbba1d86fbf35fb1e9",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "show_survey",
+            "display": "show_survey",
+            "inputparams": [],
+            "parentId": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

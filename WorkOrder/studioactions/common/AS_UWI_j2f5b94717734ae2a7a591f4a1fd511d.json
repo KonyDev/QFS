@@ -1,0 +1,18 @@
+{
+    "AS_UWI_j2f5b94717734ae2a7a591f4a1fd511d": {
+        "id": "AS_UWI_j2f5b94717734ae2a7a591f4a1fd511d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "language": "js",
+        "actions": []
+    }
+}

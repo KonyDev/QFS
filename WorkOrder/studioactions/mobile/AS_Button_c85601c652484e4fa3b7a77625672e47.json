@@ -1,0 +1,31 @@
+{
+    "AS_Button_c85601c652484e4fa3b7a77625672e47": {
+        "id": "AS_Button_c85601c652484e4fa3b7a77625672e47",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmWorkOrderComplete",
+            "type": "forms",
+            "platform": "",
+            "KUID": "fd033b8746914c56a1e2b217d1085a42"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___b36442f5823843f3900bd381249dcad9",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmInspectionsList",
+            "formKUID": "c7d88b8328a849c7bf9461d8436805ca",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n    \"_meta_\": {\n        \"eventName\": \"onClick\",\n        \"widgetId\": \"btnSubmit\"\n    }\n}",
+            "isCustomInput": false
+        }]
+    }
+}

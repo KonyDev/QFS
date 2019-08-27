@@ -1,0 +1,54 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "4%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s22ab1edac364b549a97aa57c7c0b4ec",
+    "_text_": "Apply Filters",
+    "_width_": {
+        "type": "string",
+        "value": "92%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s22ab1edac364b549a97aa57c7c0b4ec",
+    "id": "btnApplyFilter",
+    "ide_onClick": "AS_Button_hfae729a2867412e826a6ef4735e21dc",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "h7361fa25fcd4c52a13043254772b1b0",
+    "masterType": 1,
+    "name": "kony.ui.Button",
+    "parent": "flexFilters",
+    "pf": "frmInspectionsList",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

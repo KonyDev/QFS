@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_a22843ed3d6a4d1baca65f6de3e761c5": {
+        "id": "AS_FlexContainer_a22843ed3d6a4d1baca65f6de3e761c5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCheckIn",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ge18d252b5e74dd99e54d193f6dc7638"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d3cd8ff82f3749aaab4daeb114e342e3",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "AS_Button_ge5a256c07a3487ba05d5ccc05b4eb65": {
+        "id": "AS_Button_ge5a256c07a3487ba05d5ccc05b4eb65",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMaintananceSummary",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f6976b8aad024468aca0a2b875fec08f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___h45b270b7beb4fcf9847f5fb180878a3",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "show_CancelOreder",
+            "display": "show_CancelOreder",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

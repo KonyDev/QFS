@@ -1,0 +1,22 @@
+{
+    "AS_Button_df5736d7ee1f4f82bd7e6a39ef77f049": {
+        "id": "AS_Button_df5736d7ee1f4f82bd7e6a39ef77f049",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___deb2c23070864e9fad28d1c0846cd55b",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "resetFilters",
+            "display": "resetFilters",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

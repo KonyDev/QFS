@@ -1,0 +1,69 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_skin_": "s008c1d2a5bd4755a6fee5e9cb1fc21e",
+    "_text_": "Done",
+    "_top_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "150dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "desktopweb": {
+        "psp": {}
+    },
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "sa3df660669e480d915008b5704c2424",
+    "hoverskin": "",
+    "id": "btnGoToCompletionDetails",
+    "ide_onClick": "AS_Button_ca6d482cbda5410e90b0c83568b40f17",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "fa18fe4b0c0f4edc84721433becf5ab8",
+    "name": "kony.ui.Button",
+    "parent": "flxSurvey",
+    "pf": "frmWorkOrderDetails",
+    "responsiveData": {
+        "b1": {
+            "desktopweb": {
+                "psp": {
+                    "hoverSkin": "s008c1d2a5bd4755a6fee5e9cb1fc21e"
+                }
+            },
+            "disabledSkins": {},
+            "focusSkin": "s008c1d2a5bd4755a6fee5e9cb1fc21e"
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

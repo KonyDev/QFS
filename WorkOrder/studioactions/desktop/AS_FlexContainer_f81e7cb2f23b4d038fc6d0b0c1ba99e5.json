@@ -1,0 +1,28 @@
+{
+    "AS_FlexContainer_f81e7cb2f23b4d038fc6d0b0c1ba99e5": {
+        "id": "AS_FlexContainer_f81e7cb2f23b4d038fc6d0b0c1ba99e5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmWorkOrderDetails",
+            "type": "forms",
+            "platform": "",
+            "KUID": "abf22dfd535a4106b59c67c3ae5f6665"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___gdaa022afc0441059c7539d27ea76fa7",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "addnewTask",
+            "display": "addnewTask",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

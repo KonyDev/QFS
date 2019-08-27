@@ -1,0 +1,93 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s47d4703ad124e149da813e8424ab67b",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "anchorPoint": {},
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "data": {
+        "arrayData": {
+            "data": [
+                {
+                    "list": "Inspection"
+                },
+                {
+                    "list": "Repair"
+                },
+                {
+                    "list": "Maintainance"
+                },
+                {
+                    "list": "Replacement"
+                }
+            ],
+            "schema": [
+                {
+                    "columnHeaderTemplate": null,
+                    "columnHeaderText": "list",
+                    "columnHeaderType": "text",
+                    "columnID": "list",
+                    "columnOnClick": null,
+                    "columnText": "Not Defined",
+                    "columnType": "text",
+                    "kuid": "g510888b15a946fc87b16d07128d261d"
+                }
+            ]
+        },
+        "text": "Workorder Type"
+    },
+    "enableCache": true,
+    "enablescrolling": true,
+    "id": "filterWorkorderType",
+    "info": null,
+    "iscustomlayout": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "b0b861c8cce848eba3df0d9a82b134b2",
+    "layouttype": 4,
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flexScrollFilter",
+    "pf": "frmInspectionsList",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "e359c84b8d41488881b730ca78d6c19d",
+    "wType": "UserWidgetInstance"
+}

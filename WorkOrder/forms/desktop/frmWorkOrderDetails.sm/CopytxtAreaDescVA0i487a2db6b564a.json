@@ -1,0 +1,79 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextArea2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "2%"
+    },
+    "_margin_": [
+        2,
+        2,
+        2,
+        2
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Add description to help performing the task...",
+    "_skin_": "s5e230673aec41db9e06ba4860136bd2",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "96%"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "closebuttontext": "",
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 1,
+    "desktopweb": {
+        "placeholderSkin": "s6002581e88e4c61b127db0bf8a42917",
+        "psp": {
+            "hoverSkin": "s5e230673aec41db9e06ba4860136bd2",
+            "placeholderSkin": "s5e230673aec41db9e06ba4860136bd2"
+        }
+    },
+    "disabledSkins": {},
+    "focusskin": "s5e230673aec41db9e06ba4860136bd2",
+    "id": "CopytxtAreaDescVA0i487a2db6b564a",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "keyboardstyle": "A",
+    "keyboardtype": "A",
+    "kuid": "c713e687aedb4602a2c85ab12f83cecb",
+    "mode": "A",
+    "name": "kony.ui.TextArea2",
+    "numberofvisiblelines": 3,
+    "paddinginpixel": false,
+    "parent": "CopyflxTxtAreaDescVA0gde1bf47c05847",
+    "pf": "frmWorkOrderDetails",
+    "placeholderskin": "s5e230673aec41db9e06ba4860136bd2",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "securetextentry": false,
+    "showoprogressindicator": false,
+    "showprogressindicator": false,
+    "textinputmode": "A",
+    "tooltip": "",
+    "viewtype": "default",
+    "wType": "TextArea",
+    "zindex": 1
+}

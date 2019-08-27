@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_c3b2d988f126422a88fdb0e5a8c89679": {
+        "id": "AS_FlexContainer_c3b2d988f126422a88fdb0e5a8c89679",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "KUID": "c7d88b8328a849c7bf9461d8436805ca",
+            "name": "frmInspectionsList",
+            "platform": "",
+            "type": "forms"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e8c0a73d4bb24f40afff37e801f316fd",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.hideMenu();\nthis.changeFocusSkin(\"flxSearchInspection\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

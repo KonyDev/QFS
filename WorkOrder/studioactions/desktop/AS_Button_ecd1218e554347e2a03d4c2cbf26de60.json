@@ -1,0 +1,21 @@
+{
+    "AS_Button_ecd1218e554347e2a03d4c2cbf26de60": {
+        "id": "AS_Button_ecd1218e554347e2a03d4c2cbf26de60",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_fc92118600504f478ce930fd641680cc",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "createWo",
+            "display": "createWo",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

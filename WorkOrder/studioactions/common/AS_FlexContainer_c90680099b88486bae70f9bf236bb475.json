@@ -1,0 +1,30 @@
+{
+    "AS_FlexContainer_c90680099b88486bae70f9bf236bb475": {
+        "id": "AS_FlexContainer_c90680099b88486bae70f9bf236bb475",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwu89bca2e0b3e42268281702181367f6a",
+            "type": "userwidgets",
+            "KUID": "u89bca2e0b3e42268281702181367f6a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___df8eaf1ded864db4ad042a8126146782",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "navigateToForm",
+            "display": "navigateToForm",
+            "inputparams": [{
+                "name": "frmName",
+                "value": "\"frmProfile\""
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

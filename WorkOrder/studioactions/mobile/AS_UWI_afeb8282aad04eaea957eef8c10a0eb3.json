@@ -1,0 +1,28 @@
+{
+    "AS_UWI_afeb8282aad04eaea957eef8c10a0eb3": {
+        "id": "AS_UWI_afeb8282aad04eaea957eef8c10a0eb3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMaintananceSummary",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f6976b8aad024468aca0a2b875fec08f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___fba8a08f7e1f4b54a1412b4dbfe07eff",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "show_CancelOreder",
+            "display": "show_CancelOreder",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

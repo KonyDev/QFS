@@ -1,0 +1,28 @@
+{
+    "AS_Button_c1edf801ee6342cf8bcd130e47e2d564": {
+        "id": "AS_Button_c1edf801ee6342cf8bcd130e47e2d564",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCheckIn",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ge18d252b5e74dd99e54d193f6dc7638"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___h7ab45dd53354585a1c7f1673f09dfca",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "startGPS",
+            "display": "startGPS",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}
