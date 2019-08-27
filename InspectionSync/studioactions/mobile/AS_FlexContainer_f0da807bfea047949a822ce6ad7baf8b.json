@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_f0da807bfea047949a822ce6ad7baf8b": {
+        "id": "AS_FlexContainer_f0da807bfea047949a822ce6ad7baf8b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_g4b535cdb2194365921bfd47ec317388",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.enableTextBox(\"flxEmailEnabler\");",
+            "callbackType": null
+        }]
+    }
+}

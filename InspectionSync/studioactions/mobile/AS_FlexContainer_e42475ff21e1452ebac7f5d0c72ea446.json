@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_e42475ff21e1452ebac7f5d0c72ea446": {
+        "id": "AS_FlexContainer_e42475ff21e1452ebac7f5d0c72ea446",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_fc27c0961fa448128a2050cd72b574bd",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.changeFocusSkin(\"flxAddInspection\");\nthis._onClickAddBtn();",
+            "callbackType": null
+        }]
+    }
+}

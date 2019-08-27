@@ -1,0 +1,21 @@
+{
+    "AS_FlexContainer_b2689989942c426eb3258daeab4efc5d": {
+        "id": "AS_FlexContainer_b2689989942c426eb3258daeab4efc5d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_c88048e0b59e4fd1838fe5bdf8cc5cea",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "searchScreenAnimation",
+            "display": "searchScreenAnimation",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

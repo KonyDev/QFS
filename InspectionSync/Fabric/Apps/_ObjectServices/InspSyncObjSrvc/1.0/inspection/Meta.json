@@ -1,0 +1,87 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "update" : "updateMapping",
+    "create" : "createMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "UpdateTimeStampField" : {
+      "DateFormat" : "",
+      "Name" : "LastUpdatedTimestamp"
+    },
+    "SoftDeleteFlagField" : {
+      "ActiveValue" : "false",
+      "InactiveValue" : "true",
+      "Name" : "SoftDeleteFlag"
+    },
+    "backendMeta" : {
+      "backendObjectName" : "inspection",
+      "qualifiedName" : "inspectionsoffline.inspection",
+      "metadataformatterobject" : "{\"name\":\"inspection\",\"displayName\":\"inspection\",\"qualifiedName\":\"inspectionsoffline.inspection\",\"schemaName\":\"inspectionsoffline\",\"tableName\":\"inspection\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "inspection",
+      "qualifiedName" : "inspectionsoffline.inspection",
+      "metadataformatterobject" : "{\"name\":\"inspection\",\"displayName\":\"inspection\",\"qualifiedName\":\"inspectionsoffline.inspection\",\"schemaName\":\"inspectionsoffline\",\"tableName\":\"inspection\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "Status",
+    "targetField" : "Status",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "CreatedTimestamp",
+    "targetField" : "CreatedTimestamp",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "LastUpdatedTimestamp",
+    "targetField" : "LastUpdatedTimestamp",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Assigned_Timestamp",
+    "targetField" : "Assigned_Timestamp",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Submission_Timestamp",
+    "targetField" : "Submission_Timestamp",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Assigned_To",
+    "targetField" : "Assigned_To",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Asset_Id",
+    "targetField" : "Asset_Id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "InspectedBy",
+    "targetField" : "InspectedBy",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Inspection_Id",
+    "targetField" : "Inspection_Id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Signature",
+    "targetField" : "Signature",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Inspection_Images_Id",
+    "targetField" : "Inspection_Images_Id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "SoftDeleteFlag",
+    "targetField" : "SoftDeleteFlag",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "id",
+    "targetField" : "id",
+    "type" : "request_response"
+  } ]
+}

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:tx="http://www.springframework.org/schema/tx" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:util="http://www.springframework.org/schema/util" xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd
+  http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+  http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.2.xsd
+  http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd
+  http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd">
+	<context:component-scan
+		base-package="com.inspectionapp.controller, com.inspectionapp.dao, com.inspectionapp.model, com.inspectionapp.service" />
+	<!-- <context:property-placeholder location="classpath:db.properties" /> -->
+	<mvc:annotation-driven />
+
+	<bean id="dataSource"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
+		<property name="url" value="jdbc:mysql://ace-dev-rds.cd39ybdqxbpb.us-east-1.rds.amazonaws.com:3306/inspections" />
+		<property name="username" value="aceuser" />
+		<property name="password" value="ace4dsgh7sha" />
+		
+		<!-- <property name="driverClassName" value="com.mysql.jdbc.Driver" />
+		<property name="url" value="jdbc:mysql://localhost:3306/inspectiondb" />
+		<property name="username" value="root" />
+		<property name="password" value="root" />  -->
+	</bean>
+
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
+		<property name="dataSource" ref="dataSource" />
+		<property name="annotatedClasses">
+			<list>
+				<value>com.inspectionapp.model.Asset</value>
+				<value>com.inspectionapp.model.AssetLocation</value>
+				<value>com.inspectionapp.model.AssetType</value>
+				<value>com.inspectionapp.model.Inspection</value>
+				<value>com.inspectionapp.model.Measurement</value>
+				<value>com.inspectionapp.model.MeasurementRange</value>
+				<value>com.inspectionapp.model.MeasurementHistory</value>
+				<value>com.inspectionapp.model.Media</value>
+				<value>com.inspectionapp.model.GroupName</value>
+				<value>com.inspectionapp.model.MeasurementSet</value>
+				<value>com.inspectionapp.model.MeasurementImage</value>
+				<value>com.inspectionapp.model.InspectionMeasurement</value>
+				<value>com.inspectionapp.model.InspectionUser</value>
+			</list>
+		</property>
+		
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</prop>
+				<prop key="hibernate.show_sql">${hibernate.show_sql}</prop>
+				<prop key="hbm2ddl.auto">create</prop>
+			</props>
+		</property>
+	</bean>
+
+	<bean id="txManager"
+		class="org.springframework.orm.hibernate5.HibernateTransactionManager">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+
+	<tx:annotation-driven transaction-manager="txManager" />
+
+	<bean id="persistenceExceptionTranslationPostProcessor"
+		class="org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor" />
+
+	<bean id="assetDao" class="com.inspectionapp.dao.AssetDaoImp"></bean>
+	<bean id="assetService" class="com.inspectionapp.service.AssetServiceImp"></bean>
+
+	<bean id="assetLocationDao" class="com.inspectionapp.dao.AssetLocationDaoImp"></bean>
+	<bean id="assetLocationService" class="com.inspectionapp.service.AssetLocationServiceImp"></bean>
+
+	<bean id="assetTypeDao" class="com.inspectionapp.dao.AssetTypeDaoImp"></bean>
+	<bean id="assetTypeService" class="com.inspectionapp.service.AssetTypeServiceImp"></bean>
+
+	<bean id="inspectionDao" class="com.inspectionapp.dao.InspectionDaoImp"></bean>
+	<bean id="inspectionService" class="com.inspectionapp.service.InspectionServiceImp"></bean>
+	
+	<bean id="measurementDao" class="com.inspectionapp.dao.MeasurementDaoImp"></bean>
+	<bean id="measurementService" class="com.inspectionapp.service.MeasurementServiceImp"></bean>
+	
+	<bean id="measurementRangeDao" class="com.inspectionapp.dao.MeasurementRangeDaoImp"></bean>
+	<bean id="measurementRangeService" class="com.inspectionapp.service.MeasurementRangeServiceImp"></bean>
+	
+	<bean id="measurementHistoryDao" class="com.inspectionapp.dao.MeasurementHistoryDaoImp"></bean>
+	<bean id="measurementHistoryService" class="com.inspectionapp.service.MeasurementHistoryServiceImp"></bean>
+	
+	<bean id="groupNameDao" class="com.inspectionapp.dao.GroupNameDaoImp"></bean>
+	<bean id="groupNameService" class="com.inspectionapp.service.GroupNameServiceImp"></bean>
+		
+	<bean id="measurementSetDao" class="com.inspectionapp.dao.MeasurementSetDaoImp"></bean>
+	<bean id="measurementSetService" class="com.inspectionapp.service.MeasurementSetServiceImp"></bean>
+	
+	<bean id="measurementImageDao" class="com.inspectionapp.dao.MeasurementImageDaoImp"></bean>
+	<bean id="measurementImageService" class="com.inspectionapp.service.MeasurementImageServiceImp"></bean>
+	
+	<bean id="inspectionMeasurementDao" class="com.inspectionapp.dao.InspectionMeasurementDaoImp"></bean>
+	<bean id="inspectionMeasurementService" class="com.inspectionapp.service.InspectionMeasurementServiceImp"></bean>
+	
+	<bean id="inspectionUserDao" class="com.inspectionapp.dao.InspectionUserDaoImp"></bean>
+	<bean id="inspectionUserService" class="com.inspectionapp.service.InspectionUserServiceImp"></bean>
+
+</beans>

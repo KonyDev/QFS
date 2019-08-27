@@ -1,0 +1,48 @@
+{
+    "classname": "signaturepad",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "ib8ebfc7334042619a80c7fe42825faf",
+                    "paramList": [
+                        {
+                            "name": "sgnBase64"
+                        }
+                    ],
+                    "propertyKey": "getSignature",
+                    "pw": {
+                        "displayName": "getSignature",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b6246509996f405690a9b2dca3267328",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konysa",
+    "version": "1.0.0"
+}

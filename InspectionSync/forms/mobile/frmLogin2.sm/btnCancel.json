@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sa0916ce82b54d24b63685ceb01d2d26",
+    "_text_": "Cancel",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": null,
+    "id": "btnCancel",
+    "ide_onClick": "AS_Button_bc9fb7c111344c149c01baca356c950c",
+    "info": null,
+    "isvisible": true,
+    "kuid": "ceea2b763f3f4182be93ee0afae0a4ed",
+    "name": "kony.ui.Button",
+    "parent": "flxButtons",
+    "pf": "frmLogin2",
+    "wType": "Button",
+    "zindex": 10
+}

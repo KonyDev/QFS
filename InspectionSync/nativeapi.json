@@ -1,0 +1,255 @@
+{
+    "NativeFunctionAPI": {
+        "iOS": {
+            "11.0": {
+                "Kony_SDKCommons-iOS-11.0": {
+                    "title": "Kony_SDKCommons",
+                    "platform": "iOS",
+                    "os": "11.0",
+                    "url": "D:\\KonyInstallations\\KonyEnterprise8.2.0GA\\Kony_Visualizer_Enterprise\\configuration\\org.eclipse.osgi\\bundles\\501\\1\\.cp\\resources\\sdk\\nativeBindings\\Kony_SDKCommons-iOS-11.0.zip",
+                    "filepath": "D:\\Kony_Visualizer_Workspace\\viz8.4.0\\workspaceJM\\InspectionSync\\nativebindings\\iOS\\11.0\\Kony_SDKCommons-iOS-11.0.zip",
+                    "enable": true,
+                    "isDefault": true
+                },
+                "Kony_SyncV2-iOS-11.0": {
+                    "title": "Kony_SyncV2",
+                    "platform": "iOS",
+                    "os": "11.0",
+                    "url": "D:\\KonyInstallations\\KonyEnterprise8.2.0GA\\Kony_Visualizer_Enterprise\\configuration\\org.eclipse.osgi\\bundles\\501\\1\\.cp\\resources\\sdk\\nativeBindings\\Kony_SyncV2-iOS-11.0.zip",
+                    "filepath": "D:\\Kony_Visualizer_Workspace\\viz8.4.0\\workspaceJM\\InspectionSync\\nativebindings\\iOS\\11.0\\Kony_SyncV2-iOS-11.0.zip",
+                    "enable": true,
+                    "isDefault": true
+                },
+                "Speech-iOS-11.0": {
+                    "title": "Speech",
+                    "platform": "iOS",
+                    "os": "11.0",
+                    "url": "/visualizer/nativeframeworks/ios/7.1/Speech-iOS-11.0.zip",
+                    "checksum": "77a22d2bb2ceb38b6baa77e1588b87e79119a372",
+                    "projectName": "InspectionOffline",
+                    "filepath": "D:\\kony\\InspectionApp_Offline_private\\InspectionOffline\\nativebindings\\iOS\\11.0\\Speech-iOS-11.0.zip",
+                    "enable": false,
+                    "isDefault": false
+                },
+                "UIKit-iOS-11.0": {
+                    "title": "UIKit",
+                    "platform": "iOS",
+                    "os": "11.0",
+                    "url": "/visualizer/nativeframeworks/ios/7.1/UIKit-iOS-11.0.zip",
+                    "checksum": "85de3dbf0fbce99977340b46ff270d338247fba1",
+                    "projectName": "InspectionOffline",
+                    "filepath": "D:\\kony\\InspectionApp_Offline_private\\InspectionOffline\\nativebindings\\iOS\\11.0\\UIKit-iOS-11.0.zip",
+                    "enable": false,
+                    "isDefault": false
+                },
+                "Kony_FileStorage-iOS-11.0": {
+                    "title": "Kony_FileStorage",
+                    "platform": "iOS",
+                    "os": "11.0",
+                    "isDefault": true,
+                    "url": "D:\\Kony_Visualizer_Installer\\viz8.4.0\\Kony_Visualizer_Enterprise\\configuration\\org.eclipse.osgi\\bundles\\486\\1\\.cp\\resources\\sdk\\nativeBindings\\Kony_FileStorage-iOS-11.0.zip",
+                    "filepath": "D:\\Kony_Visualizer_Workspace\\viz8.4.0\\workspaceJM\\InspectionSync\\nativebindings\\iOS\\11.0\\Kony_FileStorage-iOS-11.0.zip",
+                    "enable": true
+                }
+            },
+            "10.0": {
+                "Kony_SyncV2-iOS-10.0": {
+                    "title": "Kony_SyncV2",
+                    "platform": "iOS",
+                    "os": "10.0",
+                    "url": "D:\\InspectionApp\\.nativebindings\\iOS\\10.0\\Kony_SyncV2-iOS-10.0.zip",
+                    "filepath": "D:\\kony\\InspectionApp_Offline_private\\InspectionOffline\\nativebindings\\iOS\\10.0\\Kony_SyncV2-iOS-10.0.zip",
+                    "enable": false,
+                    "isDefault": true
+                }
+            },
+            "11.4": {
+                "Signature-iOS-11.4": {
+                    "title": "Signature",
+                    "platform": "iOS",
+                    "os": "11.4",
+                    "url": "D:\\InspectionApp\\.nativebindings\\iOS\\11.4\\Signature-iOS-11.4.zip",
+                    "filepath": "D:\\kony\\InspectionApp_Offline_private\\InspectionOffline\\nativebindings\\iOS\\11.4\\Signature-iOS-11.4.zip",
+                    "enable": false,
+                    "isDefault": false
+                }
+            },
+            "12.0": {
+                "Sig-iOS-12.0": {
+                    "title": "Sig",
+                    "platform": "iOS",
+                    "os": "12.0",
+                    "url": "C:\\\\Users\\\\KH1495\\\\Desktop\\\\Sig-iOS-12.0.zip",
+                    "filepath": "D:\\kony\\InspectionApp_Offline_private\\InspectionOffline\\nativebindings\\iOS\\12.0\\Sig-iOS-12.0.zip",
+                    "enable": true,
+                    "isDefault": false
+                },
+                "Foundation-iOS-12.0": {
+                    "title": "Foundation",
+                    "platform": "iOS",
+                    "os": "12.0",
+                    "url": "/visualizer/nativeframeworks/ios/8.0/Foundation-iOS-12.0.zip",
+                    "checksum": "8de3823297c6f2e07321ab1c34a473e6e1413b55",
+                    "projectName": "InspectionOffline",
+                    "filepath": "D:\\kony\\workspace\\inspection_offline\\InspectionOffline\\nativebindings\\iOS\\12.0\\Foundation-iOS-12.0.zip",
+                    "enable": true,
+                    "isDefault": false
+                },
+                "Speech-iOS-12.0": {
+                    "title": "Speech",
+                    "platform": "iOS",
+                    "os": "12.0",
+                    "url": "/visualizer/nativeframeworks/ios/8.0/Speech-iOS-12.0.zip",
+                    "checksum": "629e16af1a0384c450f4b94cde425f8cff508c71",
+                    "projectName": "InspectionOffline",
+                    "filepath": "D:\\kony\\workspace\\inspection_offline\\InspectionOffline\\nativebindings\\iOS\\12.0\\Speech-iOS-12.0.zip",
+                    "enable": true,
+                    "isDefault": false
+                },
+                "UIKit-iOS-12.0": {
+                    "title": "UIKit",
+                    "platform": "iOS",
+                    "os": "12.0",
+                    "url": "/visualizer/nativeframeworks/ios/8.0/UIKit-iOS-12.0.zip",
+                    "checksum": "cfa3c17e7a5d174a4bf7a455fe14958a1b269006",
+                    "projectName": "InspectionOffline",
+                    "filepath": "D:\\kony\\workspace\\inspection_offline\\InspectionOffline\\nativebindings\\iOS\\12.0\\UIKit-iOS-12.0.zip",
+                    "enable": true,
+                    "isDefault": false
+                },
+                "AVFoundation-iOS-12.0": {
+                    "title": "AVFoundation",
+                    "platform": "iOS",
+                    "os": "12.0",
+                    "url": "/visualizer/nativeframeworks/ios/8.0/AVFoundation-iOS-12.0.zip",
+                    "checksum": "91153e1aa75760b2eb9d6bc7d2e5651e9e374137",
+                    "projectName": "InspectionOffline",
+                    "filepath": "D:\\kony\\workspace\\inspection_offline\\InspectionOffline\\nativebindings\\iOS\\12.0\\AVFoundation-iOS-12.0.zip",
+                    "enable": true,
+                    "isDefault": false
+                }
+            }
+        },
+        "Android": {
+            "4.0": {
+                "Kony_SDKCommons-Android-4.0": {
+                    "title": "Kony_SDKCommons",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "url": "D:\\KonyInstallations\\KonyEnterprise8.2.0GA\\Kony_Visualizer_Enterprise\\configuration\\org.eclipse.osgi\\bundles\\501\\1\\.cp\\resources\\sdk\\nativeBindings\\Kony_SDKCommons-Android-4.0.zip",
+                    "filepath": "D:\\Kony_Visualizer_Workspace\\viz8.4.0\\workspaceJM\\InspectionSync\\nativebindings\\Android\\4.0\\Kony_SDKCommons-Android-4.0.zip",
+                    "enable": true,
+                    "isDefault": true
+                },
+                "Kony_SyncV2-Android-4.0": {
+                    "title": "Kony_SyncV2",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "url": "D:\\KonyInstallations\\KonyEnterprise8.2.0GA\\Kony_Visualizer_Enterprise\\configuration\\org.eclipse.osgi\\bundles\\501\\1\\.cp\\resources\\sdk\\nativeBindings\\Kony_SyncV2-Android-4.0.zip",
+                    "filepath": "D:\\Kony_Visualizer_Workspace\\viz8.4.0\\workspaceJM\\InspectionSync\\nativebindings\\Android\\4.0\\Kony_SyncV2-Android-4.0.zip",
+                    "enable": true,
+                    "isDefault": true
+                },
+                "SignatureCapture-Android-4.0": {
+                    "title": "SignatureCapture",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "url": "D:\\InspectionApp\\.nativebindings\\Android\\4.0\\SignatureCapture-Android-4.0.zip",
+                    "filepath": "D:\\kony\\Inspection_branch\\InspectionOffline\\nativebindings\\Android\\4.0\\SignatureCapture-Android-4.0.zip",
+                    "enable": true,
+                    "isDefault": false
+                },
+                "android.speech-Android-4.0": {
+                    "title": "android.speech",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "url": "D:\\InspectionApp\\.nativebindings\\Android\\4.0\\android.speech-Android-4.0.zip",
+                    "filepath": "D:\\kony\\Inspection_branch\\InspectionOffline\\nativebindings\\Android\\4.0\\android.speech-Android-4.0.zip",
+                    "enable": true,
+                    "isDefault": false
+                },
+                "android.support.v4.content-Android-4.0": {
+                    "title": "android.support.v4.content",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "url": "D:\\InspectionApp\\.nativebindings\\Android\\4.0\\android.support.v4.content-Android-4.0.zip",
+                    "filepath": "D:\\kony\\Inspection_branch\\InspectionOffline\\nativebindings\\Android\\4.0\\android.support.v4.content-Android-4.0.zip",
+                    "enable": true,
+                    "isDefault": false
+                },
+                "android.speech.tts-Android-4.0": {
+                    "title": "android.speech.tts",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "url": "D:\\InspectionApp\\.nativebindings\\Android\\4.0\\android.speech.tts-Android-4.0.zip",
+                    "filepath": "D:\\kony\\Inspection_branch\\InspectionOffline\\nativebindings\\Android\\4.0\\android.speech.tts-Android-4.0.zip",
+                    "enable": true,
+                    "isDefault": false
+                },
+                "android.preference-Android-4.0": {
+                    "title": "android.preference",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "url": "D:\\InspectionApp\\.nativebindings\\Android\\4.0\\android.preference-Android-4.0.zip",
+                    "filepath": "D:\\kony\\Inspection_branch\\InspectionOffline\\nativebindings\\Android\\4.0\\android.preference-Android-4.0.zip",
+                    "enable": true,
+                    "isDefault": false
+                },
+                "android.support.v4.app-Android-4.0": {
+                    "title": "android.support.v4.app",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "url": "D:\\InspectionApp\\.nativebindings\\Android\\4.0\\android.support.v4.app-Android-4.0.zip",
+                    "filepath": "D:\\kony\\Inspection_branch\\InspectionOffline\\nativebindings\\Android\\4.0\\android.support.v4.app-Android-4.0.zip",
+                    "enable": true,
+                    "isDefault": false
+                },
+                "android.webkit-Android-4.0": {
+                    "title": "android.webkit",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "url": "D:\\InspectionApp\\.nativebindings\\Android\\4.0\\android.webkit-Android-4.0.zip",
+                    "filepath": "D:\\kony\\Inspection_branch\\InspectionOffline\\nativebindings\\Android\\4.0\\android.webkit-Android-4.0.zip",
+                    "enable": true,
+                    "isDefault": false
+                },
+                "android.content.pm-Android-4.0": {
+                    "title": "android.content.pm",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "url": "D:\\InspectionApp\\.nativebindings\\Android\\4.0\\android.content.pm-Android-4.0.zip",
+                    "filepath": "D:\\kony\\Inspection_branch\\InspectionOffline\\nativebindings\\Android\\4.0\\android.content.pm-Android-4.0.zip",
+                    "enable": true,
+                    "isDefault": false
+                },
+                "java.util-Android-4.0": {
+                    "title": "java.util",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "url": "D:\\InspectionApp\\.nativebindings\\Android\\4.0\\java.util-Android-4.0.zip",
+                    "filepath": "D:\\kony\\Inspection_branch\\InspectionOffline\\nativebindings\\Android\\4.0\\java.util-Android-4.0.zip",
+                    "enable": true,
+                    "isDefault": false
+                },
+                "android.content-Android-4.0": {
+                    "title": "android.content",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "url": "D:\\InspectionApp\\.nativebindings\\Android\\4.0\\android.content-Android-4.0.zip",
+                    "filepath": "D:\\kony\\Inspection_branch\\InspectionOffline\\nativebindings\\Android\\4.0\\android.content-Android-4.0.zip",
+                    "enable": true,
+                    "isDefault": false
+                },
+                "Kony_FileStorage-Android-4.0": {
+                    "title": "Kony_FileStorage",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "isDefault": true,
+                    "url": "D:\\Kony_Visualizer_Installer\\viz8.4.0\\Kony_Visualizer_Enterprise\\configuration\\org.eclipse.osgi\\bundles\\486\\1\\.cp\\resources\\sdk\\nativeBindings\\Kony_FileStorage-Android-4.0.zip",
+                    "filepath": "D:\\Kony_Visualizer_Workspace\\viz8.4.0\\workspaceJM\\InspectionSync\\nativebindings\\Android\\4.0\\Kony_FileStorage-Android-4.0.zip",
+                    "enable": true
+                }
+            }
+        }
+    }
+}

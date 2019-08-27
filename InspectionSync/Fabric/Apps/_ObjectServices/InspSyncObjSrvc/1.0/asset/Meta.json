@@ -1,0 +1,95 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "create" : "createMapping",
+    "update" : "updateMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "UpdateTimeStampField" : {
+      "DateFormat" : "",
+      "Name" : "LastUpdatedTimestamp"
+    },
+    "SoftDeleteFlagField" : {
+      "ActiveValue" : "false",
+      "InactiveValue" : "true",
+      "Name" : "SoftDeleteFlag"
+    },
+    "backendMeta" : {
+      "backendObjectName" : "asset",
+      "qualifiedName" : "inspectionsoffline.asset",
+      "metadataformatterobject" : "{\"name\":\"asset\",\"displayName\":\"asset\",\"qualifiedName\":\"inspectionsoffline.asset\",\"schemaName\":\"inspectionsoffline\",\"tableName\":\"asset\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "asset",
+      "qualifiedName" : "inspectionsoffline.asset",
+      "metadataformatterobject" : "{\"name\":\"asset\",\"displayName\":\"asset\",\"qualifiedName\":\"inspectionsoffline.asset\",\"schemaName\":\"inspectionsoffline\",\"tableName\":\"asset\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "CreatedTimestamp",
+    "targetField" : "CreatedTimestamp",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "LastUpdatedTimestamp",
+    "targetField" : "LastUpdatedTimestamp",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Asset_Type_Id",
+    "targetField" : "Asset_Type_Id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Manufacture_Serial_Nbr",
+    "targetField" : "Manufacture_Serial_Nbr",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Asset_Description",
+    "targetField" : "Asset_Description",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Asset_Location_Id",
+    "targetField" : "Asset_Location_Id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Asset_Id",
+    "targetField" : "Asset_Id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Manufacture_Model_Nbr",
+    "targetField" : "Manufacture_Model_Nbr",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "image_base64",
+    "targetField" : "image_base64",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Reference_Doc",
+    "targetField" : "Reference_Doc",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Id",
+    "targetField" : "Id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "SoftDeleteFlag",
+    "targetField" : "SoftDeleteFlag",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Representer_Id",
+    "targetField" : "Representer_Id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Manufacture_Part_Nbr",
+    "targetField" : "Manufacture_Part_Nbr",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Asset_Img_URL",
+    "targetField" : "Asset_Img_URL",
+    "type" : "request_response"
+  } ]
+}

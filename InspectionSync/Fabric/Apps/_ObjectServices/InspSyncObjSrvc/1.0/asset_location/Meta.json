@@ -1,0 +1,87 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "create" : "createMapping",
+    "update" : "updateMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "UpdateTimeStampField" : {
+      "DateFormat" : "",
+      "Name" : "LastUpdatedTimestamp"
+    },
+    "SoftDeleteFlagField" : {
+      "ActiveValue" : "false",
+      "InactiveValue" : "true",
+      "Name" : "SoftDeleteFlag"
+    },
+    "backendMeta" : {
+      "backendObjectName" : "asset_location",
+      "qualifiedName" : "inspectionsoffline.asset_location",
+      "metadataformatterobject" : "{\"name\":\"asset_location\",\"displayName\":\"asset_location\",\"qualifiedName\":\"inspectionsoffline.asset_location\",\"schemaName\":\"inspectionsoffline\",\"tableName\":\"asset_location\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "asset_location",
+      "qualifiedName" : "inspectionsoffline.asset_location",
+      "metadataformatterobject" : "{\"name\":\"asset_location\",\"displayName\":\"asset_location\",\"qualifiedName\":\"inspectionsoffline.asset_location\",\"schemaName\":\"inspectionsoffline\",\"tableName\":\"asset_location\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "Description",
+    "targetField" : "Description",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "CreatedTimestamp",
+    "targetField" : "CreatedTimestamp",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "LastUpdatedTimestamp",
+    "targetField" : "LastUpdatedTimestamp",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Latitude",
+    "targetField" : "Latitude",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "City",
+    "targetField" : "City",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Longitude",
+    "targetField" : "Longitude",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Asset_Location_Id",
+    "targetField" : "Asset_Location_Id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Post_Code",
+    "targetField" : "Post_Code",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Street",
+    "targetField" : "Street",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Region",
+    "targetField" : "Region",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Country",
+    "targetField" : "Country",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Id",
+    "targetField" : "Id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "SoftDeleteFlag",
+    "targetField" : "SoftDeleteFlag",
+    "type" : "request_response"
+  } ]
+}

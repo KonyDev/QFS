@@ -1,0 +1,27 @@
+{
+    "AS_UWI_h3058dba816d491f9be16216b11eff1f": {
+        "id": "AS_UWI_h3058dba816d491f9be16216b11eff1f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "deviceLocation",
+            "datatype": "collection"
+        }, {
+            "name": "destinationLocation",
+            "datatype": "collection"
+        }],
+        "contextObj": {
+            "name": "frmInspectionExecution",
+            "type": "forms",
+            "platform": "",
+            "KUID": "be2c01e24ee846a58f7b082e3f7f1a99"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c15fdc45b9a94010a3eaa6bb512e7f89",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.outsideProximity(deviceLocation,destinationLocation);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

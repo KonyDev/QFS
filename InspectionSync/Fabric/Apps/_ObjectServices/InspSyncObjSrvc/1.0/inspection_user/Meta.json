@@ -1,0 +1,75 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "create" : "createMapping",
+    "update" : "updateMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "UpdateTimeStampField" : {
+      "DateFormat" : "",
+      "Name" : "LastUpdatedTimestamp"
+    },
+    "SoftDeleteFlagField" : {
+      "ActiveValue" : "false",
+      "InactiveValue" : "true",
+      "Name" : "SoftDeleteFlag"
+    },
+    "backendMeta" : {
+      "backendObjectName" : "inspection_user",
+      "qualifiedName" : "inspectionsoffline.inspection_user",
+      "metadataformatterobject" : "{\"name\":\"inspection_user\",\"displayName\":\"inspection_user\",\"qualifiedName\":\"inspectionsoffline.inspection_user\",\"schemaName\":\"inspectionsoffline\",\"tableName\":\"inspection_user\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "inspection_user",
+      "qualifiedName" : "inspectionsoffline.inspection_user",
+      "metadataformatterobject" : "{\"name\":\"inspection_user\",\"displayName\":\"inspection_user\",\"qualifiedName\":\"inspectionsoffline.inspection_user\",\"schemaName\":\"inspectionsoffline\",\"tableName\":\"inspection_user\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "Role",
+    "targetField" : "Role",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "CreatedTimestamp",
+    "targetField" : "CreatedTimestamp",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "FirstName",
+    "targetField" : "FirstName",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "LastUpdatedTimestamp",
+    "targetField" : "LastUpdatedTimestamp",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "LastName",
+    "targetField" : "LastName",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "id",
+    "targetField" : "id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "SoftDeleteFlag",
+    "targetField" : "SoftDeleteFlag",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "User_Id",
+    "targetField" : "User_Id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "email",
+    "targetField" : "email",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Password",
+    "targetField" : "Password",
+    "type" : "request_response"
+  } ]
+}

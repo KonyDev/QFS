@@ -1,0 +1,25 @@
+{
+    "AS_Button_a40ffd7e012743ae96d5406bd535b165": {
+        "id": "AS_Button_a40ffd7e012743ae96d5406bd535b165",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_da87a2067b744bf4ae445553685e8810",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmPdfViewer",
+            "formKUID": "iefc47c3d43345c9a5e7dddbc1d6a10d",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n\"_meta_\" : {\n\t\"eventName\" : \"\",\n\t\"widgetId\" : \"\"\n}\n}",
+            "isCustomInput": false
+        }]
+    }
+}

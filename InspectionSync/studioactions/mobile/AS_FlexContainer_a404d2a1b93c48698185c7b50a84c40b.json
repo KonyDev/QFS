@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_a404d2a1b93c48698185c7b50a84c40b": {
+        "id": "AS_FlexContainer_a404d2a1b93c48698185c7b50a84c40b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_eb6b243f44f4444bb93839aca1ccb45a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.invokeTouchID();",
+            "callbackType": null
+        }]
+    }
+}

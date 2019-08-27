@@ -1,0 +1,30 @@
+{
+    "AS_Label_b2a849d93cd74f79b8f767660f6c7f54": {
+        "id": "AS_Label_b2a849d93cd74f79b8f767660f6c7f54",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmInspectionExecution",
+            "type": "forms",
+            "platform": "",
+            "KUID": "be2c01e24ee846a58f7b082e3f7f1a99"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d139caa2ba7f469d8fe9f452a9d1d72e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.showAssetDetailContainer();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

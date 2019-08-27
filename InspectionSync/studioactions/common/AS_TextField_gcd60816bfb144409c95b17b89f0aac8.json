@@ -1,0 +1,26 @@
+{
+    "AS_TextField_gcd60816bfb144409c95b17b89f0aac8": {
+        "id": "AS_TextField_gcd60816bfb144409c95b17b89f0aac8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "uwu4adc5cc3f234fe39b0ca2a0c8608aa2",
+            "type": "userwidgets",
+            "KUID": "u4adc5cc3f234fe39b0ca2a0c8608aa2"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f0631d78bf834be2bbae45ee7b302806",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onTextInputDone(\"txtBoxPassword\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

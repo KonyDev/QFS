@@ -1,0 +1,59 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "create" : "createMapping",
+    "update" : "updateMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "UpdateTimeStampField" : {
+      "DateFormat" : "",
+      "Name" : "LastUpdatedTimestamp"
+    },
+    "SoftDeleteFlagField" : {
+      "ActiveValue" : "false",
+      "InactiveValue" : "true",
+      "Name" : "SoftDeleteFlag"
+    },
+    "backendMeta" : {
+      "backendObjectName" : "measurement_images",
+      "qualifiedName" : "inspectionsoffline.measurement_images",
+      "metadataformatterobject" : "{\"name\":\"measurement_images\",\"displayName\":\"measurement_images\",\"qualifiedName\":\"inspectionsoffline.measurement_images\",\"schemaName\":\"inspectionsoffline\",\"tableName\":\"measurement_images\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "measurement_images",
+      "qualifiedName" : "inspectionsoffline.measurement_images",
+      "metadataformatterobject" : "{\"name\":\"measurement_images\",\"displayName\":\"measurement_images\",\"qualifiedName\":\"inspectionsoffline.measurement_images\",\"schemaName\":\"inspectionsoffline\",\"tableName\":\"measurement_images\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "CreatedTimestamp",
+    "targetField" : "CreatedTimestamp",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Measurement_History_Id",
+    "targetField" : "Measurement_History_Id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "LastUpdatedTimestamp",
+    "targetField" : "LastUpdatedTimestamp",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Measurement_Image_Id",
+    "targetField" : "Measurement_Image_Id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "media_id",
+    "targetField" : "media_id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "SoftDeleteFlag",
+    "targetField" : "SoftDeleteFlag",
+    "type" : "request_response"
+  } ]
+}

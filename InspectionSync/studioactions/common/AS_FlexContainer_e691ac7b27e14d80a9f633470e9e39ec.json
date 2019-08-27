@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_e691ac7b27e14d80a9f633470e9e39ec": {
+        "id": "AS_FlexContainer_e691ac7b27e14d80a9f633470e9e39ec",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_gabb461ce3554a0795ed118cadfa49bb",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(this.view.lblPassword.top==\"23%\"){\n  this.view.flxLblPassword.isVisible=false;\n  this.invokeTouch(this.view.lblPassword,\"16%\");\n}\nthis.view.forceLayout();",
+            "callbackType": null
+        }]
+    }
+}

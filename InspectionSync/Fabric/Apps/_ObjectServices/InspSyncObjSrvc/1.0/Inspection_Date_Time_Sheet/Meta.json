@@ -1,0 +1,67 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "create" : "createMapping",
+    "update" : "updateMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "UpdateTimeStampField" : {
+      "DateFormat" : "",
+      "Name" : "LastUpdatedTimestamp"
+    },
+    "SoftDeleteFlagField" : {
+      "ActiveValue" : "false",
+      "InactiveValue" : "true",
+      "Name" : "SoftDeleteFlag"
+    },
+    "backendMeta" : {
+      "backendObjectName" : "Inspection_Date_Time_Sheet",
+      "qualifiedName" : "inspectionsoffline.Inspection_Date_Time_Sheet",
+      "metadataformatterobject" : "{\"name\":\"Inspection_Date_Time_Sheet\",\"displayName\":\"Inspection_Date_Time_Sheet\",\"qualifiedName\":\"inspectionsoffline.Inspection_Date_Time_Sheet\",\"schemaName\":\"inspectionsoffline\",\"tableName\":\"Inspection_Date_Time_Sheet\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "Inspection_Date_Time_Sheet",
+      "qualifiedName" : "inspectionsoffline.Inspection_Date_Time_Sheet",
+      "metadataformatterobject" : "{\"name\":\"Inspection_Date_Time_Sheet\",\"displayName\":\"Inspection_Date_Time_Sheet\",\"qualifiedName\":\"inspectionsoffline.Inspection_Date_Time_Sheet\",\"schemaName\":\"inspectionsoffline\",\"tableName\":\"Inspection_Date_Time_Sheet\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "ForcedCheckIn",
+    "targetField" : "ForcedCheckIn",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "CreatedTimestamp",
+    "targetField" : "CreatedTimestamp",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Checkin_Time",
+    "targetField" : "Checkin_Time",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Inspection_Id",
+    "targetField" : "Inspection_Id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Checkout_Time",
+    "targetField" : "Checkout_Time",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "LastUpdatedTimestamp",
+    "targetField" : "LastUpdatedTimestamp",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Id",
+    "targetField" : "Id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "SoftDeleteFlag",
+    "targetField" : "SoftDeleteFlag",
+    "type" : "request_response"
+  } ]
+}

@@ -1,0 +1,21 @@
+{
+    "AS_UWI_f91d5f8ca3054474b4369ee1d303f6fd": {
+        "id": "AS_UWI_f91d5f8ca3054474b4369ee1d303f6fd",
+        "type": "ACTION_SEQUENCE",
+        "params": [],
+        "contextObj": {
+            "name": "frmInspectionExecution",
+            "type": "forms",
+            "platform": "",
+            "KUID": "be2c01e24ee846a58f7b082e3f7f1a99"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__b298a57216a946029a009525543f5cad",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.proceedAnyways();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

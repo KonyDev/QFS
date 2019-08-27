@@ -1,0 +1,20 @@
+{
+  "subType" : "customapp",
+  "description" : "InspectionAppOffline",
+  "version" : "1.0",
+  "intSvcs" : [ {
+    "name" : "InspGMapIntgSrvc",
+    "version" : "1.0",
+    "etag" : "6ac6859c-4c5c-4cd5-803d-23f10af7a010"
+  }, {
+    "name" : "LoginSvc",
+    "version" : "1.0",
+    "etag" : "836e07c2-d56a-4129-8ce1-7be417320d2a"
+  } ],
+  "objectSvcs" : [ {
+    "name" : "InspSyncObjSrvc",
+    "version" : "1.0",
+    "etag" : "0b5648bf-b741-43d9-af53-df611a40cf58"
+  } ],
+  "identity" : [ "InspCustomLogin" ]
+}

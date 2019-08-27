@@ -1,0 +1,17 @@
+{
+    "AS_Button_e92d03c1485d4e3d8ddd6ef527c3bb3f": {
+        "id": "AS_Button_e92d03c1485d4e3d8ddd6ef527c3bb3f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_afa1b028d1654cbaa57ac0371bacab3d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.touchEnableAction();",
+            "callbackType": null
+        }]
+    }
+}

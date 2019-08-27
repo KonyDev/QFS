@@ -1,0 +1,24 @@
+{
+    "AS_Form_ed418a110ecc4b6189dee2d6e2c293fa": {
+        "id": "AS_Form_ed418a110ecc4b6189dee2d6e2c293fa",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMapNavigation",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e1eda6b5da1844b1a338e832d2bd905b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e2b6190a59fc453ca5a9d71ad2f5cf2f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "debugger;\ntry{\n  this.view.destroy();\n}catch(excp){\n  debugger;\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

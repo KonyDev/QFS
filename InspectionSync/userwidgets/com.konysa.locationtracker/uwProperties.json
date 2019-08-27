@@ -1,0 +1,266 @@
+{
+    "classname": "locationtracker",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "bad448585796476ba338b5d78541c32e",
+                    "paramList": [],
+                    "propertyKey": "clearWatch",
+                    "pw": {
+                        "displayName": "clearWatch",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b745a7193a244ff7a2a7faa91584aa8c",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "g052c273699f4ca7962eb85b43f856e4",
+                    "paramList": [],
+                    "propertyKey": "setDestinationLocation",
+                    "pw": {
+                        "displayName": "setDestinationLocation",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b745a7193a244ff7a2a7faa91584aa8c",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "bb674c9f123c443db1eb9c8b086389be",
+                    "paramList": [],
+                    "propertyKey": "startLocationMonitoring",
+                    "pw": {
+                        "displayName": "startLocationMonitoring",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b745a7193a244ff7a2a7faa91584aa8c",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "b3c539caa00f4e5fba765320dd032936",
+                    "paramList": [],
+                    "propertyKey": "stopMonitoring",
+                    "pw": {
+                        "displayName": "stopMonitoring",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b745a7193a244ff7a2a7faa91584aa8c",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "b2783fc245384a82b8f066c9195f3e41",
+                    "paramList": [],
+                    "propertyKey": "showNavigationMessage",
+                    "pw": {
+                        "displayName": "showNavigationMessage",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b745a7193a244ff7a2a7faa91584aa8c",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "b0fe71ff840f42469fc9274478632994",
+                    "paramList": [
+                        {
+                            "name": "deviceLocation"
+                        },
+                        {
+                            "name": "destinationLocation"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "inProximityCallback",
+                    "pw": {
+                        "displayName": "inProximityCallback",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b745a7193a244ff7a2a7faa91584aa8c",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "d808838db30a4c39b3c45d2db958baac",
+                    "paramList": [
+                        {
+                            "name": "deviceLocation"
+                        },
+                        {
+                            "name": "destinationLocation"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "outSideProximityCallback",
+                    "pw": {
+                        "displayName": "outSideProximityCallback",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b745a7193a244ff7a2a7faa91584aa8c",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "a57ea247125c495795a44263cb63644c",
+                    "paramList": [],
+                    "propertyIndex": 2,
+                    "propertyKey": "forcedCheckinCallback",
+                    "pw": {
+                        "displayName": "forcedCheckinCallback",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b745a7193a244ff7a2a7faa91584aa8c",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "jb350c1f8331428d94f3cb010a8dc968",
+                    "paramList": [],
+                    "propertyIndex": 3,
+                    "propertyKey": "onMapNavigate",
+                    "pw": {
+                        "displayName": "onMapNavigate",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b745a7193a244ff7a2a7faa91584aa8c",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": true,
+                    "group": "General",
+                    "kuid": "f71face9cb514eeda6f22cae9190fac3",
+                    "originalPropertyKey": "enableHighAccuracy",
+                    "propertyIndex": 1,
+                    "propertyKey": "enableHighAccuracy",
+                    "pw": {
+                        "displayName": "Enable High Accuracy",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "b745a7193a244ff7a2a7faa91584aa8c",
+                    "type": "boolean",
+                    "value": "true/false"
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": 15000,
+                    "group": "General",
+                    "kuid": "g0eeaa06ac034bb0849a1f5e06d3fd64",
+                    "originalPropertyKey": "timeOut",
+                    "propertyIndex": 2,
+                    "propertyKey": "timeOut",
+                    "pw": {
+                        "displayName": "Time out in ms",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "^(\\+|-)?\\d+$"
+                    },
+                    "srcWgtKUID": "b745a7193a244ff7a2a7faa91584aa8c",
+                    "type": "integer",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": 300000,
+                    "group": "General",
+                    "kuid": "f985e8239bd14083a2d463da722790d1",
+                    "originalPropertyKey": "maximumCachedAge",
+                    "propertyIndex": 3,
+                    "propertyKey": "maximumCachedAge",
+                    "pw": {
+                        "displayName": "Maximum Cached Age in ms",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "^(\\+|-)?\\d+$"
+                    },
+                    "srcWgtKUID": "b745a7193a244ff7a2a7faa91584aa8c",
+                    "type": "integer",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": 10,
+                    "group": "General",
+                    "kuid": "i12fc3430bb949b28e74d218249d6360",
+                    "originalPropertyKey": "minimumDistance",
+                    "propertyIndex": 4,
+                    "propertyKey": "minimumDistance",
+                    "pw": {
+                        "displayName": "Minimum Distance to track in meter",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "^(\\+|-)?\\d+$"
+                    },
+                    "srcWgtKUID": "b745a7193a244ff7a2a7faa91584aa8c",
+                    "type": "integer",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": 60000,
+                    "group": "General",
+                    "kuid": "e51d6108cc80413a9ec0cbf72ecc58c8",
+                    "originalPropertyKey": "minimumTime",
+                    "propertyIndex": 5,
+                    "propertyKey": "minimumTime",
+                    "pw": {
+                        "displayName": "Minimum TIme between location update in ms",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "^(\\+|-)?\\d+$"
+                    },
+                    "srcWgtKUID": "b745a7193a244ff7a2a7faa91584aa8c",
+                    "type": "integer",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": 10,
+                    "group": "General",
+                    "kuid": "f91211b8c34e452ba8f13f07229e3d62",
+                    "originalPropertyKey": "proximity",
+                    "propertyIndex": 6,
+                    "propertyKey": "proximity",
+                    "pw": {
+                        "displayName": "Proximity in miles",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "^(\\+|-)?\\d+$"
+                    },
+                    "srcWgtKUID": "b745a7193a244ff7a2a7faa91584aa8c",
+                    "type": "integer",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konysa",
+    "version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_d2b5c7c0e6034a4aa87d935e37d866ac": {
+        "id": "AS_FlexContainer_d2b5c7c0e6034a4aa87d935e37d866ac",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_e20edb6ec63a41d9b698de7a04050f1a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this._onClickProfile();\nthis.changeFocusSkin(\"flxMyAccount\");",
+            "callbackType": null
+        }]
+    }
+}

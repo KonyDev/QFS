@@ -1,0 +1,474 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        [
+            {
+                "imgAddInspection": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "plus_blue_1.png"
+                },
+                "imgFilter": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "filter_1.png"
+                },
+                "lblFilter": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "FILTER"
+                },
+                "lblInspections": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "My Inspections"
+                },
+                "lblNoOfTasks": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "0 Tasks"
+                }
+            },
+            [
+                {
+                    "imgAsset": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "transformer_1.png"
+                    },
+                    "imgLocation": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "map_1.png"
+                    },
+                    "imgMapIcon": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "map_icon.png"
+                    },
+                    "imgStatus": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "in_progress_1.png"
+                    },
+                    "imgStatusInspection": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "inprogress_icon.png"
+                    },
+                    "imgTime": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "clock_1.png"
+                    },
+                    "lblAddress": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "MLGW Electrical substation #55 , 3350 american way , Memphis city , 38118"
+                    },
+                    "lblAssetCode": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "TRANS"
+                    },
+                    "lblAssetId": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Asset6578"
+                    },
+                    "lblDistance": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "2.2 mi"
+                    },
+                    "lblDummey": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblInspectionId": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "inspection Id"
+                    },
+                    "lblInspectionStatus": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "In-progress"
+                    },
+                    "lblSep": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblSeparator": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblStatus": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblTime": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "9.40 Hrs"
+                    }
+                },
+                {
+                    "imgAsset": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "transformer_1.png"
+                    },
+                    "imgLocation": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "map_1.png"
+                    },
+                    "imgMapIcon": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "map_icon.png"
+                    },
+                    "imgStatus": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "in_progress_1.png"
+                    },
+                    "imgStatusInspection": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "inprogress_icon.png"
+                    },
+                    "imgTime": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "clock_1.png"
+                    },
+                    "lblAddress": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "MLGW Electrical substation #55 , 3350 american way , Memphis city , 38118"
+                    },
+                    "lblAssetCode": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "TRANS"
+                    },
+                    "lblAssetId": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Asset6578"
+                    },
+                    "lblDistance": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "2.2 mi"
+                    },
+                    "lblDummey": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblInspectionId": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "inspection Id"
+                    },
+                    "lblInspectionStatus": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "In-progress"
+                    },
+                    "lblSep": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblSeparator": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblStatus": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblTime": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "9.40 Hrs"
+                    }
+                }
+            ]
+        ],
+        [
+            {
+                "imgAddInspection": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "plus_blue_1.png"
+                },
+                "imgFilter": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "filter_1.png"
+                },
+                "lblFilter": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "FILTER"
+                },
+                "lblInspections": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "My Inspections"
+                },
+                "lblNoOfTasks": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "0 Tasks"
+                }
+            },
+            [
+                {
+                    "imgAsset": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "transformer_1.png"
+                    },
+                    "imgLocation": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "map_1.png"
+                    },
+                    "imgMapIcon": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "map_icon.png"
+                    },
+                    "imgStatus": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "in_progress_1.png"
+                    },
+                    "imgStatusInspection": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "inprogress_icon.png"
+                    },
+                    "imgTime": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "clock_1.png"
+                    },
+                    "lblAddress": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "MLGW Electrical substation #55 , 3350 american way , Memphis city , 38118"
+                    },
+                    "lblAssetCode": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "TRANS"
+                    },
+                    "lblAssetId": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Asset6578"
+                    },
+                    "lblDistance": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "2.2 mi"
+                    },
+                    "lblDummey": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblInspectionId": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "inspection Id"
+                    },
+                    "lblInspectionStatus": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "In-progress"
+                    },
+                    "lblSep": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblSeparator": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblStatus": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblTime": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "9.40 Hrs"
+                    }
+                },
+                {
+                    "imgAsset": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "transformer_1.png"
+                    },
+                    "imgLocation": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "map_1.png"
+                    },
+                    "imgMapIcon": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "map_icon.png"
+                    },
+                    "imgStatus": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "in_progress_1.png"
+                    },
+                    "imgStatusInspection": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "inprogress_icon.png"
+                    },
+                    "imgTime": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "clock_1.png"
+                    },
+                    "lblAddress": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "MLGW Electrical substation #55 , 3350 american way , Memphis city , 38118"
+                    },
+                    "lblAssetCode": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "TRANS"
+                    },
+                    "lblAssetId": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Asset6578"
+                    },
+                    "lblDistance": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "2.2 mi"
+                    },
+                    "lblDummey": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblInspectionId": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "inspection Id"
+                    },
+                    "lblInspectionStatus": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "In-progress"
+                    },
+                    "lblSep": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblSeparator": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblStatus": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblTime": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "9.40 Hrs"
+                    }
+                }
+            ]
+        ]
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_top_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "counter": "11",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": true,
+    "id": "SegInspectionDetails",
+    "ide_onRowClick": "AS_Segment_g594481a550445f59227ff2957944ddb",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "bounces": false,
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "g2bee7c31091400f8471eea175ff4a18",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "paddinginpixel": false,
+    "pageoffdotimage": "pageoffdot_1.png",
+    "pageondotimage": "pageondot_1.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxMainBody",
+    "pf": "frmInspectionsList",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": true,
+    "rowTemplateId": "h4b02257d7e44b9cab789059a04edcfb",
+    "rowcounter": 1,
+    "rowfocusskin": "s36421d0f8a142a6afd680e4883606fb",
+    "rowskin": "s36421d0f8a142a6afd680e4883606fb",
+    "rowtemplate": "flxInspection",
+    "screenlevelwidget": false,
+    "seccounter": 1,
+    "sectionHeaderTemplateId": "e40490ea5e5848c0ba7bcbd0c0315074",
+    "sectionheaderskin": "s8b6b829dc7142ea917a9fb114496a32",
+    "sectionheadertemplate": "flxSectionHeader",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "5c295c64",
+    "separatorrequired": true,
+    "separatorthickness": 10,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxAssetDetail": "flxAssetDetail",
+        "flxAssetImageContainer": "flxAssetImageContainer",
+        "flxFilter": "flxFilter",
+        "flxInspection": "flxInspection",
+        "flxInspectionDetail1": "flxInspectionDetail1",
+        "flxMain": "flxMain",
+        "flxSectionHeader": "flxSectionHeader",
+        "flxTaskAndFilter": "flxTaskAndFilter",
+        "flxTitle": "flxTitle",
+        "imgAddInspection": "imgAddInspection",
+        "imgAsset": "imgAsset",
+        "imgFilter": "imgFilter",
+        "imgLocation": "imgLocation",
+        "imgMapIcon": "imgMapIcon",
+        "imgStatus": "imgStatus",
+        "imgStatusInspection": "imgStatusInspection",
+        "imgTime": "imgTime",
+        "lblAddress": "lblAddress",
+        "lblAssetCode": "lblAssetCode",
+        "lblAssetId": "lblAssetId",
+        "lblDistance": "lblDistance",
+        "lblDummey": "lblDummey",
+        "lblFilter": "lblFilter",
+        "lblInspectionId": "lblInspectionId",
+        "lblInspectionStatus": "lblInspectionStatus",
+        "lblInspections": "lblInspections",
+        "lblNoOfTasks": "lblNoOfTasks",
+        "lblSep": "lblSep",
+        "lblSeparator": "lblSeparator",
+        "lblStatus": "lblStatus",
+        "lblTime": "lblTime"
+    },
+    "zindex": 1
+}

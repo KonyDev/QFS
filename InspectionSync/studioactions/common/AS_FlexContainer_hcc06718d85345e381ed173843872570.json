@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_hcc06718d85345e381ed173843872570": {
+        "id": "AS_FlexContainer_hcc06718d85345e381ed173843872570",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_cc0770453b5043dd8ccb00dc83158d66",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.store.setItem(\"konympLoginInputType\",\"social\");\nthis.invokeIdentityService(\"reusableOffice365Login\",true);\n",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "AS_Button_df85f6990ccb4eaa96ccee4cd61e316c": {
+        "id": "AS_Button_df85f6990ccb4eaa96ccee4cd61e316c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwu6e7b107896a403583e591808a4a719b",
+            "type": "userwidgets",
+            "KUID": "u6e7b107896a403583e591808a4a719b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e57e5aa5a42049ad900962394045d775",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var navObj = new kony.mvc.Navigation(\"frmPdfViewer\");\nnavObj.navigate();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

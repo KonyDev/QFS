@@ -1,0 +1,23 @@
+{
+    "AS_NativeContainer_g05d70ecdd1f4bfbb89c0271a6ef58b2": {
+        "id": "AS_NativeContainer_g05d70ecdd1f4bfbb89c0271a6ef58b2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwub1a374ff62f43b295463729e01258d8",
+            "type": "userwidgets",
+            "KUID": "ub1a374ff62f43b295463729e01258d8"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d38856b39d6d4dc7b3b068defc7fe2a2",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(kony.os.deviceInfo().name === \"android\"){\n\tthis.fetchAndDisplay(eventobject);\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

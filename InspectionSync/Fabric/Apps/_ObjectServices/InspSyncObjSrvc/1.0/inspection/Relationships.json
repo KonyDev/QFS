@@ -1,0 +1,37 @@
+[ {
+  "sourceObject" : "inspection",
+  "targetObject" : "Inspection_Date_Time_Sheet",
+  "relationshipKeys" : [ {
+    "sourceField" : "Inspection_Id",
+    "targetField" : "Inspection_Id",
+    "etag" : "664021ed-cf12-4238-8acb-6a65c84e7b25"
+  } ],
+  "name" : "inspection_Inspection_Date_Time_Sheet",
+  "type" : "OneToMany",
+  "custom" : false,
+  "cascadeDelete" : false
+}, {
+  "sourceObject" : "inspection",
+  "targetObject" : "inspection_measurement",
+  "relationshipKeys" : [ {
+    "sourceField" : "Inspection_Id",
+    "targetField" : "Inspection_Id",
+    "etag" : "04c572e3-3ff4-4f23-8e22-c4453d49b36a"
+  } ],
+  "name" : "inspection_inspection_measurement",
+  "type" : "OneToMany",
+  "custom" : false,
+  "cascadeDelete" : false
+}, {
+  "sourceObject" : "inspection",
+  "targetObject" : "measurement_hstry",
+  "relationshipKeys" : [ {
+    "sourceField" : "Inspection_Id",
+    "targetField" : "Inspection_Id",
+    "etag" : "841a5488-2b91-49f9-8b73-15a8a3a9c22a"
+  } ],
+  "name" : "inspection_measurement_hstry",
+  "type" : "OneToMany",
+  "custom" : false,
+  "cascadeDelete" : false
+} ]

@@ -1,0 +1,63 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "create" : "createMapping",
+    "update" : "updateMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "UpdateTimeStampField" : {
+      "DateFormat" : "",
+      "Name" : "LastUpdatedTimestamp"
+    },
+    "SoftDeleteFlagField" : {
+      "ActiveValue" : "false",
+      "InactiveValue" : "true",
+      "Name" : "SoftDeleteFlag"
+    },
+    "backendMeta" : {
+      "backendObjectName" : "Asset_Representer",
+      "qualifiedName" : "inspectionsoffline.Asset_Representer",
+      "metadataformatterobject" : "{\"name\":\"Asset_Representer\",\"displayName\":\"Asset_Representer\",\"qualifiedName\":\"inspectionsoffline.Asset_Representer\",\"schemaName\":\"inspectionsoffline\",\"tableName\":\"Asset_Representer\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "Asset_Representer",
+      "qualifiedName" : "inspectionsoffline.Asset_Representer",
+      "metadataformatterobject" : "{\"name\":\"Asset_Representer\",\"displayName\":\"Asset_Representer\",\"qualifiedName\":\"inspectionsoffline.Asset_Representer\",\"schemaName\":\"inspectionsoffline\",\"tableName\":\"Asset_Representer\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "CreatedTimestamp",
+    "targetField" : "CreatedTimestamp",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "LastUpdatedTimestamp",
+    "targetField" : "LastUpdatedTimestamp",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Contact_Number",
+    "targetField" : "Contact_Number",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Id",
+    "targetField" : "Id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "SoftDeleteFlag",
+    "targetField" : "SoftDeleteFlag",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Contact_Name",
+    "targetField" : "Contact_Name",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Media_Id",
+    "targetField" : "Media_Id",
+    "type" : "request_response"
+  } ]
+}

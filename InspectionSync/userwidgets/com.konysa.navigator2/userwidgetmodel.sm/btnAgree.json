@@ -1,0 +1,57 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "number",
+        "value": "42"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "2dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "2dp"
+    },
+    "_skin_": "s914313c9718436b9550a9aee002dc6b",
+    "_text_": "Agree",
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sfe4dc127d2841139f1496f0be518d05",
+    "id": "btnAgree",
+    "ide_onClick": "AS_Button_eeccb9b01cf044b28c9c4c9c0ae922c9",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "f26d4eaf6afd40b6b432e36318a8accc",
+    "name": "kony.ui.Button",
+    "parent": "flxAlertActionRoot",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

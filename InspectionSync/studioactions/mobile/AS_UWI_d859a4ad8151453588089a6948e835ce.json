@@ -1,0 +1,36 @@
+{
+    "AS_UWI_d859a4ad8151453588089a6948e835ce": {
+        "id": "AS_UWI_d859a4ad8151453588089a6948e835ce",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "response",
+            "datatype": "collection"
+        }, {
+            "name": "identityService",
+            "datatype": "collection"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "d9fa3f4cf283494188d38ab30506f3b1"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___ffa4bb25106b4b819d51b2f145072dd1",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "loginSuccess",
+            "display": "loginSuccess",
+            "inputparams": [{
+                "name": "identityService",
+                "value": " identityService"
+            }, {
+                "name": "response",
+                "value": " response"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

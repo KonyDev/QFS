@@ -1,0 +1,17 @@
+{
+    "AS_Button_e041471720264f548884e0c2f018ac55": {
+        "id": "AS_Button_e041471720264f548884e0c2f018ac55",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_bb422ff86ad14025b7d2a13d997facd4",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//this.invokeButtonClick();\nthis.doLogin();",
+            "callbackType": null
+        }]
+    }
+}

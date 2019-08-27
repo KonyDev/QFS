@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_a2d7907900d6470c831ca53223f75b1e": {
+        "id": "AS_FlexContainer_a2d7907900d6470c831ca53223f75b1e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMeasurementAssignment",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c04d962a77f445f6b4866a7d4b81071e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c95a569dee874f29996a874fe2dfa062",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this._onClickBack();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

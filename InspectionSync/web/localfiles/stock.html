@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My first Chartist Tests</title>
+    <link rel="stylesheet"
+          href="css/chartist.min.css">
+    <link rel="stylesheet"
+          href="css/kony_colours.css">
+    <style>
+
+      <style>
+
+    </style>
+
+  </head>
+  <body sytle="background: #FFFFFF" > 
+    <script src="js/chartist.min.js"></script>	
+
+    <div style="width:100%; margin-top: 25px;">
+      <div class="ct-chart ct-octave" width="100%" height="100%">
+
+      </div>
+
+
+    </div>
+    <script>
+
+
+
+
+      /**
+       * @function
+       *
+       */
+      function drawChart(onTime,late) {
+        //alert("hello");
+        //alert(legends);
+        var series=[];
+        var labels=[];
+        if(Array.isArray(onTime)){
+          series.push(onTime);
+        }else{
+          series.push([12, 14, 10, 11, 14, 12, 13]);
+        }
+        if(Array.isArray(late)){
+          series.push(late);
+        }else{
+          series.push([0, 2, 1, 0, 3, 0,0]);
+        }
+        /*if(Array.isArray(legends)){
+          labels=legends;
+        }else{
+          labels=['M', 'Tu', 'W', 'Th', 'F', 'Sa','Su'];
+        }*/
+        var chartParamObj={};
+        //chartParamObj["labels"]=['Sat', 'Sun', 'Mon', 'Tue', 'Wed', 'Thu','Fri'];
+        //chartParamObj["labels"]=['M', 'Tu', 'W', 'Th', 'F', 'Sa','Su'];
+        chartParamObj["labels"]=['Sa', 'Su', 'M', 'Tu', 'W', 'Th','F'];
+        chartParamObj["series"]=series;
+        chartParamObj["showLabel"]=true;
+        //alert(chartParamObj);
+        /*
+        {
+          //labels: ['M', 'Tu', 'W', 'Th', 'F', 'Sa','Su'],
+
+          labels: ['M', 'Tu', 'W', 'Th', 'F', 'Sa','Su'],
+          series:series,
+          showLabel :true
+        }
+        */
+        var chart = new Chartist.Bar('.ct-chart',chartParamObj ,{
+          stackBars: true,
+          axisY: {
+            showLabel: true
+          },
+          axisX: {
+            showGrid: false
+          }
+        }).on('draw', function(data) {
+          if(data.type === 'bar') {
+            data.element.attr({
+              style: 'stroke-width: 30px'
+            });
+            data.element.animate({
+              y2: {
+                dur: '1s',
+                from: data.y1,
+                to: data.y2
+              }
+            });
+            data.element._node.onclick = function() {
+              foo(data.value.y);
+            }
+          }
+        });
+
+
+
+      }
+
+      /**
+   * @function
+   *
+   * @param something 
+   */
+      function foo(something) {
+
+        console.log(something);
+        kony.evaluateJavaScriptInNativeContext("_showAlert",something);
+
+      }
+    </script>
+    <!-- button onclick="foo('onclick')">Click me</button -->
+  </body>
+</html>

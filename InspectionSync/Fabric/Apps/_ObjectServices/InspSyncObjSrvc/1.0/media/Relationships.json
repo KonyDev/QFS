@@ -1,0 +1,13 @@
+[ {
+  "sourceObject" : "media",
+  "targetObject" : "measurement_images",
+  "relationshipKeys" : [ {
+    "sourceField" : "media_id",
+    "targetField" : "media_id",
+    "etag" : "9b979bcf-7b95-41fd-a44c-7b8ed473676c"
+  } ],
+  "name" : "media_measurement_images",
+  "type" : "OneToMany",
+  "custom" : false,
+  "cascadeDelete" : false
+} ]

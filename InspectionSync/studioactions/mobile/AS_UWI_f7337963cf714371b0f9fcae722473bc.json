@@ -1,0 +1,24 @@
+{
+    "AS_UWI_f7337963cf714371b0f9fcae722473bc": {
+        "id": "AS_UWI_f7337963cf714371b0f9fcae722473bc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmInspectionExecution",
+            "type": "forms",
+            "platform": "",
+            "KUID": "be2c01e24ee846a58f7b082e3f7f1a99"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__bb966fea7ac041a5a151f8b330c7324d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.showAssetReferenceDoc();\n/*try{\n  //Checks if the file is present in the local store\n  //if present then it will delete it first\n  var mainLoc1 = kony.io.FileSystem.getExternalStorageDirectoryPath();\n  var myFileLoc1 = mainLoc1 + constants.FILE_PATH_SEPARATOR +\"Reference_Doc.pdf\";\n  var myFile1 = new kony.io.File(myFileLoc1);\n  myFile1.createFile();\n  myFile1.remove(true);\n\t\n  //Taking the local stored base64\n  //Converting to rawbytes and saving to pdf file locally.\n  var base64 = this.asset['Reference_Doc'];\n  if(base64==\"\" || base64==null)\n  {\n    new kony.ui.Toast({\"text\":\"PDF Not Available!\", \"duration\":constants.TOAST_LENGTH_SHORT}).show();\n  }\n  else\n  {\n\t//If the base64 is nonempty then it will save to local store.\n    var mainLoc = kony.io.FileSystem.getExternalStorageDirectoryPath();\n    var myFileLoc = mainLoc + constants.FILE_PATH_SEPARATOR + \"Reference_Doc.pdf\";\n    alert(myFileLoc);\n    var myFile = new kony.io.File(myFileLoc).createFile();\n    var getMyFile = kony.io.FileSystem.getFile(myFileLoc);\n    var rawBytes = kony.convertToRawBytes(base64);\n\n    if(getMyFile === null) \n    {\n      new kony.ui.Toast({\"text\":\"Getting File failed with null.\", \"duration\":constants.TOAST_LENGTH_SHORT}).show();\n    }\n    else \n    {\n      getMyFile.write(rawBytes);\n    }\n    \n    //Navigate to the New Form.\n    var navObj = new kony.mvc.Navigation(\"frmPdfViewer\");\n    navObj.navigate();\n  }\n\n}\ncatch(err)\n{\n  new kony.ui.Toast({\"text\":\"Error in Saving PDF File.\", \"duration\":constants.TOAST_LENGTH_SHORT}).show();\n}*/",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

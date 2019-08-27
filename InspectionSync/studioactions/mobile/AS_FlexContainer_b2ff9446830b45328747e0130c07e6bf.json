@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_b2ff9446830b45328747e0130c07e6bf": {
+        "id": "AS_FlexContainer_b2ff9446830b45328747e0130c07e6bf",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_h0ebf79abd9f45bb89f16431fc8d25c5",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.hideMenu();\nthis.changeFocusSkin(\"flxSearchInspection\");\nthis.navigateToFrmInspectionList();",
+            "callbackType": null
+        }]
+    }
+}

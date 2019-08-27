@@ -1,0 +1,30 @@
+{
+    "AS_UWI_b48e188ba1c946e69aa10b0ce99367e9": {
+        "id": "AS_UWI_b48e188ba1c946e69aa10b0ce99367e9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "error",
+            "datatype": "collection"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "d9fa3f4cf283494188d38ab30506f3b1"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___je00148ee4544616a8c340bf44983691",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "loginFailure",
+            "display": "loginFailure",
+            "inputparams": [{
+                "name": "response",
+                "value": " error"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

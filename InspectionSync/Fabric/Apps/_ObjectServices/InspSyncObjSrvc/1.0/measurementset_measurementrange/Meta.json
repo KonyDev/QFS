@@ -1,0 +1,59 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "create" : "createMapping",
+    "update" : "updateMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "UpdateTimeStampField" : {
+      "DateFormat" : "",
+      "Name" : "LastUpdatedTimestamp"
+    },
+    "SoftDeleteFlagField" : {
+      "ActiveValue" : "false",
+      "InactiveValue" : "true",
+      "Name" : "SoftDeleteFlag"
+    },
+    "backendMeta" : {
+      "backendObjectName" : "measurementset_measurementrange",
+      "qualifiedName" : "inspectionsoffline.measurementset_measurementrange",
+      "metadataformatterobject" : "{\"name\":\"measurementset_measurementrange\",\"displayName\":\"measurementset_measurementrange\",\"qualifiedName\":\"inspectionsoffline.measurementset_measurementrange\",\"schemaName\":\"inspectionsoffline\",\"tableName\":\"measurementset_measurementrange\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "measurementset_measurementrange",
+      "qualifiedName" : "inspectionsoffline.measurementset_measurementrange",
+      "metadataformatterobject" : "{\"name\":\"measurementset_measurementrange\",\"displayName\":\"measurementset_measurementrange\",\"qualifiedName\":\"inspectionsoffline.measurementset_measurementrange\",\"schemaName\":\"inspectionsoffline\",\"tableName\":\"measurementset_measurementrange\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "MeasurementSet_MeasurementRange_Id",
+    "targetField" : "MeasurementSet_MeasurementRange_Id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Measurement_Set_Id",
+    "targetField" : "Measurement_Set_Id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "CreatedTimestamp",
+    "targetField" : "CreatedTimestamp",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "LastUpdatedTimestamp",
+    "targetField" : "LastUpdatedTimestamp",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Measurement_Range_Id",
+    "targetField" : "Measurement_Range_Id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "SoftDeleteFlag",
+    "targetField" : "SoftDeleteFlag",
+    "type" : "request_response"
+  } ]
+}

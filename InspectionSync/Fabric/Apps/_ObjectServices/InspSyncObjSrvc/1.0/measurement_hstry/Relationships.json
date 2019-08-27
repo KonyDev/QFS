@@ -1,0 +1,13 @@
+[ {
+  "sourceObject" : "measurement_hstry",
+  "targetObject" : "measurement_images",
+  "relationshipKeys" : [ {
+    "sourceField" : "Measurement_History_Id",
+    "targetField" : "Measurement_History_Id",
+    "etag" : "f64ba546-b1d9-4fc6-aaa5-6ca2fa8891c4"
+  } ],
+  "name" : "measurement_hstry_measurement_images",
+  "type" : "OneToMany",
+  "custom" : false,
+  "cascadeDelete" : false
+} ]

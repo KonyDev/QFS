@@ -1,0 +1,20 @@
+{
+    "AS_TextField_bc2224dce6e24c4ea0f34fdfa6752fbe": {
+        "id": "AS_TextField_bc2224dce6e24c4ea0f34fdfa6752fbe",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onDone_ac2e078adeff46738112157ecbc89a84",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onDoneCredentials(this.view.lblPassword);",
+            "callbackType": null
+        }]
+    }
+}

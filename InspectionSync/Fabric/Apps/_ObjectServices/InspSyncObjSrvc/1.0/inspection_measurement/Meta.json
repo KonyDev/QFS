@@ -1,0 +1,59 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "create" : "createMapping",
+    "update" : "updateMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "UpdateTimeStampField" : {
+      "DateFormat" : "",
+      "Name" : "LastUpdatedTimestamp"
+    },
+    "SoftDeleteFlagField" : {
+      "ActiveValue" : "false",
+      "InactiveValue" : "true",
+      "Name" : "SoftDeleteFlag"
+    },
+    "backendMeta" : {
+      "backendObjectName" : "inspection_measurement",
+      "qualifiedName" : "inspectionsoffline.inspection_measurement",
+      "metadataformatterobject" : "{\"name\":\"inspection_measurement\",\"displayName\":\"inspection_measurement\",\"qualifiedName\":\"inspectionsoffline.inspection_measurement\",\"schemaName\":\"inspectionsoffline\",\"tableName\":\"inspection_measurement\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "inspection_measurement",
+      "qualifiedName" : "inspectionsoffline.inspection_measurement",
+      "metadataformatterobject" : "{\"name\":\"inspection_measurement\",\"displayName\":\"inspection_measurement\",\"qualifiedName\":\"inspectionsoffline.inspection_measurement\",\"schemaName\":\"inspectionsoffline\",\"tableName\":\"inspection_measurement\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "Measurement_Set_Id",
+    "targetField" : "Measurement_Set_Id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "CreatedTimestamp",
+    "targetField" : "CreatedTimestamp",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Inspection_Measurement_Set_Id",
+    "targetField" : "Inspection_Measurement_Set_Id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Inspection_Id",
+    "targetField" : "Inspection_Id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "LastUpdatedTimestamp",
+    "targetField" : "LastUpdatedTimestamp",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "SoftDeleteFlag",
+    "targetField" : "SoftDeleteFlag",
+    "type" : "request_response"
+  } ]
+}

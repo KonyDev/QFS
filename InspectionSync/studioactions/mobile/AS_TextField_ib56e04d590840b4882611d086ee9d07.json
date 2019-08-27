@@ -1,0 +1,20 @@
+{
+    "AS_TextField_ib56e04d590840b4882611d086ee9d07": {
+        "id": "AS_TextField_ib56e04d590840b4882611d086ee9d07",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onEndEditing_ge75af54ba03406eb9cda852666654be",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onTextInputDone(\"txtBoxEmail\");",
+            "callbackType": null
+        }]
+    }
+}

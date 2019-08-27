@@ -1,0 +1,114 @@
+{
+    "classname": "measurement",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "db3b4baaf14c4ba3a93d91e560bbead3",
+                    "paramList": [
+                        {
+                            "name": "data"
+                        }
+                    ],
+                    "propertyKey": "setData",
+                    "pw": {
+                        "displayName": "setData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "g658871005b846099f3f0892feaafb83",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "d1bfb83f672f468697a871bc279bcc20",
+                    "paramList": [],
+                    "propertyKey": "getResult",
+                    "pw": {
+                        "displayName": "getResult",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "g658871005b846099f3f0892feaafb83",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "fbd3ea023242464192b26b17cd1263a0",
+                    "paramList": [
+                        {
+                            "name": "result"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "onMeasurementDone",
+                    "pw": {
+                        "displayName": "onMeasurementDone",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "g658871005b846099f3f0892feaafb83",
+                    "type": "event"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a9c0087aadb3485bab3722de56a5bd3d",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 2,
+                    "propertyKey": "onPDFButtonClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onPDFButtonClick",
+                        "srcWidget": "btnPdf",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "jcfab2d585d04e75b6dd7fb1a1c83728"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "Fill in the values to complete inspection",
+                    "group": "General",
+                    "kuid": "ibbb6619f56e4bd0815be047d37e68a2",
+                    "originalPropertyKey": "title",
+                    "propertyIndex": 1,
+                    "propertyKey": "title",
+                    "pw": {
+                        "displayName": "tilte",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g658871005b846099f3f0892feaafb83",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konysa",
+    "version": "1.0.0"
+}

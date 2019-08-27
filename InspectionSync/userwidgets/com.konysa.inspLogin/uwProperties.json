@@ -1,0 +1,132 @@
+{
+    "classname": "inspLogin",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "ad55949e857c40e7872671e18ea464d8",
+                    "paramList": [
+                        {
+                            "name": "result"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "getUserAttributeSuccess",
+                    "pw": {
+                        "displayName": "getUserAttributeSuccess",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e1c449e749104d3eab7a8136aa4d2d2d",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "c24812f0678d4b7bb483df1d08f7c417",
+                    "paramList": [
+                        {
+                            "name": "result"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "loginSuccess",
+                    "pw": {
+                        "displayName": "loginSuccess",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e1c449e749104d3eab7a8136aa4d2d2d",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "cbb6adc933d7414db356591b732a908a",
+                    "paramList": [
+                        {
+                            "name": "result"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "failureCallback",
+                    "pw": {
+                        "displayName": "failureCallback",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e1c449e749104d3eab7a8136aa4d2d2d",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [
+                "Credentials"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "john.doe@kony.com",
+                    "group": "Credentials",
+                    "kuid": "i48d9c7c89534fc7a39ceafc9b36b87f",
+                    "originalPropertyKey": "userId",
+                    "propertyIndex": 1,
+                    "propertyKey": "userId",
+                    "pw": {
+                        "displayName": "User Id",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "e1c449e749104d3eab7a8136aa4d2d2d",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": false,
+                    "group": "General",
+                    "kuid": "i264cf02eefe4b0998e8adb6fbf0ff96",
+                    "originalPropertyKey": "rememberMe",
+                    "propertyIndex": 1,
+                    "propertyKey": "rememberMe",
+                    "pw": {
+                        "displayName": "Remember Me",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "e1c449e749104d3eab7a8136aa4d2d2d",
+                    "type": "boolean",
+                    "value": "true/false"
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "kony@123",
+                    "group": "Credentials",
+                    "kuid": "a3c4aa1d7d0e46fd86cd7a385c5c4801",
+                    "originalPropertyKey": "password",
+                    "propertyIndex": 2,
+                    "propertyKey": "password",
+                    "pw": {
+                        "displayName": "Password",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "e1c449e749104d3eab7a8136aa4d2d2d",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konysa",
+    "version": "1.0.0"
+}

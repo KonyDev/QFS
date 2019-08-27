@@ -1,0 +1,18 @@
+{
+    "AS_AppEvents_a6fc9500ac014155b3c42dfa2d90049a": {
+        "id": "AS_AppEvents_a6fc9500ac014155b3c42dfa2d90049a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ea855b74fc7c4509ad7aa09d0fd6e05f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//#ifdef android\nkony.application.setApplicationBehaviors({\"hideDefaultLoadingIndicator\":true});\n//#endif",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

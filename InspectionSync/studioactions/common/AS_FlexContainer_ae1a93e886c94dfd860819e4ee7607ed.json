@@ -1,0 +1,18 @@
+{
+    "AS_FlexContainer_ae1a93e886c94dfd860819e4ee7607ed": {
+        "id": "AS_FlexContainer_ae1a93e886c94dfd860819e4ee7607ed",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c57af7df72464c469737e1de14472be7",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.hideConfirmationPopup();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

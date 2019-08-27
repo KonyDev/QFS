@@ -1,0 +1,24 @@
+{
+    "AS_Form_d4ef93c24e5544f1b22ab8399d7be25a": {
+        "id": "AS_Form_d4ef93c24e5544f1b22ab8399d7be25a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMeasurementAssignment",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c04d962a77f445f6b4866a7d4b81071e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__edfd282034bc4a2d9dc6943fc4752954",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onFormPreShow();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

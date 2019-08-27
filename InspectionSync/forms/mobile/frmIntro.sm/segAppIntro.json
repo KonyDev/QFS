@@ -1,0 +1,196 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "btnGetStarted": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Get Started"
+            },
+            "flxIntroBgImage": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "splash_screen_bg.png"
+            },
+            "flxIntroImgIcon": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "splash_icon_02.png"
+            },
+            "lblDetail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Implications of corrective maintenance can be huge, and hence firms opt for preventive maintenance."
+            },
+            "lblHeading": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Access Records, Anytime, Anywhere"
+            },
+            "lblSubHeading": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Manage Workorders"
+            }
+        },
+        {
+            "btnGetStarted": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Get Started"
+            },
+            "flxIntroBgImage": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "splash_screen_bg.png"
+            },
+            "flxIntroImgIcon": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "splash_icon_02.png"
+            },
+            "lblDetail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Implications of corrective maintenance can be huge, and hence firms opt for preventive maintenance."
+            },
+            "lblHeading": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Access Records, Anytime, Anywhere"
+            },
+            "lblSubHeading": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Manage Workorders"
+            }
+        },
+        {
+            "btnGetStarted": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Get Started"
+            },
+            "flxIntroBgImage": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "splash_screen_bg.png"
+            },
+            "flxIntroImgIcon": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "splash_icon_02.png"
+            },
+            "lblDetail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Implications of corrective maintenance can be huge, and hence firms opt for preventive maintenance."
+            },
+            "lblHeading": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Access Records, Anytime, Anywhere"
+            },
+            "lblSubHeading": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Manage Workorders"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "02",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segAppIntro",
+    "info": null,
+    "invokedProperty": "pageOnDotImage",
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "cd906b62b58545aeb453d8d575380f3f",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "dot_grey.png",
+    "pageondotimage": "dot_blue.png",
+    "paginationconfig": {
+        "position": "bottom",
+        "vdistance": 1
+    },
+    "parent": "flxIntroSegContainer",
+    "pf": "frmIntro",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "b951667756e441af8c9b6949ad3b925b",
+    "rowcounter": 2,
+    "rowfocusskin": "s0a3f38f5b94475bbaf9edaa16872f73",
+    "rowskin": "s668f057e4b9484c8a897f4f929de471",
+    "rowtemplate": "flxIntro",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "sd63fb0efed6433895d1b57ab78ab4e4",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "swipeContext": {
+        "currentPage": 0,
+        "imageWidth": 1440,
+        "widthRatio": 0
+    },
+    "viewtype": "pageview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "FlxIntroContent": "FlxIntroContent",
+        "btnGetStarted": "btnGetStarted",
+        "flxButtonContainer": "flxButtonContainer",
+        "flxDetailContainer": "flxDetailContainer",
+        "flxHeaderContainer": "flxHeaderContainer",
+        "flxIntro": "flxIntro",
+        "flxIntroBgImage": "flxIntroBgImage",
+        "flxIntroHeader": "flxIntroHeader",
+        "flxIntroImgIcon": "flxIntroImgIcon",
+        "lblDetail": "lblDetail",
+        "lblHeading": "lblHeading",
+        "lblSubHeading": "lblSubHeading"
+    },
+    "zindex": 1
+}

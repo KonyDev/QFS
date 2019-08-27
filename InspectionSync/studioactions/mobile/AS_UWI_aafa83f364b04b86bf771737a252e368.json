@@ -1,0 +1,24 @@
+{
+    "AS_UWI_aafa83f364b04b86bf771737a252e368": {
+        "id": "AS_UWI_aafa83f364b04b86bf771737a252e368",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "checkedInTimestamp",
+            "datatype": "collection"
+        }],
+        "contextObj": {
+            "name": "frmMapNavigation",
+            "type": "forms",
+            "platform": null,
+            "KUID": "e1eda6b5da1844b1a338e832d2bd905b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e452878d2ebe4cc2a00378978432b913",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.forcedCheckinCallBack(checkedInTimestamp);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

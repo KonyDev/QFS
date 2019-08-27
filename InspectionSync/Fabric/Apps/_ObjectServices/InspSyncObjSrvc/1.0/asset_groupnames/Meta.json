@@ -1,0 +1,59 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "create" : "createMapping",
+    "update" : "updateMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "UpdateTimeStampField" : {
+      "DateFormat" : "",
+      "Name" : "LastUpdatedTimestamp"
+    },
+    "SoftDeleteFlagField" : {
+      "ActiveValue" : "false",
+      "InactiveValue" : "true",
+      "Name" : "SoftDeleteFlag"
+    },
+    "backendMeta" : {
+      "backendObjectName" : "asset_groupnames",
+      "qualifiedName" : "inspectionsoffline.asset_groupnames",
+      "metadataformatterobject" : "{\"name\":\"asset_groupnames\",\"displayName\":\"asset_groupnames\",\"qualifiedName\":\"inspectionsoffline.asset_groupnames\",\"schemaName\":\"inspectionsoffline\",\"tableName\":\"asset_groupnames\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "asset_groupnames",
+      "qualifiedName" : "inspectionsoffline.asset_groupnames",
+      "metadataformatterobject" : "{\"name\":\"asset_groupnames\",\"displayName\":\"asset_groupnames\",\"qualifiedName\":\"inspectionsoffline.asset_groupnames\",\"schemaName\":\"inspectionsoffline\",\"tableName\":\"asset_groupnames\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "Asset_Id",
+    "targetField" : "Asset_Id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Asset_Group_Id",
+    "targetField" : "Asset_Group_Id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Group_Id",
+    "targetField" : "Group_Id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "CreatedTimestamp",
+    "targetField" : "CreatedTimestamp",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "LastUpdatedTimestamp",
+    "targetField" : "LastUpdatedTimestamp",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "SoftDeleteFlag",
+    "targetField" : "SoftDeleteFlag",
+    "type" : "request_response"
+  } ]
+}

@@ -1,0 +1,24 @@
+{
+    "AS_Button_d627aab3f1f2490985b78af9e42d5fa6": {
+        "id": "AS_Button_d627aab3f1f2490985b78af9e42d5fa6",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmInspectionConfirmationScreen",
+            "type": "forms",
+            "platform": null,
+            "KUID": "h6bbfe9038af4d239f7352a408c9b523"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a8d50d1453374c6d862a9a58efb9edae",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.navigateToInspectionList();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

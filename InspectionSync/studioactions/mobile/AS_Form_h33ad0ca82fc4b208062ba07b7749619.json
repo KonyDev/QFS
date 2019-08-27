@@ -1,0 +1,24 @@
+{
+    "AS_Form_h33ad0ca82fc4b208062ba07b7749619": {
+        "id": "AS_Form_h33ad0ca82fc4b208062ba07b7749619",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmInspectionConfirmation",
+            "type": "forms",
+            "platform": "",
+            "KUID": "i92341b5ba1b4b7ea4c44cc056e3dfc0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e4b030bf6dc242dd94e1a695219ec036",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "function doNothing(){};\ndoNothing();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

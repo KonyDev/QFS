@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "45dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sa35edcd44984d08a695a4cbdb6ef396",
+    "_text_": "SUBMIT",
+    "_top_": {
+        "type": "string",
+        "value": "25dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50.06%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s43756a9ceb24b0191fa091e642d81aa",
+    "id": "btnLogin",
+    "ide_onClick": "AS_Button_e041471720264f548884e0c2f018ac55",
+    "info": null,
+    "isvisible": true,
+    "kuid": "b7ec116230ad49f2ae56501f6103d6b0",
+    "name": "kony.ui.Button",
+    "parent": "flxCredentials",
+    "pf": "frmLogin2",
+    "wType": "Button",
+    "zindex": 1
+}

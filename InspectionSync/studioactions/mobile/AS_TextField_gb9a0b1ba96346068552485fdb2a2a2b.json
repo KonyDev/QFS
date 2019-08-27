@@ -1,0 +1,26 @@
+{
+    "AS_TextField_gb9a0b1ba96346068552485fdb2a2a2b": {
+        "id": "AS_TextField_gb9a0b1ba96346068552485fdb2a2a2b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "bbe8f6740911453a8c96817be83a76aa"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__b47114d3a2874ac3ada3314f0017a2ec",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "return;\nthis.onTextChange(\"txtBoxEmail\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

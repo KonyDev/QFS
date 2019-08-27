@@ -1,0 +1,27 @@
+{
+    "AS_UWI_ba4c8475873641fe94fbec8dabc34b91": {
+        "id": "AS_UWI_ba4c8475873641fe94fbec8dabc34b91",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "checkedInTimestamp",
+            "datatype": "collection"
+        }, {
+            "name": "isInSimulationMode",
+            "datatype": "collection"
+        }],
+        "contextObj": {
+            "name": "frmMapNavigation",
+            "type": "forms",
+            "platform": null,
+            "KUID": "e1eda6b5da1844b1a338e832d2bd905b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__fcd88fce034e498cbf505dd4a968a2aa",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.checkInCallBack(checkedInTimestamp,isInSimulationMode);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

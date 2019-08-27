@@ -1,0 +1,17 @@
+/*Type your css here*/
+.ct-series-a .ct-bar, .ct-series-a .ct-line, .ct-series-a .ct-point, .ct-series-a .ct-slice-donut {
+  /* give the donut slice a custom colour */
+  stroke: #6EAF3E;
+}
+.ct-series-b .ct-bar, .ct-series-b .ct-line, .ct-series-b .ct-point, .ct-series-b .ct-slice-donut {
+  /* give the donut slice a custom colour */
+  stroke: orange;
+}
+.ct-series-c .ct-bar, .ct-series-c .ct-line, .ct-series-c .ct-point, .ct-series-c .ct-slice-donut {
+  /* give the donut slice a custom colour */
+  stroke: red;
+}
+      .ct-label {
+
+    font-family: helvetica;
+}

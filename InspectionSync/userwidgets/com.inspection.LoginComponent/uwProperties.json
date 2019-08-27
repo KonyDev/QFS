@@ -1,0 +1,106 @@
+{
+    "classname": "LoginComponent",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "a64e9ee85d7945bd8280417e5feb5041",
+                    "paramList": [],
+                    "propertyKey": "getEmail",
+                    "pw": {
+                        "displayName": "getEmail",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a3328d153b03463d87369530f0d0336d",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "e0d30e34082e4e4b97f5d4c1c6b2de1b",
+                    "paramList": [],
+                    "propertyKey": "getPassword",
+                    "pw": {
+                        "displayName": "getPassword",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a3328d153b03463d87369530f0d0336d",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "aa57695462994e06a9328be5122a4272",
+                    "paramList": [],
+                    "propertyKey": "setLoading",
+                    "pw": {
+                        "displayName": "setLoading",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a3328d153b03463d87369530f0d0336d",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "d10bfa62e2b7457382977e3281cf9945",
+                    "paramList": [],
+                    "propertyKey": "resetLoading",
+                    "pw": {
+                        "displayName": "resetLoading",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a3328d153b03463d87369530f0d0336d",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "c4baab88de2b4b6182edc84a79cd71b8",
+                    "paramList": [],
+                    "propertyKey": "setUserNameAndPassword",
+                    "pw": {
+                        "displayName": "setUserNameAndPassword",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a3328d153b03463d87369530f0d0336d",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "c73bee5487634155a5e630d1f0bdc7d4",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "onSignIn",
+                    "pw": {
+                        "displayName": "onSignIn",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a3328d153b03463d87369530f0d0336d",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.inspection",
+    "version": "1.0.0"
+}

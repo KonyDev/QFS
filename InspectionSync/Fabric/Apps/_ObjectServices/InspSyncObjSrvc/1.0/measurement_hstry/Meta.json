@@ -1,0 +1,87 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "create" : "createMapping",
+    "update" : "updateMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "UpdateTimeStampField" : {
+      "DateFormat" : "",
+      "Name" : "LastUpdatedTimestamp"
+    },
+    "SoftDeleteFlagField" : {
+      "ActiveValue" : "false",
+      "InactiveValue" : "true",
+      "Name" : "SoftDeleteFlag"
+    },
+    "backendMeta" : {
+      "backendObjectName" : "measurement_hstry",
+      "qualifiedName" : "inspectionsoffline.measurement_hstry",
+      "metadataformatterobject" : "{\"name\":\"measurement_hstry\",\"displayName\":\"measurement_hstry\",\"qualifiedName\":\"inspectionsoffline.measurement_hstry\",\"schemaName\":\"inspectionsoffline\",\"tableName\":\"measurement_hstry\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "measurement_hstry",
+      "qualifiedName" : "inspectionsoffline.measurement_hstry",
+      "metadataformatterobject" : "{\"name\":\"measurement_hstry\",\"displayName\":\"measurement_hstry\",\"qualifiedName\":\"inspectionsoffline.measurement_hstry\",\"schemaName\":\"inspectionsoffline\",\"tableName\":\"measurement_hstry\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "CreatedTimestamp",
+    "targetField" : "CreatedTimestamp",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Measurement_Images_Id",
+    "targetField" : "Measurement_Images_Id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "LastUpdatedTimestamp",
+    "targetField" : "LastUpdatedTimestamp",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Inspection_Timestamp",
+    "targetField" : "Inspection_Timestamp",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Inspection_Value",
+    "targetField" : "Inspection_Value",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Timestamp",
+    "targetField" : "Timestamp",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Measurement_Set_Id",
+    "targetField" : "Measurement_Set_Id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Inspection_Id",
+    "targetField" : "Inspection_Id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Measurement_History_Id",
+    "targetField" : "Measurement_History_Id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Measurement_Range_Id",
+    "targetField" : "Measurement_Range_Id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Response_Type",
+    "targetField" : "Response_Type",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "SoftDeleteFlag",
+    "targetField" : "SoftDeleteFlag",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "id",
+    "targetField" : "id",
+    "type" : "request_response"
+  } ]
+}

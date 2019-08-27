@@ -1,0 +1,18 @@
+{
+    "AS_AppEvents_dcb0265f0aeb461e86aaa0f0355cf122": {
+        "id": "AS_AppEvents_dcb0265f0aeb461e86aaa0f0355cf122",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a3aa8281d9ff46f19a224cf2b1edf8cb",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "onApplicationInit();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_hbdb892b8ef4474a99f07c2b8f7bf290": {
+        "id": "AS_FlexContainer_hbdb892b8ef4474a99f07c2b8f7bf290",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_ge253154ef5e46289ba76532ba1256da",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.startSync();\nthis.hideMenu();\nthis.changeFocusSkin(\"flxSync\");",
+            "callbackType": null
+        }]
+    }
+}
